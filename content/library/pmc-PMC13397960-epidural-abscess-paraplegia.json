@@ -1,0 +1,229 @@
+{
+  "id": "pmc-PMC13397960-epidural-abscess-paraplegia",
+  "title": "Third visit for back pain, now with weak legs",
+  "category": "infectious",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC13397960",
+    "pmid": "42496298",
+    "doi": "10.3390/idr18040068",
+    "citation": "McKinley BJ, Seby RM, Chase RC, Gavrancic T, Collado J, Rueda Prada L. A Case of Spinal Epidural Abscess and Paraplegia After Group A Streptococcal Pharyngitis. Infect Dis Rep. 2026;18(4):68.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13397960/"
+  },
+  "patient": { "age": 33, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Worsening mid-to-lower back pain with numbness and weakness of both legs",
+    "hpi": "Less than a day of severe, worsening mid-to-lower back pain with numbness, tingling and weakness of both legs that limit walking, plus urinary hesitancy and a sensation of a full bladder. She denies fecal or urinary incontinence, rash, fever or chills. This is her third ED visit in three weeks. Seventeen days ago she came with a new sore throat and five days of mild back pain; a rapid strep test was positive, and she was treated for streptococcal pharyngitis and a possible mechanical back strain with 10 days of amoxicillin and cyclobenzaprine as needed. Three days ago she returned with worsening back pain without radicular symptoms and a normal neurological examination; after blood tests and a CT pulmonary angiogram, the pain was judged musculoskeletal and she was discharged with more cyclobenzaprine.",
+    "pmh": ["Hypothyroidism", "Bipolar disorder", "Opioid use disorder on buprenorphine-naloxone"],
+    "meds": ["Buprenorphine-naloxone", "Amoxicillin, 10-day course started 17 days ago", "Cyclobenzaprine as needed"],
+    "allergies": ["No known drug allergies"],
+    "social": "Denies drug, alcohol or tobacco use. Followed by pain medicine specialists, with regular drug testing, for her buprenorphine-naloxone."
+  },
+  "vitals": { "hr": 104, "sbp": 152, "dbp": 95, "rr": 18, "spo2": 98, "tempC": 36.3 },
+  "exam": [
+    "Left leg power: hip flexion 1/5, knee flexion 2/5, knee extension 2/5, ankle dorsiflexion 2/5, plantar flexion 4/5",
+    "Right leg power: hip flexion 2/5, knee flexion 3/5, knee extension 4/5, ankle dorsiflexion 2/5, plantar flexion 4/5",
+    "Sensation: reduced fine touch in both legs, increased pinprick sensation in the left leg, absent vibration sense in both legs, reduced temperature sensation in the right leg",
+    "Hyperreflexia (3/4) with sustained ankle clonus bilaterally",
+    "No spinal tenderness to palpation"
+  ],
+  "investigations": [
+    { "name": "White cell count (ED visit 3 days earlier)", "value": "18.6", "unit": "x10⁹/L", "flag": "H" },
+    { "name": "D-dimer (ED visit 3 days earlier)", "value": "534", "unit": "ng/mL", "flag": "H" },
+    { "name": "White cell count", "value": "14.4", "unit": "x10⁹/L", "flag": "H" },
+    { "name": "Neutrophils", "value": "Neutrophilia" },
+    { "name": "ESR", "value": "103", "unit": "mm/h", "flag": "H" },
+    { "name": "C-reactive protein", "value": "155.3", "unit": "mg/L", "flag": "H" },
+    { "name": "Urine drug screen", "value": "Positive for buprenorphine (prescribed), hydromorphone (given in hospital) and THC" },
+    { "name": "Blood cultures (3 sets during admission)", "value": "No growth" },
+    { "name": "Intraoperative cultures", "value": "Streptococcus pyogenes (group A) on four swabs, susceptible to ceftriaxone" },
+    { "name": "HIV, syphilis and tuberculosis screening; immunoglobulins", "value": "Screens negative; immunoglobulin levels normal" }
+  ],
+  "imaging": [
+    { "modality": "CT pulmonary angiogram (ED visit 3 days earlier)", "finding": "No pulmonary embolism or other acute process" },
+    { "modality": "Bladder ultrasound", "finding": "Distended bladder, approximately 1 L" },
+    { "modality": "CT thoracic and lumbar spine with IV contrast (emergent)", "finding": "No significant acute abnormality" },
+    {
+      "modality": "MRI thoracic and lumbar spine with and without IV contrast",
+      "finding": "Large posterior epidural fluid collection consistent with a multiloculated abscess from T5 to T10, with marked cord compression"
+    },
+    { "modality": "CT maxillofacial sinuses (inpatient)", "finding": "No sinusitis or abscess; several apparent dental caries" }
+  ],
+  "diagnosis": {
+    "primary": "Spinal epidural abscess (T5–T10) with thoracic cord compression and paraplegia, due to Streptococcus pyogenes after group A streptococcal pharyngitis",
+    "icd10": "G06.1 / B95.0",
+    "differentials": [
+      "Transverse myelitis",
+      "Spinal epidural hematoma",
+      "Vertebral osteomyelitis and discitis with cord compression",
+      "Metastatic spinal cord compression",
+      "Guillain–Barré syndrome"
+    ]
+  },
+  "management": [
+    "Blood cultures, then IV vancomycin and ceftriaxone",
+    "Emergent T5–T10 laminectomies by neurosurgery; copious pus extruded at every level",
+    "Dexamethasone taper over 14 days, starting at 6 mg every 6 h",
+    "IV ceftriaxone 2 g every 24 h, planned for 6 weeks; inpatient physical therapy"
+  ],
+  "outcome": "Hospitalized for 20 days without neurological improvement despite intensive physical therapy. Discharged to a long-term care facility for rehabilitation, paraplegic below T8 with no movement or sensation in the legs and a chronic urinary catheter; still paraplegic at the time of the report.",
+  "teachingPoints": [
+    "Fever, back pain and a neurological deficit occur together in only a small minority of spinal epidural abscesses (about 8% in one review); fever is absent in more than half.",
+    "Back pain with infection red flags (recent bacterial infection, possible bacteremia, injection drug use, unexplained leukocytosis) needs ESR and CRP and a low threshold for MRI; misdiagnosis at the first ED visit is common.",
+    "Hyperreflexia, clonus, sensory loss and urinary retention indicate cord compression; measure the bladder volume.",
+    "CT, even with contrast, can miss an epidural abscess; gadolinium-enhanced MRI of the symptomatic spine is the test of choice.",
+    "Once deficits appear, emergent decompression plus IV antibiotics is the standard, and the neurological status at surgery largely determines recovery."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "options": [
+        "Acute idiopathic transverse myelitis",
+        "Guillain–Barré syndrome after pharyngitis",
+        "Spinal epidural abscess with cord compression",
+        "Cauda equina syndrome from a disc herniation"
+      ],
+      "answer": 2,
+      "explanation": "Worsening back pain after a recent bacterial infection, now with paraparesis, sensory loss, urinary retention and upper-motor-neuron signs (hyperreflexia, clonus), indicates thoracic cord compression, and epidural abscess leads the list even without fever. Guillain–Barré syndrome causes areflexia, and cauda equina compression gives lower-motor-neuron signs."
+    },
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate next step?",
+      "extra": "WBC 14.4 × 10⁹/L, ESR 103 mm/h, CRP 155.3 mg/L. Bladder ultrasound: about 1 L retained. Emergent CT of the thoracic and lumbar spine with IV contrast: no significant acute abnormality.",
+      "options": [
+        "MRI of the thoracic and lumbar spine with and without gadolinium, now",
+        "Lumbar puncture for CSF cell count, protein and oligoclonal bands",
+        "Admission for IV antibiotics with a repeat CT in 48 hours",
+        "Nerve conduction studies and electromyography today"
+      ],
+      "answer": 0,
+      "explanation": "CT, even with contrast, can miss an epidural abscess; gadolinium-enhanced MRI is the most sensitive and specific test and is needed emergently when cord compression is suspected. Lumbar puncture does not make the diagnosis and risks carrying infection into the subarachnoid space."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate management?",
+      "extra": "MRI: large multiloculated posterior epidural collection from T5 to T10 with marked cord compression.",
+      "options": [
+        "IV antibiotics alone, with MRI repeated in one week",
+        "CT-guided needle aspiration, then oral antibiotics",
+        "High-dose IV methylprednisolone and observation",
+        "Emergent decompressive laminectomy plus IV antibiotics"
+      ],
+      "answer": 3,
+      "explanation": "Spinal epidural abscess with cord compression and a progressing deficit needs emergent surgical decompression and drainage plus IV antibiotics (empirically vancomycin plus a third- or fourth-generation cephalosporin), with blood cultures first. Antibiotics alone are reserved for selected patients without neurological deficit."
+    },
+    {
+      "kind": "risk",
+      "q": "Looking back, which finding at her second ED visit should most have prompted urgent spine imaging?",
+      "extra": "Second visit (3 days earlier): worsening back pain, normal neurological examination, WBC 18.6 × 10⁹/L, D-dimer 534 ng/mL, CT pulmonary angiogram negative. Streptococcal pharyngitis two weeks earlier.",
+      "options": [
+        "The mildly raised D-dimer with a negative CT angiogram",
+        "Unexplained leukocytosis with worsening pain after an infection",
+        "Opioid use disorder treated with buprenorphine–naloxone",
+        "Lack of fever at both of her previous ED visits"
+      ],
+      "answer": 1,
+      "explanation": "Worsening back pain after a recent bacterial infection with unexplained leukocytosis is an infection red flag that calls for ESR and CRP and, if raised, gadolinium-enhanced MRI before deficits appear. The absence of fever is not reassuring. Her opioid use disorder is worth asking about, but it was treated and monitored with regular drug testing, and injection drug use was considered unlikely."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi",
+      "quote": "A 33-year-old female presented to the emergency room (ER) with a chief complaint of severe worsening mid-lower back pain, bilateral lower extremity numbness, tingling, and weakness"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "weakness that limited her ambulation, associated with urinary hesitancy and a sensation of bladder fullness for less than 1 day"
+    },
+    { "field": "presentation.hpi", "quote": "She denied fecal or urinary incontinence, skin rash, fever, or chills." },
+    { "field": "presentation.hpi", "quote": "First, she presented with new-onset sore throat and five days of mild back pain 17 days prior." },
+    {
+      "field": "presentation.hpi",
+      "quote": "She was diagnosed with possible mechanical back strain and group A streptococcal (GAS) pharyngitis by a positive rapid strep test."
+    },
+    {
+      "field": "presentation.hpi, presentation.meds[1], presentation.meds[2]",
+      "quote": "She was treated with 10 days of amoxicillin and cyclobenzaprine as needed."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "In the ER presentation, 14 days later, she was evaluated for worsening back pain without radiculopathy. She had no neurological deficits on physical exam."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "Her back pain was considered musculoskeletal in nature, and she was discharged with a new prescription of cyclobenzaprine as needed."
+    },
+    {
+      "field": "presentation.pmh, presentation.meds[0]",
+      "quote": "Her past medical history was remarkable for hypothyroidism, bipolar disorder, and opioid use disorder on buprenorphine-naloxone."
+    },
+    { "field": "presentation.social", "quote": "She denied drug, alcohol, or tobacco use." },
+    {
+      "field": "presentation.social",
+      "quote": "The patient followed up with pain medicine specialists to manage her buprenorphine-naloxone use with regular drug testing."
+    },
+    {
+      "field": "vitals.tempC, vitals.hr, vitals.sbp, vitals.dbp",
+      "quote": "On the patient’s third presentation, she had a temperature of 36.3 °C, pulse rate of 104 bpm, and blood pressure of 152/95 mmHg."
+    },
+    {
+      "field": "exam[0]",
+      "quote": "left lower extremity: 1/5 hip flexion, 2/5 knee flexion, 2/5 knee extension, 2/5 foot dorsiflexion, 4/5 foot plantiflexion"
+    },
+    {
+      "field": "exam[1]",
+      "quote": "right lower extremity: hip flexion 2/5, knee flexion 3/5, knee extension 4/5, foot dorsiflexion 2/5, foot plantiflexion 4/5"
+    },
+    {
+      "field": "exam[2]",
+      "quote": "decreased to fine touch bilaterally, increased sensation to pinprick in the left lower extremity, no vibration sensation bilaterally, decreased temperature sensation in the right lower extremity"
+    },
+    { "field": "exam[3]", "quote": "hyperreflexia 3/4 with sustained bilateral ankle clonus" },
+    { "field": "exam[4]", "quote": "There was no tenderness to palpation of the spine." },
+    {
+      "field": "investigations[0], investigations[1]",
+      "quote": "her laboratory and imaging workup showed leukocytosis of 18.6 × 10⁹/L, elevated D-dimer of 534 ng/mL"
+    },
+    { "field": "imaging[0]", "quote": "a CT chest angiogram negative for pulmonary embolism or other acute process" },
+    {
+      "field": "investigations[2], investigations[3], investigations[4], investigations[5]",
+      "quote": "Her initial laboratory workup was remarkable for leukocytosis of 14.4 × 10⁹/L with neutrophilia, ESR 103 mm/h, C-reactive protein 155.3 mg/L"
+    },
+    {
+      "field": "investigations[6]",
+      "quote": "urine drug screen positive for buprenorphine (chronic medication), hydromorphone (received during admission), and tetrahydrocannabinol (THC)"
+    },
+    { "field": "investigations[7]", "quote": "Throughout the patient’s hospital stay, no bacteremia was identified on a total of six blood culture bottles" },
+    { "field": "investigations[8], diagnosis.primary", "quote": "Intraoperative cultures grew GAS with speciation of pyogenes on four separate swabs." },
+    { "field": "investigations[8]", "quote": "The Streptococcus pyogenes cultures were found to be susceptible to ceftriaxone." },
+    {
+      "field": "investigations[9]",
+      "quote": "The patient had negative screening tests for M. tuberculosis, syphilis, and HIV, and her immunoglobulin levels were within normal ranges."
+    },
+    { "field": "imaging[1]", "quote": "A bladder ultrasound showed a distended bladder with an approximate volume of 1 L." },
+    { "field": "imaging[2]", "quote": "An emergent CT of the thoracic and lumbar spine with IV contrast did not reveal any significant acute abnormality." },
+    { "field": "imaging[3]", "quote": "MRI of the thoracic and lumbar spine with and without IV contrast revealed a large posterior epidural fluid collection" },
+    { "field": "imaging[3], diagnosis.primary", "quote": "suggestive of a multiloculated abscess extending from T5 to T10 with marked cord compression" },
+    {
+      "field": "imaging[4]",
+      "quote": "Additional physical examination and imaging showed what appeared to be several dental caries, but CT of the maxillofacial sinuses was negative for sinusitis or abscess."
+    },
+    { "field": "management[0]", "quote": "Blood cultures were collected before initiation of intravenous vancomycin and ceftriaxone." },
+    {
+      "field": "management[1]",
+      "quote": "Neurosurgery performed emergent T5-T10 laminectomies, revealing brisk extrusion of copious purulent material at each level."
+    },
+    { "field": "management[2]", "quote": "completed a dexamethasone taper over 14 days, starting at 6 mg every 6 h" },
+    { "field": "management[3]", "quote": "The patient was continued on intravenous ceftriaxone 2 g every 24 h with plans to continue for 6 weeks." },
+    { "field": "management[3], outcome", "quote": "she displayed no clinical improvement over 20 days despite aggressive physical therapy while hospitalized" },
+    {
+      "field": "outcome",
+      "quote": "At discharge, the patient remained paraplegic from T8 down, with no mobility or feeling sensation in her lower extremities, and required a chronic urinary Foley catheter."
+    },
+    { "field": "outcome", "quote": "Patient was discharged to a longer-term care facility for rehabilitation." },
+    { "field": "outcome", "quote": "Unfortunately, at the time of this report, the patient remained paraplegic from T8 down." }
+  ],
+  "augmented": ["vitals.rr: not reported", "vitals.spo2: not reported", "presentation.allergies: not reported"]
+}

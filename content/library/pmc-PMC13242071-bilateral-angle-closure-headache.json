@@ -1,0 +1,184 @@
+{
+  "id": "pmc-PMC13242071-bilateral-angle-closure-headache",
+  "title": "Sudden headache and vomiting after a sneeze",
+  "category": "other",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC13242071",
+    "pmid": "42255810",
+    "doi": "10.7759/cureus.108412",
+    "citation": "Karumannan V, Nauman K, Zachariah S. Atypical Cause of Headache: A Potential Diagnostic Pitfall in Acute Medicine. Cureus. 2026;18(5):e108412.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13242071/"
+  },
+  "patient": { "age": 65, "sex": "F", "arrival": "ems" },
+  "presentation": {
+    "chiefComplaint": "Sudden severe headache with blurred vision and vomiting",
+    "hpi": "After feeling unwell with cold-like symptoms, she developed a sudden, severe headache after a forceful sneeze and nose-blowing. It began around the right eye, spread across the forehead and has not responded to painkillers. Blurred vision and photophobia; nausea with three episodes of vomiting overnight and three of diarrhoea; the headache is worse with coughing and sneezing, and she feels unsteady walking. No neck stiffness. Brought in by ambulance.",
+    "pmh": ["Asthma", "Chronic obstructive pulmonary disease", "Hypertension"],
+    "meds": ["Ramipril, taken inconsistently"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 92, "sbp": 199, "dbp": 79, "rr": 18, "spo2": 96, "tempC": 36.9, "gcs": 15 },
+  "exam": [
+    "Alert and oriented; keeps her eyes closed and cannot tolerate light",
+    "Power 5/5 in all limbs, no sensory deficit, no cerebellar signs",
+    "Both pupils dilated and unreactive to light",
+    "Both eyes red and watering",
+    "Ophthalmology review: conjunctival hyperaemia, corneal oedema and closed angles in both eyes; moderately dilated pupils; 2+ nuclear and cortical cataracts"
+  ],
+  "investigations": [
+    { "name": "Baseline blood tests including inflammatory markers", "value": "Normal" },
+    { "name": "Intraocular pressure, right eye", "value": "39", "unit": "mm Hg", "flag": "H" },
+    { "name": "Intraocular pressure, left eye", "value": "40", "unit": "mm Hg", "flag": "H" }
+  ],
+  "imaging": [{ "modality": "Non-contrast CT head", "finding": "No subarachnoid haemorrhage, infarct, bleed or space-occupying lesion" }],
+  "diagnosis": {
+    "primary": "Bilateral acute primary angle-closure glaucoma (intraocular pressure 39 and 40 mm Hg) presenting as sudden headache with vomiting",
+    "icd10": "H40.213",
+    "differentials": [
+      "Aneurysmal subarachnoid haemorrhage",
+      "Pituitary apoplexy",
+      "Hypertensive emergency with posterior reversible encephalopathy",
+      "Cluster headache",
+      "Carotid–cavernous fistula"
+    ]
+  },
+  "management": [
+    "Urgent CT head",
+    "Admitted for neurological observation, with MRI brain, lumbar puncture and neurology review being considered",
+    "Urgent ophthalmology review when vision and headache worsened",
+    "Royal College of Ophthalmologists protocol: timolol 0.5%, apraclonidine 1%, latanoprost and pilocarpine 2% drops, then oral acetazolamide 250 mg",
+    "No response: emergency anterior chamber paracentesis, then bilateral laser peripheral iridotomy the same day",
+    "Postoperative apraclonidine, timolol and pilocarpine drops; prednisolone drops switched to dexamethasone for marked inflammation"
+  ],
+  "outcome": "Intraocular pressure fell to 8 and 4 mm Hg after iridotomy and stayed normal at glaucoma clinic follow-up, with patent iridotomies; she continues timolol drops.",
+  "teachingPoints": [
+    "Acute angle closure can present as headache with nausea and vomiting: examine the eyes for redness, a hazy cornea, a fixed mid-dilated pupil and reduced vision.",
+    "Measure intraocular pressure at the bedside (normal 10–21 mm Hg); a normal CT head should prompt a rethink, not a lumbar puncture by default.",
+    "Lower the pressure immediately (topical beta-blocker, alpha-2 agonist and prostaglandin analogue, pilocarpine, systemic acetazolamide) and call ophthalmology urgently.",
+    "Topical timolol is absorbed systemically and is contraindicated in asthma; check respiratory history before giving it.",
+    "Definitive treatment is laser peripheral iridotomy, including the fellow eye; paracentesis can rescue refractory pressure and corneal oedema."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "extra": "Non-contrast CT head: no haemorrhage, infarct or mass.",
+      "options": [
+        "Aneurysmal subarachnoid haemorrhage",
+        "Pituitary apoplexy with chiasmal compression",
+        "Posterior reversible encephalopathy syndrome",
+        "Bilateral acute angle-closure glaucoma"
+      ],
+      "answer": 3,
+      "explanation": "Headache starting around the eye, with blurred vision, vomiting, red watering eyes and dilated pupils unreactive to light, is acute angle closure until the intraocular pressure is measured. Subarachnoid haemorrhage and apoplexy do not cause red eyes; here a sudden onset after a sneeze led to a neurological work-up that delayed sight-saving treatment."
+    },
+    {
+      "kind": "next-step",
+      "q": "Which bedside test establishes the diagnosis fastest?",
+      "options": [
+        "Fundoscopy to look for papilloedema",
+        "Tonometry to measure intraocular pressure",
+        "Fluorescein staining of both corneas",
+        "Swinging-light test for an afferent defect"
+      ],
+      "answer": 1,
+      "explanation": "Tonometry (rebound or applanation) confirms the diagnosis at the bedside: here 39 and 40 mm Hg (normal 10–21). Corneal oedema usually spoils the fundal view, and a swinging-light test is uninformative when both pupils are fixed."
+    },
+    {
+      "kind": "management",
+      "q": "What is the definitive treatment?",
+      "extra": "IOP still 39 and 40 mm Hg after timolol, apraclonidine, latanoprost and pilocarpine drops plus oral acetazolamide; both corneas oedematous.",
+      "options": [
+        "Continue drops and acetazolamide and reassess in 24 hours",
+        "IV mannitol, then review in the outpatient glaucoma clinic",
+        "Trabeculectomy in both eyes once the pressure has settled",
+        "Bilateral laser peripheral iridotomy, after paracentesis if needed"
+      ],
+      "answer": 3,
+      "explanation": "Laser peripheral iridotomy relieves pupil block and is the definitive treatment of acute primary angle closure, including the fellow eye (AAO Primary Angle Closure Disease Preferred Practice Pattern). When pressure and corneal oedema do not respond to medical therapy, anterior chamber paracentesis can lower the pressure and clear the cornea first, as here."
+    },
+    {
+      "kind": "risk",
+      "q": "Which drug in her emergency regimen is contraindicated by her medical history?",
+      "options": ["Timolol 0.5% eye drops", "Pilocarpine 2% eye drops", "Apraclonidine 1% eye drops", "Latanoprost 0.005% eye drops"],
+      "answer": 0,
+      "explanation": "Timolol is a non-selective beta-blocker; drops are absorbed systemically through the nasolacrimal mucosa and can cause bronchospasm, so they are contraindicated in asthma and need caution in COPD, and she has both. The other agents are not contraindicated in asthma."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, patient.arrival, presentation.chiefComplaint, presentation.hpi",
+      "quote": "A 65-year-old woman was brought to the ED by ambulance after developing a sudden-onset headache following a forceful sneeze and nose-blowing episode."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "She reported feeling unwell with cold-like symptoms before the onset. The headache initially began around the right eye and gradually spread across the frontal region."
+    },
+    {
+      "field": "presentation.chiefComplaint, presentation.hpi",
+      "quote": "She described it as severe, sudden in onset, and unrelieved by painkillers. This headache was associated with blurred vision and photophobia"
+    },
+    {
+      "field": "presentation.chiefComplaint, presentation.hpi",
+      "quote": "nausea with three episodes of vomiting overnight; three episodes of diarrhea, worsening with coughing and sneezing, and feeling unsteady when walking, and there was no neck stiffness"
+    },
+    {
+      "field": "vitals.sbp, vitals.dbp, presentation.pmh",
+      "quote": "At presentation, her blood pressure was 199/79 mmHg, and the patient had a history of asthma, chronic obstructive pulmonary disease (COPD), and hypertension."
+    },
+    { "field": "presentation.meds[0]", "quote": "she was inconsistent with her medication, ramipril, which was started by the GP" },
+    { "field": "presentation.meds[0]", "quote": "the patient was not on any regular medications, except occasionally she took ramipril" },
+    {
+      "field": "exam[0], vitals.gcs",
+      "quote": "she was alert, conscious, and oriented, and was not able to see the lights; she kept her eyes closed. Glasgow Coma Scale (GCS) was 15/15."
+    },
+    { "field": "exam[1]", "quote": "her power was 5/5 in all four limbs, there was no sensory deficit, and there were no cerebellar signs" },
+    {
+      "field": "exam[2], exam[3]",
+      "quote": "The only abnormal finding was that both pupils were unreactive to light and dilated. Both eyes were red and watering."
+    },
+    { "field": "imaging[0], management[0]", "quote": "An urgent CT head did not show any space-occupying lesion or bleed" },
+    { "field": "imaging[0]", "quote": "No acute findings suggestive of subarachnoid hemorrhage (SAH), infarct, bleeding, or space-occupying lesions (SOL)." },
+    {
+      "field": "management[1]",
+      "quote": "She was admitted for neurological observation and to consider further investigations, including MRI of the head, lumbar puncture, and inpatient neurology review."
+    },
+    { "field": "management[2]", "quote": "Her vision and headache started deteriorating, and an urgent inpatient ophthalmology review was requested." },
+    { "field": "investigations[0]", "quote": "Baseline blood tests, including inflammatory markers, were normal." },
+    {
+      "field": "investigations[1], investigations[2], diagnosis.primary",
+      "quote": "the patient had AACG, with increased IOP, right eye 39 mmHg, and left eye 40 mmHg (normal pressure 10-21 mmHg)"
+    },
+    {
+      "field": "exam[4]",
+      "quote": "Conjunctival hyperemia ++ Conjunctival hyperemia ++ Cornea Corneal edema Corneal edema Anterior chamber Bilateral angle-closure glaucoma"
+    },
+    { "field": "exam[4]", "quote": "Pupil/Iris Moderately dilated Moderately dilated Lens 2+ nuclear, 2+ cortical cataract" },
+    {
+      "field": "management[3]",
+      "quote": "she was prescribed timolol 0.5% eye drops, apraclonidine 1% eye drops, latanoprost 50 micrograms/ml 0.2 ml unit dose eye drops, and pilocarpine 2% eye drops"
+    },
+    { "field": "management[3]", "quote": "Acetazolamide 250 mg oral tablet – once only" },
+    {
+      "field": "management[4]",
+      "quote": "performed emergency AC paracentesis to reduce IOP and corneal edema, and following that, bilateral laser peripheral iridotomy was performed on the same day"
+    },
+    { "field": "management[5]", "quote": "advised to continue with the following eye drops in both eyes: apraclonidine 1%" },
+    { "field": "management[5]", "quote": "prednisolone was changed to dexamethasone eye drops due to extensive inflammation" },
+    { "field": "outcome", "quote": "Eventually, the patient's IOP reduced to 8 and 4 mmHg in the right and left eyes, respectively" },
+    {
+      "field": "outcome",
+      "quote": "In the follow-up glaucoma clinic appointment, the patient's IOP is being maintained within normal limits, and the peripheral iridotomy was intact."
+    },
+    { "field": "outcome", "quote": "The patient is continuing timolol 0.5% eye drops and advised to follow up with the GP for blood pressure monitoring." }
+  ],
+  "augmented": [
+    "vitals.hr: not reported",
+    "vitals.rr: not reported",
+    "vitals.spo2: not reported",
+    "vitals.tempC: not reported",
+    "presentation.allergies: not reported"
+  ]
+}

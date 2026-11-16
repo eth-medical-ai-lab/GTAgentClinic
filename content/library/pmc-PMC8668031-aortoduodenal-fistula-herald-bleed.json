@@ -1,0 +1,178 @@
+{
+  "id": "pmc-PMC8668031-aortoduodenal-fistula-herald-bleed",
+  "title": "Massive haematemesis with a clean endoscopy",
+  "category": "vascular",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC8668031",
+    "pmid": "34966833",
+    "doi": "10.1515/iss-2020-0007",
+    "citation": "Wiesmueller F, Neufert C, Siebler J, Croner R, Lang W, Grützmann R. Primary aortoduodenal fistula - overlooked because of guidelines? Innov Surg Sci. 2020;5(3-4):133-136.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8668031/"
+  },
+  "patient": { "age": 63, "sex": "M", "arrival": "transfer" },
+  "presentation": {
+    "chiefComplaint": "Heavy upper gastrointestinal bleeding (interhospital transfer)",
+    "hpi": "Transferred from another hospital because of heavy upper gastrointestinal bleeding. Known arterial hypertension; history of alcohol abuse and nicotine dependence.",
+    "pmh": ["Arterial hypertension"],
+    "meds": ["Antihypertensive therapy (agent not reported)"],
+    "allergies": ["No known drug allergies"],
+    "social": "History of alcohol abuse; nicotine dependence"
+  },
+  "vitals": { "hr": 121, "sbp": 105, "dbp": 38, "rr": 40, "spo2": 100, "tempC": 36.4, "gcs": 14 },
+  "exam": ["Awake but not oriented", "Pale and in severe distress; otherwise unremarkable examination", "SpO2 100% on 2 L/min oxygen by nasal cannula"],
+  "investigations": [
+    { "name": "Hemoglobin", "value": "3", "unit": "g/dL", "flag": "critical" },
+    { "name": "Nasogastric aspirate (after intubation)", "value": "Fresh red blood" }
+  ],
+  "imaging": [
+    { "modality": "Bedside ultrasound (FAST)", "finding": "Infrarenal aorta not visible because of excessive bowel gas" },
+    { "modality": "Emergency upper endoscopy (day 1)", "finding": "Large blood clots in the stomach; no active bleeding source in the stomach or duodenum" },
+    { "modality": "Repeat upper endoscopy (day 2)", "finding": "Small gastric erosion, clipped; no other source of bleeding" },
+    { "modality": "Colonoscopy (day 2, after hypotension and haematochezia)", "finding": "Blood clots in the colon; no source of bleeding" },
+    {
+      "modality": "Emergency upper endoscopy (day 5)",
+      "finding": "Several ulcers and pulsatile bleeding in the distal duodenum; massive intraluminal blood obscured the exact site"
+    }
+  ],
+  "diagnosis": {
+    "primary": "Primary aortoduodenal fistula from a 5.5 cm abdominal aortic aneurysm adherent to the third part of the duodenum, presenting with a herald bleed",
+    "icd10": "I77.2",
+    "differentials": [
+      "Bleeding peptic ulcer (posterior duodenal bulb, gastroduodenal artery)",
+      "Oesophageal or gastric variceal haemorrhage",
+      "Dieulafoy lesion",
+      "Mallory–Weiss tear"
+    ]
+  },
+  "management": [
+    "Immediate treatment of haemorrhagic shock: large-volume IV infusions, transfusions and multiple vasopressors",
+    "Endotracheal intubation and nasogastric tube",
+    "Emergency upper endoscopy (no source), then high-dose IV proton-pump inhibitor and IV erythromycin",
+    "Acute kidney injury treated with continuous haemofiltration",
+    "Day 2: clip to a small gastric erosion; colonoscopy after recurrent hypotension and haematochezia, without a source",
+    "Three bleed-free days followed; the scheduled CT was postponed because he had improved",
+    "Day 5: sudden haematemesis and cardiac arrest during emergency endoscopy; CPR",
+    "Emergency laparotomy under continuous CPR: fistula excised and a 24 mm polyester aortic inlay graft placed",
+    "Months of intensive care and repeated surgery; 173 units of red cells, 118 units of plasma and 25 platelet transfusions"
+  ],
+  "outcome": "Multiple organ dysfunction despite months of intensive care; treatment was limited to palliative care and he died on day 122.",
+  "teachingPoints": [
+    "A herald bleed (a self-limited, sometimes massive bleed followed by a bleed-free interval of hours to months) often precedes exsanguination from an aortoenteric fistula.",
+    "The fistula usually involves the third or fourth part of the duodenum, beyond the usual reach of upper endoscopy, so a negative EGD does not exclude it.",
+    "In massive or obscure upper GI bleeding with a non-diagnostic endoscopy, obtain CT angiography early; bedside ultrasound often cannot show the aorta.",
+    "Primary fistulas arise from an aortic aneurysm; secondary fistulas (more common) follow aortic graft repair, so any GI bleed after aortic surgery is a fistula until proven otherwise.",
+    "Untreated mortality approaches 100%; definitive care is aortic repair (open, or endovascular as a bridge) with management of the bowel defect and infection."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate next investigation?",
+      "extra": "Hb 3 g/dL. Nasogastric tube drains fresh red blood. Emergency EGD: large gastric clots, no active bleeding source in the stomach or duodenum. Bedside ultrasound could not see the infrarenal aorta (bowel gas).",
+      "options": [
+        "Repeat upper endoscopy in 24 hours on a PPI infusion",
+        "CT angiography of the abdomen and pelvis now",
+        "Colonoscopy after rapid bowel preparation",
+        "Technetium-labelled red cell scintigraphy"
+      ],
+      "answer": 1,
+      "explanation": "Life-threatening bleeding with a non-diagnostic endoscopy calls for CT angiography: it localises active bleeding and shows the aorta, which ultrasound could not. Scintigraphy is too slow for an unstable patient, and waiting for repeat endoscopy (as happened here, after a bleed-free interval) let the fistula declare itself by exsanguination."
+    },
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely source of the bleeding?",
+      "extra": "After three bleed-free days, sudden massive haematemesis on day 5. Emergency EGD: several ulcers and pulsatile bleeding in the distal duodenum; he arrests during the procedure.",
+      "options": [
+        "Posterior duodenal bulb ulcer eroding the gastroduodenal artery",
+        "Oesophageal variceal rupture from alcohol-related cirrhosis",
+        "Dieulafoy lesion of the gastric fundus missed at endoscopy",
+        "Abdominal aortic aneurysm eroding into the distal duodenum"
+      ],
+      "answer": 3,
+      "explanation": "A massive bleed that stopped on its own and returned as exsanguination after a bleed-free interval (a herald bleed), from the distal duodenum that lies on the infrarenal aorta, is the pattern of an aortoenteric fistula; laparotomy found a 5.5 cm aneurysm adherent to D3. The duodenal bulb and fundus had been seen without a source."
+    },
+    {
+      "kind": "management",
+      "q": "Which treatment is definitive?",
+      "extra": "Laparotomy: a 5.5 cm abdominal aortic aneurysm adherent to the third part of the duodenum, with a fistula between them.",
+      "options": [
+        "Endoscopic clipping and adrenaline injection at the bleeding point",
+        "Transcatheter embolisation of the gastroduodenal artery",
+        "Excision of the fistula, aortic graft repair and duodenal closure",
+        "Duodenotomy with under-running of a bleeding duodenal ulcer"
+      ],
+      "answer": 2,
+      "explanation": "Only aortic repair closes the communication: excision of the fistula with graft replacement (in situ or extra-anatomic) and duodenal repair, or endovascular repair as a bridge in unstable patients, with antibiotic cover. Untreated mortality approaches 100%; endoscopic, embolic or ulcer surgery treats the wrong vessel."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, patient.arrival, presentation.chiefComplaint, presentation.hpi",
+      "quote": "A 63 year-old man was transferred to our emergency department for significant gastrointestinal bleeding."
+    },
+    {
+      "field": "presentation.chiefComplaint, presentation.hpi",
+      "quote": "a 63 year-old male who exhibited significant upper gastrointestinal bleeding and hemorrhagic shock"
+    },
+    { "field": "exam[0], vitals.gcs", "quote": "Upon arrival, the patient was awake but not oriented." },
+    {
+      "field": "vitals.rr, vitals.hr, vitals.sbp, vitals.dbp",
+      "quote": "a respiratory rate of 40/min, a pulse of 121 beats/min, a blood pressure of 105/38 mmHg"
+    },
+    { "field": "vitals.spo2, exam[2]", "quote": "100% oxygen saturation at 2 L/min per nasal cannula" },
+    { "field": "exam[1]", "quote": "Physical examination showed a pale appearing male in severe distress but was otherwise unremarkable." },
+    { "field": "investigations[Hemoglobin]", "quote": "A complete blood count revealed a hemoglobin concentration of 3 g/dL." },
+    {
+      "field": "presentation.pmh[0], presentation.social, presentation.hpi",
+      "quote": "His medical history included arterial hypertension, alcohol abuse and nicotine dependence."
+    },
+    {
+      "field": "management[0]",
+      "quote": "Treatment for hemorrhagic shock was initiated immediately by administering large intravenous volume infusions, transfusions and multiple vasopressors."
+    },
+    {
+      "field": "imaging[0]",
+      "quote": "A focused assessment with sonography for trauma scan was performed. However, the infrarenal part of aorta was not visible due to excessive bowel gas."
+    },
+    { "field": "management[1], investigations[1]", "quote": "The patient was intubated and a nasogastric tube was placed which revealed fresh red blood." },
+    {
+      "field": "imaging[1], management[2]",
+      "quote": "An emergency esophagogastroduodenoscopy (EGD) was performed, which showed large blood clots in the stomach"
+    },
+    { "field": "imaging[1]", "quote": "an active source of bleeding was not present, neither in the stomach nor the duodenum" },
+    { "field": "management[2]", "quote": "High-dose proton-pump inhibitors and erythromycin were infused intravenously." },
+    { "field": "management[3]", "quote": "the patient went into acute renal failure and required continuous hemofiltration" },
+    { "field": "imaging[2], management[4]", "quote": "The next day, repeat EGD revealed a small gastric erosion which was supplied with a metal clip." },
+    {
+      "field": "imaging[3], management[4]",
+      "quote": "the patient suffered from repeat hypotension and hematochezia. A colonoscopy demonstrated blood clots in the colon but no source of bleeding."
+    },
+    {
+      "field": "management[5]",
+      "quote": "For three days, he did not exhibit any signs of bleeding. A scheduled computed tomography (CT) scan was postponed due to improved condition of the patient."
+    },
+    {
+      "field": "management[6]",
+      "quote": "after five days the patient suddenly developed hematemesis. During emergency EGD, the patient suffered cardiac arrest and required cardiopulmonary resuscitation (CPR)."
+    },
+    {
+      "field": "imaging[4]",
+      "quote": "The distal part of the duodenum exhibited several ulcers and a pulsatile bleeding. Intraluminal exsanguination was massive"
+    },
+    { "field": "management[7]", "quote": "The patient was transferred to the operating room under continuous CPR for emergency laparotomy." },
+    { "field": "diagnosis.primary", "quote": "An abdominal aortic aneurysm of 5.5 cm diameter adherent to the third part of the duodenum was appreciated." },
+    { "field": "diagnosis.primary", "quote": "Emergency laparotomy disclosed an aortoduodenal fistula." },
+    { "field": "management[7]", "quote": "The aortoduodenal fistula … was excised and an aortic 24 mm polyester graft was implanted in inlay technique" },
+    { "field": "diagnosis.primary", "quote": "the hemorrhage-free interval after the herald bleed may have led to not insisting on immediate CT imaging" },
+    { "field": "management[8]", "quote": "a total of 25 platelet transfusions, 118 units of fresh frozen plasma, and 173 units of packed red blood cells" },
+    { "field": "outcome", "quote": "Despite these efforts, multiple organ dysfunction evolved. Decision was made to limit treatment to palliative care" },
+    { "field": "outcome", "quote": "After 122 days, the patient succumbed to his condition." }
+  ],
+  "augmented": [
+    "vitals.tempC: not reported",
+    "vitals.gcs: GCS 14 derived from 'awake but not oriented'",
+    "presentation.meds: not reported; consistent with treated hypertension",
+    "presentation.allergies: not reported"
+  ]
+}

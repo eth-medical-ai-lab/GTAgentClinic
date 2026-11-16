@@ -1,0 +1,206 @@
+{
+  "id": "pmc-PMC9744716-paracetamol-late-staggered",
+  "title": "Abdominal pain 40 hours after swallowing 100 tablets",
+  "category": "toxicology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC9744716",
+    "pmid": "36523377",
+    "doi": "10.1002/ccr3.6733",
+    "citation": "Lamichhane P, Pokhrel KM, Bhandari B, Agrawal A, Ghimire B, Shilpakar O. Successful management of delayed presentation of massive paracetamol overdose in a resource-limited setting: A case report from Nepal. Clin Case Rep. 2022;10(12):e6733.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9744716/"
+  },
+  "patient": { "age": 24, "sex": "F", "arrival": "transfer" },
+  "presentation": {
+    "chiefComplaint": "Vomiting and abdominal pain after a deliberate tablet overdose",
+    "hpi": "About 40 hours ago she swallowed 100 paracetamol 500-mg tablets (50 g) over roughly 4 hours, a mixture of immediate- and delayed-release products in unknown proportions; she had planned this for a month and bought the tablets from several pharmacies. About 6 hours after the ingestion she began vomiting, with nausea and abdominal pain. A local hospital drew routine bloods and gave IV fluids, pantoprazole, ondansetron and ceftriaxone, then referred her because it had neither N-acetylcysteine nor an ICU bed. She gives curiosity as the reason.",
+    "pmh": ["No chronic illness requiring paracetamol", "No known psychiatric illness; first episode of self-harm"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"],
+    "social": "Planned the overdose over a month, buying the tablets from nearby pharmacies. Last menstrual period 2 days before the ingestion."
+  },
+  "vitals": { "hr": 74, "sbp": 110, "dbp": 60, "rr": 20, "spo2": 99, "tempC": 36.7, "gcs": 15 },
+  "exam": [
+    "Awake, alert and oriented to time, place and person; general condition fair",
+    "Mild pallor; no icterus, edema or dehydration",
+    "Generalized abdominal tenderness, most marked in the left iliac fossa and left hypochondrium",
+    "Other systems unremarkable",
+    "Day 2 (ED observation unit): new icterus and mild generalized abdominal tenderness; vital signs normal"
+  ],
+  "investigations": [
+    { "name": "Paracetamol (serum, about 40 h after ingestion)", "value": "14.2", "unit": "µg/mL" },
+    { "name": "ALT", "value": "125", "unit": "U/L", "flag": "H" },
+    { "name": "AST", "value": "130", "unit": "U/L", "flag": "H" },
+    { "name": "Total bilirubin", "value": "33.0", "unit": "µmol/L", "flag": "H" },
+    { "name": "Direct bilirubin", "value": "10.0", "unit": "µmol/L", "flag": "H" },
+    { "name": "Alkaline phosphatase", "value": "68", "unit": "U/L" },
+    { "name": "Albumin", "value": "39", "unit": "g/L" },
+    { "name": "Prothrombin time", "value": "20", "unit": "s", "flag": "H" },
+    { "name": "INR", "value": "1.66", "flag": "H" },
+    { "name": "Hemoglobin", "value": "9.6", "unit": "g/dL", "flag": "L" },
+    { "name": "Platelets", "value": "124,000", "unit": "/mm³", "flag": "L" },
+    { "name": "Glucose (random)", "value": "4.8", "unit": "mmol/L" },
+    { "name": "Urea", "value": "5.0", "unit": "mmol/L" },
+    { "name": "Creatinine", "value": "60", "unit": "µmol/L" },
+    { "name": "pH", "value": "7.42" },
+    { "name": "PCO2", "value": "32.5", "unit": "mm Hg", "flag": "L" },
+    { "name": "HCO3", "value": "21.2", "unit": "mmol/L", "flag": "L" },
+    { "name": "Urinalysis", "value": "Hematuria (22–24 RBC/hpf), trace albumin" },
+    { "name": "ALT (day 3 peak)", "value": "1150", "unit": "U/L", "flag": "H" },
+    { "name": "INR (day 5)", "value": "1.0" }
+  ],
+  "imaging": [{ "modality": "Ultrasound abdomen and pelvis", "finding": "Normal" }],
+  "ecg": "Normal ECG",
+  "diagnosis": {
+    "primary": "Paracetamol poisoning, massive staggered ingestion (50 g) presenting about 40 h late, with acute liver injury and coagulopathy",
+    "icd10": "T39.1X2A",
+    "differentials": ["Acute viral hepatitis", "Ischemic (hypoxic) hepatitis", "Other drug- or toxin-induced liver injury", "Acute pancreatitis"]
+  },
+  "management": [
+    "IV pantoprazole 40 mg and ondansetron 4 mg",
+    "IV N-acetylcysteine, standard 21-h three-bag regimen for 40 kg: 150 mg/kg (6 g) over 30 min, 50 mg/kg (2 g) over 4 h, then 100 mg/kg (4 g) over 16 h",
+    "IV L-ornithine L-aspartate infusion and vitamin K 10 mg",
+    "Day 3, with ALT still rising: N-acetylcysteine restarted at 4 g over 12 h and repeated daily for 3 more days",
+    "Psychiatry review on day 6: suicide attempt with borderline personality traits; outpatient psychiatric follow-up arranged"
+  ],
+  "outcome": "ALT peaked at 1150 U/L on day 3 and the INR normalized by day 5; she did not develop acute liver failure and was discharged well on day 7.",
+  "teachingPoints": [
+    "The Rumack–Matthew nomogram applies only to a single acute ingestion of known time, with the level drawn 4–24 h afterwards; it cannot be used for staggered ingestions or late presentations.",
+    "More than 24 h after an overdose, any detectable paracetamol or a raised ALT/AST is an indication for acetylcysteine: a level 'in the therapeutic range' is not reassuring.",
+    "Give acetylcysteine however late the patient presents; it still improves outcomes once hepatotoxicity is established.",
+    "Extend acetylcysteine beyond the standard course while paracetamol is detectable, transaminases are high or rising, or the INR is raised.",
+    "The INR and the King's College criteria (pH, INR, creatinine, encephalopathy, lactate) track prognosis; do not mask the INR with plasma unless the patient is bleeding."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate management now?",
+      "extra": "Bloods about 40 h after ingestion: paracetamol 14.2 µg/mL (laboratory therapeutic range 10–30), ALT 125 U/L, AST 130 U/L, INR 1.66, bilirubin 33 µmol/L, creatinine 60 µmol/L, pH 7.42.",
+      "options": [
+        "Plot the level on the nomogram and treat only if it lies above the line",
+        "Activated charcoal 50 g, then repeat the paracetamol level in 4 hours",
+        "Start IV acetylcysteine now and reassess bloods at the end of the course",
+        "Observe without acetylcysteine, since the level is in the therapeutic range"
+      ],
+      "answer": 2,
+      "explanation": "The nomogram only applies to a single ingestion of known time with a level drawn 4–24 h later; this was a staggered ingestion 40 h earlier. When it cannot be used, treat on the history plus any detectable paracetamol or raised ALT/AST (both present here); UK MHRA guidance gives acetylcysteine for staggered overdoses regardless of the level. Charcoal has no role this late."
+    },
+    {
+      "kind": "interpretation",
+      "q": "What best explains the INR of 1.66 on arrival?",
+      "extra": "She has not yet received acetylcysteine. ALT 125 U/L, AST 130 U/L, bilirubin 33 µmol/L, platelets 124,000/mm³.",
+      "options": [
+        "A modest prolongation caused by acetylcysteine itself",
+        "Vitamin K deficiency from two days of vomiting",
+        "Disseminated intravascular coagulation from sepsis",
+        "Early hepatocellular injury reducing clotting factor synthesis"
+      ],
+      "answer": 3,
+      "explanation": "Paracetamol hepatotoxicity first lowers short half-life factor VII, so the INR rises early and tracks prognosis. Acetylcysteine can raise the INR slightly, but none had been given yet. The INR should not be corrected with plasma unless there is bleeding, because it is a key marker in the King's College criteria."
+    },
+    {
+      "kind": "management",
+      "q": "The 21-hour acetylcysteine course has finished. What is the best next step?",
+      "extra": "Day 3: alert and oriented, icteric. ALT 1150 U/L (day 1: 125), AST 565 U/L, INR 1.41, bilirubin 19 µmol/L, creatinine normal.",
+      "options": [
+        "Restart IV acetylcysteine and continue until ALT falls and the INR normalizes",
+        "Stop treatment, since the standard 21-hour course is complete",
+        "Give fresh frozen plasma to correct the INR before discharge",
+        "Refer for urgent liver transplant assessment"
+      ],
+      "answer": 0,
+      "explanation": "Acetylcysteine is continued beyond the standard regimen while transaminases are high or rising or the INR is raised, and stopped once paracetamol is undetectable, ALT is falling and the INR improving in a well patient (2023 US/Canada consensus statement). She meets no King's College criteria (e.g., pH below 7.30, or INR above 6.5 with creatinine above 300 µmol/L and grade III–IV encephalopathy)."
+    }
+  ],
+  "evidence": [
+    { "field": "patient, presentation.hpi", "quote": "A 24-year-old female patient presented to the Emergency Department (ED)" },
+    { "field": "presentation.hpi", "quote": "with an alleged history of ingestion of paracetamol tablets about 40 h ago" },
+    {
+      "field": "presentation.hpi, diagnosis.primary",
+      "quote": "the patient consumed a total of 100 tablets, each containing 500 mg (total = 50 grams), over 4 h"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "Different formulations, such as immediate-release and delayed-release, in unmeasured quantities, were supposedly consumed by the patient."
+    },
+    {
+      "field": "presentation.chiefComplaint, presentation.hpi",
+      "quote": "After 6 h of acute single ingestion, she developed nausea and vomiting, along with abdominal pain."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "An intravenous (IV) line was opened to provide fluids, pantoprazole 40 mg, ondansetron 2 mg, and ceftriaxone 1gm."
+    },
+    {
+      "field": "patient.arrival, presentation.hpi",
+      "quote": "She received a referral to TUTH for further management due to the unavailability of antidote N-acetyl cysteine (NAC) and intensive care unit (ICU)"
+    },
+    { "field": "presentation.hpi", "quote": "she pointed toward the whole act being performed out of curiosity" },
+    {
+      "field": "presentation.social",
+      "quote": "She had planned the ingestion for a month before the event. During this time, she bought 100 tablets from nearby pharmaceutical dispensaries."
+    },
+    { "field": "presentation.social", "quote": "Her last menstruation was 2 days before the event." },
+    { "field": "presentation.pmh[0]", "quote": "The patient had no history of co-morbidities requiring her to consume paracetamol." },
+    { "field": "presentation.pmh[1]", "quote": "she had no known psychiatric problems, and this was her first act of self-harm" },
+    {
+      "field": "vitals.hr, vitals.sbp, vitals.dbp, vitals.tempC, vitals.rr, vitals.spo2",
+      "quote": "pulse rate: 74 beats/minute, blood pressure: 110/60 mmHg, temperature: 36.7°C, respiratory rate: 20/minute, and O2 saturation: 99%"
+    },
+    { "field": "exam[0]", "quote": "The patient was awake, alert, and well oriented to time, place, and person. The patient's general condition was fair" },
+    { "field": "exam[1]", "quote": "with mild pallor but no icterus, edema, or dehydration" },
+    { "field": "exam[2]", "quote": "generalized abdominal tenderness, predominant in the left iliac and left hypochondrium regions" },
+    { "field": "exam[3]", "quote": "other systemic examinations were unremarkable" },
+    { "field": "exam[4]", "quote": "The vitals were within normal range. However, she had icterus and mild generalized tenderness of the abdomen." },
+    { "field": "investigations[0]", "quote": "Her serum paracetamol concentration was at 14.2 ugm/ml which was within the therapeutic range." },
+    { "field": "investigations[ALT]", "quote": "SGPT/ALT (U/L) | 125 | 42" },
+    { "field": "investigations[AST]", "quote": "SGOT/AST (U/L) | 130 | 37" },
+    { "field": "investigations[Total bilirubin]", "quote": "Total bilirubin (uMol/L) | 33.0 | 3–21" },
+    { "field": "investigations[Direct bilirubin]", "quote": "Direct bilirubin (uMol/L) | 10.0 | 4" },
+    { "field": "investigations[Alkaline phosphatase]", "quote": "Alkaline phosphatase (U/L) | 68.0 | 30–90" },
+    { "field": "investigations[Albumin]", "quote": "Albumin (gm/L) | 39.0 | 37–47" },
+    { "field": "investigations[Prothrombin time]", "quote": "PT (seconds) | 20 | 10–12" },
+    { "field": "investigations[INR]", "quote": "PT INR | 1.66 | 0.8–1.1" },
+    { "field": "investigations[Hemoglobin]", "quote": "Hemoglobin(gm/dl) | 9.6 | 12.5–15.0" },
+    { "field": "investigations[Platelets]", "quote": "Platelets (/mm³) | 124,000 | 150,000–400,000" },
+    { "field": "investigations[Glucose (random)]", "quote": "Random blood sugar (mmol/L) | 4.8 | 3.8–7.8" },
+    { "field": "investigations[Urea]", "quote": "Urea (mmol/L) | 5.0 | 1.6–7.0" },
+    { "field": "investigations[Creatinine]", "quote": "Creatinine (uMol/L) | 60 | 40–110" },
+    { "field": "investigations[pH]", "quote": "pH | 7.42 | 7.35–7.45" },
+    { "field": "investigations[HCO3]", "quote": "HCO3 (mmol/L) | 21.2 | 22–26" },
+    { "field": "investigations[PCO2]", "quote": "PCO2 (mmHg) | 32.5 | 35–45" },
+    { "field": "investigations[Urinalysis]", "quote": "Her urinalysis revealed hematuria (22–24/high power field) with trace albumin." },
+    { "field": "investigations[ALT (day 3 peak)], outcome", "quote": "On the third day, her ALT level was the highest of all at 1150 U/L." },
+    { "field": "investigations[INR (day 5)], outcome", "quote": "PT INR | 1.66 | 1.6 | 1.41 | 1.25 | 1.0" },
+    { "field": "ecg, imaging[0]", "quote": "Her electrocardiogram and ultrasonography of her abdomen and pelvis showed normal findings." },
+    { "field": "management[0]", "quote": "At our ED, she received IV pantoprazole 40 mg and IV ondansetron 4 mg stat." },
+    {
+      "field": "management[1]",
+      "quote": "she (weight = 40 kgs) also received IV NAC 6 gm (dose = 150 mg/kg) in 500 ml dextrose normal saline (DNS) over 30 min"
+    },
+    { "field": "management[1]", "quote": "Next, 2 gm (dose = 50 mg/kg)IV NAC was infused over 4 h. Finally, 4 gm (dose = 100 mg/kg) NAC was started for 16 h" },
+    { "field": "management[2]", "quote": "She also received an IV infusion of 10 ml L-Ornithine-L-Aspartate(LOLA) over 8 h" },
+    { "field": "management[2]", "quote": "an injection of vitamin K 10 mg was also administered" },
+    {
+      "field": "management[3]",
+      "quote": "On this background of high and increasing ALT levels, NAC infusion was resumed since it was stopped after completion of the 21 h treatment protocol."
+    },
+    { "field": "management[3]", "quote": "an IV infusion of 4 gm of NAC was given to the patient over the course of 12 h" },
+    { "field": "management[3]", "quote": "The same dose of NAC was continued for the next 3 days of her stay." },
+    {
+      "field": "management[4]",
+      "quote": "On the sixth day, a psychiatric consultation was done, which gave an impression of a suicidal attempt and borderline personality traits."
+    },
+    {
+      "field": "outcome",
+      "quote": "Our patient did not develop acute liver failure despite a massive overdose and a long delay between ingestion and antidote administration."
+    },
+    { "field": "outcome", "quote": "The patient was discharged well on the seventh day of the hospital stay." }
+  ],
+  "augmented": [
+    "vitals.gcs: GCS 15 inferred from 'awake, alert, and well oriented'",
+    "presentation.meds: none reported; consistent with no comorbidities",
+    "presentation.allergies: not reported"
+  ]
+}

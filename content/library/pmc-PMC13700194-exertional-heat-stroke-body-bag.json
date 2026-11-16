@@ -1,0 +1,209 @@
+{
+  "id": "pmc-PMC13700194-exertional-heat-stroke-body-bag",
+  "title": "Collapse and seizure at a construction site on a humid morning",
+  "category": "environmental",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC13700194",
+    "pmid": "42928101",
+    "doi": "10.1186/s12245-026-01321-y",
+    "citation": "Ikeda T, Watase T, Kondo T, Watase H, Funabiki T, Iwata M. Low-volume body bag cooling for severe exertional heat stroke in the emergency department: a case report. Int J Emerg Med. 2026;19(1):274.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13700194/"
+  },
+  "patient": { "age": 57, "sex": "M", "arrival": "ems" },
+  "presentation": {
+    "chiefComplaint": "Collapsed with seizure-like activity at a construction site",
+    "hpi": "Seven months after umbilical cord blood transplantation for acute myeloid leukemia, he returned to outdoor work yesterday without heat acclimatization. This morning, after 90 minutes of pipe-cutting at an ambient 36 °C and 65% humidity, he became dizzy and collapsed with witnessed seizure-like activity. EMS arrived within 26 minutes and started 500 mL of cold IV fluid. During transport: GCS 3, BP 72/49 mm Hg, HR 155/min, RR 30/min, axillary temperature 42.0 °C.",
+    "pmh": ["Acute myeloid leukemia, status post umbilical cord blood transplantation 7 months ago"],
+    "meds": ["Prednisolone 5 mg", "Tacrolimus 0.2 mg"],
+    "allergies": ["No known drug allergies"],
+    "social": "Construction worker; returned to outdoor work the day before without heat acclimatization."
+  },
+  "vitals": { "hr": 183, "sbp": 125, "dbp": 80, "rr": 30, "spo2": 94, "tempC": 42, "gcs": 4 },
+  "exam": ["Comatose: GCS 4 (E1 V2 M1)", "Skin markedly warm to touch", "Rectal temperature 42.0 °C; simultaneous bladder temperature 40.1 °C"],
+  "investigations": [
+    { "name": "Sodium", "value": "126", "unit": "mEq/L", "flag": "L" },
+    { "name": "Creatine kinase", "value": "217", "unit": "U/L", "flag": "H" },
+    { "name": "Aspartate aminotransferase (AST)", "value": "244", "unit": "U/L", "flag": "H" },
+    { "name": "Alanine aminotransferase (ALT)", "value": "145", "unit": "U/L", "flag": "H" },
+    { "name": "Lactate", "value": "43.0", "unit": "mg/dL", "flag": "critical" },
+    { "name": "Coagulation", "value": "No coagulopathy" },
+    { "name": "Potassium", "value": "4.0", "unit": "mmol/L", "augmented": true },
+    { "name": "Creatinine", "value": "1.0", "unit": "mg/dL", "augmented": true },
+    { "name": "Glucose", "value": "128", "unit": "mg/dL", "augmented": true },
+    { "name": "Platelets", "value": "172", "unit": "x10⁹/L", "augmented": true },
+    { "name": "AST (peak on hospital day 1)", "value": "572", "unit": "U/L", "flag": "H" },
+    { "name": "ALT (peak on hospital day 1)", "value": "358", "unit": "U/L", "flag": "H" },
+    { "name": "Creatine kinase (peak on hospital day 2)", "value": "2,165", "unit": "U/L", "flag": "H" },
+    { "name": "Blood cultures", "value": "Methicillin-resistant Staphylococcus caprae; no source identified" }
+  ],
+  "ecg": "Continuous monitoring through defibrillator pads during cooling: no arrhythmia",
+  "diagnosis": {
+    "primary": "Exertional heat stroke (rectal temperature 42.0 °C with coma) complicated by rhabdomyolysis and hepatic injury, in an unacclimatized, immunosuppressed outdoor worker",
+    "icd10": "T67.02XA / M62.82",
+    "differentials": [
+      "Sepsis in an immunocompromised host",
+      "Meningoencephalitis",
+      "Status epilepticus (including tacrolimus neurotoxicity)",
+      "Neuroleptic malignant or serotonin syndrome",
+      "Thyroid storm"
+    ]
+  },
+  "management": [
+    "EMS: 500 mL of cold IV fluid during transport",
+    "Body bag tarp-assisted cooling with oscillation (TACO) started on arrival: 15 L tap water plus 15 kg ice prepared in advance, about half the body immersed, the bag agitated continuously from its four corners; ice packs to axillae and groins",
+    "Endotracheal intubation (ketamine, rocuronium) for airway protection while immersed, without interrupting cooling",
+    "Monitoring with defibrillator pads, ear-lobe pulse oximetry, intermittent arm blood pressure, continuous bladder and intermittent rectal temperatures",
+    "Cold acetated Ringer's solution, 2,500 mL during the ED stay",
+    "Cooling stopped after 39 minutes at a rectal temperature of 38.7 °C (0.085 °C/min); the bag was drained by cutting one corner",
+    "ICU admission; transferred out of the ICU on hospital day 5; prolonged antimicrobial therapy for bacteremia, adjustment of immunosuppression and inpatient rehabilitation"
+  ],
+  "outcome": "GCS improved to 10T within 7.5 h of arrival. Transaminases peaked on day 1 and creatine kinase on day 2; bacteremia needed prolonged antibiotics. Discharged walking on hospital day 42 without neurological sequelae and with no organ dysfunction beyond the rhabdomyolysis and hepatic injury.",
+  "teachingPoints": [
+    "Exertional heat stroke is hyperthermia (typically core temperature above 40 °C) with central nervous system dysfunction during or after exertion in heat; lack of acclimatization is a classic risk factor.",
+    "Use rectal (or esophageal) temperature: here the bladder probe read 40.1 °C while the rectal temperature was 42.0 °C, and axillary, oral and tympanic readings are unreliable.",
+    "Cool first: aim for a core temperature below 39 °C within about 30 minutes. Cold-water immersion is the gold standard (about 0.15–0.35 °C/min); an ice-water tarp or body bag with oscillation is a practical bridge when no tub is available.",
+    "Intubation, IV access and monitoring can be done during immersion; stop active cooling at about 39 °C to avoid overshoot. Antipyretics and dantrolene have no role.",
+    "Anticipate rhabdomyolysis and liver injury peaking over 1–2 days, and look for sepsis in high-risk hosts; this patient's blood cultures later grew S. caprae."
+  ],
+  "questions": [
+    {
+      "kind": "management",
+      "q": "What is the most important immediate intervention?",
+      "options": [
+        "IV acetaminophen with cooling blankets, then reassess",
+        "CT head and lumbar puncture before starting cooling",
+        "Dantrolene 2.5 mg/kg IV, then evaporative cooling",
+        "Immediate whole-body ice-water cooling, aiming for <39 °C within 30 min"
+      ],
+      "answer": 3,
+      "explanation": "Coma with a rectal temperature of 42 °C after exertion in the heat is exertional heat stroke, and outcome depends on how fast the core temperature falls. Cold-water immersion is the preferred method (Wilderness Medical Society heat illness guidelines); an ice-water tarp or body bag is a practical bridge when no tub is available. Antipyretics and dantrolene do not work, and the work-up for sepsis or CNS infection should run alongside cooling, not before it."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Which temperature measurement should guide his cooling?",
+      "extra": "On arrival: rectal temperature 42.0 °C and bladder temperature 40.1 °C at the same time; axillary temperature during transport 42.0 °C.",
+      "options": [
+        "Tympanic infrared temperature, because it reflects brain temperature",
+        "Rectal (or esophageal) temperature from a continuous probe",
+        "Axillary temperature, because it is quick and non-invasive",
+        "Temporal-artery scan, because it tracks rapid changes best"
+      ],
+      "answer": 1,
+      "explanation": "Rectal temperature, or esophageal temperature in an intubated patient, is the standard for diagnosing exertional heat stroke and guiding cooling; oral, axillary, tympanic and temporal readings underestimate core temperature, especially in a hot environment or during cooling. Here the bladder probe read almost 2 °C lower than the rectal probe at the same moment."
+    },
+    {
+      "kind": "management",
+      "q": "When should active cooling be stopped?",
+      "extra": "Ice-water body bag cooling under way; rectal temperature falling from 42.0 °C.",
+      "options": [
+        "When the rectal temperature falls to about 38.6–39 °C",
+        "When the rectal temperature reaches 37 °C or lower",
+        "After a fixed 15 minutes, whatever the temperature",
+        "As soon as he shivers or his GCS starts to improve"
+      ],
+      "answer": 0,
+      "explanation": "Active cooling stops at a core temperature of about 39 °C (38.6–39 °C in expert consensus such as ACSM; here at 38.7 °C) to avoid overshoot hypothermia, with continued monitoring for rebound. A fixed duration or mental status is not a safe endpoint; he reached the target in 39 minutes."
+    },
+    {
+      "kind": "risk",
+      "q": "Which factor most strongly determines morbidity and mortality in exertional heat stroke?",
+      "options": [
+        "The peak temperature, regardless of how long it lasts",
+        "The creatine kinase level on arrival",
+        "How long the core temperature stays above about 40 °C",
+        "Whether a seizure occurred at the time of collapse"
+      ],
+      "answer": 2,
+      "explanation": "Outcome tracks the duration of severe hyperthermia, which is why cooling starts at once and cooling rate matters; in a 521-patient series cited by the authors, cooling slower than 0.15 °C/min was associated with deaths and complications that were almost absent with faster cooling. Peak temperature and initial creatine kinase are weaker predictors."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, patient.arrival, presentation.chiefComplaint",
+      "quote": "A 57-year-old male construction worker was brought to the ED via physician-staffed ambulance following collapse at a construction site."
+    },
+    {
+      "field": "presentation.pmh[0], presentation.meds[0], presentation.meds[1]",
+      "quote": "a history of acute myeloid leukemia status post umbilical cord blood transplantation 7 months ago and was maintained on immunosuppressive therapy (prednisolone 5 mg, tacrolimus 0.2 mg)"
+    },
+    { "field": "presentation.hpi, presentation.social", "quote": "He had returned to work the previous day without adequate heat acclimatization." },
+    {
+      "field": "presentation.hpi, presentation.chiefComplaint",
+      "quote": "While performing outdoor pipe-cutting work in ambient conditions of 36.0℃ and 65% humidity, the patient experienced dizziness after 90 min of labor and subsequently collapsed with witnessed seizure-like activity"
+    },
+    {
+      "field": "presentation.hpi, management[0]",
+      "quote": "Emergency medical services arrived within 26 min, and prehospital cooling was initiated with cold intravenous fluids (500 mL)"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "During transport, he presented with Glasgow Coma Scale score of 3 (E1V1M1), blood pressure 72/49 mmHg, heart rate 155 /minute, respiratory rate 30 /minute, and axillary temperature 42.0℃."
+    },
+    {
+      "field": "vitals.tempC, vitals.sbp, vitals.dbp, vitals.hr, exam[2]",
+      "quote": "On arrival at 10:30, rectal temperature was 42.0℃ and bladder temperature was 40.1℃, blood pressure 125/80 mmHg, and heart rate 183 beats/minute."
+    },
+    { "field": "vitals.gcs, exam[0], exam[1]", "quote": "Physical exam revealed GCS score of 4 (E1V2M1) and marked skin warmth." },
+    {
+      "field": "investigations[Sodium], investigations[Creatine kinase]",
+      "quote": "Initial laboratory findings showed mild hyponatremia (126 mEq/L), elevated creatine kinase (217 U/L)"
+    },
+    {
+      "field": "investigations[2], investigations[3], investigations[Lactate]",
+      "quote": "transaminitis (aspartate aminotransferase [AST] 244 U/L, alanine aminotransferase [ALT] 145 U/L), and elevated lactate levels (43.0 mg/dL)"
+    },
+    { "field": "investigations[Coagulation]", "quote": "No coagulopathy was observed." },
+    {
+      "field": "management[1]",
+      "quote": "The cooling apparatus consisted of a body bag filled with 15 L of tap water and 15 kg of ice cubes, prepared in advance."
+    },
+    { "field": "management[1]", "quote": "Approximately half of the patient’s body was immersed." },
+    {
+      "field": "management[1]",
+      "quote": "implemented continuous oscillation by manually agitating the bag from four corners. Adjunctive cooling measures included ice packs applied to bilateral axillae and groins."
+    },
+    {
+      "field": "management[2]",
+      "quote": "endotracheal intubation was performed while the patient remained immersed in the cooling apparatus, using ketamine and rocuronium"
+    },
+    {
+      "field": "management[3], ecg",
+      "quote": "The patient was continuously monitored via defibrillator pads (no arrhythmia), ear-lobe pulse oximetry, and intermittent right upper arm blood pressure"
+    },
+    { "field": "management[3]", "quote": "alongside continuous bladder and intermittent rectal temperature monitoring" },
+    {
+      "field": "management[4]",
+      "quote": "Simultaneous resuscitation included cold intravenous of acetated Ringer’s solution (total of 2,500 mL during ED stay)."
+    },
+    {
+      "field": "management[5]",
+      "quote": "TACO was discontinued at 11:09 when rectal temperature reached 38.7℃, yielding a cooling rate of 0.085℃/minute over 39 min."
+    },
+    { "field": "management[5]", "quote": "After reaching the target temperature, one corner of the body bag was cut to drain the water" },
+    { "field": "outcome", "quote": "Consciousness improved to GCS of 10T (E4VTM6) within 7.5 h of hospital arrival." },
+    { "field": "investigations[10], investigations[11]", "quote": "peaking of transaminases on hospital day 1 (AST 572 U/L, ALT 358 U/L)" },
+    {
+      "field": "investigations[12], diagnosis.primary, outcome",
+      "quote": "a peak creatine kinase of 2,165 U/L on hospital day 2 consistent with hepatic injury and rhabdomyolysis"
+    },
+    { "field": "investigations[Blood cultures]", "quote": "Blood cultures grew methicillin-resistant Staphylococcus caprae with no source." },
+    {
+      "field": "management[6]",
+      "quote": "He was transferred from the ICU on hospital day 5 following overall clinical stabilization, with ongoing antimicrobial therapy."
+    },
+    { "field": "management[6]", "quote": "continued antimicrobial treatment, immunosuppressive regimen adjustment, and inpatient rehabilitation" },
+    { "field": "management[6], outcome", "quote": "The hospital course was complicated by bacteremia requiring prolonged antimicrobial therapy." },
+    {
+      "field": "outcome",
+      "quote": "resulting in discharge on hospital day 42 ambulatory and without neurological sequelae, with no organ dysfunction beyond the rhabdomyolysis and hepatic injury"
+    },
+    { "field": "diagnosis.primary", "quote": "We present a case of severe EHS successfully treated with immediate body bag-based TACO upon ED arrival" }
+  ],
+  "augmented": [
+    "vitals.rr: not reported on arrival; 30/min during transport",
+    "vitals.spo2: ear-lobe pulse oximetry was used but no value was reported",
+    "presentation.allergies: not reported"
+  ]
+}

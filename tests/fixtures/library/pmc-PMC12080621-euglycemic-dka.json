@@ -1,0 +1,100 @@
+{
+  "id": "pmc-PMC12080621-euglycemic-dka",
+  "title": "Fatigue, nausea and weight loss in a woman with diabetes",
+  "category": "endocrine",
+  "acuity": 3,
+  "source": {
+    "pmcid": "PMC12080621",
+    "pmid": "40376133",
+    "doi": "10.7759/cureus.84170",
+    "citation": "Almascati Y, Alhumaiqani A. Euglycemic Diabetic Ketoacidosis Triggered by Sodium-Glucose Cotransporter 2 (SGLT2) Inhibitor Use in a Patient With Type 2 Diabetes Mellitus. Cureus. 2025;17(5):e84170.",
+    "license": "CC BY",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12080621/"
+  },
+  "patient": { "age": 53, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Progressive fatigue for a month",
+    "hpi": "Fatigue worsening over one month, with intermittent mild abdominal discomfort, persistent nausea, poor appetite and an unintentional weight loss of about 7 kg. Two months ago a newly consulted physician abruptly stopped her long-standing basal-bolus insulin and switched her to oral agents; she blames the nausea on the new tablets but has kept taking them.",
+    "pmh": ["Type 2 diabetes mellitus"],
+    "meds": ["Glimepiride/metformin (combination)", "Pioglitazone", "Empagliflozin"],
+    "allergies": []
+  },
+  "vitals": { "hr": 88, "sbp": 126, "dbp": 74, "rr": 17, "spo2": 98, "tempC": 36.8 },
+  "exam": ["Mild epigastric tenderness on palpation", "No guarding, rebound tenderness or organomegaly"],
+  "investigations": [
+    { "name": "Glucose", "value": "7", "unit": "mmol/L", "flag": "H" },
+    { "name": "Venous pH", "value": "7.30", "flag": "L" },
+    { "name": "Bicarbonate", "value": "15", "unit": "mmol/L", "flag": "L" },
+    { "name": "Anion gap", "value": "21", "unit": "mmol/L", "flag": "H" },
+    { "name": "Potassium", "value": "3.2", "unit": "mmol/L", "flag": "L" },
+    { "name": "Urine ketones", "value": "4+", "flag": "H" },
+    { "name": "Serum ketones", "value": "3+ (strongly positive)", "flag": "H" },
+    { "name": "HbA1c", "value": "9.0", "unit": "%", "flag": "H" },
+    { "name": "C-peptide", "value": "0.88", "unit": "ng/mL" }
+  ],
+  "diagnosis": {
+    "primary": "Euglycemic diabetic ketoacidosis associated with an SGLT2 inhibitor (empagliflozin) after insulin was stopped",
+    "differentials": ["Starvation ketosis", "Alcoholic ketoacidosis", "Metformin-associated lactic acidosis", "Acute pancreatitis"]
+  },
+  "management": [
+    "Low-dose intravenous insulin infusion with dextrose-containing fluids and potassium replacement",
+    "All oral agents, including the SGLT2 inhibitor, withheld"
+  ],
+  "outcome": "Recovered; after stabilization she was transitioned back to a basal-bolus insulin regimen.",
+  "teachingPoints": [
+    "SGLT2 inhibitors can cause ketoacidosis with a glucose below 250 mg/dL (14 mmol/L): check ketones and the anion gap in any unwell patient taking one.",
+    "Insulin deficiency, here stopping insulin in a patient with a low C-peptide, is a classic precipitant.",
+    "Treat with insulin plus dextrose-containing fluids so insulin can continue while the glucose stays normal; correct a low potassium before starting insulin."
+  ],
+  "questions": [
+    {
+      "kind": "interpretation",
+      "q": "What best explains these results?",
+      "extra": "Venous pH 7.30, bicarbonate 15 mmol/L, anion gap 21 mmol/L, glucose 7 mmol/L (126 mg/dL), potassium 3.2 mmol/L. Urine ketones 4+, serum ketones strongly positive.",
+      "options": ["Starvation ketosis", "Metformin-associated lactic acidosis", "Renal tubular acidosis", "Euglycemic diabetic ketoacidosis"],
+      "answer": 3,
+      "explanation": "A high-anion-gap metabolic acidosis (pH 7.30, bicarbonate 15) with strongly positive ketones and a glucose below 250 mg/dL (14 mmol/L) is euglycemic DKA. Starvation ketosis rarely drops the bicarbonate below about 18 mmol/L, lactic acidosis needs a raised lactate, and renal tubular acidosis has a normal anion gap."
+    },
+    {
+      "kind": "risk",
+      "q": "Which of her medicines is most strongly associated with this presentation?",
+      "options": ["Pioglitazone", "Empagliflozin", "Glimepiride", "Metformin"],
+      "answer": 1,
+      "explanation": "SGLT2 inhibitors such as empagliflozin lower glucose through glycosuria, so ketoacidosis can develop with a near-normal glucose, especially with insulin deficiency, fasting, illness or surgery. Stopping her basal-bolus insulin (C-peptide 0.88 ng/mL suggests limited insulin reserve) set the scene."
+    },
+    {
+      "kind": "management",
+      "q": "Which treatment is most appropriate?",
+      "extra": "Potassium 3.2 mmol/L.",
+      "options": ["IV insulin with dextrose-containing fluids and potassium replacement", "Insulin infusion alone, stopped once the glucose is normal", "Sodium bicarbonate infusion", "Oral rehydration and restart empagliflozin"],
+      "answer": 0,
+      "explanation": "Ketoacidosis needs insulin until the ketones clear and the anion gap closes, and dextrose-containing fluids let it continue without hypoglycemia. Replace potassium first: insulin is held until potassium is above about 3.3–3.5 mmol/L (ADA hyperglycemic crises consensus). Stop the SGLT2 inhibitor."
+    }
+  ],
+  "evidence": [
+    { "field": "patient, presentation.pmh", "quote": "A 53-year-old female with a known history of T2DM" },
+    { "field": "presentation.chiefComplaint, presentation.hpi", "quote": "presented to the emergency department with a primary complaint of progressive fatigue that had been worsening over one month" },
+    { "field": "presentation.hpi", "quote": "She also reported intermittent mild abdominal discomfort, persistent nausea, reduced appetite, and unintentional weight loss of approximately 7 kg" },
+    { "field": "presentation.hpi", "quote": "Two months prior to presentation, her longstanding basal-bolus insulin regimen was abruptly discontinued on the recommendation of a newly consulted physician." },
+    { "field": "presentation.hpi", "quote": "She reported worsening nausea, which she attributed to the new oral medications, but remained adherent to the prescribed regimen." },
+    { "field": "presentation.meds", "quote": "Instead, she switched to antihyperglycemic agents, including a combination of glimepiride/metformin, pioglitazone, and empagliflozin." },
+    { "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.rr", "quote": "blood pressure of 126/74 mmHg, heart rate of 88 beats per minute, respiratory rate of 17 breaths per minute" },
+    { "field": "vitals.spo2, vitals.tempC", "quote": "oxygen saturation of 98% on room air, and temperature of 36.8 degrees Celsius" },
+    { "field": "exam[0], exam[1]", "quote": "There was mild epigastric tenderness on palpation, but no guarding, rebound tenderness, or organomegaly." },
+    { "field": "investigations[0]", "quote": "Glucose 7 mmol/L" },
+    { "field": "investigations[1]", "quote": "Venous pH 7.30" },
+    { "field": "investigations[2]", "quote": "Bicarbonate 15 mmol/L" },
+    { "field": "investigations[3]", "quote": "Anion gap 21 mmol/L" },
+    { "field": "investigations[4]", "quote": "initial serum potassium level of 3.2 mmol/L guided potassium replacement" },
+    { "field": "investigations[5]", "quote": "Urinalysis 4+ ketones" },
+    { "field": "investigations[5], investigations[6]", "quote": "Serum and urine ketones were strongly positive." },
+    { "field": "investigations[7]", "quote": "an elevated HbA1c at 9.0%" },
+    { "field": "investigations[8]", "quote": "a C-peptide level of 0.88 ng/ml" },
+    { "field": "diagnosis.primary", "quote": "high anion gap metabolic acidosis in the setting of near-normal blood glucose levels" },
+    { "field": "diagnosis.primary", "quote": "No evidence of infection, dietary restriction, recent illness, or medication non-adherence was identified." },
+    { "field": "management[0]", "quote": "started on a low-dose intravenous insulin infusion protocol in combination with dextrose-containing intravenous fluids and potassium replacement" },
+    { "field": "management[1]", "quote": "All oral antihyperglycemic agents, including the SGLT2 inhibitor, were withheld upon admission." },
+    { "field": "outcome", "quote": "After stabilization, she was safely transitioned back to a basal-bolus insulin regimen." }
+  ],
+  "augmented": ["presentation.allergies: not reported"]
+}

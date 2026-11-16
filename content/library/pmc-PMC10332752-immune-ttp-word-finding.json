@@ -1,0 +1,228 @@
+{
+  "id": "pmc-PMC10332752-immune-ttp-word-finding",
+  "title": "Headache, bleeding gums and dark urine",
+  "category": "hematology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC10332752",
+    "pmid": "37465548",
+    "doi": "10.21980/j8vk9m",
+    "citation": "Sea JL, Gassner SF, Smart J. Case Report of Thrombotic Thrombocytopenic Purpura in a Previously Healthy Adult. J Educ Teach Emerg Med. 2021;6(1):V1-V4.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10332752/"
+  },
+  "patient": { "age": 24, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Headache and palpitations",
+    "hpi": "Sharp, constant headache for 7 days, rated 6/10. For the past 2–3 days he has had fatigue, palpitations, pallor and bleeding gums. On questioning he reports that his urine has been dark for about a week. Previously healthy.",
+    "pmh": ["No significant past medical history"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"],
+    "family": "No family history of autoimmune disorders."
+  },
+  "vitals": { "hr": 119, "sbp": 131, "dbp": 68, "rr": 18, "spo2": 100, "tempC": 37, "gcs": 15 },
+  "exam": [
+    "Generalized skin pallor and conjunctival pallor",
+    "Dry, pale mucous membranes with dried gingival blood between the teeth",
+    "Mild hepatosplenomegaly",
+    "Dark reddish-brown urine passed in the ED",
+    "Neurologically intact apart from nonfocal weakness, with a slow but normal gait",
+    "4 h after arrival: new word-finding difficulty with preserved comprehension and repetition; otherwise neurologically intact"
+  ],
+  "investigations": [
+    { "name": "Hemoglobin", "value": "4.7", "unit": "g/dL", "flag": "critical" },
+    { "name": "Hematocrit", "value": "14.2", "unit": "%", "flag": "L" },
+    { "name": "Platelets", "value": "10,000", "unit": "/µL", "flag": "critical" },
+    { "name": "White cell count", "value": "8.4", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Reticulocytes", "value": "18.7", "unit": "%", "flag": "H" },
+    { "name": "Peripheral blood smear", "value": "Schistocytes present" },
+    { "name": "LDH", "value": "1885", "unit": "U/L", "flag": "H" },
+    { "name": "Haptoglobin", "value": "<30", "unit": "mg/dL", "flag": "L" },
+    { "name": "Indirect bilirubin", "value": "3.2", "unit": "mg/dL", "flag": "H" },
+    { "name": "Direct antiglobulin test", "value": "Negative" },
+    { "name": "PT", "value": "15.2", "unit": "s", "flag": "H" },
+    { "name": "aPTT", "value": "30.2", "unit": "s" },
+    { "name": "INR", "value": "1.2", "flag": "H" },
+    { "name": "Sodium", "value": "138", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.2", "unit": "mmol/L", "augmented": true },
+    { "name": "Chloride", "value": "103", "unit": "mmol/L", "augmented": true },
+    { "name": "Bicarbonate", "value": "21", "unit": "mmol/L", "flag": "L" },
+    { "name": "Anion gap", "value": "14", "unit": "mEq/L" },
+    { "name": "BUN", "value": "27", "unit": "mg/dL", "flag": "H" },
+    { "name": "Creatinine", "value": "1.4", "unit": "mg/dL", "flag": "H" },
+    { "name": "ADAMTS13 activity", "value": "<5", "unit": "%", "flag": "L" },
+    { "name": "Anti-ADAMTS13 antibodies", "value": "Detected" }
+  ],
+  "imaging": [{ "modality": "CT head (repeated at the onset of word-finding difficulty)", "finding": "Unremarkable" }],
+  "ecg": "Sinus tachycardia at 119/min",
+  "diagnosis": {
+    "primary": "Immune-mediated thrombotic thrombocytopenic purpura (ADAMTS13 activity <5% with anti-ADAMTS13 antibodies)",
+    "icd10": "M31.19",
+    "differentials": [
+      "Disseminated intravascular coagulation",
+      "Hemolytic uremic syndrome (Shiga toxin or complement-mediated)",
+      "Evans syndrome (autoimmune hemolysis with immune thrombocytopenia)",
+      "Acute leukemia",
+      "Severe vitamin B12 deficiency with pseudo-microangiopathy"
+    ]
+  },
+  "management": [
+    "Provisional diagnosis from the clinical picture and a PLASMIC score of 6; ICU admission; ADAMTS13 sent to an external laboratory",
+    "Therapeutic plasma exchange, red cell transfusion and corticosteroids started immediately, without waiting for the ADAMTS13 result",
+    "Daily plasma exchange with prednisone",
+    "Rituximab on ICU day 3 because anti-ADAMTS13 antibodies persisted",
+    "In total 10 plasma exchanges, 5 units of red cells and 1 dose of rituximab; discharged on a prednisone taper with pantoprazole, with three further rituximab doses planned"
+  ],
+  "outcome": "Back to his neurological baseline the next day, with improving renal function; platelets normalized to 150,000/µL on day 6. Discharged on day 10 with stable hemoglobin and platelets off plasma exchange.",
+  "teachingPoints": [
+    "Microangiopathic hemolytic anemia (schistocytes, high LDH, low haptoglobin, indirect hyperbilirubinemia, reticulocytosis, negative DAT) with severe thrombocytopenia is TTP until proven otherwise.",
+    "Near-normal PT, aPTT and INR help separate TTP from DIC; severe thrombocytopenia with only mild kidney injury favors TTP over HUS.",
+    "ADAMTS13 results take days: a PLASMIC score of 6–7 supports starting plasma exchange and corticosteroids at once (ISTH 2020 TTP guidelines); delays beyond 24 h are linked to higher mortality.",
+    "Neurological signs in TTP fluctuate, and a normal CT does not exclude microvascular ischemia.",
+    "Platelet transfusion is generally avoided unless bleeding is life-threatening; rituximab and caplacizumab are adjuncts in immune TTP."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "Which diagnosis is most likely?",
+      "extra": "Hb 4.7 g/dL, platelets 10,000/µL, reticulocytes 18.7%, schistocytes on smear, LDH 1885 U/L, haptoglobin <30 mg/dL, indirect bilirubin 3.2 mg/dL, DAT negative. PT 15.2 s, aPTT 30.2 s, INR 1.2; creatinine 1.4 mg/dL.",
+      "options": [
+        "Disseminated intravascular coagulation",
+        "Evans syndrome (autoimmune hemolysis with ITP)",
+        "Thrombotic thrombocytopenic purpura",
+        "Shiga toxin–associated hemolytic uremic syndrome"
+      ],
+      "answer": 2,
+      "explanation": "DAT-negative hemolysis with schistocytes plus profound thrombocytopenia is a thrombotic microangiopathy, and neurological symptoms with only mild kidney injury point to TTP. Near-normal coagulation argues against DIC, the negative DAT against Evans syndrome, and mild kidney injury in an adult makes Shiga toxin HUS less likely."
+    },
+    {
+      "kind": "next-step",
+      "q": "His PLASMIC score is 6. What does this mean for management?",
+      "options": [
+        "Low probability: await ADAMTS13 activity before treating",
+        "High probability: start plasma exchange now, without waiting",
+        "Intermediate probability: give IVIG and repeat in 24 hours",
+        "Not valid with neurological signs: obtain MRI first"
+      ],
+      "answer": 1,
+      "explanation": "A PLASMIC score of 6–7 indicates a high probability of severe ADAMTS13 deficiency, and ADAMTS13 results often take days. The ISTH 2020 TTP guidelines support starting plasma exchange and corticosteroids when clinical suspicion is high, before confirmation; delaying plasma exchange beyond 24 h has been associated with higher mortality."
+    },
+    {
+      "kind": "management",
+      "q": "Which initial treatment plan is most appropriate?",
+      "options": [
+        "Daily plasma exchange and corticosteroids, plus rituximab",
+        "Platelet transfusion to above 50,000/µL, then plasma exchange",
+        "Eculizumab first; plasma exchange only if ADAMTS13 is low",
+        "IVIG and oral prednisone, then reassess the platelet count"
+      ],
+      "answer": 0,
+      "explanation": "Plasma exchange removes the autoantibody and replaces ADAMTS13; corticosteroids are added, and the ISTH 2020 guidelines suggest rituximab (and caplacizumab) for immune TTP. Platelet transfusion is generally avoided unless bleeding is life-threatening, eculizumab is for complement-mediated HUS, and IVIG with prednisone treats ITP."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint",
+      "quote": "A 24-year-old male presented to the emergency department (ED) with a chief complaint of headache and palpitations."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "The patient ranked his headache, which had begun 7 days prior, as 6 out 10 on a pain scale and described it as sharp and constant."
+    },
+    { "field": "presentation.hpi", "quote": "He also reported 2–3 days of fatigue, palpitations, skin pallor, and gingival bleeding." },
+    {
+      "field": "presentation.hpi, exam[3]",
+      "quote": "the patient's urine was dark reddish-brown, which he then reported had been similarly discolored for the past 7 days"
+    },
+    {
+      "field": "presentation.pmh[0], presentation.family",
+      "quote": "his past medical history was unremarkable and without any family history of autoimmune disorders"
+    },
+    {
+      "field": "vitals.hr, vitals.sbp, vitals.dbp, vitals.spo2, vitals.rr",
+      "quote": "He was afebrile, tachycardic (HR=119), and had a blood pressure of 131/68. His SpO² was 100% on room air with a respiratory rate of 18."
+    },
+    { "field": "exam[0]", "quote": "The physical exam revealed globalized pallor of his skin as well as conjunctival pallor." },
+    { "field": "exam[1]", "quote": "Mucous membranes were found to be dry and pale with dried gingival hemorrhages apparent between teeth" },
+    { "field": "exam[2]", "quote": "Additionally, mild hepatosplenomegaly was noted." },
+    {
+      "field": "exam[4]",
+      "quote": "Presenting initially as neurologically intact, the patient displayed a nonfocal lack of strength that resulted in a slow, but overall normal gait."
+    },
+    { "field": "exam[5]", "quote": "four hours after initial presentation to the ED, the patient developed difficulty with word-finding" },
+    {
+      "field": "exam[5]",
+      "quote": "He was otherwise neurologically intact, demonstrated by an ability to comprehend and repeat back in his own words what was conveyed to him."
+    },
+    { "field": "imaging[0]", "quote": "a repeat head CT at this time of neurological change was unremarkable" },
+    {
+      "field": "investigations[BUN], investigations[Creatinine], investigations[Bicarbonate], investigations[Anion gap]",
+      "quote": "blood urea nitrogen (BUN; 27mg/dL) and serum creatinine (1.4 mg/dL) levels were elevated, and his serum HCO2 was low (21mmol/L) with an anion gap of 14"
+    },
+    {
+      "field": "investigations[Hemoglobin], investigations[Hematocrit], investigations[Platelets], investigations[Haptoglobin]",
+      "quote": "hemoglobin (4.7 G/DL), hematocrit (14.2%), platelet count (10,000/mcl), and haptoglobin (<30 mg/dL) were all severely decreased"
+    },
+    {
+      "field": "investigations[LDH], investigations[Indirect bilirubin]",
+      "quote": "his LDH (1885 U/L) and indirect bilirubin (3.2 mg/dL) were significantly elevated"
+    },
+    {
+      "field": "investigations[Reticulocytes], investigations[Peripheral blood smear]",
+      "quote": "A peripheral blood smear (image) also revealed an abnormally high reticulocyte count (18.7%) and presence of schistocytes."
+    },
+    { "field": "investigations[Direct antiglobulin test]", "quote": "Direct antiglobulin test (DAT) was negative" },
+    {
+      "field": "investigations[PT], investigations[aPTT], investigations[INR]",
+      "quote": "prothrombin time (PT; 15.2 sec), partial thromboplastin time (PTT; 30.2 sec), and INR (1.2) were only slightly abnormal"
+    },
+    { "field": "management[0]", "quote": "A provisional diagnosis of TTP was made based on the clinical findings and PLASMIC score of 6." },
+    {
+      "field": "management[0]",
+      "quote": "The patient was admitted to the ICU and his serum was sent to an external laboratory for confirmation of insufficient ADAMTS13 activity."
+    },
+    {
+      "field": "management[1]",
+      "quote": "therapeutic plasma exchange, several units of red blood cell transfusions, and immunosuppressive corticosteroids were initiated immediately"
+    },
+    {
+      "field": "outcome",
+      "quote": "The following day, the patient had returned to his neurological baseline and no longer demonstrated word-finding difficulties."
+    },
+    { "field": "outcome", "quote": "His renal function also significantly improved during this time." },
+    {
+      "field": "investigations[ADAMTS13 activity], investigations[Anti-ADAMTS13 antibodies], diagnosis.primary",
+      "quote": "Results of the patient's serum sample showed an ADAMTS13 activity level less than 5% (normal =61% or higher) as well as antibodies against ADAMTS13."
+    },
+    { "field": "management[2]", "quote": "He continued to receive daily plasmapheresis and prednisone." },
+    {
+      "field": "management[3]",
+      "quote": "On day three of ICU admission, there was a significant concern of relapse due to the continued presence of ADAMTS13 antibodies; therefore, the patient was administered rituximab."
+    },
+    { "field": "outcome", "quote": "On day six of admission, the patient's platelet levels normalized to 150,000/mcl." },
+    {
+      "field": "outcome",
+      "quote": "After 10 days of admission, the patient was discharged as his hemoglobin and platelet levels remained stable off of plasmapheresis."
+    },
+    {
+      "field": "management[4]",
+      "quote": "In total, he received ten rounds of plasmapheresis, five units of red blood cells, and one dose of rituximab, with the intention of three additional doses"
+    },
+    {
+      "field": "management[4]",
+      "quote": "discharged with instructions to continue taking pantoprazole (40mg/day) while tapering off of prednisone (60mg) over the following 24 days"
+    },
+    {
+      "field": "diagnosis.primary",
+      "quote": "His diminished ADAMTS13 activity level (<5%) and the presence of autoantibodies against ADAMTS13 confirmed a diagnosis of TTP."
+    }
+  ],
+  "augmented": [
+    "presentation.meds: none reported; previously healthy",
+    "presentation.allergies: not reported",
+    "vitals.tempC: report says afebrile",
+    "vitals.gcs: GCS 15 inferred from 'neurologically intact' at presentation",
+    "ecg: not reported; sinus tachycardia consistent with the heart rate of 119/min",
+    "investigations[Chloride]: Na, K, Cl and WBC not reported; Na and Cl chosen so that Na − (Cl + HCO3⁻) equals the reported anion gap of 14"
+  ]
+}

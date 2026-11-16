@@ -1,0 +1,209 @@
+{
+  "id": "pmc-PMC11345038-wellens-pleuritic-chest-pain",
+  "title": "Months of pleuritic chest pain in a 28-year-old",
+  "category": "cardiology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC11345038",
+    "pmid": "39184807",
+    "doi": "10.7759/cureus.65438",
+    "citation": "Ledo T, Espinosa J, Lucerna A. Wellens Syndrome in a 28-Year-Old With Pleuritic Chest Pain. Cureus. 2024;16(7):e65438.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11345038/"
+  },
+  "patient": { "age": 28, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Intermittent diffuse chest pain, worse with deep breaths",
+    "hpi": "Four to five months of brief (2–5 min) episodes of diffuse chest pain, up to several times a day and seemingly at random: at rest, in the shower, while driving. The pain is worse with deep breaths, not brought on by exertion, and eases when he stretches out his chest wall and especially when he drinks water. The last episode was in the shower about 3.5 h before arrival; he is pain-free now. No heavy lifting or chest trauma, no recent illness, long-distance travel or procedures, no previous blood clots and no hormone therapy.",
+    "pmh": ["No past medical history"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"],
+    "social": "Smokes marijuana weekly; denies any other drug use.",
+    "family": "No known family history of sudden cardiac death; thinks his grandfather may have died of a heart attack."
+  },
+  "vitals": { "hr": 66, "sbp": 105, "dbp": 55, "rr": 20, "spo2": 99, "tempC": 36.8 },
+  "exam": [
+    "Healthy-appearing and in no discomfort",
+    "No chest wall tenderness; no pericardial rub, gallop or murmur",
+    "Lungs clear to auscultation bilaterally"
+  ],
+  "investigations": [
+    { "name": "High-sensitivity troponin (3 h after last pain)", "value": "220", "unit": "ng/L", "flag": "H" },
+    { "name": "High-sensitivity troponin (2 h later)", "value": "182", "unit": "ng/L", "flag": "H" },
+    { "name": "Platelets", "value": "526", "unit": "x10⁹/L", "flag": "H" },
+    { "name": "Complete blood count (other indices)", "value": "Within normal limits" },
+    { "name": "Basic metabolic panel", "value": "Within normal limits" },
+    { "name": "Erythrocyte sedimentation rate", "value": "Within normal limits" },
+    { "name": "Hepatic function panel", "value": "Within normal limits" },
+    { "name": "Urine toxicology screen", "value": "Negative" },
+    { "name": "Total cholesterol", "value": "225", "unit": "mg/dL", "flag": "H" },
+    { "name": "LDL cholesterol", "value": "152", "unit": "mg/dL", "flag": "H" }
+  ],
+  "imaging": [
+    { "modality": "Chest radiograph", "finding": "Unremarkable" },
+    { "modality": "CT angiography of the chest", "finding": "Unremarkable; no pulmonary embolism" },
+    { "modality": "Transthoracic echocardiogram", "finding": "Unremarkable; no pericardial effusion" },
+    { "modality": "Coronary angiography", "finding": "80% stenosis of the proximal left anterior descending artery (LAD) and 100% occlusion of the distal LAD" }
+  ],
+  "ecg": "Sinus rhythm with a prolonged PR interval (first-degree AV block); biphasic T waves in V3–V4; T-wave inversion in V3–V6, II, III and aVF",
+  "diagnosis": {
+    "primary": "Wellens syndrome (type A pattern) with non-ST-elevation myocardial infarction: 80% proximal LAD stenosis and 100% distal LAD occlusion",
+    "icd10": "I21.4",
+    "differentials": [
+      "Acute pericarditis or myopericarditis",
+      "Pulmonary embolism",
+      "Pseudo-Wellens pattern (cannabis-associated vasospasm, takotsubo)",
+      "Apical hypertrophic cardiomyopathy",
+      "Musculoskeletal chest wall pain"
+    ]
+  },
+  "management": [
+    "In the ED: oral colchicine and chewable aspirin 162 mg after a telephone cardiology consult that raised both pericarditis and acute coronary syndrome; kept nil by mouth for review in the morning",
+    "Admitted with a working diagnosis of pericardial effusion; CT angiography of the chest and echocardiogram were unremarkable",
+    "Cardiac catheterization, then clopidogrel 600 mg load and a heparin infusion (no bolus), with transfer to another hospital for PCI",
+    "PCI: balloon angioplasty and a drug-eluting stent to the proximal LAD; the distal occlusion was not treated",
+    "Discharged on low-dose aspirin, clopidogrel and atorvastatin"
+  ],
+  "outcome": "PCI of the proximal LAD with a drug-eluting stent was completed without complications; he continued dual antiplatelet therapy and a statin as an outpatient.",
+  "teachingPoints": [
+    "Biphasic (type A) or deeply inverted (type B) T waves in V2–V4, recorded while pain-free, mark critical proximal LAD stenosis and a high risk of extensive anterior infarction.",
+    "Young age, pleuritic or non-exertional pain and odd relieving factors do not outweigh an ischemic ECG; interpret the tracing on its own merits.",
+    "Pericarditis causes diffuse concave ST elevation with PR depression; its T waves invert only after the ST segments normalize, not as a pain-free biphasic pattern.",
+    "Troponin may be normal or elevated in Wellens syndrome; most cases present as NSTEMI.",
+    "Treat as high-risk NSTE-ACS: antithrombotic therapy and early invasive angiography; stress testing can provoke infarction."
+  ],
+  "questions": [
+    {
+      "kind": "interpretation",
+      "q": "What does this ECG pattern most strongly suggest?",
+      "extra": "ECG (pain-free): sinus rhythm, first-degree AV block, biphasic T waves in V3–V4, T-wave inversion in V3–V6, II, III and aVF. hs-troponin 220 ng/L, then 182 ng/L 2 h later.",
+      "options": [
+        "Acute pericarditis evolving into its T-wave inversion stage",
+        "Right ventricular strain from acute pulmonary embolism",
+        "Critical proximal LAD stenosis with spontaneous reperfusion",
+        "Benign persistent juvenile T-wave pattern"
+      ],
+      "answer": 2,
+      "explanation": "Pain-free biphasic T waves in V3–V4 (Wellens type A) indicate a critical proximal LAD lesion with intermittent reperfusion. Pericarditis causes diffuse concave ST elevation with PR depression, and its T waves invert only after the ST segments have normalized; a juvenile pattern does not come with a raised troponin."
+    },
+    {
+      "kind": "management",
+      "q": "Which management plan is most appropriate?",
+      "extra": "ECG: biphasic T waves in V3–V4, T-wave inversion in V3–V6, II, III, aVF; hs-troponin 220 then 182 ng/L. CT angiography of the chest and echocardiogram normal. Pain-free and hemodynamically stable.",
+      "options": [
+        "Antithrombotic therapy and early invasive coronary angiography",
+        "Exercise stress test before deciding on angiography",
+        "Colchicine and ibuprofen with outpatient cardiology follow-up",
+        "Coronary CT angiography in a few weeks if the pain recurs"
+      ],
+      "answer": 0,
+      "explanation": "This is NSTE-ACS with high-risk features (NSTEMI on hs-troponin, ischemic T-wave pattern); the 2023 ESC ACS guideline advises antiplatelet therapy, anticoagulation and consideration of an early invasive strategy within 24 h. A stress test is contraindicated in a Wellens pattern because it can precipitate an extensive anterior infarction or arrhythmia."
+    },
+    {
+      "kind": "risk",
+      "q": "If he were managed medically without coronary angiography, what would he be most at risk of in the following weeks?",
+      "extra": "Working diagnosis: Wellens pattern (biphasic T waves in V3–V4) with a raised hs-troponin.",
+      "options": [
+        "Constrictive pericarditis",
+        "Chronic thromboembolic pulmonary hypertension",
+        "Complete heart block from the PR prolongation",
+        "Extensive anterior wall myocardial infarction"
+      ],
+      "answer": 3,
+      "explanation": "The pattern marks an unstable, critical proximal LAD lesion. In the original series by de Zwaan and Wellens, about three-quarters of patients managed medically went on to an extensive anterior infarction within weeks, which is why early revascularization is the rule."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint",
+      "quote": "A 28-year-old male presented to the emergency department (ED) with a complaint of four to five months of intermittent, diffuse chest pain"
+    },
+    {
+      "field": "presentation.chiefComplaint, presentation.hpi",
+      "quote": "lasted for two to five minutes, was worse with deep breaths, was non-exertional, and improved when stretching out his chest wall and especially with drinking water"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "His last episode occurred while in the shower and was three and a half hours prior to his presentation to the ED."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "the pain occurred up to several times per day and seemingly randomly such as while in the shower, while at rest, and while driving"
+    },
+    { "field": "presentation.hpi", "quote": "He had not been lifting anything heavy recently and denied any recent trauma to his chest wall." },
+    {
+      "field": "presentation.hpi",
+      "quote": "He denied any recent illnesses, recent long-distance travel, recent procedures, any history of blood clots, or having undergone hormone therapy."
+    },
+    { "field": "presentation.pmh[0]", "quote": "He had no past medical history." },
+    {
+      "field": "presentation.family",
+      "quote": "He denied any known family history of sudden cardiac death but believed his grandfather may have died of a heart attack."
+    },
+    { "field": "presentation.social", "quote": "He denied any drug use besides smoking marijuana weekly." },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.tempC, vitals.rr",
+      "quote": "blood pressure 105/55 mmHg, heart rate 66 beats per minute, temperature 98.3°F, respiratory rate 20 breaths per minute"
+    },
+    { "field": "exam[0]", "quote": "and he was not in any discomfort" },
+    { "field": "exam[0], exam[1]", "quote": "A physical exam showed a healthy-appearing male without chest wall tenderness, rubs, gallops, or murmurs." },
+    { "field": "exam[2]", "quote": "The lungs were clear to auscultation bilaterally." },
+    {
+      "field": "ecg",
+      "quote": "The ECG showed normal sinus rhythm, had a prolonged PR interval indicative of first-degree atrioventricular block, and showed biphasic T-wave in V3 and V4"
+    },
+    { "field": "ecg", "quote": "along with T wave inversions in V3-V6, II, III, and aVF" },
+    {
+      "field": "investigations[Platelets], investigations[3], investigations[4]",
+      "quote": "His complete blood count and his basic metabolic panel were within normal limits except for an elevated platelet count of 526 B/L."
+    },
+    { "field": "investigations[7]", "quote": "His urine toxicology was negative." },
+    { "field": "investigations[5], investigations[6]", "quote": "His sedimentation rate and hepatic function panel were within normal limits." },
+    {
+      "field": "investigations[0], investigations[1]",
+      "quote": "high sensitivity troponin of 220 ng/L (three hours after the last episode of chest pain) and a repeat high-sensitivity troponin of 182 ng/L"
+    },
+    { "field": "investigations[8], investigations[9]", "quote": "Total cholesterol was 225mg/dL and LDL was 152mg/dL." },
+    { "field": "imaging[0]", "quote": "The chest X-ray was unremarkable." },
+    {
+      "field": "management[0]",
+      "quote": "Cardiology was consulted over the phone and they expressed concern for pericarditis and acute coronary syndrome (ACS)."
+    },
+    {
+      "field": "management[0]",
+      "quote": "The patient was given oral colchicine, a chewable aspirin tablet of 162 mg, and told to not eat until he was seen by cardiology"
+    },
+    {
+      "field": "imaging[1], management[1]",
+      "quote": "A computerized tomography angiogram (CTA) scan of the chest was completed with contrast for concern of pericarditis and pulmonary embolism. The results of this study were unremarkable."
+    },
+    { "field": "management[1]", "quote": "The patient was admitted to the hospital for presumed pericardial effusion" },
+    { "field": "imaging[2], management[1]", "quote": "A transthoracic echocardiogram was unremarkable and without pericardial effusion." },
+    {
+      "field": "imaging[3], management[2]",
+      "quote": "cardiac catheterization, which showed 80% occlusion of the proximal left anterior descending (LAD) coronary artery … and 100% distal occlusion of the LAD"
+    },
+    {
+      "field": "management[2]",
+      "quote": "The patient was given clopidogrel with a load of 600 mg and started on a titratable heparin drip without bolus and transferred to another hospital for PCI."
+    },
+    {
+      "field": "management[3], outcome",
+      "quote": "Two balloons were used at the proximal LAD site and a drug-eluting stent was placed at the same location. The distal occlusion was not intervened on."
+    },
+    {
+      "field": "management[4], outcome",
+      "quote": "The procedure occurred without complications. Following the intervention, the patient was started on low-dose aspirin, clopidogrel, and atorvastatin to be continued outpatient."
+    },
+    {
+      "field": "diagnosis.primary",
+      "quote": "with elevated troponin and an ECG showing Wellens syndrome; he was found to have myocardial infarction with 80% proximal left anterior descending (LAD) coronary artery occlusion"
+    },
+    { "field": "diagnosis.primary", "quote": "our patient presented with the rarer and more specific form of Wellens syndrome: type A" }
+  ],
+  "augmented": [
+    "vitals.spo2: not reported; a normal room-air value was added",
+    "presentation.meds: none reported; consistent with no past medical history",
+    "presentation.allergies: not reported"
+  ]
+}

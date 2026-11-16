@@ -1,0 +1,156 @@
+/* ───────── observe mode: the AI resident feed (Observer.tsx) and the menu card (WatchAi.tsx) ───────── */
+
+/* while watching, pages and results live in the feed: keep the right edge for it */
+.game.observing .hud-pages { display: none; }
+.game.observing .toasts { right: 432px; }
+
+.seg.small button { padding: 5px 8px; font-size: 11.5px; white-space: nowrap; }
+
+.ob-panel {
+  right: 12px; top: 70px; bottom: 12px; width: 408px;
+  display: flex; flex-direction: column; z-index: 12;
+  pointer-events: auto; overflow: hidden;
+  /* a reading panel: speech bubbles and name tags in the scene behind it shouldn't show through the text */
+  background: rgba(10, 16, 20, 0.92);
+}
+.ob-head { padding: 12px 14px 10px; border-bottom: 1px solid var(--ac-line); display: flex; flex-direction: column; gap: 8px; }
+.ob-title { display: flex; gap: 10px; align-items: center; }
+.ob-name { font-weight: 700; font-size: 14.5px; }
+.ob-sub { font-size: 11.5px; margin-top: 1px; }
+.ob-dot { width: 10px; height: 10px; border-radius: 50%; flex: none; background: #6b7b82; }
+.ob-dot.live { background: var(--ac-ok); box-shadow: 0 0 0 0 rgba(63, 185, 80, 0.6); animation: ob-pulse 1.8s infinite; }
+@keyframes ob-pulse { 70% { box-shadow: 0 0 0 7px rgba(63, 185, 80, 0); } 100% { box-shadow: 0 0 0 0 rgba(63, 185, 80, 0); } }
+.ob-now { font-size: 12.5px; color: var(--ac-text-dim); }
+.ob-now .mono { color: #e9fbff; font-weight: 700; margin-right: 4px; }
+.ob-activity { margin-top: 3px; font-size: 13.5px; color: #bfe9e2; font-weight: 600; }
+.ob-controls { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.ob-hint { font-size: 11.5px; }
+.ob-error { font-size: 12px; color: #ffc2c4; background: rgba(229, 72, 77, 0.12); border: 1px solid rgba(229, 72, 77, 0.4); border-radius: 8px; padding: 6px 8px; }
+
+.ob-filter { display: flex; justify-content: space-between; align-items: center; padding: 8px 14px 6px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; }
+.ob-feed { flex: 1; overflow-y: auto; padding: 2px 10px 14px 12px; }
+.ob-empty { padding: 18px 4px; font-size: 13px; }
+.ob-latest { position: absolute; right: 22px; bottom: 20px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5); }
+
+.ob-item { display: grid; grid-template-columns: 40px 18px 1fr; gap: 4px; padding: 3px 0; font-size: 12.5px; line-height: 1.45; align-items: baseline; }
+.ob-time { font-size: 11px; color: var(--ac-text-dim); }
+.ob-time.same { opacity: 0.35; }
+.ob-icon { text-align: center; font-size: 12px; color: var(--ac-text-dim); }
+.ob-text { white-space: pre-wrap; overflow-wrap: anywhere; }
+.ob-bed { display: inline-block; font-size: 10.5px; font-weight: 700; padding: 0 5px; margin-right: 6px; border-radius: 4px; color: #fff; vertical-align: 1px; }
+.ob-bed.esi-3 { color: #1b1300; }
+
+.ob-item.k-thought { font-size: 13.5px; color: #f2fbff; padding: 6px 0 3px; }
+.ob-item.k-thought .ob-text { border-left: 2px solid var(--ac-accent); padding-left: 8px; }
+.ob-item.k-action { color: #cfe3ea; }
+.ob-item.k-result { color: var(--ac-text-dim); }
+.ob-item.k-result .ob-text { font-style: italic; }
+.ob-item.k-event { color: #d9d2b8; }
+.ob-item.k-system { color: var(--ac-text-dim); font-style: italic; }
+.ob-item.k-reflection { background: rgba(217, 74, 56, 0.1); border: 1px solid rgba(217, 74, 56, 0.35); border-radius: 8px; padding: 7px 6px; margin: 6px 0; color: #fff1ee; }
+.ob-item.t-bad { color: #ffb3b5; }
+.ob-item.t-warn { color: #ffd98f; }
+.ob-item.t-good { color: #b9f2c7; }
+
+.ob-end { margin: 10px 12px 0; padding: 10px 12px; border-radius: 10px; border: 1px solid rgba(217, 74, 56, 0.45); background: rgba(217, 74, 56, 0.08); display: flex; flex-direction: column; gap: 8px; max-height: 45%; overflow-y: auto; flex: none; }
+.ob-end-head { display: flex; gap: 10px; align-items: center; }
+.ob-end-head > div:nth-child(2) { flex: 1; font-size: 12.5px; }
+.grade.small { width: 42px; height: 42px; border-radius: 10px; font-size: 22px; flex: none; }
+.ob-cases { margin: 0; padding: 0; list-style: none; font-size: 12px; display: flex; flex-direction: column; gap: 3px; }
+.ob-case-bed { font-weight: 700; }
+.ob-reflection { font-size: 12.5px; }
+.ob-reflection p { margin: 4px 0 0; white-space: pre-wrap; line-height: 1.5; }
+.ob-links { display: flex; gap: 14px; font-size: 12px; }
+.ob-links a { color: #9fdcff; }
+
+/* the menu card */
+.watch-ai { border: 1px solid rgba(217, 74, 56, 0.45); border-radius: 14px; padding: 14px 16px; background: rgba(217, 74, 56, 0.06); display: flex; flex-direction: column; gap: 10px; }
+.embodied-config, .embodied-watch header { display: flex; gap: 12px; justify-content: space-between; flex-wrap: wrap; }
+.embodied-config label { flex: 1; min-width: 90px; }
+.embodied-config input { width: 100%; }
+.embodied-watch { height: 100dvh; background: #101b20; color: #e7f2f2; display: grid; grid-template-rows: auto minmax(0,1fr) auto; }
+.embodied-watch header, .embodied-watch footer { padding: 12px 20px; align-items: center; }
+.embodied-watch a { color: #9fdcff; }
+.embodied-view { display: grid; place-items: center; background: #05090a; overflow: hidden; }
+.embodied-view img { width: 100%; height: 100%; object-fit: contain; min-height: 0; }
+.watch-ai h3 { margin: 0; font-size: 18px; }
+.watch-ai p { margin: 0; font-size: 13px; color: #c6d4d9; line-height: 1.5; }
+.watch-ai label { gap: 5px; }
+.watch-ai select { background: rgba(0, 0, 0, 0.35); border: 1px solid var(--ac-line); border-radius: 9px; color: var(--ac-text); padding: 8px 10px; font-size: 14px; }
+.watch-ai .note { font-size: 12px; color: var(--ac-text-dim); line-height: 1.5; }
+/* an offline server: the doctor is the scripted demo (the same warning look as Case Duel's) */
+.watch-offline { font-size: 13.5px; line-height: 1.45; color: #ffe2b0; background: rgba(242, 177, 52, 0.1); border: 1px solid rgba(242, 177, 52, 0.55); border-radius: 10px; padding: 9px 12px; }
+.watch-ai .err { font-size: 12.5px; color: #ffc2c4; }
+.watch-ai .now { font-size: 13px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.watch-ai .seg button:disabled { opacity: 0.4; cursor: default; }
+
+/* minimize / maximize (obPanel.ts): wide for reading, or a chip at the screen edge; gestures as on the tablet */
+.ob-panel { transition: width 0.22s ease, transform 0.24s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.22s ease; }
+.ob-panel.max { width: min(760px, 58vw); background: rgba(10, 16, 20, 0.95); z-index: 14; }
+.ob-panel.max .ob-item { font-size: 13.5px; }
+.ob-panel.max .ob-item.k-thought { font-size: 14.5px; }
+.ob-panel.min { display: none; }
+.ob-panel.tucking { transform: translate(30%, 40%) scale(0.6); opacity: 0; pointer-events: none; }
+.ob-title-text { flex: 1; min-width: 0; }
+.ob-winbtns { display: flex; gap: 4px; align-self: flex-start; flex: none; }
+.ob-winbtn { width: 28px; height: 26px; border-radius: 7px; border: 1px solid var(--ac-line); background: rgba(255, 255, 255, 0.04); color: var(--ac-text); font-size: 14px; line-height: 1; cursor: pointer; display: grid; place-items: center; padding: 0; }
+.ob-winbtn:hover { background: rgba(255, 255, 255, 0.12); }
+
+.ob-dock {
+  position: absolute; right: 0; top: 70px; z-index: 13;
+  display: flex; align-items: center; gap: 10px; max-width: min(430px, 72vw);
+  padding: 9px 14px 9px 13px; border-radius: 14px 0 0 14px;
+  border: 1px solid var(--ac-line); border-right: 0;
+  background: var(--ac-glass-2); color: var(--ac-text); font: inherit; text-align: left; cursor: pointer;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+  transform: translateX(4px); transition: transform 0.15s ease; animation: dock-in 0.26s ease-out;
+}
+.ob-dock:hover { transform: translateX(0); }
+.ob-dock-text { display: flex; flex-direction: column; min-width: 0; font-size: 12.5px; line-height: 1.3; }
+.ob-dock-text b { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ob-dock-now { color: #bfe9e2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ob-dock-n { flex: none; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: rgba(217, 74, 56, 0.22); color: #ffb4a8; }
+.ob-dock-dot { position: absolute; top: -4px; left: -4px; width: 11px; height: 11px; border-radius: 50%; background: #f2b134; box-shadow: 0 0 0 2px #14171a; animation: dock-pulse 1.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .ob-dock, .ob-dock-dot { animation: none; } }
+
+/* the rest of the HUD makes room for the panel at its size (Observer.tsx sets html[data-ob-panel]) */
+html[data-ob-panel='min'] .game.observing .toasts { right: 16px; }
+html[data-ob-panel='max'] .game.observing .toasts { right: calc(min(760px, 58vw) + 24px); }
+html[data-ob-panel='normal'] .game.observing .tablet { right: 436px; }
+html[data-ob-panel='max'] .game.observing .tablet { right: calc(min(760px, 58vw) + 28px); }
+html[data-ob-panel='normal'] .game.observing .tablet-dock { right: 420px; }
+html[data-ob-panel='max'] .game.observing .tablet-dock { right: calc(min(760px, 58vw) + 12px); }
+@media (max-width: 1240px) {
+  html[data-ob-panel='max'] .game.observing .tablet { right: 26px; }
+}
+
+/* the watcher's tablet (WatcherTablet.tsx): off the record */
+.wt-note { margin: 0 0 8px; padding: 7px 10px; border-radius: 8px; font-size: 12px; line-height: 1.4; color: #d9eef3; background: rgba(92, 200, 255, 0.08); border: 1px solid rgba(92, 200, 255, 0.3); }
+.wt-tabs { margin: 0 0 8px; }
+.wt-error { font-size: 12px; color: #f1d18a; margin: 0 2px; }
+.wt-ai-note { font-size: 11.5px; margin: 0 2px; }
+.watcher-tablet .tablet-status span:nth-child(2) { color: #9fdcff; }
+.wt-dock.tablet-dock .td-text .dim { color: #9fdcff; }
+
+/* reading the board and charts while watching: read-only (the server refuses spectators' actions too) */
+/* (every primary AgentChart button writes: new order, new note, add to pending) */
+.game.observing .ehr-neworder, .game.observing .ehr-root .ehr-btn.primary { display: none; }
+.game.observing .ehr-top-right::before { content: '👁 Read-only · watching the AI doctor'; font-size: 11.5px; padding: 3px 10px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.25); color: #e7f2f2; white-space: nowrap; }
+
+@media (max-width: 900px) {
+  .ob-panel { left: 12px; right: 12px; width: auto; top: auto; height: 46vh; }
+  .ob-panel.max { width: auto; height: 80vh; }
+  .ob-dock { top: auto; bottom: 12px; }
+  .game.observing .toasts { right: 16px; bottom: calc(46vh + 24px); }
+  html[data-ob-panel='min'] .game.observing .toasts { bottom: 70px; }
+  html[data-ob-panel] .game.observing .tablet { right: 26px; }
+  html[data-ob-panel] .game.observing .tablet-dock { right: 0; }
+}
+
+.embodied-caption { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+.embodied-log { overflow: auto; max-height: 25vh; font-size: 0.9rem; margin-top: 8px; }
+.embodied-log ol { margin: 4px 0; list-style: none; padding: 0; }
+.embodied-log time { font-variant-numeric: tabular-nums; color: #a6b8be; }
+.embodied-view .stream-retry { display: none; }
+.embodied-view img[hidden] { display: none; }
+.embodied-view img[hidden] + .stream-retry { display: block; }

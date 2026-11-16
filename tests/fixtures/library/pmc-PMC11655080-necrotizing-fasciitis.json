@@ -1,0 +1,104 @@
+{
+  "id": "pmc-PMC11655080-necrotizing-fasciitis",
+  "title": "Back within 12 hours with a spreading thigh rash",
+  "category": "infectious",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC11655080",
+    "pmid": "39697904",
+    "doi": "10.7759/cureus.73917",
+    "citation": "Merola R, Negri C, Merola A, et al. Necrotizing Fasciitis and Streptococcal Toxic Shock Syndrome: A Case Report. Cureus. 2024;16(11):e73917.",
+    "license": "CC BY",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11655080/"
+  },
+  "patient": { "age": 49, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Worsening thigh pain and a spreading rash, now short of breath",
+    "hpi": "Seen in this ED about 12 hours ago with a swollen, red, tender medial left thigh; pain there and in the groin had begun three days before the rash appeared. Ultrasound then showed marked subcutaneous thickening with a fluid layer reaching the superficial fascia. She was given ketorolac 30 mg with modest relief, declined admission and was referred to her GP. She returns with more intense pain, blood-filled blisters spreading over the medial thigh and groin, a dark hemorrhagic patch on the outer lower leg, and shortness of breath.",
+    "pmh": ["Hypertension", "Psoriasis"],
+    "meds": [],
+    "allergies": []
+  },
+  "vitals": { "hr": 108, "sbp": 110, "dbp": 60, "rr": 24, "spo2": 98, "tempC": 37.2, "gcs": 15 },
+  "exam": ["Hemorrhagic bullae over the medial left thigh and groin", "Necrotic, hemorrhagic lesion on the lateral side of the left leg"],
+  "investigations": [
+    { "name": "C-reactive protein (first visit)", "value": "35.78", "unit": "mg/dL", "flag": "H" },
+    { "name": "Creatinine (first visit)", "value": "1.3", "unit": "mg/dL", "flag": "H" },
+    { "name": "Creatinine (return visit)", "value": "2.6", "unit": "mg/dL", "flag": "H" },
+    { "name": "Procalcitonin", "value": "31.50", "unit": "ng/mL", "flag": "H" },
+    { "name": "INR", "value": "1.74", "flag": "H" },
+    { "name": "pH (arterial)", "value": "7.23", "flag": "L" },
+    { "name": "PaCO2", "value": "19", "unit": "mm Hg", "flag": "L" },
+    { "name": "Bicarbonate", "value": "8.0", "unit": "mmol/L", "flag": "critical" },
+    { "name": "Lactate", "value": "9.8", "unit": "mmol/L", "flag": "critical" }
+  ],
+  "imaging": [{ "modality": "Soft-tissue ultrasound of the thigh (first visit)", "finding": "Marked thickening of the subcutaneous tissue with a fluid layer extending to the superficial fascial planes" }],
+  "diagnosis": {
+    "primary": "Necrotizing fasciitis with streptococcal toxic shock syndrome (Streptococcus pyogenes)",
+    "differentials": ["Cellulitis", "Deep vein thrombosis", "Erysipelas", "Pyomyositis"]
+  },
+  "management": [
+    "Meropenem, vancomycin and anidulafungin",
+    "Septic shock about an hour after admission to the emergency medicine ward (BP 65/40 mm Hg): intubated and given a noradrenaline infusion at 0.8 µg/kg/min"
+  ],
+  "outcome": "Refractory shock in the ICU, then asystole despite advanced life support; she died. Autopsy found Streptococcus pyogenes in the pleural and pericardial fluid.",
+  "teachingPoints": [
+    "Pain out of proportion, rapid spread, hemorrhagic bullae and skin necrosis are late signs of a necrotizing soft-tissue infection; a patient who returns within hours with worse pain after a 'cellulitis' visit has one until proven otherwise.",
+    "Necrotizing fasciitis is a surgical emergency: early debridement plus broad-spectrum antibiotics with clindamycin; no debridement is reported in this case.",
+    "Fluid tracking along the fascia on ultrasound is an early clue."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "extra": "Creatinine 2.6 mg/dL (1.3 twelve hours ago), procalcitonin 31.50 ng/mL, INR 1.74. Arterial gas: pH 7.23, PaCO2 19 mm Hg, HCO3 8.0 mmol/L, lactate 9.8 mmol/L.",
+      "options": ["Cellulitis with an NSAID drug reaction", "Deep vein thrombosis with phlegmasia", "Necrotizing fasciitis with toxic shock", "Erysipelas"],
+      "answer": 2,
+      "explanation": "Rapidly spreading pain, hemorrhagic bullae and skin necrosis with tachycardia, acute kidney injury, coagulopathy and severe lactic acidosis point to a necrotizing soft-tissue infection with streptococcal toxic shock. Fluid tracking to the fascia on the first ultrasound was an early clue."
+    },
+    {
+      "kind": "next-step",
+      "q": "Besides resuscitation and broad-spectrum antibiotics, what is the most important next step?",
+      "options": ["Emergency surgical exploration and debridement", "MRI of the thigh to confirm fascial involvement", "Hyperbaric oxygen therapy", "Repeat ultrasound in 6 hours"],
+      "answer": 0,
+      "explanation": "Necrotizing fasciitis is a surgical emergency: early, aggressive debridement is the definitive treatment and every hour of delay raises mortality (IDSA 2014 skin and soft-tissue infection guideline). Imaging must not delay surgery in an unstable patient; hyperbaric oxygen is at most an adjunct."
+    },
+    {
+      "kind": "management",
+      "q": "Which antibiotic should be added to suppress streptococcal toxin production?",
+      "options": ["Gentamicin", "Metronidazole", "Clindamycin", "Doxycycline"],
+      "answer": 2,
+      "explanation": "Clindamycin inhibits bacterial protein synthesis and so suppresses streptococcal and staphylococcal toxin production whatever the bacterial load; IDSA recommends penicillin plus clindamycin for group A streptococcal necrotizing fasciitis. This patient received meropenem, vancomycin and anidulafungin; Streptococcus pyogenes was found at autopsy."
+    }
+  ],
+  "evidence": [
+    { "field": "patient", "quote": "This present case involves a 49-year-old female patient" },
+    { "field": "presentation.chiefComplaint, presentation.hpi", "quote": "admitted to the emergency department for a rash on the medial aspect of her left thigh in the context of worsening pain symptoms" },
+    { "field": "presentation.hpi", "quote": "Approximately 12 hours after discharge, the case was readmitted to the emergency department due to worsening of the clinical picture" },
+    { "field": "presentation.hpi", "quote": "in the same area and in the ipsilateral inguinal region that had started three days before the onset of the rash" },
+    { "field": "presentation.hpi", "quote": "swelling and reddening of the medial aspect of the left thigh and pain on palpation" },
+    { "field": "presentation.hpi, imaging[0]", "quote": "extensive and marked thickening of the subcutis, with contextual, fluid stratum extending to the superficial fascial planes unharmed" },
+    { "field": "presentation.hpi", "quote": "The patient was given ketorolac 30 mg to relieve pain symptoms with modest benefit." },
+    { "field": "presentation.hpi", "quote": "she was referred to her general practitioner" },
+    { "field": "presentation.pmh", "quote": "the patient reported only arterial hypertension and psoriasis" },
+    { "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.rr", "quote": "blood pressure (BP) of 110/60 mmHg, heart rate of 108 beats per minute, respiratory rate of 24 beats per minute" },
+    { "field": "vitals.spo2", "quote": "arterial oxygen saturation (SaO2) of 98%" },
+    { "field": "vitals.gcs", "quote": "with a Glasgow Coma Scale (GCS) of 15" },
+    { "field": "exam[0]", "quote": "the appearance of hemorrhagic bullous lesions on the medial side and in the inguinal area of the left thigh" },
+    { "field": "exam[1], presentation.chiefComplaint", "quote": "the appearance of a necrotic hemorrhagic lesion on the lateral side of the ipsilateral leg (Figures 1-2) and dyspnea" },
+    { "field": "investigations[0]", "quote": "C-reactive protein Increased (35.78 mg/dl)" },
+    { "field": "investigations[1]", "quote": "Creatinine Increased (1.3 mg/dl)" },
+    { "field": "investigations[2]", "quote": "Creatinine 2.6 mg/dl" },
+    { "field": "investigations[3]", "quote": "Procalcitonin (PCT) 31.50 ng/ml" },
+    { "field": "investigations[4]", "quote": "Prothrombin time (PT), INR 1.74" },
+    { "field": "investigations[5], investigations[6], investigations[7], investigations[8]", "quote": "metabolic acidosis was found (pH, 7.23; PaCO2, 19 mmHg; HCO3, 8.0 mmol/L; Lac, 9.8 mmol/L)" },
+    { "field": "diagnosis.primary, outcome", "quote": "The autopsy revealed the presence of S. pyogenes in the pleural and pericardial fluid." },
+    { "field": "management[0]", "quote": "started on antibiotic therapy with meropenem (Merrem), vancomycin and anidulafungin" },
+    { "field": "management[1]", "quote": "About an hour after being admitted to the emergency medicine ward, the patient presented a clinical picture of septic shock" },
+    { "field": "management[1]", "quote": "marked hypotension (65/40 mmHg)" },
+    { "field": "management[1]", "quote": "the patient was intubated and subjected to invasive mechanical ventilation" },
+    { "field": "management[1]", "quote": "The circulation was supported by noradrenaline in continuous infusion (0.8 micrograms/kg/min)." },
+    { "field": "outcome", "quote": "asystole ensued, which persisted despite the advanced cardiopulmonary resuscitation maneuvers carried out, and therefore, death was established" }
+  ],
+  "augmented": ["vitals.tempC: not reported at either ED visit; a value was added", "presentation.meds: not reported", "presentation.allergies: not reported", "presentation.hpi: 'declined admission' paraphrases a garbled sentence ('the patient refused admission')"]
+}

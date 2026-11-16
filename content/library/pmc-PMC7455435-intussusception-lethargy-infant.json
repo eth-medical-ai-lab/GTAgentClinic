@@ -1,0 +1,153 @@
+{
+  "id": "pmc-PMC7455435-intussusception-lethargy-infant",
+  "title": "A drowsy, limp 5-month-old with stiffening spells",
+  "category": "pediatrics",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC7455435",
+    "pmid": "32884797",
+    "doi": "10.1002/ccr3.2932",
+    "citation": "Salloum S. Altered mental status in a 5-month-old boy. Clin Case Rep. 2020;8(8):1571-1573.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7455435/"
+  },
+  "patient": { "age": 0.42, "ageMonths": 5, "sex": "M", "arrival": "transfer" },
+  "presentation": {
+    "chiefComplaint": "Sudden drowsiness and limpness",
+    "hpi": "Previously healthy and well earlier in the day: feeding normally, no fever, vomiting or diarrhea, and no sick contacts. He suddenly became drowsy and limp with shallow breathing for about a minute, then alternated between bouts of crying and sleepiness. At the referring ED he had two episodes of body stiffening and unresponsiveness, each about 30 seconds, treated as seizures with IV levetiracetam; glucose there was normal. He vomited once (non-bilious) during the transfer.",
+    "pmh": ["Born at term at home without prenatal or postnatal care", "Unimmunized (parental choice)", "Growth and development appropriate for age"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 117, "sbp": 98, "dbp": 57, "rr": 36, "spo2": 99, "tempC": 37.1 },
+  "exam": [
+    "Pale and somnolent",
+    "Pupils 3 mm and reactive to light; anterior fontanelle soft and flat",
+    "Abdomen soft and non-distended, no palpable mass or organomegaly",
+    "Capillary refill time <2 s",
+    "No signs of trauma; rest of the examination unremarkable",
+    "5 h after admission: passes a bloody stool"
+  ],
+  "investigations": [
+    { "name": "Glucose (referring ED)", "value": "102", "unit": "mg/dL" },
+    { "name": "Electrolytes, glucose and renal function", "value": "Normal" },
+    { "name": "White blood cell count", "value": "14 800", "unit": "/µL" },
+    { "name": "Rest of complete blood count", "value": "Unremarkable" },
+    { "name": "Cerebrospinal fluid analysis", "value": "Unremarkable" },
+    { "name": "Urine toxicology", "value": "Unremarkable" }
+  ],
+  "imaging": [
+    { "modality": "CT head (non-contrast)", "finding": "Unremarkable" },
+    { "modality": "Abdominal ultrasound (after the bloody stool)", "finding": "Target sign of a large ileocolic intussusception" }
+  ],
+  "ecg": "Unremarkable",
+  "diagnosis": {
+    "primary": "Idiopathic ileocolic intussusception with lethargy and seizure-like episodes, recurring three times after pneumatic reduction",
+    "icd10": "K56.1",
+    "differentials": [
+      "Bacterial meningitis or encephalitis",
+      "Sepsis",
+      "Accidental or non-accidental head trauma",
+      "Hypoglycemia or another metabolic derangement",
+      "Toxic ingestion"
+    ]
+  },
+  "management": [
+    "Empirical IV antibiotics and an EEG; admitted for observation",
+    "Pneumatic (air) enema reduction: the intussusception extended to the sigmoid colon",
+    "Three recurrences after enema reduction; diagnostic laparoscopy with manual reduction, no pathological lead point found"
+  ],
+  "outcome": "Tolerated surgery well and went home the next day; healthy at the 1-month follow-up.",
+  "teachingPoints": [
+    "In infants, intussusception can present with lethargy, pallor or seizure-like spells before any abdominal sign; the classic triad of colicky pain, palpable mass and bloody stool is present in only about a third of cases.",
+    "In an infant with unexplained lethargy, once infection, trauma, metabolic and toxic causes are being addressed, check the stool for blood and image the abdomen.",
+    "Ultrasound is the first-line test (target or doughnut sign; sensitivity and specificity close to 100% in experienced hands); plain films are insensitive.",
+    "Air or hydrostatic enema reduction is first-line in a stable child without peritonitis or perforation, with pediatric surgery aware; failed reduction or repeated recurrence needs surgery.",
+    "Pathological lead points are uncommon in infants and more frequent after about 3 years of age; recurrences prompt a search for one."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "extra": "Head CT, CSF analysis, ECG and urine toxicology unremarkable; electrolytes, glucose and renal function normal; WBC 14 800/µL. Five hours after admission he passes a bloody stool.",
+      "options": ["Meningoencephalitis", "Abusive head trauma", "Ileocolic intussusception", "Hemolytic uremic syndrome"],
+      "answer": 2,
+      "explanation": "Sudden limpness, pallor and episodic crying, then vomiting and a bloody stool, in an infant with a normal neurological, infectious and toxic workup points to intussusception; lethargy can precede abdominal signs. Normal CSF and head CT make meningoencephalitis and abusive head trauma unlikely, and normal renal function argues against HUS."
+    },
+    {
+      "kind": "next-step",
+      "q": "Which imaging test should be done first?",
+      "extra": "Head CT, CSF analysis and urine toxicology unremarkable. Five hours after admission he passes a bloody stool.",
+      "options": ["Plain abdominal radiograph", "Abdominal ultrasound", "CT abdomen with IV contrast", "Diagnostic contrast enema"],
+      "answer": 1,
+      "explanation": "Ultrasound is the first-line test for suspected intussusception: the target sign has sensitivity and specificity close to 100% in experienced hands, without radiation. Plain films are insensitive, CT is rarely needed, and the enema is now mainly therapeutic."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate treatment?",
+      "extra": "Ultrasound: target sign of a large ileocolic intussusception. No clinical sign of perforation or peritonitis.",
+      "options": [
+        "Emergency laparotomy and manual reduction",
+        "IV antibiotics and repeat ultrasound in 12 hours",
+        "Nasogastric decompression and IV naloxone",
+        "Image-guided pneumatic or hydrostatic enema reduction"
+      ],
+      "answer": 3,
+      "explanation": "In a stable child without peritonitis or perforation, enema reduction under fluoroscopic or ultrasound guidance is first-line, with pediatric surgery informed in case it fails or perforates. Surgery is for failed reduction, perforation, peritonitis or instability; this infant needed laparoscopy only after three recurrences."
+    }
+  ],
+  "evidence": [
+    { "field": "patient", "quote": "A 5-month-old previously healthy boy presented to outside emergency department (ED) with sudden onset of lethargy" },
+    {
+      "field": "presentation.chiefComplaint, presentation.hpi",
+      "quote": "being drowsy and limp with shallow breathing … lasting for one minute followed by intermittent crying and sleepiness"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "He was in his normal state of health earlier that day, feeding well, and had no fever, vomiting, or diarrhea. There were no known sick contacts."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "He had two episodes of body stiffness and unresponsiveness at the outside ED, thought to be seizures in nature, each one lasted for about 30 seconds."
+    },
+    {
+      "field": "presentation.hpi, patient.arrival",
+      "quote": "He received intravenous (IV) levetiracetam and was transferred to our facility. He developed one episode of nonbilious emesis en route."
+    },
+    {
+      "field": "presentation.pmh[0], presentation.pmh[1]",
+      "quote": "He was born full-term at home with no prenatal or postnatal care and was unimmunized due to parental beliefs."
+    },
+    { "field": "presentation.pmh[2]", "quote": "His growth and developmental milestones were age appropriate." },
+    {
+      "field": "vitals.tempC, vitals.hr, vitals.sbp, vitals.dbp, vitals.rr, vitals.spo2",
+      "quote": "temperature 37.1°C, heart rate 117 beats/minute, blood pressure 98/57 mm Hg, respiratory rate 36 breaths/minute, and oxygen saturation 99% on room air"
+    },
+    { "field": "exam[0]", "quote": "He appeared pale and somnolent." },
+    { "field": "exam[1]", "quote": "His pupils were 3 mm and reactive to light, and his anterior fontanel was soft and flat." },
+    { "field": "exam[2]", "quote": "His abdomen was soft, nondistended with no palpable masses or organomegaly." },
+    { "field": "exam[3]", "quote": "Capillary refill time was <2 seconds." },
+    { "field": "exam[4]", "quote": "The rest of his examination was unremarkable with no signs of trauma." },
+    { "field": "investigations[0], presentation.hpi", "quote": "Serum glucose was 102 mg/dL (normal)." },
+    { "field": "investigations[1]", "quote": "Laboratory evaluation revealed normal electrolytes, glucose, and renal function." },
+    { "field": "investigations[2], investigations[3]", "quote": "White blood cell count was 14 800/μL; otherwise, complete blood count was unremarkable." },
+    {
+      "field": "imaging[0], investigations[4], investigations[5], ecg",
+      "quote": "Head computed tomography, cerebrospinal fluid analysis, electrocardiogram, and urine toxicology were all unremarkable."
+    },
+    { "field": "management[0]", "quote": "IV antibiotics were administered, and electroencephalogram (EEG) was performed prior to admission to the hospital." },
+    {
+      "field": "exam[5], imaging[1], diagnosis.primary",
+      "quote": "Five hours after admission, he passed bloody stool for which an abdominal sonography was obtained and it revealed large ileocolic intussusception"
+    },
+    { "field": "imaging[1]", "quote": "Abdominal ultrasonography shows target sign due to large ileocolic intussusception" },
+    { "field": "management[1]", "quote": "Pneumatic enema reduction was performed which revealed intussusception extending to the sigmoid colon." },
+    {
+      "field": "management[2], diagnosis.primary",
+      "quote": "The patient had three subsequent intussusception recurrences, and ultimately he required diagnostic laparoscopy with manual reduction of his intussusception."
+    },
+    { "field": "management[2], diagnosis.primary", "quote": "No pathologic lead point could be identified." },
+    { "field": "outcome", "quote": "He tolerated the surgery well and was discharged home on the next day. He was healthy at 1-month follow-up visit." }
+  ],
+  "augmented": ["presentation.meds: none reported; previously healthy infant", "presentation.allergies: not reported"]
+}

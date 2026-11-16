@@ -1,0 +1,226 @@
+{
+  "id": "pmc-PMC13006077-incomplete-kawasaki-infant",
+  "title": "Eight days of fever in a 10-week-old despite antibiotics",
+  "category": "pediatrics",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC13006077",
+    "pmid": "41873281",
+    "doi": "10.7759/cureus.103981",
+    "citation": "Haddad ZH, Basma Y. Incomplete Kawasaki Disease Presenting With Coronary Artery Aneurysms in a 2.5-Month-Old Infant: A Case Report. Cureus. 2026;18(2):e103981.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13006077/"
+  },
+  "patient": { "age": 0.21, "ageMonths": 2.5, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Persistent intermittent fever on day 8 of illness",
+    "hpi": "Fever began 8 days ago (maximum 38 °C) with a mild cough and nasal congestion; no poor feeding, vomiting, diarrhea, rash, red eyes, mouth changes, limb swelling or neck lumps. At the first visit she looked well; she was treated for a possible urinary tract infection with 3 days of IV ceftriaxone and discharged on an oral cephalosporin. She returns on day 8 because the fever has persisted on and off.",
+    "pmh": ["Term birth (39 weeks), unremarkable perinatal course, normal Apgar scores", "Previously well"],
+    "meds": ["Oral cephalosporin course for presumed urinary tract infection, just completed"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 162, "sbp": 86, "dbp": 50, "rr": 44, "spo2": 99, "tempC": 38.4 },
+  "exam": [
+    "Irritable but feeding adequately",
+    "Mild pallor; no cyanosis or jaundice",
+    "No rash, conjunctival injection, oral mucosal changes, extremity edema or lymphadenopathy",
+    "Respiratory examination unremarkable; no signs of meningeal irritation",
+    "Later during the admission: new systolic murmur"
+  ],
+  "investigations": [
+    { "name": "Hemoglobin (day 1)", "value": "8.9", "unit": "g/dL", "flag": "L" },
+    { "name": "White cell count (day 1)", "value": "10.72", "unit": "x10⁹/L" },
+    { "name": "Platelets (day 1)", "value": "589", "unit": "x10⁹/L", "flag": "H" },
+    { "name": "C-reactive protein (day 1)", "value": "18.9", "unit": "mg/L", "flag": "H" },
+    { "name": "Urinalysis (day 1)", "value": "Urine WBC 11–20/hpf, leukocyte esterase 1+; culture mixed growth" },
+    { "name": "Hemoglobin (day 8)", "value": "7.8", "unit": "g/dL", "flag": "L" },
+    { "name": "White cell count (day 8)", "value": "16.94", "unit": "x10⁹/L" },
+    { "name": "Platelets (day 8)", "value": "1076", "unit": "x10⁹/L", "flag": "H" },
+    { "name": "C-reactive protein (day 8)", "value": "80.3", "unit": "mg/L", "flag": "H" },
+    { "name": "Procalcitonin", "value": "0.14", "unit": "ng/mL" },
+    { "name": "ALT", "value": "19", "unit": "U/L" },
+    { "name": "AST", "value": "29", "unit": "U/L" },
+    { "name": "Ferritin", "value": "289.30", "unit": "ng/mL" },
+    { "name": "High-sensitivity troponin I", "value": "7.79", "unit": "ng/L" },
+    { "name": "NT-proBNP (adult reference 0–125; higher in early infancy)", "value": "413", "unit": "pg/mL" },
+    { "name": "Urea", "value": "3.80", "unit": "mmol/L" },
+    { "name": "CSF white cell count", "value": "13", "unit": "/µL", "flag": "H" },
+    { "name": "CSF protein", "value": "640", "unit": "mg/L", "flag": "H" },
+    { "name": "CSF Gram stain, culture and meningitis PCR panel", "value": "Negative" },
+    { "name": "Blood and urine cultures (readmission)", "value": "Negative" },
+    { "name": "Respiratory viral panel and influenza testing", "value": "Negative" }
+  ],
+  "imaging": [
+    {
+      "modality": "Transthoracic echocardiography (day 9 of illness)",
+      "finding": "Diffuse coronary artery aneurysms: left main 3.0 mm (Z +5.5), LAD 3.0 mm (Z +6.9), circumflex 2.0 mm (Z +3.7), RCA 3.0 mm (Z +6.2); minimal pericardial effusion; preserved biventricular function and normal cardiac anatomy"
+    }
+  ],
+  "diagnosis": {
+    "primary": "Incomplete Kawasaki disease with coronary artery aneurysms (maximum Z-score +6.9) in a 2.5-month-old infant",
+    "icd10": "M30.3 / I25.41",
+    "differentials": [
+      "Partially treated urinary tract infection",
+      "Bacterial meningitis",
+      "Viral infection with reactive thrombocytosis",
+      "Multisystem inflammatory syndrome in children (MIS-C)"
+    ]
+  },
+  "management": [
+    "Readmitted; lumbar puncture as part of the febrile young-infant evaluation",
+    "IVIG about 2 g/kg as a single dose (8 g at 4.29 kg) on day 9 of fever",
+    "Aspirin 4 mg every 6 h (16 mg/day), continued after defervescence as low-dose antiplatelet therapy (12 mg once daily)",
+    "Single IV dose of methylprednisolone (4 mg) for high-risk features: young age and coronary involvement"
+  ],
+  "outcome": "Rapid defervescence and falling inflammatory markers; discharged with cardiology surveillance. At about 6 weeks the coronary Z-scores had improved markedly (LAD +0.6, RCA +2.3, circumflex +1.4), with the left main still mildly dilated (2.5 mm, Z +3.1); asymptomatic on low-dose aspirin with ongoing cardiology follow-up.",
+  "teachingPoints": [
+    "Infants under 6 months often have few or none of the classic signs yet carry the highest risk of coronary aneurysms; fever of 7 days or more without another explanation should prompt laboratory testing and, if inflammation is present, echocardiography (AHA 2017 scientific statement).",
+    "Supporting laboratory clues are anemia for age, platelets ≥450 000/mm³ after day 7, WBC ≥15 000/mm³, albumin ≤3.0 g/dL, raised ALT and urine ≥10 WBC/hpf (sterile pyuria); a mixed-growth urine culture does not explain persisting fever.",
+    "In the AHA algorithm, CRP ≥3.0 mg/dL and/or ESR ≥40 mm/h with ≥3 supplementary laboratory criteria, or a positive echocardiogram, justifies treatment for incomplete Kawasaki disease.",
+    "Treat with IVIG 2 g/kg as a single infusion plus aspirin, ideally within 10 days of fever onset; adjunctive corticosteroids may be considered for high-risk patients such as infants with aneurysms at diagnosis.",
+    "Classify coronary involvement by BSA-adjusted Z-score: dilation 2 to <2.5, small aneurysm 2.5 to <5, medium 5 to <10, large or giant ≥10 or ≥8 mm."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "Besides completing the sepsis evaluation, which investigation is most important now?",
+      "extra": "Day 8: Hb 7.8 g/dL, WBC 16.94 ×10⁹/L, platelets 1076 ×10⁹/L, CRP 80.3 mg/L, procalcitonin 0.14 ng/mL. Day-1 urinalysis 11–20 WBC/hpf with mixed growth on culture; blood and urine cultures negative.",
+      "options": [
+        "Renal ultrasound and voiding cystourethrogram",
+        "Bone marrow aspirate for anemia and thrombocytosis",
+        "Transthoracic echocardiography",
+        "Repeat urine culture by suprapubic aspiration"
+      ],
+      "answer": 2,
+      "explanation": "An infant under 6 months with 7 or more days of unexplained fever and systemic inflammation should be evaluated for incomplete Kawasaki disease with echocardiography, even without classic signs (AHA 2017 scientific statement). Here CRP is 8 mg/dL with anemia, thrombocytosis after day 7, leukocytosis and pyuria, which already meets the laboratory arm of the algorithm."
+    },
+    {
+      "kind": "interpretation",
+      "q": "How should the coronary involvement be classified?",
+      "extra": "Echocardiography (day 9): left main 3.0 mm (Z +5.5), LAD 3.0 mm (Z +6.9), circumflex 2.0 mm (Z +3.7), RCA 3.0 mm (Z +6.2); minimal pericardial effusion, normal function.",
+      "options": ["Medium aneurysms", "Dilation only", "Small aneurysms", "Giant aneurysms"],
+      "answer": 0,
+      "explanation": "The AHA 2017 statement classifies by BSA-adjusted Z-score: dilation 2 to <2.5, small aneurysm 2.5 to <5, medium 5 to <10 (with absolute diameter <8 mm), and large or giant ≥10 or ≥8 mm. The left main, LAD and RCA (Z +5.5 to +6.9, 3 mm) are medium aneurysms and the circumflex a small one, which guides antiplatelet therapy and long-term cardiology follow-up."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate initial treatment?",
+      "extra": "Diagnosis: incomplete Kawasaki disease with coronary aneurysms, day 9 of fever.",
+      "options": [
+        "IVIG 2 g/kg as a single infusion with aspirin",
+        "Aspirin alone until the fever settles",
+        "Infliximab instead of immunoglobulin",
+        "IVIG 400 mg/kg daily for 5 days"
+      ],
+      "answer": 0,
+      "explanation": "Initial therapy is IVIG 2 g/kg as a single infusion with aspirin, given as soon as the diagnosis is made, ideally within 10 days of fever onset and also later if inflammation or aneurysms are present (AHA 2017). Adjunctive corticosteroids may be considered in high-risk patients, such as young infants with aneurysms at diagnosis, as was done here. Divided lower-dose IVIG regimens are less effective, and infliximab is used mainly for IVIG-resistant disease."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.pmh[0]",
+      "quote": "A 2.5-month-old female infant, born at term (39 weeks' gestation) with an unremarkable perinatal history and normal Apgar scores, presented with fever and mild upper respiratory symptoms."
+    },
+    { "field": "presentation.pmh[1]", "quote": "She had been previously well, with no significant past medical history." },
+    { "field": "presentation.hpi", "quote": "she developed fever with a maximum recorded temperature of 38 °C, accompanied by mild cough and nasal congestion" },
+    {
+      "field": "presentation.hpi",
+      "quote": "There was no history of poor feeding, vomiting, diarrhea, rash, conjunctivitis, oral mucosal changes, extremity swelling, or lymphadenopathy."
+    },
+    { "field": "presentation.hpi", "quote": "On examination, the infant appeared clinically well, with stable vital signs and no focal abnormalities." },
+    {
+      "field": "presentation.hpi",
+      "quote": "In view of a suspected bacterial infection, possibly urinary tract infection, the patient was treated with intravenous ceftriaxone"
+    },
+    { "field": "presentation.hpi, presentation.meds[0]", "quote": "She remained clinically stable and was discharged home on oral cephalosporins" },
+    {
+      "field": "presentation.chiefComplaint, presentation.hpi",
+      "quote": "On October 21, 2025 (day eight of illness, from fever onset), the patient re-presented to the outpatient clinic with persistent intermittent fever."
+    },
+    { "field": "exam[0]", "quote": "On re-admission, the infant appeared irritable but was feeding adequately." },
+    { "field": "exam[1]", "quote": "Physical examination revealed mild pallor without cyanosis or jaundice." },
+    { "field": "exam[2]", "quote": "There was no rash, conjunctival injection, oral mucosal changes, extremity edema, or lymphadenopathy." },
+    { "field": "exam[3]", "quote": "Respiratory examination was unremarkable, and there were no signs of meningeal irritation." },
+    { "field": "exam[4]", "quote": "During hospitalization, a new systolic murmur was noted on cardiovascular examination, prompting cardiac evaluation." },
+    {
+      "field": "investigations[0], investigations[1], investigations[2], investigations[3]",
+      "quote": "14/10 | Initial presentation | 8.9 | 10.72 | 589 | 18.9"
+    },
+    {
+      "field": "investigations[0]",
+      "quote": "Hemoglobin (g/dL) (Ref 11.1–14.1) | WBC (×10⁹/L) (Ref 6.0–18.0) | Platelets (×10⁹/L) (Ref 200–550) | CRP (mg/L) (Ref 0–8)"
+    },
+    {
+      "field": "investigations[4]",
+      "quote": "Urinalysis showed leukocyturia with urine WBC 11-20/hpf (reference: 0-5/hpf), and leukocyte esterase 1+ (reference: negative), and urine culture yielded mixed growth."
+    },
+    {
+      "field": "investigations[5], investigations[6], investigations[7], investigations[8]",
+      "quote": "21/10 | Readmission/diagnostic escalation | 7.8 | 16.94 | 1076 | 80.3"
+    },
+    { "field": "investigations[9]", "quote": "Procalcitonin remained within normal limits (0.14 ng/mL, reference less than 0.5 ng/mL)." },
+    {
+      "field": "investigations[10], investigations[11]",
+      "quote": "Liver enzymes were within reference ranges (ALT: 19 U/L [reference: 14-59 U/L], AST: 29 U/L [reference: 8-34 U/L])."
+    },
+    {
+      "field": "investigations[12], investigations[13]",
+      "quote": "ferritin of 289.30 ng/mL (reference: 24-307 ng/mL), high-sensitivity troponin I at 7.79 ng/L (reference: 0.00-47.30 ng/L)"
+    },
+    { "field": "investigations[14]", "quote": "NT-proBNP 413 pg/mL (adult reference range: 0-125 pg/mL)" },
+    { "field": "investigations[15]", "quote": "Urea was 3.80 mmol/L (reference: 3.20-8.20 mmol/L)." },
+    {
+      "field": "management[0]",
+      "quote": "Lumbar puncture was performed as part of the evaluation of a febrile young infant to exclude central nervous system infection"
+    },
+    {
+      "field": "investigations[16], investigations[17]",
+      "quote": "Cerebrospinal fluid (CSF) analysis showed a mildly elevated white blood cell count (13/µL) with mononuclear predominance, mildly elevated protein (640 mg/L), and normal glucose"
+    },
+    { "field": "investigations[18]", "quote": "Meningitis PCR panel | Negative for all targets" },
+    { "field": "investigations[18], investigations[19]", "quote": "Blood and urine cultures remained negative. CSF culture was likewise negative." },
+    { "field": "investigations[20]", "quote": "Respiratory viral panel and influenza testing were negative." },
+    {
+      "field": "imaging[0], diagnosis.primary",
+      "quote": "dilation of the left main coronary artery (3.0 mm; Z-score +5.5), left anterior descending artery (3.0 mm; Z-score +6.9), left circumflex artery (2.0 mm; Z-score +3.7)"
+    },
+    { "field": "imaging[0]", "quote": "and right coronary artery (3.0 mm; Z-score +6.2)" },
+    {
+      "field": "imaging[0]",
+      "quote": "A minimal pericardial effusion was noted, with preserved biventricular systolic function and otherwise normal cardiac anatomy."
+    },
+    { "field": "diagnosis.primary", "quote": "a diagnosis of incomplete Kawasaki disease was made" },
+    {
+      "field": "management[1]",
+      "quote": "At the time of diagnosis, the patient weighed 4.29 kg. She received a single dose of intravenous immunoglobulin at approximately 2 g/kg (total dose 8 g)."
+    },
+    { "field": "management[1]", "quote": "In our patient, IVIG was administered on day 9 of fever onset" },
+    { "field": "management[2]", "quote": "Aspirin therapy was initiated at 4 mg orally every six hours (total 16 mg/day)." },
+    { "field": "management[2]", "quote": "After defervescence, aspirin was continued as low-dose antiplatelet therapy at 12 mg orally once daily" },
+    {
+      "field": "management[3]",
+      "quote": "In view of high-risk features, including young age and coronary artery involvement, adjunctive corticosteroid therapy was given as a single 4 mg intravenous dose of methylprednisolone."
+    },
+    {
+      "field": "outcome",
+      "quote": "The patient demonstrated a rapid clinical and biochemical response, with complete resolution of fever and progressive improvement in inflammatory markers."
+    },
+    { "field": "outcome", "quote": "She was discharged home in stable condition with close cardiology surveillance." },
+    { "field": "outcome", "quote": "The left main coronary artery remained mildly dilated (2.5 mm; Z-score +3.1)" },
+    {
+      "field": "outcome",
+      "quote": "the left anterior descending artery measured 1.3 mm with a Z-score of +0.6, the right coronary artery measured 2.0 mm with a Z-score of +2.3"
+    },
+    { "field": "outcome", "quote": "the left circumflex artery measured 1.5 mm with a Z-score of +1.4" },
+    { "field": "outcome", "quote": "The patient remained asymptomatic and continues on low-dose aspirin therapy with ongoing cardiology follow-up." }
+  ],
+  "augmented": [
+    "vitals.tempC: not reported at re-presentation; report says persistent intermittent fever",
+    "vitals.hr: not reported at re-presentation; age-appropriate value for a febrile infant",
+    "vitals.rr: not reported at re-presentation",
+    "vitals.sbp: not reported at re-presentation",
+    "vitals.dbp: not reported at re-presentation",
+    "vitals.spo2: not reported at re-presentation",
+    "presentation.allergies: not reported"
+  ]
+}

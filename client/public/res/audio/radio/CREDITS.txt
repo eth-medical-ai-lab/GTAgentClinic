@@ -1,0 +1,12 @@
+Station radio music — public domain (CC0 1.0 Universal, https://creativecommons.org/publicdomain/zero/1.0/)
+
+The Open Goldberg Variations: J. S. Bach, Goldberg Variations BWV 988, performed by Kimiko Ishizaka (2012),
+released into the public domain by the performer. Source: https://archive.org/details/The_Open_Goldberg_Variations-11823
+Project: https://opengoldbergvariations.org
+
+goldberg-aria.mp3: Aria (299.5 s) — https://archive.org/download/The_Open_Goldberg_Variations-11823/Kimiko_Ishizaka_-_01_-_Aria.ogg
+goldberg-var13.mp3: Variation 13 (254.5 s) — https://archive.org/download/The_Open_Goldberg_Variations-11823/Kimiko_Ishizaka_-_14_-_Variatio_13_a_2_Clav.ogg
+goldberg-var24.mp3: Variation 24, Canone all’Ottava (165.5 s) — https://archive.org/download/The_Open_Goldberg_Variations-11823/Kimiko_Ishizaka_-_25_-_Variatio_24_a_1_Clav_Canone_allOttava.ogg
+goldberg-var19.mp3: Variation 19 (85.1 s) — https://archive.org/download/The_Open_Goldberg_Variations-11823/Kimiko_Ishizaka_-_20_-_Variatio_19_a_1_Clav.ogg
+
+Transcoded to mono 22.05 kHz 32 kb/s MP3 by scripts/assets/fetch-audio.mjs (SHA-1 checked against the archive).

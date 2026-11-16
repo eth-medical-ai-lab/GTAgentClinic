@@ -1,0 +1,10 @@
+Audio credits for client/public/res/audio (see also radio/CREDITS.txt).
+
+── waiting-room crowd (res/audio/crowd) ──
+Public domain and CC0 recordings, cut and normalized by scripts/assets/fetch-crowd-audio.mjs (SHA-1 and licence checked at fetch time):
+  - Scottish Terrier Puppies Playing and Barking, RegicideAudio (2011), Public Domain Mark 1.0; from "Mother Mack Trains Her Seven Puppies" (Frith Films, 1952, Prelinger Archives, public domain) — https://archive.org/details/ScottishTerrierPuppiesPlayingAndBarking
+  - Man coughing, stilgar (PDSounds #625), public domain — https://commons.wikimedia.org/wiki/File:Man_coughing.ogg
+  - Cough 1, ezwa (PDSounds #440), public domain — https://commons.wikimedia.org/wiki/File:Cough_1.ogg
+  - Woman coughing three times, Ashe Kirk, CC0 1.0 — https://commons.wikimedia.org/wiki/File:Woman_coughing_three_times.wav
+Files: dog-bark-1.mp3, dog-bark-2.mp3, dog-bark-3.mp3, cough-m-1.mp3, cough-m-2.mp3, cough-m-3.mp3, cough-m-4.mp3, cough-f-1.mp3
+── end waiting-room crowd ──

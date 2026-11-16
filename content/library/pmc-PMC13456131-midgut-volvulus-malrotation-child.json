@@ -1,0 +1,170 @@
+{
+  "id": "pmc-PMC13456131-midgut-volvulus-malrotation-child",
+  "title": "Green vomiting and a swelling belly in an 11-year-old",
+  "category": "pediatrics",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC13456131",
+    "pmid": "42577987",
+    "doi": "10.7759/cureus.112427",
+    "citation": "Mohanty A, Anwar AZ, Kumar S. Midgut Volvulus Secondary to Intestinal Malrotation in an 11-Year-Old Child With Preserved Bowel Viability: A Rare Delayed Presentation. Cureus. 2026;18(7):e112427.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13456131/"
+  },
+  "patient": { "age": 11, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Bilious vomiting, abdominal pain and distension",
+    "hpi": "Two days of sudden green vomiting, abdominal pain, progressive abdominal distension and no passage of stool or gas. Over the past 3 years he has had four similar episodes labelled subacute intestinal obstruction, each managed conservatively at peripheral facilities. He had an open appendectomy 3 years ago.",
+    "pmh": ["Four episodes of subacute intestinal obstruction in the past 3 years, all managed conservatively", "Open appendectomy 3 years ago"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 108, "sbp": 104, "dbp": 68, "rr": 22, "spo2": 98, "tempC": 37.1 },
+  "exam": ["Generalized abdominal distension with mild diffuse tenderness", "Hyperactive bowel sounds", "No signs of peritonitis", "Hemodynamically stable"],
+  "investigations": [
+    { "name": "Hemoglobin", "value": "12.8", "unit": "g/dL" },
+    { "name": "White cell count", "value": "9.6", "unit": "x10⁹/L" },
+    { "name": "Platelets", "value": "280", "unit": "x10⁹/L" },
+    { "name": "Sodium", "value": "133", "unit": "mmol/L", "flag": "L" },
+    { "name": "Potassium", "value": "3.6", "unit": "mmol/L" },
+    { "name": "Urea", "value": "24", "unit": "mg/dL" },
+    { "name": "Creatinine", "value": "0.9", "unit": "mg/dL" }
+  ],
+  "imaging": [
+    { "modality": "Plain abdominal radiograph", "finding": "Multiple dilated bowel loops suggesting intestinal obstruction" },
+    {
+      "modality": "Contrast-enhanced CT abdomen",
+      "finding": "Whirlpool sign: mesenteric vessels twisted around the superior mesenteric artery, consistent with midgut volvulus from malrotation; no bowel ischemia, perforation or pneumatosis intestinalis"
+    }
+  ],
+  "diagnosis": {
+    "primary": "Midgut volvulus (180° clockwise) secondary to incomplete intestinal malrotation, with congested but viable bowel",
+    "icd10": "K56.2 / Q43.3",
+    "differentials": [
+      "Adhesive small-bowel obstruction after appendectomy",
+      "Intussusception",
+      "Internal hernia",
+      "Superior mesenteric artery syndrome",
+      "Gastroenteritis"
+    ]
+  },
+  "management": [
+    "IV fluid resuscitation, nasogastric decompression, electrolyte correction and broad-spectrum antibiotics",
+    "Emergency laparotomy: 180° clockwise midgut volvulus around a very narrow mesenteric base; bowel congested but viable; no significant adhesions",
+    "Ladd's procedure (counterclockwise derotation, division of Ladd's bands, widening of the mesenteric base, bowel repositioning) with adjunctive caecopexy and sigmoidopexy; no resection needed",
+    "Postoperative PICU care with nasogastric decompression, IV fluids, antibiotics and gradual enteral feeding"
+  ],
+  "outcome": "Oral feeds from postoperative day 3; uneventful recovery and discharged in stable condition on postoperative day 7, with no bowel lost.",
+  "teachingPoints": [
+    "Malrotation with volvulus is not only a disease of infants; older children may have years of intermittent pain, bilious vomiting or 'subacute obstruction' from partial or transient volvulus before the diagnosis is made.",
+    "Bilious vomiting is a surgical emergency until proven otherwise; a previous appendectomy should not lead you to assume adhesive obstruction.",
+    "Contrast CT can show the whirlpool sign and assess bowel viability in a stable older child; the upper GI contrast study remains the reference test for malrotation, and ultrasound (SMA/SMV relationship, whirlpool) is increasingly used.",
+    "Treatment is resuscitation, nasogastric decompression and emergency laparotomy with Ladd's procedure; prolonged conservative management risks midgut infarction.",
+    "Early surgery preserves bowel and avoids short-bowel syndrome."
+  ],
+  "questions": [
+    {
+      "kind": "interpretation",
+      "q": "What is the most likely cause of his obstruction?",
+      "extra": "Plain radiograph: multiple dilated bowel loops. Contrast CT: mesenteric vessels twisted around the superior mesenteric artery (whirlpool sign); no pneumatosis, perforation or ischemia.",
+      "options": [
+        "Adhesive band from the appendectomy",
+        "Midgut volvulus due to malrotation",
+        "Ileocolic intussusception",
+        "Superior mesenteric artery syndrome"
+      ],
+      "answer": 1,
+      "explanation": "A whirl of mesenteric vessels around the SMA at the mesenteric root, in a child with recurrent obstructive episodes and bilious vomiting, indicates midgut volvulus on a malrotated, narrow-based mesentery. Adhesive obstruction after appendectomy is the tempting alternative, but laparotomy found no significant adhesions; SMA syndrome compresses the third part of the duodenum without a twist."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate management?",
+      "extra": "CT: whirlpool sign at the mesenteric root, no signs of ischemia. Heart rate 108/min, blood pressure 104/68 mm Hg, no peritonitis.",
+      "options": [
+        "Resuscitation and emergency laparotomy with a Ladd procedure",
+        "Nasogastric decompression and observation for 48 hours",
+        "Water-soluble contrast challenge to predict resolution",
+        "Elective laparoscopic Ladd procedure in 6 weeks"
+      ],
+      "answer": 0,
+      "explanation": "Midgut volvulus is a surgical emergency even with stable vital signs and no CT signs of ischemia: resuscitate, decompress and operate (derotation, division of Ladd's bands, widening of the mesenteric base and appendectomy if not already done). Conservative measures that suit many adhesive obstructions risk progression to midgut infarction."
+    },
+    {
+      "kind": "risk",
+      "q": "Which complication makes this condition so time-critical?",
+      "options": [
+        "Aspiration pneumonia from repeated vomiting",
+        "Hypochloremic metabolic alkalosis from vomiting",
+        "Gastric perforation from proximal distension",
+        "Midgut infarction leading to short-bowel syndrome"
+      ],
+      "answer": 3,
+      "explanation": "The twist obstructs flow in the superior mesenteric vessels, so the whole midgut, from the distal duodenum to the transverse colon, can become ischemic within hours, causing death or short-bowel syndrome. Here surgery found congested but viable bowel and no resection was needed."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi",
+      "quote": "An 11-year-old boy presented to the emergency department with sudden-onset bilious vomiting, abdominal pain, progressive abdominal distension, and obstipation for two days."
+    },
+    {
+      "field": "presentation.hpi, presentation.pmh[0]",
+      "quote": "He had experienced four previous episodes of subacute intestinal obstruction over the preceding three years, all of which were managed conservatively at peripheral healthcare facilities."
+    },
+    { "field": "presentation.hpi, presentation.pmh[1]", "quote": "The patient also had a history of an open appendectomy performed three years earlier." },
+    {
+      "field": "vitals.hr, vitals.sbp, vitals.dbp, vitals.rr",
+      "quote": "a pulse rate of 108 beats/min, blood pressure of 104/68 mmHg, respiratory rate of 22 breaths/min"
+    },
+    { "field": "vitals.tempC, vitals.spo2", "quote": "temperature of 37.1°C, and oxygen saturation of 98% on room air" },
+    { "field": "exam[0], exam[1]", "quote": "Abdominal examination revealed generalized distension with mild diffuse tenderness and hyperactive bowel sounds." },
+    { "field": "exam[2]", "quote": "No signs of peritonitis were noted." },
+    {
+      "field": "exam[3]",
+      "quote": "Given the patient's hemodynamic stability, absence of peritoneal signs, and history of recurrent episodes of subacute intestinal obstruction"
+    },
+    {
+      "field": "investigations[0], investigations[1], investigations[2]",
+      "quote": "Laboratory investigations revealed a hemoglobin of 12.8 g/dL, a total leukocyte count of 9.6 × 10⁹/L, a platelet count of 280 × 10⁹/L"
+    },
+    {
+      "field": "investigations[3], investigations[4], investigations[5], investigations[6]",
+      "quote": "a serum sodium of 133 mmol/L, a serum potassium of 3.6 mmol/L, a blood urea of 24 mg/dL, and a serum creatinine of 0.9 mg/dL"
+    },
+    { "field": "imaging[0]", "quote": "Plain abdominal radiography demonstrated multiple dilated bowel loops suggestive of intestinal obstruction." },
+    {
+      "field": "imaging[1], diagnosis.primary",
+      "quote": "revealed the classical \"whirlpool sign\" caused by twisting of mesenteric vessels around the superior mesenteric artery (SMA), consistent with midgut volvulus secondary to intestinal malrotation"
+    },
+    { "field": "imaging[1]", "quote": "No radiological evidence of bowel ischemia, perforation, or pneumatosis intestinalis was identified." },
+    {
+      "field": "management[0]",
+      "quote": "The patient was resuscitated with intravenous fluids, nasogastric decompression, electrolyte correction, and broad-spectrum antibiotics."
+    },
+    {
+      "field": "management[1], diagnosis.primary",
+      "quote": "Intraoperatively, a 180° clockwise midgut volvulus around a markedly narrow mesenteric base was identified"
+    },
+    {
+      "field": "management[1], diagnosis.primary",
+      "quote": "The bowel loops were congested but viable, with preserved mesenteric pulsations and improvement in color following derotation."
+    },
+    { "field": "management[1]", "quote": "exploratory laparotomy did not demonstrate significant adhesions or adhesive bands contributing to obstruction" },
+    { "field": "diagnosis.primary", "quote": "these findings were considered consistent with incomplete intestinal malrotation" },
+    {
+      "field": "management[2]",
+      "quote": "A standard Ladd's procedure was performed, including counterclockwise derotation of the volvulus, division of Ladd's bands, widening of the mesenteric base, and repositioning of the bowel loops"
+    },
+    { "field": "management[2]", "quote": "adjunctive caecopexy and sigmoidopexy were performed based on intraoperative judgment" },
+    { "field": "management[2], outcome", "quote": "No bowel resection was necessary." },
+    {
+      "field": "management[3]",
+      "quote": "the patient was managed in the pediatric intensive care unit with continued nasogastric decompression, intravenous fluids, antibiotics, and gradual enteral feeding"
+    },
+    {
+      "field": "outcome",
+      "quote": "Oral feeds were initiated on postoperative day 3 and tolerated well. The postoperative course remained uneventful, and the patient was discharged in stable condition on postoperative day 7."
+    }
+  ],
+  "augmented": ["presentation.meds: none reported", "presentation.allergies: not reported"]
+}

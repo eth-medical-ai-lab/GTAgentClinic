@@ -1,0 +1,219 @@
+{
+  "id": "pmc-PMC12727365-sma-embolism-renal-infarct",
+  "title": "Lower abdominal pain that analgesia would not touch",
+  "category": "vascular",
+  "acuity": 3,
+  "source": {
+    "pmcid": "PMC12727365",
+    "pmid": "41431010",
+    "doi": "10.1097/md.0000000000046740",
+    "citation": "Lin PH, Liang CY, Huang PY. Superior mesenteric embolus accompanied by renal infarction associated with atrial fibrillation successfully treated by anticoagulants: A CARE-compliant case report. Medicine (Baltimore). 2025;104(51):e46740.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12727365/"
+  },
+  "patient": { "age": 70, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Lower abdominal pain for three hours",
+    "hpi": "Three hours of persistent, dull lower abdominal pain, 5/10 in severity, with mild nausea. No urinary symptoms.",
+    "pmh": ["Hypertension, well controlled", "Dyslipidemia, well controlled"],
+    "meds": ["Rosuvastatin", "Propranolol"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 74, "sbp": 131, "dbp": 81, "rr": 18, "spo2": 99, "tempC": 36, "gcs": 15 },
+  "exam": [
+    "Alert (GCS E4M6V5), afebrile",
+    "Moderate lower abdominal tenderness without rebound tenderness or guarding",
+    "McBurney, Rovsing, psoas and obturator signs negative",
+    "Pain persisted despite intramuscular analgesia"
+  ],
+  "investigations": [
+    { "name": "White cell count", "value": "7930", "unit": "/µL" },
+    { "name": "Neutrophils", "value": "71.2", "unit": "%", "flag": "H" },
+    { "name": "Lymphocytes", "value": "24.5", "unit": "%" },
+    { "name": "Hemoglobin", "value": "14.6", "unit": "g/dL" },
+    { "name": "Hematocrit", "value": "44.1", "unit": "%" },
+    { "name": "Platelets", "value": "192000", "unit": "/µL" },
+    { "name": "Alanine aminotransferase (ALT)", "value": "30", "unit": "U/L" },
+    { "name": "Creatinine", "value": "1.10", "unit": "mg/dL", "flag": "H" },
+    { "name": "eGFR", "value": "52", "unit": "mL/min/1.73 m²", "flag": "L" },
+    { "name": "C-reactive protein", "value": "1.35", "unit": "mg/L" },
+    { "name": "INR", "value": "0.98" },
+    { "name": "aPTT", "value": "28.5", "unit": "s" },
+    { "name": "Urine dipstick blood", "value": "Positive (50 RBC/µL)", "flag": "H" },
+    { "name": "Urine microscopy RBC", "value": "5–10", "unit": "/hpf", "flag": "H" },
+    { "name": "Sodium", "value": "139", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.1", "unit": "mmol/L", "augmented": true },
+    { "name": "Glucose", "value": "118", "unit": "mg/dL", "augmented": true },
+    { "name": "D-dimer (after CT)", "value": "6.08", "unit": "mg/L", "flag": "H" }
+  ],
+  "imaging": [
+    {
+      "modality": "Contrast-enhanced abdominal CT",
+      "finding": "Segmental filling defect in the superior mesenteric artery (SMA); extensive right renal infarction; no imaging evidence of bowel ischemia"
+    },
+    {
+      "modality": "Transthoracic echocardiography",
+      "finding": "Normal ejection fraction and fractional shortening; no intracardiac thrombus or valvular abnormality"
+    }
+  ],
+  "ecg": "Atrial fibrillation",
+  "diagnosis": {
+    "primary": "Acute superior mesenteric artery embolism (occlusive arterial mesenteric ischemia without bowel infarction) with right renal infarction, cardioembolic from atrial fibrillation",
+    "icd10": "K55.059 / N28.0 / I48.91",
+    "differentials": ["Ureteric colic", "Acute appendicitis", "Acute diverticulitis", "Ruptured abdominal aortic aneurysm", "Acute pyelonephritis"]
+  },
+  "management": [
+    "Intramuscular analgesia; the pain persisted, prompting contrast-enhanced CT",
+    "General surgery consulted: no operation, as there was no imaging evidence of bowel ischemia and no peritonitis",
+    "Admitted to cardiology for IV hydration and subcutaneous enoxaparin",
+    "After 5 days switched to oral edoxaban 60 mg daily",
+    "Transient hematuria one day after starting anticoagulation, settling within 48 h",
+    "Discharged after one week"
+  ],
+  "outcome": "Recovered without surgery (appetite and bowel motility returned) and was discharged after one week on edoxaban. Symptom-free despite persistent atrial fibrillation; renal function unchanged at 3 months and no signs of vascular occlusion or bleeding at 7 months.",
+  "teachingPoints": [
+    "Abdominal pain that persists despite analgesia, with few abdominal signs, in an older patient with atrial fibrillation should prompt immediate CT angiography for mesenteric ischemia.",
+    "Normal white cell count and CRP do not exclude acute mesenteric ischemia; D-dimer is sensitive but non-specific.",
+    "Emboli are often multiple: a renal infarct can cause flank pain and hematuria that mimic ureteric colic.",
+    "Start full anticoagulation as soon as the diagnosis is made and involve vascular and general surgery; revascularization is the norm, and laparotomy is needed for peritonitis or bowel necrosis.",
+    "Selected patients without bowel ischemia or peritonitis, as here, may recover on anticoagulation alone, but only under close surgical observation."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "Which investigation is most appropriate now?",
+      "extra": "Pain unchanged after intramuscular analgesia. WBC 7930/µL, CRP 1.35 mg/L, creatinine 1.10 mg/dL. Urinalysis: blood positive (50 RBC/µL; 5–10 RBC/hpf).",
+      "options": [
+        "Non-contrast CT of the kidneys, ureters and bladder",
+        "Ultrasound of the appendix and pelvis",
+        "Contrast-enhanced CT angiography of the abdomen",
+        "Discharge with analgesia and outpatient colonoscopy"
+      ],
+      "answer": 2,
+      "explanation": "Pain out of proportion to the examination in an older patient demands exclusion of vascular causes (mesenteric ischemia, renal infarction, aneurysm); the ESVS 2017 mesenteric guideline recommends immediate CT angiography when acute mesenteric ischemia is suspected. A non-contrast stone CT would miss both the arterial occlusion and the renal infarct."
+    },
+    {
+      "kind": "interpretation",
+      "q": "What is the most likely mechanism of these findings?",
+      "extra": "CT: segmental filling defect in the superior mesenteric artery and an extensively infarcted right kidney; no signs of bowel ischemia. ECG: atrial fibrillation. D-dimer 6.08 mg/L.",
+      "options": [
+        "Cardioembolism from atrial fibrillation",
+        "In situ atherothrombosis at the SMA origin",
+        "Non-occlusive mesenteric ischemia from low flow",
+        "Mesenteric venous thrombosis"
+      ],
+      "answer": 0,
+      "explanation": "Occlusions in two arterial beds at once (SMA and right renal artery) in a patient with atrial fibrillation point to cardioembolism; emboli tend to lodge more distally and cause more limited ischemia than atherothrombosis at the SMA origin. Non-occlusive ischemia needs low cardiac output or vasopressors, and venous thrombosis would show an occluded mesenteric vein."
+    },
+    {
+      "kind": "management",
+      "q": "What should be started immediately once the diagnosis is confirmed?",
+      "extra": "No peritonitis; CT shows no bowel ischemia. Hemoglobin 14.6 g/dL, platelets 192,000/µL, INR 0.98.",
+      "options": [
+        "Aspirin alone with observation on a general ward",
+        "Systemic IV alteplase at stroke dosing",
+        "Emergency laparotomy with bowel resection",
+        "Therapeutic anticoagulation with heparin and surgical review"
+      ],
+      "answer": 3,
+      "explanation": "The ESVS 2017 and WSES 2022 guidelines recommend immediate full anticoagulation with heparin for acute arterial mesenteric occlusion, with urgent surgical and vascular assessment for revascularization; laparotomy is for peritonitis or suspected necrosis. Without bowel ischemia or peritonitis, this patient recovered on enoxaparin then edoxaban under close observation."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi",
+      "quote": "A 70-year-old woman presented to our emergency department with persistent lower abdominal dull pain for three hours."
+    },
+    { "field": "presentation.hpi", "quote": "The severity of pain was 5 on a scale of 10." },
+    { "field": "presentation.hpi", "quote": "She complained of mild nausea but denied urinary symptoms." },
+    {
+      "field": "presentation.pmh",
+      "quote": "She had a history of hypertension and dyslipidemia under satisfactory medical control but denied other known systemic diseases."
+    },
+    {
+      "field": "presentation.meds",
+      "quote": "along with her previous prescriptions of rosuvastatin and propranolol for dyslipidemia and atrial fibrillation, respectively"
+    },
+    { "field": "exam[0], vitals.gcs", "quote": "she was alert (GCS: E4M6V5)" },
+    {
+      "field": "exam[0], vitals.tempC, vitals.hr, vitals.sbp, vitals.dbp",
+      "quote": "afebrile (body temperature: 36.0ºC) with stable hemodynamics (heart rate: 74 per minute; blood pressure: 131/81 mm Hg)"
+    },
+    {
+      "field": "vitals.rr, vitals.spo2",
+      "quote": "Her respiration was smooth at a rate of 18 per minute with an arterial oxygen saturation of 99% on room air."
+    },
+    {
+      "field": "exam[1]",
+      "quote": "Physical examination revealed moderate lower abdominal tenderness on palpation without rebound tenderness or muscle guarding."
+    },
+    { "field": "exam[2]", "quote": "McBurney's sign, Rovsing's sign, psoas sign, and obturator sign were all negative." },
+    {
+      "field": "investigations[0], investigations[1], investigations[2], investigations[3], investigations[4], investigations[5]",
+      "quote": "Laboratory studies showed a white blood cell count: 7930/mL, hemoglobin concentration: 14.6 g/dL, hematocrit: 44.1%, platelet count: 192000/mL, neutrophil: 71.2%, lymphocyte: 24.5%"
+    },
+    {
+      "field": "investigations[6], investigations[7], investigations[8], investigations[9]",
+      "quote": "alanine transaminase: 30 U/L, plasma creatinine: 1.10 mg/dL, estimated glomerular filtration rate (eGFR): 52, and a C-reactive protein: 1.35 mg/L"
+    },
+    {
+      "field": "investigations[10], investigations[11]",
+      "quote": "international normalized ratio (INR): 0.98, and activated partial thromboplastin time (APTT): 28.5 seconds"
+    },
+    {
+      "field": "investigations[12], investigations[13]",
+      "quote": "Urinalysis demonstrated the presence of occult blood (50 RBCs/microliter) and trace amount of blood on microscopic examination (5–10 RBCs/HPF)."
+    },
+    { "field": "exam[3], management[0]", "quote": "Due to refractory abdominal pain after intramuscular analgesics" },
+    { "field": "imaging[0]", "quote": "a segmental filling defect in the superior mesenteric artery (SMA) … coupled with right renal infarction" },
+    {
+      "field": "imaging[0]",
+      "quote": "Enhanced abdominal computed tomography showing (A) a filling defect inside the superior mesenteric artery (arrow), and (B) an extensively infarcted right kidney (arrowheads)."
+    },
+    { "field": "investigations[17]", "quote": "the D-dimer level was elevated at 6.08 mg/L (normally < 0.55 mg/L)" },
+    { "field": "ecg", "quote": "Electrocardiogram demonstrated atrial fibrillation." },
+    {
+      "field": "imaging[0], management[1]",
+      "quote": "After consultation with a general surgeon, the option of surgery was declined due to the lack of imaging evidence suggestive of bowel ischemia … absence of clinical signs of peritonitis"
+    },
+    { "field": "management[2]", "quote": "She was admitted to the cardiology ward for intravenous hydration and anticoagulation with subcutaneous enoxaparin." },
+    {
+      "field": "imaging[1]",
+      "quote": "Echocardiography showed normal ejection fraction and fractional shortening without evidence of thrombus or valvular anomaly."
+    },
+    { "field": "management[3]", "quote": "After 5 days of enoxaparin treatment, anticoagulant was switched to oral edoxaban at a daily dose of 60 mg" },
+    { "field": "outcome", "quote": "No surgical follow-up was needed because of improvement in appetite and bowel motility." },
+    {
+      "field": "management[4]",
+      "quote": "Despite transient hematuria that occurred one day after the initiation of anticoagulant treatment, the condition subsided within 48 hours after its first appearance."
+    },
+    { "field": "management[5], outcome", "quote": "Because of general improvement, she was discharged to outpatient care 1 week after admission." },
+    {
+      "field": "outcome",
+      "quote": "She was regularly followed in the cardiology clinic and remained symptom-free despite persistent atrial fibrillation shown on electrocardiogram 1 week after discharge."
+    },
+    {
+      "field": "outcome",
+      "quote": "Her latest blood biochemical study 3 months after discharge showed renal function (creatinine: 1.15 mg/dL, eGFR: 50) comparable to that during her first visit"
+    },
+    {
+      "field": "outcome",
+      "quote": "No clinical signs suggestive of vascular occlusion or coagulopathy (e.g., bruising, gastrointestinal hemorrhage) were noted at the latest follow-up seven months after discharge."
+    },
+    {
+      "field": "diagnosis.primary",
+      "quote": "An enhanced abdominal computed tomographic scan revealed a filling defect in the SMA and an infarcted right kidney suggestive of a diagnosis of SMA embolism."
+    },
+    {
+      "field": "diagnosis.primary",
+      "quote": "our patient was considered to experience an embolic condition considering the limited regions of ischemia and the presence of more than one occlusive lesion"
+    }
+  ],
+  "augmented": [
+    "vitals.gcs: GCS 15 summed from the reported E4M6V5",
+    "investigations[0]: the source prints the unit as /mL, an evident slip for /µL",
+    "investigations[5]: the source prints the unit as /mL, an evident slip for /µL",
+    "presentation.allergies: not reported",
+    "investigations[14]: sodium, potassium and glucose were not reported; normal values were added"
+  ]
+}

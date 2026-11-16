@@ -1,0 +1,43 @@
+/* A workstation login (workstation.ts): name tags, crosshair and hints step aside while the camera
+   eases to the monitor, and come back when you stand up. */
+.ws-on .wl-layer,
+.ws-on .wl-crosshair,
+.ws-on .wl-hint {
+  opacity: 0 !important;
+  transition: opacity 0.18s ease;
+}
+
+/* "Registration workstation (staff only)…", "In use by …": for a few seconds, just under the [E] prompt */
+.ws-notice {
+  position: absolute;
+  left: 50%;
+  top: calc(58% + 46px);
+  transform: translate(-50%, 6px);
+  z-index: 6;
+  max-width: min(560px, calc(100% - 32px));
+  padding: 9px 16px;
+  border-radius: 12px;
+  background: rgba(10, 16, 20, 0.84);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.35);
+  color: #f1f6f7;
+  font: 600 14px/1.35 ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+.ws-notice.on {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.ws-notice-sub {
+  margin-top: 3px;
+  color: #8fe3d6;
+  font-weight: 500;
+  font-size: 13px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ws-notice {
+    transition: none;
+  }
+}

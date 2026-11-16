@@ -1,0 +1,42 @@
+[
+  {
+    "file": "goldberg-aria.mp3",
+    "title": "Aria",
+    "work": "Goldberg Variations, BWV 988",
+    "composer": "Johann Sebastian Bach",
+    "performer": "Kimiko Ishizaka",
+    "durationSec": 299.5,
+    "source": "https://archive.org/download/The_Open_Goldberg_Variations-11823/Kimiko_Ishizaka_-_01_-_Aria.ogg",
+    "license": "CC0 1.0"
+  },
+  {
+    "file": "goldberg-var13.mp3",
+    "title": "Variation 13",
+    "work": "Goldberg Variations, BWV 988",
+    "composer": "Johann Sebastian Bach",
+    "performer": "Kimiko Ishizaka",
+    "durationSec": 254.5,
+    "source": "https://archive.org/download/The_Open_Goldberg_Variations-11823/Kimiko_Ishizaka_-_14_-_Variatio_13_a_2_Clav.ogg",
+    "license": "CC0 1.0"
+  },
+  {
+    "file": "goldberg-var24.mp3",
+    "title": "Variation 24, Canone all’Ottava",
+    "work": "Goldberg Variations, BWV 988",
+    "composer": "Johann Sebastian Bach",
+    "performer": "Kimiko Ishizaka",
+    "durationSec": 165.5,
+    "source": "https://archive.org/download/The_Open_Goldberg_Variations-11823/Kimiko_Ishizaka_-_25_-_Variatio_24_a_1_Clav_Canone_allOttava.ogg",
+    "license": "CC0 1.0"
+  },
+  {
+    "file": "goldberg-var19.mp3",
+    "title": "Variation 19",
+    "work": "Goldberg Variations, BWV 988",
+    "composer": "Johann Sebastian Bach",
+    "performer": "Kimiko Ishizaka",
+    "durationSec": 85.1,
+    "source": "https://archive.org/download/The_Open_Goldberg_Variations-11823/Kimiko_Ishizaka_-_20_-_Variatio_19_a_1_Clav.ogg",
+    "license": "CC0 1.0"
+  }
+]

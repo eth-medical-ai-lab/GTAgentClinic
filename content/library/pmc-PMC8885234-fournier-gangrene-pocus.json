@@ -1,0 +1,196 @@
+{
+  "id": "pmc-PMC8885234-fournier-gangrene-pocus",
+  "title": "A scrotal bruise that keeps spreading",
+  "category": "infectious",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC8885234",
+    "pmid": "35226850",
+    "doi": "10.5811/cpcem.2021.11.54849",
+    "citation": "Ramm L, Guidry K, Cirilli A, Kurkowski E, Yu C. Critical Point-of-care Ultrasound Diagnosis of Fournier's Gangrene: A Case Report. Clin Pract Cases Emerg Med. 2022;6(1):57-60.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885234/"
+  },
+  "patient": { "age": 71, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Swelling of the right buttock and scrotum for three days",
+    "hpi": "Three days of right buttock and scrotal swelling with generalized weakness, shortness of breath, and urinary retention with dysuria. The day before presentation he noticed bruising on his scrotum without any trauma. Buttock pain has been increasing and is no longer controlled by his usual oxycodone/acetaminophen tablets.",
+    "pmh": [
+      "Diabetes mellitus with hyperglycemia",
+      "Coronary artery disease",
+      "Chronic hypotension",
+      "Chronic obstructive pulmonary disease",
+      "Obstructive sleep apnea",
+      "Peripheral artery disease"
+    ],
+    "meds": ["Oxycodone/acetaminophen 5/325 mg tablets for pain"],
+    "allergies": ["No known drug allergies"],
+    "social": "Current nicotine use."
+  },
+  "vitals": { "hr": 93, "sbp": 119, "dbp": 54, "rr": 25, "spo2": 97, "tempC": 38.2, "gcs": 15 },
+  "exam": [
+    "Ill-appearing; awake and alert",
+    "Heart sounds normal apart from tachycardia; lungs clear to auscultation",
+    "Abdomen soft, protuberant and non-tender",
+    "Scrotum edematous, erythematous and exquisitely tender",
+    "Coin-sized ecchymotic-appearing lesion on the scrotum; erythema and induration extend from the scrotum and perineum to the right buttock",
+    "No crepitus or fluctuance palpable",
+    "Later in the ED, after 30 mL/kg of saline: BP 88/41 mm Hg; the ecchymotic area and edema have spread across the scrotum and perineum"
+  ],
+  "investigations": [
+    { "name": "White cell count", "value": "15,000", "unit": "/mm³", "flag": "H" },
+    { "name": "Lactate", "value": "3.4", "unit": "mmol/L", "flag": "H" },
+    { "name": "Creatinine", "value": "5", "unit": "mg/dL", "flag": "H" },
+    { "name": "pH (venous blood gas)", "value": "7.22", "flag": "L" },
+    { "name": "Sodium", "value": "133", "unit": "mmol/L", "flag": "L" },
+    { "name": "Potassium", "value": "5.3", "unit": "mmol/L", "flag": "H" },
+    { "name": "Other electrolytes", "value": "Within reference range" }
+  ],
+  "imaging": [
+    {
+      "modality": "Point-of-care ultrasound of the perineum and scrotum (high-frequency linear probe)",
+      "finding": "Diffuse hyperechoic foci with posterior \"dirty\" shadowing (subcutaneous air) and small fluid collections tracking along the fascial planes"
+    }
+  ],
+  "diagnosis": {
+    "primary": "Fournier gangrene (necrotizing fasciitis of the scrotum, perineum and right buttock) with septic shock",
+    "icd10": "N49.3 / R65.21",
+    "differentials": ["Scrotal cellulitis", "Scrotal or perianal abscess", "Testicular torsion", "Epididymo-orchitis", "Incarcerated inguinal hernia"]
+  },
+  "management": [
+    "IV antibiotics started; emergent surgical and urological consultation",
+    "30 mL/kg normal saline; he progressed to septic shock and was judged too unstable for transport to CT",
+    "Bedside ultrasound of the perineum and scrotum by the emergency physician to confirm the clinical diagnosis",
+    "Taken directly from the ED to the operating room, with debridement under way within 3 h of arrival",
+    "Debridement of a 25 × 30 cm area including fascia and muscle from the scrotum, perineum and right buttock; dark necrotic tissue and foul-smelling fluid found"
+  ],
+  "outcome": "Admitted to the ICU and later transferred to a tertiary care center, where he died of complications of his illness.",
+  "teachingPoints": [
+    "Early Fournier gangrene may show only scrotal erythema, swelling and tenderness; crepitus and visible necrosis are late, and the deep infection is usually far larger than the skin suggests.",
+    "A spreading ecchymotic patch, pain that opioids do not control, and sepsis in a patient with diabetes call for immediate surgical consultation, not a trial of antibiotics.",
+    "Bedside ultrasound signs of necrotizing infection (STAFF): subcutaneous thickening, acoustic 'dirty' shadowing from gas, and fascial fluid; useful when shock or kidney injury rules out contrast CT.",
+    "Definitive treatment is early, aggressive surgical debridement plus broad-spectrum antibiotics covering MRSA, gram-negative bacilli and anaerobes; no test should delay the operating room."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "options": [
+        "Scrotal cellulitis with early sepsis",
+        "Necrotizing soft-tissue infection of the perineum",
+        "Testicular torsion with infarction",
+        "Ischiorectal abscess with bacteremia"
+      ],
+      "answer": 1,
+      "explanation": "Perineal and scrotal swelling with a spreading ecchymotic patch, pain beyond opioid control and shock in a man with diabetes indicate Fournier gangrene, a necrotizing fasciitis of the perineum. Crepitus is a late sign, so its absence does not exclude it; simple cellulitis does not cause spreading ecchymosis with shock."
+    },
+    {
+      "kind": "next-step",
+      "q": "Surgery and urology have been called, but he is too unstable to leave the department. Which test can best support the diagnosis at the bedside?",
+      "extra": "BP 88/41 mm Hg after 30 mL/kg of saline. Creatinine 5 mg/dL, lactate 3.4 mmol/L, venous pH 7.22.",
+      "options": [
+        "Contrast CT of the abdomen and pelvis once he is stable",
+        "MRI of the pelvis once vasopressors are running",
+        "Needle aspiration of the scrotal lesion for Gram stain",
+        "Linear-probe ultrasound of the scrotum and perineum"
+      ],
+      "answer": 3,
+      "explanation": "Point-of-care ultrasound shows subcutaneous gas as hyperechoic foci with 'dirty' shadowing and fluid along the fascial planes, without moving a patient in shock. Contrast CT is the usual first test in a stable patient, but shock and kidney injury argue against it here, and no imaging should delay operative exploration."
+    },
+    {
+      "kind": "management",
+      "q": "What is the definitive treatment?",
+      "extra": "Bedside ultrasound: diffuse hyperechoic foci with posterior 'dirty' shadowing (subcutaneous air) and small fluid collections along the fascial planes.",
+      "options": [
+        "Broad-spectrum IV antibiotics and reassessment in 24 hours",
+        "Hyperbaric oxygen therapy before any surgery",
+        "Immediate operative debridement of all necrotic tissue",
+        "Ultrasound-guided percutaneous drainage of the fluid"
+      ],
+      "answer": 2,
+      "explanation": "Necrotizing soft-tissue infection needs urgent surgical exploration and debridement of all necrotic tissue, repeated until healthy tissue remains (IDSA 2014 skin and soft-tissue infection guideline). Antibiotics alone do not control the source, percutaneous drainage cannot remove necrotic fascia, and hyperbaric oxygen is unproven and must not delay surgery."
+    },
+    {
+      "kind": "management",
+      "q": "Which empiric antibiotic regimen is most appropriate on the way to the operating room?",
+      "options": ["Vancomycin plus piperacillin–tazobactam", "Piperacillin–tazobactam alone", "Vancomycin alone", "Ceftriaxone plus doxycycline"],
+      "answer": 0,
+      "explanation": "Fournier gangrene is usually polymicrobial (enteric gram-negative bacilli, anaerobes, streptococci, staphylococci), and MRSA should be covered empirically; IDSA 2014 suggests vancomycin or linezolid plus piperacillin–tazobactam or a carbapenem (or plus ceftriaxone and metronidazole). Vancomycin alone misses gram-negatives and anaerobes; piperacillin–tazobactam alone misses MRSA."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.pmh[0], presentation.pmh[1], presentation.pmh[2]",
+      "quote": "A 71-year-old male with past medical history significant for diabetes mellitus, coronary artery disease, chronic hypotension, hyperglycemia"
+    },
+    {
+      "field": "presentation.pmh[3], presentation.pmh[4], presentation.pmh[5], presentation.social",
+      "quote": "chronic obstructive pulmonary disease, nicotine use, obstructive sleep apnea, and peripheral artery disease"
+    },
+    {
+      "field": "presentation.chiefComplaint, presentation.hpi",
+      "quote": "presented to the ED with right buttock and scrotal swelling for three days, associated with generalized weakness, shortness of breath, and urinary retention with dysuria"
+    },
+    { "field": "presentation.hpi", "quote": "One day prior to presentation, the patient noticed non-traumatic bruising to his scrotum." },
+    {
+      "field": "presentation.hpi, presentation.meds[0]",
+      "quote": "He additionally reported increasing buttock pain that was not controlled by home oxycodone/acetaminophen 5/325 milligram (mg) tablets."
+    },
+    {
+      "field": "vitals.tempC, vitals.sbp, vitals.dbp, vitals.hr",
+      "quote": "an oral temperature of 38.2° Celsius, blood pressure of 119/54 millimeters of mercury (mm Hg), and heart rate of 93 beats per minute"
+    },
+    {
+      "field": "vitals.rr, vitals.spo2",
+      "quote": "He was also tachypneic with a respiratory rate of 25 breaths per minute; oxygen saturation was 97% on room air."
+    },
+    { "field": "exam[0]", "quote": "The physical examination was notable for an ill-appearing gentleman. He was awake and alert." },
+    { "field": "exam[1]", "quote": "Heart sounds were unremarkable aside from tachycardia, and lungs were clear to auscultation." },
+    { "field": "exam[2]", "quote": "Abdominal examination was soft, protuberant, and nontender." },
+    { "field": "exam[3]", "quote": "A focused genitourinary examination revealed an edematous, erythematous and exquisitely tender scrotum." },
+    {
+      "field": "exam[4]",
+      "quote": "there was a coin-sized, ecchymotic-appearing lesion on the scrotum with erythema and induration extending from the scrotum and perineum to the right buttock"
+    },
+    { "field": "exam[5]", "quote": "No crepitus or fluctuance was palpated on examination." },
+    { "field": "exam[6]", "quote": "His blood pressure decreased to 88/41 mm Hg during the ED course" },
+    { "field": "exam[6]", "quote": "the ecchymotic-appearing lesion and edema had expanded across his scrotum and perineum" },
+    { "field": "investigations[0]", "quote": "Laboratory results were remarkable for leukocytosis to 15,000 thousand per millimeters cubed (K/mm3)" },
+    { "field": "investigations[1]", "quote": "lactic acidosis of 3.4 millimoles per liter (mmol/L)" },
+    { "field": "investigations[2]", "quote": "marked acute kidney injury with creatinine of 5 mg per deciliter (mg/dL)" },
+    { "field": "investigations[3]", "quote": "venous blood gas pH of 7.22 (7.310–7.410) secondary to the lactic acidosis and severe sepsis" },
+    {
+      "field": "investigations[Sodium], investigations[Potassium]",
+      "quote": "The patient was mildly hyponatremic at 133 mmol/L (136–145 mmol/L) and hyperkalemic at 5.3 mmol/L"
+    },
+    { "field": "investigations[6]", "quote": "with the remainder of electrolytes within reference range" },
+    {
+      "field": "imaging[0]",
+      "quote": "revealed diffuse hyperechoic foci with posterior “dirty” shadowing, representative of subcutaneous air, and small fluid collections tracking along the fascial planes"
+    },
+    { "field": "management[0]", "quote": "Intravenous antibiotics were initiated and emergent consultations with surgery and urology promptly obtained." },
+    {
+      "field": "management[1], diagnosis.primary",
+      "quote": "Despite initial fluid resuscitation with administration of 30 milliliters per kilogram (ml/kg) of normal saline, the patient decompensated into septic shock."
+    },
+    { "field": "management[1]", "quote": "thus, he was not stable for transport or advanced imaging" },
+    { "field": "management[2]", "quote": "We used POCUS for the rapid assessment of the patient’s presumed clinical diagnosis of Fournier’s gangrene" },
+    {
+      "field": "management[3]",
+      "quote": "the patient was taken directly from the ED to the operating room for immediate surgical debridement within three hours of his arrival at the hospital"
+    },
+    {
+      "field": "management[4]",
+      "quote": "An area of tissue measuring 25 centimeters (cm) × 30 cm that included both fascia and muscle was debrided from the scrotum, perineum, and right buttock."
+    },
+    {
+      "field": "management[4], diagnosis.primary",
+      "quote": "Dark, necrotic tissue and foul-smelling fluid were noted during surgery, consistent with Fournier’s gangrene."
+    },
+    {
+      "field": "outcome",
+      "quote": "The patient was admitted to the intensive care unit until being transferred to a tertiary care center where he ultimately died of complications related to his illness."
+    }
+  ],
+  "augmented": ["vitals.gcs: GCS 15 inferred from 'awake and alert'", "presentation.allergies: not reported"]
+}

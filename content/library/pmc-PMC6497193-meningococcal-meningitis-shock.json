@@ -1,0 +1,180 @@
+{
+  "id": "pmc-PMC6497193-meningococcal-meningitis-shock",
+  "title": "Hard to wake after an early night, with a rash",
+  "category": "infectious",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC6497193",
+    "pmid": "31061974",
+    "doi": "10.5811/cpcem.2019.3.41750",
+    "citation": "Offman R, Boggs E, Gwizdala A. Symptomatic Vaginal Infection by Neisseria meningitidis Resulting in Meningitis with Septic Shock. Clin Pract Cases Emerg Med. 2019;3(2):153-155.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6497193/"
+  },
+  "patient": { "age": 72, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Generalized weakness, headache and rash for one day",
+    "hpi": "Well until yesterday evening, when she felt generally unwell and went to bed early. This morning she slept much later than usual, and when her husband tried to wake her she seemed lethargic. She has had one day of generalized weakness, headache and a rash; review of systems is otherwise negative. Two weeks ago she saw her primary care physician for vaginal discharge, which persisted despite metronidazole, so a speculum examination with vaginal cultures was done five days ago. She has not followed up on the results and has had no further treatment.",
+    "pmh": ["Hypertension"],
+    "meds": ["Metronidazole, recent course for vaginal discharge (symptoms persisted)"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 120, "sbp": 107, "dbp": 49, "rr": 24, "spo2": 95, "tempC": 38.7 },
+  "exam": [
+    "Ill-appearing and obtunded",
+    "Nuchal rigidity",
+    "Diffuse, non-blanching purpuric rash",
+    "Atrial fibrillation with rapid ventricular response; the rest of the examination is unremarkable"
+  ],
+  "investigations": [
+    { "name": "Outpatient vaginal culture (taken 5 days before presentation)", "value": "Neisseria meningitidis" },
+    { "name": "White cell count", "value": "7.4", "unit": "x10³/µL" },
+    { "name": "Lactic acid", "value": "8.1", "unit": "mmol/L", "flag": "critical" },
+    { "name": "CSF appearance", "value": "Turbid" },
+    { "name": "CSF white cell count", "value": "262", "unit": "cells/mm³", "flag": "H" },
+    { "name": "CSF glucose", "value": "28", "unit": "mg/dL", "flag": "L" },
+    { "name": "CSF protein", "value": "155", "unit": "mg/dL", "flag": "H" },
+    { "name": "CSF Gram stain", "value": "Many gram-negative diplococci" },
+    { "name": "Blood and CSF cultures", "value": "Neisseria meningitidis, susceptible to ceftriaxone" }
+  ],
+  "imaging": [{ "modality": "Non-contrast CT head", "finding": "Unremarkable" }],
+  "ecg": "Atrial fibrillation with rapid ventricular response",
+  "diagnosis": {
+    "primary": "Meningococcal meningitis with meningococcemia and septic shock, after symptomatic vaginal Neisseria meningitidis infection",
+    "icd10": "A39.0 / A39.2 / R65.21",
+    "differentials": [
+      "Pneumococcal meningitis",
+      "Listeria monocytogenes meningitis",
+      "Rocky Mountain spotted fever",
+      "Herpes simplex encephalitis",
+      "Thrombotic thrombocytopenic purpura"
+    ]
+  },
+  "management": [
+    "As soon as meningococcemia was suspected: IV vancomycin 20 mg/kg, ceftriaxone 2 g, ampicillin 2 g and dexamethasone 10 mg, with a 2 L normal saline bolus",
+    "Non-contrast CT head (unremarkable), then lumbar puncture",
+    "Rapid decompensation despite aggressive fluids: central line, intubation and norepinephrine infusion",
+    "ICU: persistent septic shock treated with corticosteroids, norepinephrine, epinephrine and vasopressin",
+    "Seven-day antibiotic course on the advice of infectious disease specialists"
+  ],
+  "outcome": "Course complicated by disseminated intravascular coagulation and ischemic hepatitis. Discharged on hospital day 10 to a long-term acute care facility with ischemic necrosis of the digits of both hands and feet, which later needed surgery.",
+  "teachingPoints": [
+    "Fever, altered consciousness, neck stiffness and a non-blanching purpuric rash mean meningococcal disease until proven otherwise; treat within minutes.",
+    "Antibiotics and dexamethasone must not wait for CT or lumbar puncture; take blood cultures first only if this causes no delay.",
+    "Empiric therapy in adults over 50: vancomycin plus a third-generation cephalosporin plus ampicillin for Listeria, until the organism is known.",
+    "Fulminant meningococcal disease can show only modest CSF pleocytosis and a normal blood white cell count; lactate and shock reflect severity better.",
+    "Neisseria meningitidis can infect the genitourinary tract; a positive outpatient culture needs prompt follow-up, and close contacts of a case need chemoprophylaxis."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "options": ["Herpes simplex encephalitis", "Thrombotic thrombocytopenic purpura", "Rocky Mountain spotted fever", "Meningococcal meningitis with sepsis"],
+      "answer": 3,
+      "explanation": "Fever, obtundation, nuchal rigidity and a diffuse non-blanching purpuric rash with tachycardia and a low diastolic pressure point to meningococcal meningitis with meningococcemia. HSV encephalitis does not cause purpura; TTP and Rocky Mountain spotted fever can cause petechiae but rarely this abrupt septic picture with meningism."
+    },
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate immediate action?",
+      "options": [
+        "Non-contrast CT head, then lumbar puncture, then antibiotics",
+        "Lumbar puncture now, starting antibiotics once CSF is obtained",
+        "Blood cultures, then IV dexamethasone and antibiotics without delay",
+        "Urgent dermatology review and punch biopsy of the rash"
+      ],
+      "answer": 2,
+      "explanation": "Suspected meningococcal sepsis or bacterial meningitis needs antibiotics within minutes, with dexamethasone given just before or with the first dose; CT and lumbar puncture must never delay treatment (IDSA bacterial meningitis guideline; ESCMID 2016). Blood cultures come first, if they cause no delay, because their yield falls quickly once antibiotics are given."
+    },
+    {
+      "kind": "management",
+      "q": "Before the organism is known, which empiric antimicrobial regimen is most appropriate for her?",
+      "options": ["Vancomycin plus ceftriaxone plus ampicillin", "Ceftriaxone alone", "Penicillin G plus gentamicin", "Meropenem plus metronidazole"],
+      "answer": 0,
+      "explanation": "In community-acquired bacterial meningitis in adults over 50, IDSA recommends vancomycin plus a third-generation cephalosporin plus ampicillin; ESCMID 2016 likewise adds amoxicillin or ampicillin for Listeria in patients over 50. Ceftriaxone alone misses Listeria and cephalosporin-resistant pneumococci; metronidazole adds nothing for meningeal pathogens."
+    },
+    {
+      "kind": "risk",
+      "q": "Who should receive meningococcal chemoprophylaxis?",
+      "extra": "CSF: turbid, white cells 262/mm³, glucose 28 mg/dL, protein 155 mg/dL, many gram-negative diplococci. Blood and CSF cultures grow Neisseria meningitidis. She needed intubation soon after arrival. She lives with her husband.",
+      "options": [
+        "Every staff member who entered her ED room",
+        "Household and other close contacts, within 24 hours",
+        "Nobody, as she was given ceftriaxone promptly",
+        "Only contacts who later develop fever or rash"
+      ],
+      "answer": 1,
+      "explanation": "Household members, intimate contacts and staff exposed to her airway secretions without a mask (for example during intubation or suctioning) should get ciprofloxacin, rifampin or ceftriaxone as soon as possible, ideally within 24 hours (CDC/ACIP). Being in the same room is not enough, and treating the patient does not protect her contacts."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.pmh[0], presentation.chiefComplaint, presentation.hpi",
+      "quote": "A 72-year-old female with a past medical history of hypertension presented to the emergency department (ED) with one day of generalized weakness, headache and rash."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "she presented to her primary care physician with complaints of vaginal discharge two weeks prior to her presentation to the ED"
+    },
+    {
+      "field": "presentation.hpi, presentation.meds[0]",
+      "quote": "Despite treatment with metronidazole, symptoms persisted prompting a speculum exam and vaginal cultures obtained by primary care physician five days prior to her ED encounter."
+    },
+    { "field": "presentation.hpi", "quote": "At the time of presentation, she had not followed up for those results and therefore had no further treatment." },
+    {
+      "field": "presentation.hpi",
+      "quote": "The patient had been in her normal state of health until the previous evening when she described general malaise and fell asleep early."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "Her husband stated that she also slept much later than usual and when he tried to wake her, she seemed lethargic."
+    },
+    { "field": "presentation.hpi", "quote": "Review of systems was otherwise negative." },
+    {
+      "field": "vitals.tempC, vitals.hr, vitals.rr",
+      "quote": "Initial vital signs revealed a temperature of 101.7 degrees Fahrenheit, a pulse of 120 beats per minute, respiratory rate of 24 breaths per minute"
+    },
+    { "field": "vitals.sbp, vitals.dbp", "quote": "and a blood pressure of 107/49 millimeters of mercury" },
+    { "field": "exam[0]", "quote": "The patient was found to be ill-appearing and obtunded." },
+    { "field": "exam[1], exam[2]", "quote": "She had nuchal rigidity and a diffuse, non-blanching, purpuric rash." },
+    { "field": "exam[3], ecg", "quote": "Other than atrial fibrillation with a rapid ventricular response, the remaining physical exam was unremarkable." },
+    { "field": "investigations[0]", "quote": "These returned positive for N. meningitidis." },
+    { "field": "investigations[1]", "quote": "Her initial serum white blood cell count was 7.4 thousand cells/mL³" },
+    { "field": "investigations[2]", "quote": "the initial lactic acid was 8.1 millimoles per liter (mmol/L)" },
+    {
+      "field": "investigations[3], investigations[4]",
+      "quote": "a lumbar puncture was performed revealing turbid cerebral spinal fluid with a white blood cell count of 262 cells per millimeter cubed (mm³)"
+    },
+    { "field": "investigations[5], investigations[6]", "quote": "glucose of 28 mg per deciliter (dL) (40–70 mg/dL), and a protein of 155 mg/dL (15–45mg/dL)" },
+    { "field": "investigations[7]", "quote": "Gram stain showed many gram-negative diplococci." },
+    {
+      "field": "investigations[8], diagnosis.primary",
+      "quote": "Cultures from blood and cerebral spinal fluid grew N. meningitidis, which was sensitive to ceftriaxone."
+    },
+    { "field": "imaging[0], management[1]", "quote": "After an unremarkable non-contrast computed tomography of her head, a lumbar puncture was performed" },
+    {
+      "field": "diagnosis.primary",
+      "quote": "N. meningitidis was isolated from vaginal cultures during work-up for symptomatic vaginitis followed by classic N. meningitidis meningitis presenting with septic shock"
+    },
+    {
+      "field": "management[0]",
+      "quote": "Immediate concern for meningococcemia prompted empiric vancomycin (20 milligrams per kilogram, intravenous [mg/kg, IV]), ceftriaxone (2 grams [g], IV), ampicillin (2 g IV), dexamethasone (10 mg IV)"
+    },
+    { "field": "management[0]", "quote": "an initial 2-liter (L) normal saline bolus" },
+    {
+      "field": "management[2]",
+      "quote": "Despite aggressive fluid resuscitation, the patient rapidly decompensated requiring central line placement, intubation, and norepinephrine infusion."
+    },
+    {
+      "field": "management[3]",
+      "quote": "she had persistent septic shock that required corticosteroid administration and cardiovascular support with norepinephrine, epinephrine, and vasopressin"
+    },
+    { "field": "management[4]", "quote": "She received a seven-day course upon recommendation of infectious disease specialists." },
+    { "field": "outcome", "quote": "Her hospital stay was further complicated by disseminated intravascular coagulopathy and ischemic hepatitis." },
+    {
+      "field": "outcome",
+      "quote": "On hospital day 10, she was discharged to a long-term acute care facility with ischemic necrosis of the digits of her hands and feet bilaterally"
+    },
+    { "field": "outcome", "quote": "which would later require operative intervention" }
+  ],
+  "augmented": ["vitals.spo2: not reported", "presentation.allergies: not reported"]
+}

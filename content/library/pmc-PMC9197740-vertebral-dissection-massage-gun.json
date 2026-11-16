@@ -1,0 +1,191 @@
+{
+  "id": "pmc-PMC9197740-vertebral-dissection-massage-gun",
+  "title": "Two weeks of dizziness, then headache and neck pain",
+  "category": "neurology",
+  "acuity": 3,
+  "source": {
+    "pmcid": "PMC9197740",
+    "pmid": "35701359",
+    "doi": "10.5811/cpcem.2022.2.56046",
+    "citation": "Sulkowski K, Grant G, Brodie T. Case Report: Vertebral Artery Dissection After Use of Handheld Massage Gun. Clin Pract Cases Emerg Med. 2022;6(2):159-161.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9197740/"
+  },
+  "patient": { "age": 27, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Worsening dizziness for two weeks",
+    "hpi": "Two weeks of progressively worsening dizziness, a mix of spinning and unsteadiness, with mild nausea. For the past 4 days she has also had headache and neck pain. No trauma, but for about 3 weeks she has been using a handheld percussive massage gun on her neck. Occasional ibuprofen has not helped. No fever, double or blurred vision, photophobia, phonophobia or vomiting.",
+    "pmh": ["No past medical history"],
+    "meds": ["Occasional over-the-counter ibuprofen"],
+    "allergies": ["No known drug allergies"],
+    "social": "Drinks alcohol occasionally and smokes tobacco daily; no illicit drug use.",
+    "family": "Migraine headaches"
+  },
+  "vitals": { "hr": 78, "sbp": 118, "dbp": 74, "rr": 14, "spo2": 99, "tempC": 36.8, "gcs": 15 },
+  "exam": [
+    "Resting comfortably; alert and oriented to person, place and time",
+    "Full, painless neck range of motion; no carotid bruit, swelling, ecchymosis or midline cervical tenderness",
+    "Cranial nerves normal; full strength, normal reflexes and no ataxia",
+    "Romberg negative; normal rapid alternating movements and finger-to-nose testing"
+  ],
+  "investigations": [
+    { "name": "Complete blood count", "value": "Normal" },
+    { "name": "Comprehensive metabolic panel", "value": "No abnormalities; electrolytes normal" },
+    { "name": "Serum beta-hCG", "value": "Undetectable" },
+    { "name": "Hemoglobin", "value": "13.4", "unit": "g/dL", "augmented": true },
+    { "name": "White cell count", "value": "7.2", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Platelets", "value": "262", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Sodium", "value": "139", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.0", "unit": "mmol/L", "augmented": true },
+    { "name": "Creatinine", "value": "0.76", "unit": "mg/dL", "augmented": true },
+    { "name": "Glucose", "value": "92", "unit": "mg/dL", "augmented": true }
+  ],
+  "imaging": [
+    { "modality": "Noncontrast CT head", "finding": "No notable abnormality" },
+    {
+      "modality": "CT angiography of head and neck",
+      "finding": "Long segment of irregular stenosis of the right vertebral artery from C2 to C5, most compatible with dissection"
+    }
+  ],
+  "diagnosis": {
+    "primary": "Right vertebral artery dissection (C2–C5) after repeated use of a handheld massage gun on the neck",
+    "icd10": "I77.74",
+    "differentials": [
+      "Vestibular migraine",
+      "Benign paroxysmal positional vertigo",
+      "Vestibular neuritis",
+      "Posterior circulation TIA or stroke",
+      "Musculoskeletal neck pain with cervicogenic dizziness"
+    ]
+  },
+  "management": [
+    "Oral meclizine 25 mg, IV acetaminophen 1 g, IV prochlorperazine 10 mg and 1 L lactated Ringer's",
+    "Noncontrast CT head and CT angiography of head and neck, ordered for the prolonged symptoms and massage-gun use",
+    "Aspirin 324 mg orally; transferred and admitted overnight to a tertiary center with vascular surgery",
+    "Vascular surgery advised non-operative management; interventional radiology advised continuing aspirin and observation with neurological checks every 4 h"
+  ],
+  "outcome": "Remained neurologically stable during admission; discharged on aspirin 324 mg daily and meclizine as needed, with neurointerventional radiology follow-up in 2 weeks and no residual neurological deficit.",
+  "teachingPoints": [
+    "Consider cervical artery dissection in a young patient with dizziness plus new headache or neck pain, even when the neurological examination is normal.",
+    "Ask specifically about minor neck trauma: chiropractic manipulation, sports, and percussive massage devices used on the neck.",
+    "Noncontrast CT cannot show a dissection; CT angiography (or MRI with MRA) of the head and neck is the test.",
+    "Antithrombotic treatment aims to prevent dissection-related stroke; antiplatelet or anticoagulant therapy are both used, and the CADISS trial found no significant difference between them.",
+    "Thrombolysis and endovascular treatment are for acute ischemic deficits; stenting is reserved for recurrent ischemia despite medical therapy."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate imaging?",
+      "options": [
+        "Plain radiographs of the cervical spine",
+        "Noncontrast CT of the head only",
+        "CT angiography of the head and neck",
+        "Outpatient MRI of the brain"
+      ],
+      "answer": 2,
+      "explanation": "Dizziness with new headache and neck pain after repeated mechanical stress on the neck suggests cervical artery dissection, which noncontrast CT and plain films cannot show. CT angiography (or MRI with MRA) of the head and neck is needed even when the neurological examination is normal."
+    },
+    {
+      "kind": "interpretation",
+      "q": "What does this finding most likely represent?",
+      "extra": "Noncontrast CT head: normal. CT angiography: a long segment of irregular narrowing of the right vertebral artery from C2 to C5.",
+      "options": [
+        "Atherosclerotic vertebral artery stenosis",
+        "Congenital hypoplasia of the vertebral artery",
+        "Fibromuscular dysplasia with a string-of-beads pattern",
+        "Dissection of the right vertebral artery"
+      ],
+      "answer": 3,
+      "explanation": "A long, irregular narrowing of the extracranial (V2) vertebral artery in a young adult with recent neck stress and new neck pain is typical of dissection with intramural hematoma. Vertebral atherosclerosis favors the origin in older patients, hypoplasia gives a smooth, uniformly thin vessel, and fibromuscular dysplasia causes beading."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate initial treatment?",
+      "extra": "Diagnosis: right vertebral artery dissection. Neurological examination normal; no infarct on CT.",
+      "options": [
+        "IV alteplase to prevent posterior circulation stroke",
+        "Aspirin, with admission for serial neurological checks",
+        "Emergency endovascular stenting of the vertebral artery",
+        "Analgesia and discharge without antithrombotic therapy"
+      ],
+      "answer": 1,
+      "explanation": "Antithrombotic therapy reduces dissection-related stroke; for dissection with ischemic symptoms the 2021 AHA/ASA secondary prevention guideline considers antiplatelet or anticoagulant therapy reasonable, and CADISS found no significant difference between them. There is no acute deficit to thrombolyse, and stenting is reserved for recurrent ischemia despite medical treatment."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi",
+      "quote": "A 27-year-old female presented to the emergency department (ED) with a two-week history of progressively worsening dizziness."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "She described the dizziness as a combination of vertiginous symptoms as well as disequilibrium. Over the prior four days she noticed a headache and neck pain."
+    },
+    {
+      "field": "presentation.hpi, diagnosis.primary",
+      "quote": "She denied any recent trauma but had recently begun using a handheld massage gun on her neck over the preceding three weeks."
+    },
+    {
+      "field": "presentation.pmh[0], presentation.meds[0], presentation.hpi",
+      "quote": "The patient denied any past medical history and used no medications regularly, except for occasional over-the-counter ibuprofen, which did not alleviate her symptoms."
+    },
+    {
+      "field": "presentation.family, presentation.social",
+      "quote": "She had a family history significant for migraine headaches. She endorsed occasional alcohol and daily tobacco use but denied any illicit substance use."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "She denied fever, diplopia, blurry vision, photophobia, phonophobia, or vomiting but endorsed mild associated nausea."
+    },
+    { "field": "exam[0]", "quote": "Physical examination revealed a young female resting comfortably. Vital signs were all within normal limits." },
+    {
+      "field": "exam[1]",
+      "quote": "she demonstrated full range of motion of the neck without pain. She had no audible carotid bruit, no notable swelling, ecchymosis, or midline cervical spinal tenderness to palpation."
+    },
+    { "field": "exam[0], vitals.gcs", "quote": "the patient had a Glasgow Coma Scale of 15 and was alert and oriented to person, place, and time." },
+    { "field": "exam[2]", "quote": "She had a normal cranial nerve exam, full strength in the upper and lower extremities, normal reflexes, and no ataxia." },
+    { "field": "exam[3]", "quote": "She had a negative Romberg test and normal, rapid alternating movement testing and finger-to-nose testing." },
+    {
+      "field": "investigations[0], investigations[1]",
+      "quote": "Initial diagnostic evaluation demonstrated a normal complete blood count. Comprehensive metabolic panel demonstrated no abnormalities, and all electrolytes were within normal limits."
+    },
+    { "field": "investigations[2]", "quote": "Beta human chorionic gonadotropin was undetectable." },
+    {
+      "field": "management[0]",
+      "quote": "She was administered 25 milligrams (mg) meclizine orally, 1000 mg acetaminophen intravenously, 10 mg prochlorperazine intravenously, and a one-liter bolus of lactated Ringer’s solution"
+    },
+    {
+      "field": "management[1]",
+      "quote": "Because the patient had prolonged symptoms and endorsed a history of massage gun use, both a computed tomography (CT) without contrast of the head and a CT angiogram"
+    },
+    { "field": "imaging[0]", "quote": "The CT of the head without contrast demonstrated no notable abnormalities." },
+    {
+      "field": "imaging[1], diagnosis.primary",
+      "quote": "revealed a long segment of irregular stenosis of the right vertebral artery extending from the second to the fifth cervical vertebra, most compatible with a vertebral artery dissection"
+    },
+    {
+      "field": "management[2]",
+      "quote": "The patient was administered 324 mg aspirin orally and was transferred and admitted overnight to a tertiary accepting center with vascular surgery capability."
+    },
+    { "field": "management[3]", "quote": "Vascular surgery was consulted and recommended non-operative management" },
+    {
+      "field": "management[3]",
+      "quote": "Interventional radiology was consulted and recommended continuing aspirin, and admission for observation with neurological checks every four hours."
+    },
+    {
+      "field": "outcome",
+      "quote": "The patient was neurologically stable during the admission and was discharged with prescriptions for 324 mg aspirin orally daily as well as 25 mg meclizine orally as needed."
+    },
+    { "field": "outcome", "quote": "She was given follow-up with neuro-interventional radiology in two weeks as an outpatient." },
+    { "field": "outcome", "quote": "She was treated with aspirin and discharged with no residual neurological deficits." }
+  ],
+  "augmented": [
+    "vitals.hr: report says all vital signs were within normal limits",
+    "vitals.sbp: report says within normal limits",
+    "vitals.dbp: report says within normal limits",
+    "vitals.rr: report says within normal limits",
+    "vitals.spo2: report says within normal limits",
+    "vitals.tempC: report says within normal limits",
+    "presentation.allergies: not reported"
+  ]
+}

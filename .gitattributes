@@ -1,0 +1,20 @@
+# Line endings: LF everywhere, also in Windows checkouts. The pre-commit hook and the install scripts are
+# shell scripts (a CRLF breaks them), and `npm run cases:check` compares generated text byte for byte.
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binary assets: never diff or convert
+*.glb binary
+*.gltf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.onnx binary
+*.woff2 binary
+*.pdf binary

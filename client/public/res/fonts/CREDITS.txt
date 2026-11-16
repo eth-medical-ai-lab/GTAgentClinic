@@ -1,0 +1,7 @@
+Fonts in client/public/res/fonts (bundled; the game never loads fonts from the network):
+
+Anton-Regular.ttf — Anton by Vernon Adams, Copyright 2020 The Anton Project Authors
+(https://github.com/googlefonts/AntonFont). SIL Open Font License 1.1; the full text ships as OFL.txt
+next to the font. Unmodified copy of ofl/anton/Anton-Regular.ttf from https://github.com/google/fonts
+(SHA-1 052032168cd9f8ec4a5a514b3a887fb514d82907). Used for the GTAgentClinic wordmark and the
+loading screen's shift title (client/src/ui/Wordmark.tsx, LoadingScreen.tsx).

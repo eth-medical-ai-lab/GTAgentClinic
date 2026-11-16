@@ -1,0 +1,182 @@
+{
+  "id": "pmc-PMC12333903-staphylococcal-tss-rhinoplasty",
+  "title": "Fever and a red rash two days after cosmetic nose surgery",
+  "category": "infectious",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC12333903",
+    "pmid": "40786440",
+    "doi": "10.7759/cureus.87549",
+    "citation": "Kitagawa N, Umemoto D, Nishioka H. Staphylococcal Toxic Shock Syndrome Associated With a Cosmetic Rhinoplasty Procedure. Cureus. 2025;17(7):e87549.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12333903/"
+  },
+  "patient": { "age": 25, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Fever, vomiting and a generalized rash for one day",
+    "hpi": "Previously healthy. One day of fever, vomiting and a rash over the whole body. Two days ago she had cosmetic rhinoplasty at an outside cosmetic surgery clinic, and the symptoms began after the procedure. She does not use menstrual tampons.",
+    "pmh": ["No significant past medical history"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known food or drug allergies"],
+    "social": "Does not smoke or drink alcohol."
+  },
+  "vitals": { "hr": 158, "sbp": 69, "dbp": 44, "rr": 25, "spo2": 97, "tempC": 39.3, "gcs": 15 },
+  "exam": [
+    "Alert and conscious",
+    "Redness over the nasal root",
+    "Bilateral conjunctival hyperemia",
+    "Diffuse macular erythroderma over the entire body",
+    "Heart and breath sounds clear; no insect bites"
+  ],
+  "investigations": [
+    { "name": "White cell count", "value": "13,600", "unit": "/µL", "flag": "H" },
+    { "name": "Neutrophils", "value": "92", "unit": "%", "flag": "H" },
+    { "name": "Hemoglobin", "value": "9.8", "unit": "g/dL", "flag": "L" },
+    { "name": "Platelets", "value": "8.6", "unit": "x10⁴/µL", "flag": "L" },
+    { "name": "Albumin", "value": "3.2", "unit": "g/dL", "flag": "L" },
+    { "name": "AST", "value": "38", "unit": "U/L" },
+    { "name": "ALT", "value": "28", "unit": "U/L" },
+    { "name": "Blood urea nitrogen", "value": "36.8", "unit": "mg/dL", "flag": "H" },
+    { "name": "Creatinine", "value": "1.48", "unit": "mg/dL", "flag": "H" },
+    { "name": "C-reactive protein", "value": "28.59", "unit": "mg/dL", "flag": "H" },
+    { "name": "Anti-measles IgM", "value": "Negative" },
+    { "name": "Blood and urine cultures", "value": "No growth" },
+    { "name": "Nasal swab PCR (rhinoplasty surgical site)", "value": "Staphylococcus aureus, methicillin-susceptible" }
+  ],
+  "imaging": [{ "modality": "CT face", "finding": "Rhinoplasty implant artifact on the nasal dorsum, with no surrounding fluid collection" }],
+  "diagnosis": {
+    "primary": "Staphylococcal toxic shock syndrome after cosmetic rhinoplasty with a silicone nasal implant (methicillin-susceptible S. aureus at the surgical site)",
+    "icd10": "A48.3 / B95.61",
+    "differentials": [
+      "Streptococcal toxic shock syndrome",
+      "Septic shock from a surgical-site infection",
+      "Meningococcemia",
+      "Severe drug reaction (DRESS or toxic epidermal necrolysis)",
+      "Measles"
+    ]
+  },
+  "management": [
+    "Immediate fluid resuscitation with norepinephrine and vasopressin",
+    "IV vancomycin (target trough 15–20 µg/mL) plus clindamycin 600 mg every 8 h",
+    "Nasal implant left in place: she did not want surgery and the nasal inflammation looked mild",
+    "Shock resolved by day 3; antibiotics changed to cefazolin 2 g every 8 h",
+    "Eosinophilia (WBC 9,700/µL, 16.5% eosinophils), probably from cefazolin allergy: switched to ceftriaxone 2 g every 24 h"
+  ],
+  "outcome": "Fever resolved on day 4 and the rash improved from day 6; discharged on day 9. She stopped oral cefalexin herself because of a rash, which then cleared, and she remained well. At follow-up on day 17 her upper arms were desquamating and the nasal root was no longer red.",
+  "teachingPoints": [
+    "Toxic shock syndrome follows nasal surgery and packing, wounds, burns and childbirth as well as tampon use; ask about recent procedures in anyone with fever, rash and shock.",
+    "CDC staphylococcal TSS definition: fever of at least 38.9 °C, diffuse macular erythroderma, hypotension, involvement of three or more organ systems, and desquamation 1–2 weeks later.",
+    "Start vancomycin plus clindamycin (to suppress toxin production) with fluids and vasopressors; narrow to an antistaphylococcal beta-lactam once MSSA is confirmed.",
+    "Blood cultures are usually negative in staphylococcal TSS; look for the organism at the colonized site (wound, nose, vagina).",
+    "Remove the toxin source where possible (packing, tampons, collections); a few cases, like this one, resolve without removing an implant."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "options": [
+        "Meningococcal septicemia",
+        "Staphylococcal toxic shock syndrome",
+        "Anaphylaxis to perioperative antibiotics",
+        "Drug reaction with eosinophilia and systemic symptoms"
+      ],
+      "answer": 1,
+      "explanation": "High fever, hypotension, diffuse macular erythroderma, conjunctival hyperemia and vomiting two days after nasal surgery fit staphylococcal toxic shock syndrome. DRESS appears weeks after a new drug, anaphylaxis does not cause high fever, and meningococcemia gives a petechial or purpuric rather than a diffuse macular rash."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Which result adds another organ system toward the CDC case definition of toxic shock syndrome?",
+      "extra": "WBC 13,600/µL, hemoglobin 9.8 g/dL, platelets 8.6 × 10⁴/µL, BUN 36.8 mg/dL, creatinine 1.48 mg/dL, AST 38 U/L, ALT 28 U/L, CRP 28.59 mg/dL.",
+      "options": ["C-reactive protein of 28.59 mg/dL", "White cell count of 13,600/µL", "Platelet count of 8.6 × 10⁴/µL", "Creatinine of 1.48 mg/dL"],
+      "answer": 2,
+      "explanation": "The CDC definition counts platelets below 100,000/mm³ as hematologic involvement; renal involvement needs BUN or creatinine at least twice the upper limit of normal, which these values do not reach. With vomiting and conjunctival hyperemia she has the three organ systems required; CRP and leukocytosis are not criteria."
+    },
+    {
+      "kind": "management",
+      "q": "Which empiric antimicrobial regimen is most appropriate?",
+      "options": ["Cefazolin alone", "Ceftriaxone plus azithromycin", "Meropenem alone", "Vancomycin plus clindamycin"],
+      "answer": 3,
+      "explanation": "Empiric therapy should cover MRSA and include a protein-synthesis inhibitor such as clindamycin (or linezolid) to suppress toxin production. Once methicillin-susceptible S. aureus is confirmed, vancomycin can give way to an antistaphylococcal beta-lactam such as cefazolin, as happened here; a beta-lactam alone does not suppress toxin production."
+    },
+    {
+      "kind": "management",
+      "q": "Antibiotics and vasopressors are running. Which statement about source control is most accurate?",
+      "extra": "CT face: rhinoplasty implant artifact on the nasal dorsum with no surrounding fluid collection.",
+      "options": [
+        "Remove packing, drain collections and consider removing the implant",
+        "Source control is unnecessary once clindamycin is running",
+        "The implant must be removed before any antibiotic is given",
+        "Open surgical exploration is needed even without a collection"
+      ],
+      "answer": 0,
+      "explanation": "Toxin production continues while the focus remains, so packing, tampons and infected collections should be removed and removal of an infected implant considered, without ever delaying antibiotics. This patient declined surgery, her nasal inflammation was mild, and she recovered with the implant in place, as in a few other reported cases."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi, presentation.pmh[0]",
+      "quote": "A previously healthy 25-year-old woman was admitted to our hospital with a one-day history of fever, vomiting, and generalized skin rash."
+    },
+    { "field": "presentation.hpi", "quote": "Two days before admission, she had undergone cosmetic rhinoplasty at another cosmetic surgery clinic." },
+    { "field": "presentation.hpi", "quote": "experienced fever, vomiting, and skin rash following the procedure" },
+    { "field": "presentation.hpi", "quote": "Also, she did not report using menstrual tampons." },
+    {
+      "field": "presentation.meds[0], presentation.allergies[0], presentation.social",
+      "quote": "The patient did not take any medication and reported no history of smoking, alcohol consumption, or food or drug allergies."
+    },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.rr, vitals.tempC",
+      "quote": "Physical examination revealed a blood pressure of 69/44 mmHg, pulse rate of 158/min, respiratory rate of 25 breaths/min, and body temperature of 39.3 ℃."
+    },
+    { "field": "exam[0]", "quote": "The patient was alert and conscious." },
+    {
+      "field": "exam[1], exam[2], exam[3]",
+      "quote": "Notable findings included redness of the nasal root, bilateral conjunctival hyperemia, and diffuse macular erythroderma over the entire body"
+    },
+    { "field": "exam[4]", "quote": "The heart and breathing sounds were clear, and there were no insect bites." },
+    {
+      "field": "investigations[0], investigations[1], investigations[2], investigations[3]",
+      "quote": "Laboratory findings showed the following results: white blood cell (WBC) count, 13,600/μL (with neutrophils: 92.0%); hemoglobin, 9.8 g/dL; platelet count, 8.6×10⁴/μL"
+    },
+    {
+      "field": "investigations[4], investigations[5], investigations[6], investigations[7], investigations[8], investigations[9]",
+      "quote": "albumin, 3.2 g/dL; aspartate aminotransferase, 38 U/L; alanine aminotransferase, 28 U/L; blood urea nitrogen, 36.8 mg/dL; creatinine, 1.48 mg/dL; C-reactive protein, 28.59 mg/dL"
+    },
+    {
+      "field": "investigations[10], investigations[11]",
+      "quote": "Anti-measles IgM antibody test results were negative, and blood and urine cultures did not show bacterial growth."
+    },
+    {
+      "field": "investigations[12]",
+      "quote": "nasal swab specimens obtained from the rhinoplasty surgical site tested positive for S. aureus, which was identified as methicillin-susceptible S. aureus"
+    },
+    {
+      "field": "imaging[0]",
+      "quote": "Computed tomography of the face revealed a rhinoplasty artifact on the nasal dorsum, without surrounding fluid accumulation"
+    },
+    { "field": "diagnosis.primary", "quote": "Ultimately, the patient was diagnosed with staphylococcal TSS, which is likely related to cosmetic rhinoplasty." },
+    { "field": "diagnosis.primary", "quote": "the patient had a silicone implant inserted for prosthetic rhinoplasty in the nasal dorsum" },
+    { "field": "management[0]", "quote": "The patient underwent immediate fluid resuscitation using norepinephrine and vasopressin." },
+    {
+      "field": "management[1]",
+      "quote": "Treatment with vancomycin (targeting trough levels of 15-20 µg/mL) and clindamycin (600 mg every 8 h) was initiated."
+    },
+    {
+      "field": "management[2]",
+      "quote": "because the patient did not want to undergo surgery, and her nasal inflammation seemed mild, we attempted to treat her without removing the implant"
+    },
+    { "field": "management[3]", "quote": "By day 3, the patient recovered from shock, and the antibiotic regimen was changed to cefazolin (2 g every 8 h)" },
+    { "field": "management[4]", "quote": "Owing to the increase in eosinophils (WBC count of 9,700/μL with 16.5% eosinophils)" },
+    { "field": "management[4]", "quote": "likely caused by an allergy to cefazolin, the antibiotic was switched to ceftriaxone (2 g every 24 h)" },
+    { "field": "outcome", "quote": "On day 4, the fever resolved, and by day 6, the rash gradually improved." },
+    { "field": "outcome", "quote": "The patient was discharged on day 9." },
+    { "field": "outcome", "quote": "She started taking cefalexin (2 g/day) but discontinued it at her own discretion owing to the appearance of a skin rash." },
+    {
+      "field": "outcome",
+      "quote": "After discontinuation of the medication, the skin rash quickly disappeared, and the patient remained symptom-free and healthy."
+    },
+    { "field": "outcome", "quote": "On day 17, the patient returned … for a follow-up visit, where desquamation of her upper arms was observed" },
+    { "field": "outcome", "quote": "there was no redness at the nasal root" }
+  ],
+  "augmented": ["vitals.spo2: not reported", "vitals.gcs: GCS 15 inferred from 'alert and conscious'"]
+}

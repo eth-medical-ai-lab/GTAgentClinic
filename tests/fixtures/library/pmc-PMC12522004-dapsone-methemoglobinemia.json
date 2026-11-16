@@ -1,0 +1,102 @@
+{
+  "id": "pmc-PMC12522004-dapsone-methemoglobinemia",
+  "title": "Headaches, palpitations and a low saturation at 21",
+  "category": "toxicology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC12522004",
+    "pmid": "41103871",
+    "doi": "10.7759/cureus.92342",
+    "citation": "Ali N, Abughazal M, Honeini R, et al. Recognizing Drug-Induced Methemoglobinemia in the Emergency Setting: A Case of Topical Dapsone Toxicity. Cureus. 2025;17(9):e92342.",
+    "license": "CC BY",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12522004/"
+  },
+  "patient": { "age": 21, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Headaches, dizziness and palpitations, now short of breath",
+    "hpi": "Two weeks of progressively worsening headaches, intermittent dizziness and palpitations. Over the last three days she has become short of breath, first on exertion and then at rest.",
+    "pmh": ["Obstructive sleep apnea", "Acne vulgaris"],
+    "meds": ["Spironolactone", "Dapsone 5% gel once daily for the past six months"],
+    "allergies": []
+  },
+  "vitals": { "hr": 134, "sbp": 140, "dbp": 92, "rr": 19, "spo2": 87, "tempC": 37.4 },
+  "exam": ["Alert, in mild respiratory distress", "Chest clear on auscultation bilaterally", "No peripheral edema"],
+  "investigations": [
+    { "name": "Methemoglobin (co-oximetry)", "value": "11.1", "unit": "%", "flag": "H" },
+    { "name": "pO2 (arterial, on high-flow oxygen)", "value": "25.9", "unit": "kPa", "flag": "H" },
+    { "name": "Oxyhemoglobin (co-oximetry)", "value": "87.6", "unit": "%", "flag": "L" },
+    { "name": "Total hemoglobin", "value": "102", "unit": "g/L", "flag": "L" },
+    { "name": "Lactate", "value": "0.7", "unit": "mmol/L" },
+    { "name": "D-dimer", "value": "<150", "unit": "ng/mL" }
+  ],
+  "imaging": [
+    { "modality": "Chest radiograph", "finding": "Clear lung fields; no consolidation, collapse, effusion or pneumothorax" },
+    { "modality": "CT pulmonary angiography", "finding": "No filling defects in the central or segmental pulmonary arteries; no pulmonary embolism" }
+  ],
+  "ecg": "Sinus tachycardia",
+  "diagnosis": {
+    "primary": "Acquired methemoglobinemia caused by topical dapsone",
+    "differentials": ["Pulmonary embolism", "Pneumonia", "Carbon monoxide poisoning", "Anxiety with hyperventilation"]
+  },
+  "management": [
+    "Topical dapsone stopped",
+    "High-flow oxygen by alternating Venturi and non-rebreather masks at up to 15 L/min",
+    "Methylene blue was not given, although the authors note it is typically indicated for significant methemoglobinemia"
+  ],
+  "outcome": "Methemoglobin fell to 1.9% without an antidote; oxygen saturation normal on room air by day 4; discharged on day 6, asymptomatic.",
+  "teachingPoints": [
+    "Pulse oximetry misreads methemoglobin: the SpO2 sits around 85–90% and barely improves with oxygen while the arterial pO2 is normal or high (a saturation gap); co-oximetry confirms.",
+    "Dapsone, including the topical gel, benzocaine and lidocaine sprays, nitrites and primaquine are classic oxidant causes.",
+    "Stop the oxidant and give oxygen; methylene blue 1–2 mg/kg IV is the antidote when symptoms are significant or the level is high (commonly above 20–30%), but avoid it in G6PD deficiency."
+  ],
+  "questions": [
+    {
+      "kind": "interpretation",
+      "q": "What best explains these oxygenation findings?",
+      "extra": "Arterial blood gas on high-flow oxygen: pO2 25.9 kPa; co-oximetry oxyhemoglobin 87.6%. Chest radiograph: clear lung fields. D-dimer <150 ng/mL.",
+      "options": ["A right-to-left shunt through a patent foramen ovale", "A hemoglobin species that cannot carry oxygen", "Pulmonary embolism with ventilation–perfusion mismatch", "Hypoventilation from obstructive sleep apnea"],
+      "answer": 1,
+      "explanation": "A high arterial pO2 with a low measured oxyhemoglobin is a saturation gap: oxygen dissolves normally in plasma but part of the hemoglobin cannot bind it. Shunt, ventilation–perfusion mismatch and hypoventilation all lower the pO2 itself. Co-oximetry names the species; here it was methemoglobin 11.1%."
+    },
+    {
+      "kind": "diagnosis",
+      "q": "Which drug is the most likely cause?",
+      "extra": "Co-oximetry: methemoglobin 11.1%.",
+      "options": ["Spironolactone", "Doxycycline", "Ibuprofen", "Topical dapsone"],
+      "answer": 3,
+      "explanation": "Dapsone is a classic oxidant cause of acquired methemoglobinemia, even as a 5% gel used for months; benzocaine and lidocaine sprays, nitrites, nitrates and primaquine are others. Spironolactone does not oxidize hemoglobin."
+    },
+    {
+      "kind": "management",
+      "q": "Which antidote is indicated if her symptoms worsen or the methemoglobin level climbs above about 20–30%?",
+      "options": ["Methylene blue", "Hydroxocobalamin", "Fomepizole", "Sodium thiosulfate"],
+      "answer": 0,
+      "explanation": "Methylene blue (1–2 mg/kg IV over 5 minutes) speeds the NADPH-dependent reduction of methemoglobin; avoid it in G6PD deficiency, where it can cause hemolysis. In this case stopping dapsone and giving high-flow oxygen were enough: the level fell to 1.9%."
+    }
+  ],
+  "evidence": [
+    { "field": "patient, presentation.chiefComplaint, presentation.hpi", "quote": "A 21-year-old female presented to the emergency department with a two-week history of progressively worsening headaches, intermittent dizziness, and palpitations." },
+    { "field": "presentation.hpi", "quote": "Over the preceding three days, she had also developed exertional dyspnea, followed by resting dyspnea." },
+    { "field": "presentation.pmh", "quote": "Her medical history was notable for obstructive sleep apnea and acne vulgaris" },
+    { "field": "presentation.meds[0]", "quote": "for which she had been using spironolactone" },
+    { "field": "presentation.meds[1]", "quote": "topical dapsone 5% gel once daily for the past six months" },
+    { "field": "vitals.hr, vitals.rr, vitals.tempC, vitals.sbp, vitals.dbp, vitals.spo2", "quote": "heart rate 134 beats/min, respiratory rate 19 breaths/min, temperature 37.4°C, blood pressure 140/92 mmHg, and oxygen saturation 87% on room air" },
+    { "field": "exam[0]", "quote": "she was alert but in mild respiratory distress" },
+    { "field": "exam[1], exam[2]", "quote": "Chest auscultation was clear bilaterally, and no peripheral edema was observed." },
+    { "field": "investigations[0], diagnosis.primary", "quote": "revealed type 1 respiratory failure, with a methemoglobin level elevated to 11.1%" },
+    { "field": "investigations[1]", "quote": "Oxygen partial pressure (pO₂) 25.9 kPa" },
+    { "field": "investigations[2]", "quote": "Oxyhemoglobin 87.60%" },
+    { "field": "investigations[3]", "quote": "Total hemoglobin 102 g/L" },
+    { "field": "investigations[4]", "quote": "Lactate 0.7 mmol/L" },
+    { "field": "investigations[5]", "quote": "a D-dimer level of <150 ng/mL" },
+    { "field": "imaging[0]", "quote": "showed clear lung fields with no consolidation, collapse, effusion, or pneumothorax" },
+    { "field": "imaging[1]", "quote": "revealed no filling defects within the central or segmental pulmonary arteries to suggest pulmonary embolism (PE)" },
+    { "field": "ecg", "quote": "Electrocardiography demonstrated sinus tachycardia." },
+    { "field": "management[0], management[1]", "quote": "Dapsone was discontinued, and she was managed with high-flow oxygen delivered via alternating Venturi and non-rebreather masks at up to 15 L/min." },
+    { "field": "management[2]", "quote": "Although methylene blue is typically indicated for significant methemoglobinemia, it was not administered in this case." },
+    { "field": "outcome", "quote": "the final VBG in the medical ward showing a methemoglobin level of 1.9%" },
+    { "field": "outcome", "quote": "By day 4, her oxygen saturation had normalized on room air" },
+    { "field": "outcome", "quote": "She was discharged on day 6, hemodynamically stable and asymptomatic." }
+  ],
+  "augmented": ["presentation.allergies: not reported", "investigations[1]: the text says the gas was drawn on high-flow oxygen; its table lists FiO2 21%"]
+}

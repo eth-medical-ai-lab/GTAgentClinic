@@ -1,0 +1,268 @@
+{
+  "id": "pmc-PMC11162566-digoxin-toxicity-brash",
+  "title": "Fatigue and a pulse of 28 during a heatwave",
+  "category": "toxicology",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC11162566",
+    "pmid": "38851740",
+    "doi": "10.1186/s13256-024-04600-5",
+    "citation": "Costantini I, Mantelli G, Carollo M, Losso L, Morando E, Bacchion M, et al. Not only Van Gogh: a case of BRASH syndrome with concomitant digoxin toxicity. J Med Case Rep. 2024;18(1):273.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11162566/"
+  },
+  "patient": { "age": 66, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Worsening fatigue over 3–4 days",
+    "hpi": "Three to four days of worsening fatigue during a heatwave. Her GP found a blood pressure of 80/40 mm Hg and a heart rate of 28/min and sent her straight to the ED. She has passed no urine for 3 days, and for the past week has noticed 'flashing lights and sparkles around objects'. She takes her medicines as prescribed; the last doses of digoxin, ramipril and bisoprolol were 2 hours before arrival.",
+    "pmh": [
+      "Hereditary hemorrhagic telangiectasia (Osler–Weber–Rendu) with pulmonary arteriovenous malformations",
+      "Platelet function defect with frequent epistaxis",
+      "Atrial fibrillation; percutaneous left atrial appendage occlusion 2 years ago",
+      "Hypertension",
+      "Mitral valve prolapse and pulmonary hypertension",
+      "Cirrhosis and ascites from congestive hepatopathy due to cor pulmonale",
+      "Iron-deficiency anemia; recent Helicobacter pylori eradication",
+      "Left mastectomy for breast cancer 7 years ago, no recurrence"
+    ],
+    "meds": [
+      "Digoxin 0.25 mg once daily",
+      "Bisoprolol 5 mg twice daily",
+      "Ramipril 2.5 mg once daily",
+      "Spironolactone 25 mg once daily",
+      "Furosemide 25 mg once daily",
+      "Pravastatin 40 mg once daily"
+    ],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 28, "sbp": 90, "dbp": 45, "rr": 40, "spo2": 89, "tempC": 36.6, "gcs": 14 },
+  "exam": [
+    "Mottled skin",
+    "Respiratory distress, RR 40/min; SpO2 89% on room air",
+    "Confused",
+    "After the first round of treatment, on isoproterenol: still HR 30/min and BP 75/50 mm Hg"
+  ],
+  "investigations": [
+    { "name": "pH (arterial)", "value": "7.10", "flag": "critical" },
+    { "name": "PaCO2", "value": "32", "unit": "mm Hg", "flag": "L" },
+    { "name": "PaO2 (room air)", "value": "69", "unit": "mm Hg", "flag": "L" },
+    { "name": "Bicarbonate (arterial)", "value": "10", "unit": "mmol/L", "flag": "L" },
+    { "name": "Lactate", "value": "Normal" },
+    { "name": "Potassium (arterial)", "value": "8.9", "unit": "mmol/L", "flag": "critical" },
+    { "name": "Potassium (serum)", "value": "8.64", "unit": "mmol/L", "flag": "critical" },
+    { "name": "Sodium", "value": "138", "unit": "mmol/L" },
+    { "name": "Chloride", "value": "108", "unit": "mmol/L", "flag": "H" },
+    { "name": "Calcium", "value": "2.03", "unit": "mmol/L", "flag": "L" },
+    { "name": "Creatinine", "value": "8.11", "unit": "mg/dL", "flag": "H" },
+    { "name": "Urea", "value": "16.74", "unit": "mmol/L", "flag": "H" },
+    { "name": "Hemoglobin", "value": "116", "unit": "g/L", "flag": "L" },
+    { "name": "Platelets", "value": "359", "unit": "x10⁹/L" },
+    { "name": "CRP", "value": "52", "unit": "mg/L", "flag": "H" },
+    { "name": "INR", "value": "1.26", "flag": "H" },
+    { "name": "Troponin T", "value": "37", "unit": "ng/L", "flag": "H" },
+    { "name": "Digoxin (serum)", "value": "13.7", "unit": "µg/L", "flag": "critical" },
+    { "name": "Potassium after repeated shifting therapy", "value": "9.3", "unit": "mmol/L", "flag": "critical" },
+    { "name": "Digoxin 6 h after arrival (after Fab)", "value": "10.0", "unit": "µg/L", "flag": "critical" },
+    { "name": "Digoxin at the next measurement", "value": ">10", "unit": "µg/L", "flag": "critical" },
+    { "name": "Potassium on CVVH next day", "value": "4.96", "unit": "mmol/L" },
+    { "name": "Digoxin on day 17", "value": "1.38", "unit": "µg/L", "flag": "H" }
+  ],
+  "ecg": "Idioventricular rhythm, 28/min. Later: junctional rhythm with ventricular bigeminy (day 1), atrial fibrillation with ventricular ectopics (day 3), back to baseline atrial fibrillation by day 14.",
+  "diagnosis": {
+    "primary": "Chronic digoxin toxicity with BRASH syndrome (bradycardia, renal failure, AV-nodal blockade, shock, hyperkalemia) after dehydration in a heatwave",
+    "icd10": "T46.0X5A / E87.5 / N17.9",
+    "differentials": [
+      "Hyperkalemia from acute kidney injury alone",
+      "Beta-blocker toxicity",
+      "Inferior myocardial infarction with complete heart block",
+      "Septic shock",
+      "Adrenal crisis"
+    ]
+  },
+  "management": [
+    "Calcium chloride 10% 10 mL IV, nebulized salbutamol 10 mg, sodium bicarbonate 8.4% 150 mL IV, and 10% dextrose 250 mL with insulin 10 units",
+    "Isoproterenol infusion from 2.5 μg/min, increased to 4 μg/min aiming for a heart rate of 45–50/min",
+    "Potassium-shifting therapy repeated without effect; urgent nephrology consultation for emergency dialysis",
+    "Empirical digoxin immune Fab, 2 vials (40 mg), then 5 more vials once the digoxin level returned",
+    "ICU: continuous venovenous hemofiltration until day 9; isoproterenol stopped on day 8"
+  ],
+  "outcome": "Potassium normalized on CVVH and the rhythm returned to baseline atrial fibrillation as digoxin fell over 17 days; the stay was complicated by pneumonia and epistaxis needing transfusion. Discharged after 35 days on intermittent dialysis, stopped within 3 months; stage 3b chronic kidney disease at 6 months.",
+  "teachingPoints": [
+    "BRASH (bradycardia, renal failure, AV-nodal blockade, shock, hyperkalemia) is a vicious cycle: dehydration and AKI raise potassium and AV-nodal drug levels, which worsen bradycardia and renal perfusion.",
+    "Digoxin is renally cleared, so AKI in a patient taking it causes chronic toxicity; ask about nausea, confusion and visual change (flashing lights, halos, yellow-green vision).",
+    "Give digoxin-specific Fab for life-threatening arrhythmia or bradycardia, severe hyperkalemia, or end-organ dysfunction, without waiting for a level; in chronic toxicity, vials ≈ serum digoxin (ng/mL) × weight (kg) / 100.",
+    "Dialysis does not remove digoxin (large volume of distribution) but treats refractory hyperkalemia and anuria.",
+    "After Fab, routine immunoassays measure total (free plus bound) digoxin, so levels cannot guide further dosing; follow the ECG, potassium and clinical state."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "Besides hyperkalemia, which process most likely contributes to this presentation?",
+      "extra": "ABG: pH 7.10, PaCO2 32 mm Hg, HCO3⁻ 10 mmol/L, lactate normal, K⁺ 8.9 mmol/L. ECG: idioventricular rhythm, 28/min.",
+      "options": [
+        "Inferior myocardial infarction with heart block",
+        "Digoxin accumulation from acute kidney injury",
+        "Adrenal crisis triggered by dehydration",
+        "Septic shock from a urinary source"
+      ],
+      "answer": 1,
+      "explanation": "Dehydration in a heatwave, on ramipril, spironolactone and furosemide, caused anuric AKI; renally cleared digoxin accumulated and, with bisoprolol, drove the BRASH cycle. A week of 'flashing lights and sparkles' points to digoxin toxicity, and her level was 13.7 μg/L. Normal lactate argues against septic shock."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate next step?",
+      "extra": "Repeat ABG: K⁺ 9.3 mmol/L after two rounds of calcium chloride, insulin–dextrose, nebulized salbutamol and sodium bicarbonate. HR 30/min, BP 75/50 mm Hg on isoproterenol. Anuric for 3 days.",
+      "options": [
+        "Digoxin-specific Fab now, with emergency dialysis for the potassium",
+        "Hemodialysis alone, which will also clear the digoxin",
+        "Transvenous pacing, withholding any further calcium",
+        "Atropine 1 mg, repeated to a total of 3 mg"
+      ],
+      "answer": 0,
+      "explanation": "In a patient on digoxin with AKI, refractory hyperkalemia and a bradyarrhythmia, give digoxin-specific Fab empirically: it reverses Na⁺/K⁺-ATPase blockade, lowering potassium and improving conduction. Dialysis is still needed for the potassium and anuria but does not remove digoxin. Pacing does not treat the hyperkalemia and can provoke arrhythmias in digoxin toxicity."
+    },
+    {
+      "kind": "interpretation",
+      "q": "After 7 vials of Fab, the measured serum digoxin is 10.0 μg/L at 6 h and above 10 μg/L at the next check. How should this be interpreted?",
+      "extra": "Digoxin 13.7 μg/L on arrival, before Fab. On CVVH. Next day: K⁺ 4.96 mmol/L; ECG junctional rhythm with ventricular bigeminy.",
+      "options": [
+        "Fab has failed, so the full calculated dose is now needed",
+        "Ongoing absorption of the dose taken 2 h before arrival",
+        "CVVH is releasing digoxin from tissue stores",
+        "The assay measures total digoxin, including Fab-bound drug"
+      ],
+      "answer": 3,
+      "explanation": "Routine immunoassays do not separate free from Fab-bound digoxin, so total levels stay high or rise after Fab and cannot guide further dosing. Follow the ECG, potassium and clinical state instead; here she needed no further Fab, and the rhythm improved as potassium normalized."
+    },
+    {
+      "kind": "risk",
+      "q": "She received IV calcium chloride before digoxin toxicity was suspected. What does the evidence suggest?",
+      "options": [
+        "Available data do not show that it increases arrhythmias or death",
+        "It is absolutely contraindicated because of the 'stone heart' risk",
+        "It inactivates digoxin-specific Fab given afterwards",
+        "It raises serum digoxin by displacing it from tissue binding"
+      ],
+      "answer": 0,
+      "explanation": "The 'stone heart' warning rests on old animal data and case reports; a retrospective human series found no excess dysrhythmias or deaths when calcium was given in digoxin toxicity, and none occurred here. Calcium does not affect Fab or digoxin levels, but Fab, not calcium, is the specific treatment for digoxin-related hyperkalemia."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi",
+      "quote": "We present the case of a 66-year-old Caucasian female patient who consulted her general practitioner (GP) during a heatwave owing to worsening fatigue over the past 3–4 days."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "she was found to be hypotensive (80/40 mmHg) and bradycardic (28 bpm), prompting immediate referral to the emergency department (ED)"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "she disclosed being anuric for the past 3 days and experiencing visual phenomena such as \"flashing lights and sparkles around objects\" over the previous week"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "she confirmed adherence to her medication regimen, noting that her last doses of digoxin, ramipril, and bisoprolol were taken 2 hours before arrival"
+    },
+    {
+      "field": "presentation.pmh[0]",
+      "quote": "The patient had a medical history of Osler Weber Rendu syndrome, characterized by pulmonary arteriovenous malformations"
+    },
+    { "field": "presentation.pmh[7]", "quote": "had undergone a left mastectomy for breast cancer 7 years prior, with subsequent negative follow-ups" },
+    { "field": "presentation.pmh[1]", "quote": "she had a platelet function deficit … and was experiencing frequent epistaxis" },
+    {
+      "field": "presentation.pmh[2], presentation.pmh[3], presentation.pmh[4], presentation.pmh[6]",
+      "quote": "Her medical history also included hypertension, atrial fibrillation—treated with percutaneous occlusion of the atrial appendage 2 years earlier—mitral valve prolapse, pulmonary hypertension, iron deficiency anemia"
+    },
+    {
+      "field": "presentation.pmh[5], presentation.pmh[6]",
+      "quote": "recent eradication of Helicobacter pylori infection, hepatic cirrhosis, and ascites secondary to congestive hepatopathy attributed to cor pulmonale"
+    },
+    {
+      "field": "presentation.meds[0], presentation.meds[1], presentation.meds[2]",
+      "quote": "Pharmacological history included digoxin at 0.25 mg once per day, bisoprolol at 5 mg twice per day, ramipril at 2.5 mg once per day"
+    },
+    {
+      "field": "presentation.meds[3], presentation.meds[4], presentation.meds[5]",
+      "quote": "spironolactone at 25 mg once per day, furosemide at 25 mg once per day, and pravastatin at 40 mg once per day"
+    },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.rr, vitals.spo2, exam[0], exam[1]",
+      "quote": "she exhibited mottled skin, slight hypotension (90/45 mmHg), bradycardia (28 bpm), respiratory distress (respiratory rate of 40 breaths/minute), and an oxygen saturation of 89% on room air"
+    },
+    { "field": "exam[2]", "quote": "She appeared confused." },
+    { "field": "exam[3]", "quote": "The patient remained bradycardic (30 bpm) and hypotensive (75/50 mmHg) despite isoproterenol infusion." },
+    {
+      "field": "investigations[pH (arterial)], investigations[PaCO2], investigations[PaO2 (room air)], investigations[Bicarbonate (arterial)]",
+      "quote": "revealed metabolic acidosis with a pH of 7.10, a pCO2 of 32 mmHg, a pO2 of 69 mmHg, a bicarbonate level of 10 mmol/L"
+    },
+    {
+      "field": "investigations[Lactate], investigations[Potassium (arterial)]",
+      "quote": "normal lactate levels, and severe hyperkalemia with a potassium level of 8.9 mmol/L"
+    },
+    { "field": "ecg", "quote": "The initial 12-lead electrocardiogram (ECG) showed an idioventricular rhythm (Fig. 1)." },
+    { "field": "ecg", "quote": "Electrocardiogram on presentation to the emergency department showing an idioventricular rhythm (28 bpm)" },
+    {
+      "field": "ecg",
+      "quote": "On day 1, the ECG displayed a junctional rhythm with ventricular bigeminy; on day 3, atrial fibrillation with ectopic ventricular beats was observed"
+    },
+    { "field": "ecg, outcome", "quote": "by day 14, the ECG returned to atrial fibrillation (the patient's baseline" },
+    {
+      "field": "investigations[Digoxin (serum)], investigations[Creatinine], investigations[Potassium (serum)]",
+      "quote": "Laboratory tests disclosed a serum digoxin level of 13.7 μg/L, a creatinine level of 8.11 mg/dL, and a potassium level of 8.64 mmol/L."
+    },
+    { "field": "investigations[Sodium]", "quote": "Sodium (Na⁺) | 138 | 139 | 141" },
+    { "field": "investigations[Chloride]", "quote": "Clorum (Cl⁻) | 108 | 106 | 103" },
+    { "field": "investigations[Calcium]", "quote": "Calcium (Ca⁺) | 2.03 | 2.36" },
+    { "field": "investigations[Urea]", "quote": "Urea | 16.74 | 5.35" },
+    { "field": "investigations[Hemoglobin]", "quote": "Hemoglobin | 116 | 81 | 7.7" },
+    { "field": "investigations[Platelets]", "quote": "PLT | 359 | 231 | 201" },
+    { "field": "investigations[CRP]", "quote": "CRP | 52 | 50 | 83" },
+    { "field": "investigations[INR]", "quote": "PT (INR) | 1.26 | 1.48" },
+    { "field": "investigations[Troponin T]", "quote": "Troponin T | 37 | 29" },
+    {
+      "field": "investigations[Potassium after repeated shifting therapy]",
+      "quote": "A subsequent ABG test showed no significant improvement despite potassium-shifting therapy, with potassium remaining high at 9.3 mmol/L."
+    },
+    {
+      "field": "investigations[Digoxin 6 h after arrival (after Fab)], investigations[Digoxin at the next measurement]",
+      "quote": "Digoxin | 13.7 | 10.0 | > 10 | 9.1"
+    },
+    { "field": "investigations[Digoxin on day 17], outcome", "quote": "The serum digoxin levels gradually decreased to 1.38 μg/L over 17 days." },
+    {
+      "field": "management[0], management[1]",
+      "quote": "treatment was initiated with 10 mL of 10% intravenous calcium chloride, 10 mg of nebulized salbutamol, an infusion of isoproterenol at a rate of 2.5 μg/min"
+    },
+    { "field": "management[0]", "quote": "150 mL of 8.4% intravenous bicarbonate, and 250 mL of 10% dextrose in water (DW10%) with 10 units of insulin" },
+    { "field": "management[1]", "quote": "the isoproterenol infusion was titrated up to 4 μg/minute aiming to achieve a heart rate of 45–50 bpm" },
+    {
+      "field": "management[2]",
+      "quote": "The antikalemic treatment was repeated without success, leading to an urgent consultation with a nephrologist for emergency dialysis."
+    },
+    {
+      "field": "management[3], diagnosis.primary",
+      "quote": "Given the suspicion of concomitant digoxin toxicity, empirical treatment with digoxin immune fab was initiated, administering 40 mg via two vials."
+    },
+    {
+      "field": "management[3]",
+      "quote": "After administering an additional five vials of digoxin immune fab, the patient was transferred to the intensive care unit (ICU)"
+    },
+    {
+      "field": "management[4], investigations[Potassium on CVVH next day], outcome",
+      "quote": "continuous venovenous hemofiltration (CVVH) was promptly initiated, leading to an improvement in serum potassium levels to 4.96 mmol/L the following day"
+    },
+    { "field": "management[4]", "quote": "she continued with CVVH until day 9; the isoproterenol infusion was ceased on day 8" },
+    { "field": "diagnosis.primary", "quote": "We hypothesize that the syndrome was triggered by initial dehydration, exacerbated by the high temperatures" },
+    {
+      "field": "outcome",
+      "quote": "The hospitalization was further complicated by pneumonia and multiple episodes of epistaxis, necessitating blood transfusions."
+    },
+    { "field": "outcome", "quote": "The patient was discharged after 35 days in good condition, albeit still requiring intermittent dialysis." },
+    {
+      "field": "outcome",
+      "quote": "Kidney function gradually improved over 3 months, during which the frequency of dialysis was reduced from three times per week to two and then discontinued."
+    },
+    { "field": "outcome", "quote": "At 6 months of follow-up, the patient was diagnosed with stage IIIb chronic kidney disease" }
+  ],
+  "augmented": ["vitals.tempC: not reported", "vitals.gcs: GCS 14 inferred from 'appeared confused'", "presentation.allergies: not reported"]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "pmc-PMC12592887-adrenal-crisis-tuberculosis",
+  "title": "Collapse at the GP's clinic after two years of night sweats",
+  "category": "endocrine",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC12592887",
+    "pmid": "41210058",
+    "doi": "10.7759/cureus.94091",
+    "citation": "Mohamed H, Attia AM, John HT, Owies A, Varrier M. Think Addison's Disease: Disseminated Tuberculosis Presenting With Adrenal Crisis in a Young Male Patient. Cureus. 2025;17(10):e94091.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12592887/"
+  },
+  "patient": { "age": 42, "sex": "M", "arrival": "ems" },
+  "presentation": {
+    "chiefComplaint": "Sudden collapse at his general practitioner's clinic",
+    "hpi": "Collapsed suddenly, short of breath, at his general practitioner's clinic and was brought in by ambulance. More than two years of intermittent night sweats, low-grade fevers and fatigue, with over 20 kg of weight loss in the last three months. Admitted with community-acquired pneumonia in March 2024 and again in March 2025, the second time also with persistent anemia treated with iron and vitamin B12 injections. Since then: anorexia, episodic dizziness, an alternately dry and productive cough and drenching night sweats. Yesterday he had two brief blackouts on standing.",
+    "pmh": [
+      "Iron-deficiency anemia (Hb 70–80 g/L in March 2025)",
+      "Vitamin B12 deficiency treated with intramuscular injections",
+      "Community-acquired pneumonia requiring admission, March 2024 and March 2025",
+      "Laparoscopic cholecystectomy (2012)",
+      "No known HIV or other immunosuppression; no corticosteroid use"
+    ],
+    "meds": ["Ferrous fumarate", "Intramuscular vitamin B12 injections"],
+    "allergies": ["No known drug allergies"],
+    "social": "Strict vegan, lactose-free diet. Smokes about four cigarettes a day (20 years). Drank 2–3 pints on five days a week until early 2025, now only at weekends.",
+    "family": "Father died young of 'bronchopneumonia', possibly undiagnosed tuberculosis; mother treated for pneumonia in 2023."
+  },
+  "vitals": { "hr": 110, "sbp": 70, "dbp": 40, "rr": 22, "spo2": 95, "tempC": 37.4, "gcs": 13 },
+  "exam": [
+    "Drowsy (GCS 13: E3 V4 M6) and cachectic",
+    "Diffuse bronzed hyperpigmentation of sun-exposed skin, palmar creases, knuckles and buccal mucosa",
+    "Cool extremities with delayed capillary refill; overt circulatory shock",
+    "No focal signs of infection; rapid but normal heart sounds; low jugular venous pressure; soft abdomen without organomegaly",
+    "Mild generalized muscle weakness; no focal neurological deficit"
+  ],
+  "investigations": [
+    { "name": "Sodium", "value": "106", "unit": "mmol/L", "flag": "critical" },
+    { "name": "Potassium", "value": "5.6", "unit": "mmol/L", "flag": "H" },
+    { "name": "Glucose", "value": "3.1", "unit": "mmol/L", "flag": "L" },
+    { "name": "Hemoglobin", "value": "82", "unit": "g/L", "flag": "L" },
+    { "name": "Platelets", "value": "171", "unit": "x10⁹/L" },
+    { "name": "Creatinine", "value": "102", "unit": "µmol/L" },
+    { "name": "pH (arterial)", "value": "7.42" },
+    { "name": "Bicarbonate (arterial)", "value": "20", "unit": "mEq/L", "flag": "L" },
+    { "name": "C-reactive protein", "value": "67", "unit": "mg/L", "flag": "H" },
+    { "name": "Ferritin", "value": "3102", "unit": "µg/L", "flag": "H" },
+    { "name": "Total bilirubin", "value": "61", "unit": "µmol/L", "flag": "H" },
+    { "name": "Random cortisol", "value": "102", "unit": "nmol/L", "flag": "L" },
+    { "name": "Sputum mycobacterial testing", "value": "Acid-fast smears negative; culture grew Mycobacterium tuberculosis after 1 week" },
+    { "name": "Adrenal autoantibody screen", "value": "Negative" },
+    { "name": "ACTH (3-month follow-up)", "value": "309", "unit": "pg/mL", "flag": "H" }
+  ],
+  "imaging": [
+    {
+      "modality": "CT head, chest, abdomen and pelvis",
+      "finding": "2.4 cm spiculated cavitating right upper lobe opacity with extensive peribronchovascular nodularity; bilaterally abnormal adrenal glands consistent with subacute adrenalitis; splenomegaly; thick-walled, peripherally enhancing collection over the left greater trochanter"
+    },
+    { "modality": "Echocardiogram", "finding": "Normal" }
+  ],
+  "diagnosis": {
+    "primary": "Adrenal crisis from primary adrenal insufficiency due to tuberculous adrenalitis (disseminated tuberculosis)",
+    "icd10": "E27.2 / A18.7 / A19.9",
+    "differentials": ["Septic shock", "Cardiogenic shock", "Neurogenic shock", "SIADH from pulmonary infection", "Adrenal metastases or lymphoma"]
+  },
+  "management": [
+    "Treated first as septic shock with broad-spectrum antibiotics and IV fluids; hypotension persisted and needed vasopressors",
+    "Hydrocortisone 100 mg IV in the ED, with marked hemodynamic improvement",
+    "ICU: hydrocortisone 50 mg IV every 6 h, IV saline and careful correction of the hyponatremia; fludrocortisone 0.1 mg daily added once stable",
+    "Antibiotics stopped once bacterial sepsis was excluded; quadruple anti-tuberculous therapy (isoniazid, rifampicin, pyrazinamide, ethambutol) with pyridoxine",
+    "Ultrasound-guided drainage of a tuberculous thigh abscess"
+  ],
+  "outcome": "Within 48 h blood pressure stabilized, vasopressors were stopped, sodium rose to 128 mmol/L and potassium normalized. Discharged after 26 days on hydrocortisone 20 mg three times daily, fludrocortisone 150 µg daily and anti-tuberculous therapy. At follow-up he was eating better and gaining weight, cough and night sweats had resolved, sputum cultures were negative, and ACTH remained high (persistent primary adrenal insufficiency).",
+  "teachingPoints": [
+    "Adrenal crisis mimics septic shock: suspect it when shock does not respond to fluids and vasopressors, especially with hyponatremia, hyperkalemia or hypoglycemia.",
+    "Mucocutaneous hyperpigmentation (palmar creases, buccal mucosa) reflects high ACTH and points to primary adrenal insufficiency.",
+    "Give hydrocortisone 100 mg IV at once with isotonic fluid; draw cortisol and ACTH first only if it causes no delay (2016 Endocrine Society guideline).",
+    "Tuberculosis remains a leading cause of primary adrenal insufficiency worldwide; enlarged adrenals suggest an infective or infiltrative cause rather than autoimmune adrenalitis.",
+    "After glucocorticoid replacement sodium can rise quickly, so monitor it closely; rifampicin speeds cortisol clearance, so replacement doses usually need increasing."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely cause of his shock?",
+      "extra": "Na⁺ 106 mmol/L, K⁺ 5.6 mmol/L, glucose 3.1 mmol/L, Hb 82 g/L. Blood pressure stays low after IV fluids, broad-spectrum antibiotics and a vasopressor.",
+      "options": [
+        "Septic shock from recurrent pneumonia",
+        "Hypovolemic shock from chronic poor intake",
+        "Cardiogenic shock from a dilated cardiomyopathy",
+        "Adrenal crisis from primary adrenal insufficiency"
+      ],
+      "answer": 3,
+      "explanation": "Refractory shock with hyponatremia, hyperkalemia, hypoglycemia and mucocutaneous hyperpigmentation is the signature of primary adrenal insufficiency: cortisol and aldosterone are lacking while ACTH is high. Sepsis can coexist and trigger a crisis, but it does not explain the electrolytes, the hypoglycemia or the pigmentation."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate immediate step?",
+      "options": [
+        "Hydrocortisone 100 mg IV now, after drawing cortisol and ACTH",
+        "Short Synacthen test first, steroids only if cortisol stays low",
+        "Dexamethasone 4 mg IV, so the cortisol assay is not affected",
+        "Oral fludrocortisone 0.1 mg and 3% saline for the sodium"
+      ],
+      "answer": 0,
+      "explanation": "The 2016 Endocrine Society guideline on primary adrenal insufficiency recommends immediate parenteral hydrocortisone 100 mg with isotonic fluid when adrenal crisis is suspected, before test results are available. High-dose hydrocortisone also has mineralocorticoid activity, which dexamethasone lacks; hypertonic saline is the wrong tool for chronic hypovolemic hyponatremia."
+    },
+    {
+      "kind": "risk",
+      "q": "After hydrocortisone and saline, what is the main risk related to his sodium?",
+      "extra": "Na⁺ 106 mmol/L; cachectic, with regular alcohol intake.",
+      "options": [
+        "Cerebral edema from a further fall in sodium",
+        "Osmotic demyelination from an overly rapid rise in sodium",
+        "Hypernatremia from high-dose fludrocortisone",
+        "Seizures from potassium falling with rehydration"
+      ],
+      "answer": 1,
+      "explanation": "Cortisol replacement and volume repletion remove the stimuli to ADH, so a water diuresis can raise sodium quickly. A sodium of 106 mmol/L with malnutrition and alcohol use means high risk of osmotic demyelination: European (2014) and US expert recommendations cap the rise at about 8–10 mmol/L in 24 h, at the lower end in high-risk patients."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Which findings point to a primary (adrenal) rather than a secondary (pituitary) cause?",
+      "options": ["Hypoglycemia and hypotension", "Hyponatremia and drowsiness", "Hyperpigmentation and hyperkalemia", "A low random cortisol during shock"],
+      "answer": 2,
+      "explanation": "High ACTH in primary adrenal insufficiency stimulates melanocortin receptors and causes pigmentation, and loss of aldosterone causes hyperkalemia. In pituitary disease ACTH is low and the renin–aldosterone axis is intact; hypoglycemia, hyponatremia, hypotension and a low cortisol occur in both."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint",
+      "quote": "A 42-year-old man of Indian origin was brought to the emergency department after suddenly collapsing at his general practitioner's clinic."
+    },
+    { "field": "patient.arrival, presentation.hpi", "quote": "Collapsed with dyspnea; brought by ambulance." },
+    {
+      "field": "presentation.hpi",
+      "quote": "The patient's history revealed intermittent night sweats, episodic low-grade fevers, and chronic fatigue for over two years."
+    },
+    { "field": "presentation.hpi", "quote": "He had lost more than 20 kilograms over the past three months alone." },
+    {
+      "field": "presentation.hpi, presentation.pmh[2]",
+      "quote": "In March 2024, he was hospitalised with community-acquired pneumonia and received intravenous antibiotics without adrenal testing."
+    },
+    {
+      "field": "presentation.hpi, presentation.pmh[2], presentation.pmh[0], presentation.meds[0], presentation.meds[1]",
+      "quote": "he required a second admission for pneumonia, during which persistent anaemia (Hb 70-80 g/L) was treated with ferrous fumarate and intramuscular vitamin B12 injections"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "he continued to complain of anorexia, episodic dizziness, alternating dry and productive cough, and drenching night sweats"
+    },
+    { "field": "presentation.hpi", "quote": "one day before presentation, he experienced two brief blackout episodes at home while standing" },
+    {
+      "field": "presentation.pmh[0], presentation.pmh[1], presentation.social",
+      "quote": "His past medical history included iron-deficiency anaemia, strict adherence to a vegan and lactose-free diet, and prior vitamin B12 deficiency requiring intramuscular supplementation."
+    },
+    { "field": "presentation.pmh[3], presentation.pmh[4]", "quote": "He had undergone laparoscopic cholecystectomy in 2012 and denied corticosteroid use." },
+    { "field": "presentation.pmh[4]", "quote": "There was no known HIV or other immunosuppressive condition." },
+    {
+      "field": "presentation.social",
+      "quote": "Social history revealed a 20-year smoking history (four cigarettes daily) and moderate alcohol intake (2-3 pints on five days a week until early 2025, now weekends only)."
+    },
+    {
+      "field": "presentation.family",
+      "quote": "his father had died of “bronchopneumonia” at a young age, raising suspicion of undiagnosed TB, while his mother was successfully treated for pneumonia in 2023"
+    },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.gcs, exam[0]",
+      "quote": "he was profoundly hypotensive with a blood pressure of 70/40 mmHg, tachycardic at 110 bpm, and drowsy with a Glasgow Coma Scale score of 13"
+    },
+    { "field": "exam[0]", "quote": "Glasgow Coma Scale score of 13 (eyes 3, verbal 4, motor 6)" },
+    {
+      "field": "exam[0], exam[1]",
+      "quote": "He appeared cachectic, with diffuse bronzed hyperpigmentation involving sun-exposed areas, palmar creases, knuckles, and the buccal mucosa."
+    },
+    { "field": "exam[2]", "quote": "His extremities were cool with delayed capillary refill, and he was in overt circulatory shock." },
+    {
+      "field": "exam[3]",
+      "quote": "No focal signs of infection were detected, heart sounds were rapid but normal, jugular venous pressure was low, and the abdomen was soft without organomegaly."
+    },
+    { "field": "exam[4]", "quote": "Mild generalised muscle weakness was present, though no focal neurological deficits were observed." },
+    {
+      "field": "investigations[Sodium], investigations[Potassium], investigations[Glucose], investigations[Hemoglobin]",
+      "quote": "severe hyponatremia (106 mmol/L), mild hyperkalemia (5.6 mmol/L), hypoglycemia (3.1 mmol/L), and normocytic anaemia (Hb 82 g/L on admission"
+    },
+    {
+      "field": "investigations[Random cortisol], investigations[C-reactive protein], investigations[Ferritin]",
+      "quote": "Ferritin was elevated at 3102 µg/L, C-reactive protein 67 mg/L, and random cortisol was 102 nmol/L, supporting primary adrenal insufficiency"
+    },
+    {
+      "field": "investigations[pH (arterial)], investigations[Bicarbonate (arterial)]",
+      "quote": "Arterial blood gases showed compensated metabolic acidosis (pH 7.42, HCO₃⁻ 20 mEq/L"
+    },
+    { "field": "investigations[Creatinine]", "quote": "Creatinine (µmol/L) | 102 | 59 | 54" },
+    { "field": "investigations[Platelets]", "quote": "Platelet count (×10⁹/L) | 171 | 216 | 188" },
+    { "field": "investigations[Total bilirubin]", "quote": "Total bilirubin (µmol/L) | 61 | 37 | 24" },
+    {
+      "field": "investigations[Sputum mycobacterial testing]",
+      "quote": "Although initial sputum smears for acid-fast bacilli were negative, cultures grew M. tuberculosis after one week of incubation."
+    },
+    { "field": "investigations[Adrenal autoantibody screen]", "quote": "Autoimmune screening for adrenalitis was negative." },
+    {
+      "field": "investigations[ACTH (3-month follow-up)], outcome",
+      "quote": "At three-month follow-up, ACTH was elevated with 309pg/mL (reference range: 7.2-63.3 pg/mL), indicating persistent primary adrenal insufficiency"
+    },
+    {
+      "field": "imaging[0]",
+      "quote": "A CT of the head, chest, abdomen, and pelvis revealed a 2.4 cm spiculated cavitating opacity in the right upper lung lobe, extensive peribronchovascular nodularity"
+    },
+    { "field": "imaging[0], diagnosis.primary", "quote": "bilaterally abnormal adrenal glands consistent with subacute adrenalitis" },
+    { "field": "imaging[0]", "quote": "The CT abdomen also demonstrated splenomegaly" },
+    { "field": "imaging[0]", "quote": "a large, thick-walled low-density and peripherally enhancing collection overlying the left greater trochanter" },
+    { "field": "imaging[1]", "quote": "Cardiogenic and neurogenic causes were excluded by normal echocardiography" },
+    {
+      "field": "management[0]",
+      "quote": "Given his refractory hypotension, septic shock was initially suspected and broad-spectrum antibiotics were commenced alongside IV fluids."
+    },
+    { "field": "management[0]", "quote": "Despite this, blood pressure did not respond, necessitating vasopressor support." },
+    {
+      "field": "management[1]",
+      "quote": "An urgent dose of intravenous hydrocortisone (100 mg) was administered in the emergency department, leading to marked hemodynamic improvement."
+    },
+    {
+      "field": "outcome",
+      "quote": "Over the following 48 hours, blood pressure stabilised, vasopressors were discontinued, serum sodium rose to 128 mmol/L, and potassium normalised to 4.0 mmol/L."
+    },
+    { "field": "diagnosis.primary", "quote": "The diagnosis of Addisonian crisis was established, and attention turned to the underlying cause." },
+    { "field": "diagnosis.primary", "quote": "a unifying diagnosis of disseminated TB with tuberculous adrenalitis was established" },
+    {
+      "field": "management[2]",
+      "quote": "intravenous hydrocortisone (100 mg bolus, then 50 mg every six hours), IV saline for volume resuscitation, and careful correction of hyponatremia"
+    },
+    { "field": "management[2]", "quote": "Once stabilised, fludrocortisone (0.1 mg daily) was added to address mineralocorticoid deficiency." },
+    { "field": "management[3]", "quote": "Empirical antibiotics were discontinued when bacterial sepsis was excluded" },
+    {
+      "field": "management[3]",
+      "quote": "he was commenced on quadruple anti-tubercular therapy (isoniazid, rifampicin, pyrazinamide, and ethambutol) with pyridoxine supplementation"
+    },
+    { "field": "management[4]", "quote": "Ultrasound-guided drainage of the thigh abscess confirmed TB on culture and PCR." },
+    {
+      "field": "outcome",
+      "quote": "After 26 days in hospital, he was discharged hemodynamically stable with oral hydrocortisone (20 mg three times daily), fludrocortisone (150 µg daily)"
+    },
+    { "field": "outcome", "quote": "he reported improved appetite, energy, weight gain of 2 kg, and complete resolution of cough and night sweats" },
+    { "field": "outcome", "quote": "Sputum cultures converted to negative, consistent with treatment response." }
+  ],
+  "augmented": [
+    "presentation.allergies: not reported",
+    "vitals.rr: not reported; he collapsed with dyspnea",
+    "vitals.spo2: not reported",
+    "vitals.tempC: not reported; history of episodic low-grade fevers"
+  ]
+}

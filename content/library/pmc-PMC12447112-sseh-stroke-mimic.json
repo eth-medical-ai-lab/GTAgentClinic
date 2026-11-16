@@ -1,0 +1,181 @@
+{
+  "id": "pmc-PMC12447112-sseh-stroke-mimic",
+  "title": "Sudden right-sided weakness and neck pain after a massage",
+  "category": "neurology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC12447112",
+    "pmid": "40978841",
+    "doi": "10.7759/cureus.90544",
+    "citation": "Poh YY, Seet YHC. Spontaneous Spinal Epidural Hematoma Presenting as an Acute Stroke Mimic: A Diagnostic Challenge. Cureus. 2025;17(8):e90544.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12447112/"
+  },
+  "patient": { "age": 69, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Sudden weakness of the right arm and leg with neck pain",
+    "hpi": "About 2 h after a full-body massage he suddenly developed weakness of the right arm and leg together with neck pain. He was brought straight to the ED and arrives within 2 h of symptom onset.",
+    "pmh": ["Atrial fibrillation with bradycardia", "Hypertension", "Hyperlipidemia"],
+    "meds": ["Rivaroxaban", "Atorvastatin"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 49, "sbp": 155, "dbp": 93, "rr": 20, "spo2": 97, "tempC": 37.1 },
+  "exam": [
+    "Neck pain and stiffness",
+    "Right arm and leg weakness, MRC grade 4/5",
+    "Reduced sensation on the right side below the neck",
+    "No facial weakness; pupils and plantar responses normal; cranial nerves otherwise normal"
+  ],
+  "investigations": [
+    { "name": "Capillary blood glucose", "value": "12.3", "unit": "mmol/L", "flag": "H" },
+    { "name": "Prothrombin time", "value": "18.3", "unit": "s", "flag": "H" },
+    { "name": "Platelet count", "value": "Within normal limits" },
+    { "name": "Hemoglobin", "value": "14.1", "unit": "g/dL", "augmented": true },
+    { "name": "Sodium", "value": "139", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.1", "unit": "mmol/L", "augmented": true },
+    { "name": "Creatinine", "value": "0.96", "unit": "mg/dL", "augmented": true }
+  ],
+  "imaging": [
+    { "modality": "Noncontrast CT brain", "finding": "No acute intracranial hemorrhage, territorial infarct or mass effect" },
+    {
+      "modality": "CT angiography, aortic arch to circle of Willis",
+      "finding": "No intracranial or extracranial large-vessel occlusion or critical stenosis. On the same images: mildly hyperdense (60 HU), enhancing epidural lesion centered at C4 (C3 to C5), compressing the cervical cord and displacing it to the opposite side"
+    },
+    {
+      "modality": "MRI cervical spine (day 2)",
+      "finding": "Right posterolateral non-enhancing epidural collection from C3–4 to C5–6, 1.4 × 0.4 × 3.4 cm, hyperintense on T1, consistent with epidural hematoma"
+    },
+    { "modality": "MRI cervical spine (day 8)", "finding": "Hematoma smaller, 1.1 × 0.2 × 2.4 cm" }
+  ],
+  "diagnosis": {
+    "primary": "Spontaneous cervical spinal epidural hematoma (C3–C6) in a patient taking rivaroxaban, presenting as an acute stroke mimic",
+    "differentials": [
+      "Acute ischemic stroke",
+      "Cervical artery dissection",
+      "Spinal epidural abscess",
+      "Cervical spinal cord infarction",
+      "Acute cervical disc herniation with cord compression"
+    ]
+  },
+  "management": [
+    "Code stroke activated; urgent CT brain and CT angiography",
+    "IV thrombolysis withheld, rivaroxaban stopped and the spine team consulted",
+    "Deficits were mild and did not progress, so managed conservatively: rivaroxaban held, bed rest, cervical collar, oral analgesia and IV dexamethasone"
+  ],
+  "outcome": "Weakness and neck pain improved gradually; discharged home on day 8 without significant disability. At 6 weeks he was asymptomatic with no residual neurological deficit.",
+  "teachingPoints": [
+    "A spinal epidural hematoma can present as sudden hemiparesis within the thrombolysis window. Neck or back pain with weakness, especially on an anticoagulant, should raise the possibility.",
+    "Clues to a cord lesion: sensory loss with a level below the neck, sparing of the face and no cranial nerve signs; Brown-Séquard features, Lhermitte sign or an ipsilateral Horner syndrome may also occur.",
+    "Review the cervical spine on the code-stroke CT angiogram: an epidural hyperdense lesion can make the diagnosis before MRI.",
+    "Thrombolysis in spinal epidural hematoma is associated with deterioration; in a review cited by the authors, 10 of 13 thrombolysed patients worsened and 9 needed surgery.",
+    "Mild, non-progressive deficits can be managed conservatively; decompressive laminectomy is the standard for severe or worsening deficits."
+  ],
+  "questions": [
+    {
+      "kind": "interpretation",
+      "q": "Which finding most suggests a cervical cord lesion rather than a cerebral cause?",
+      "options": [
+        "Weakness of both the right arm and the right leg",
+        "Right-sided sensory loss below the neck, sparing the face",
+        "A heart rate of 49/min in a patient with atrial fibrillation",
+        "Normal pupils and normal plantar responses"
+      ],
+      "answer": 1,
+      "explanation": "Sensory loss with a level below the neck, a spared face and no cranial nerve signs point to the cervical cord; a hemispheric stroke that weakens arm and leg usually affects the face as well. Arm and leg weakness alone does not localize the lesion, and the accompanying neck pain adds to the suspicion."
+    },
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "extra": "CT brain: no hemorrhage or infarct. CT angiography (arch to circle of Willis): no large-vessel occlusion; mildly hyperdense (60 HU), enhancing epidural lesion at C3–C5 compressing and displacing the cervical cord. Prothrombin time 18.3 s; platelets normal.",
+      "options": [
+        "Spinal epidural abscess",
+        "Vertebral artery dissection with cord infarction",
+        "Acute cervical disc herniation",
+        "Spontaneous spinal epidural hematoma"
+      ],
+      "answer": 3,
+      "explanation": "A hyperdense epidural collection compressing the cord in an anticoagulated patient with sudden neck pain and deficits is a hematoma until proven otherwise; MRI then showed a T1-hyperintense, non-enhancing collection. Nothing suggests infection to support an abscess, and dissection with cord infarction would not produce an epidural mass."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate immediate management?",
+      "extra": "CT angiography shows a C3–C5 epidural lesion compressing the cord. He is within 2 h of symptom onset; prothrombin time is 18.3 s on rivaroxaban.",
+      "options": [
+        "Withhold thrombolysis, stop rivaroxaban and get urgent spine review",
+        "IV tenecteplase now, as he is within 4.5 h of onset",
+        "Andexanet alfa first, then IV alteplase",
+        "Heparin infusion for a presumed arterial dissection"
+      ],
+      "answer": 0,
+      "explanation": "Thrombolysis can enlarge a spinal hematoma and is associated with deterioration and emergency surgery; it is also contraindicated in a patient on a factor Xa inhibitor unless the last dose was more than 48 h ago or specific assays are normal (2019 AHA/ASA acute ischemic stroke guideline). Stopping the anticoagulant and urgent spine review with MRI come first; surgery is for severe or progressive deficits."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi",
+      "quote": "A 69-year-old man developed sudden right-sided weakness accompanied by neck pain approximately two hours after receiving a full-body massage."
+    },
+    { "field": "presentation.hpi", "quote": "He was brought promptly to the emergency department within two hours of symptom onset" },
+    {
+      "field": "presentation.pmh, presentation.meds",
+      "quote": "His past medical history included atrial fibrillation with bradycardia, hypertension, and hyperlipidemia, for which he was on rivaroxaban and atorvastatin."
+    },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.tempC, vitals.hr, vitals.rr, vitals.spo2",
+      "quote": "blood pressure 155/93 mmHg, temperature 37.1°C, heart rate 49 beats per minute, respiratory rate 20 breaths per minute, oxygen saturation 97%"
+    },
+    { "field": "investigations[0]", "quote": "random capillary blood glucose 12.3 mmol/L" },
+    { "field": "exam[0]", "quote": "Neurological examination revealed neck pain and stiffness" },
+    { "field": "exam[1], exam[2]", "quote": "grade 4 out of 5 weakness in the right upper and lower limbs and reduced right-sided sensation below the neck" },
+    {
+      "field": "exam[3]",
+      "quote": "Significant negative findings included the absence of facial weakness, normal pupillary responses, and normal plantar reflexes. Cranial nerve examination was otherwise normal."
+    },
+    {
+      "field": "investigations[1], investigations[2]",
+      "quote": "Laboratory tests showed a normal platelet count but a prolonged prothrombin time of 18.3 seconds, likely attributable to rivaroxaban."
+    },
+    { "field": "management[0]", "quote": "Given the acute onset of symptoms within two hours, a code stroke was activated." },
+    {
+      "field": "imaging[0], management[0]",
+      "quote": "An urgent CT of the brain revealed no acute intracranial hemorrhage, territorial infarction, or mass effect"
+    },
+    {
+      "field": "imaging[1]",
+      "quote": "CT angiography from the aortic arch to the circle of Willis showed no intracranial or extracranial large vessel occlusion or critical stenosis."
+    },
+    {
+      "field": "imaging[1], diagnosis.primary",
+      "quote": "a mildly hyperdense enhancing epidural lesion centered at C4 and extending from C3 to C5 (Hounsfield unit 60)"
+    },
+    { "field": "imaging[1]", "quote": "This lesion caused compression and contralateral displacement of the cervical cord" },
+    { "field": "management[1]", "quote": "IV thrombolysis was withheld, rivaroxaban was stopped, and the spine team was consulted." },
+    {
+      "field": "imaging[2], diagnosis.primary",
+      "quote": "a right posterolateral non-enhancing epidural collection spanning C3-4 to C5-6 levels, measuring 1.4 × 0.4 × 3.4 cm"
+    },
+    { "field": "imaging[2]", "quote": "The lesion appeared hyperintense on T1-weighted sequences, consistent with an epidural hematoma" },
+    {
+      "field": "management[2]",
+      "quote": "As the patient’s neurological deficits were mild and showed no progression over the next week, a conservative management strategy was adopted."
+    },
+    {
+      "field": "management[2]",
+      "quote": "Treatment included temporary cessation of rivaroxaban, bed rest, cervical immobilization with a collar, oral analgesia, and IV dexamethasone."
+    },
+    {
+      "field": "imaging[3]",
+      "quote": "On day 8 of admission, a repeat MRI of the cervical spine showed an interval reduction in the size of the hematoma (1.1 × 0.2 × 2.4 cm)."
+    },
+    {
+      "field": "outcome",
+      "quote": "His right-sided weakness and neck pain improved gradually, and he was discharged home on day 8 without significant disability."
+    },
+    { "field": "outcome", "quote": "At the six-week follow-up, he remained asymptomatic with no residual neurological deficits." },
+    {
+      "field": "diagnosis.primary",
+      "quote": "a patient who presented within the window for thrombolysis with a sudden onset of neck pain and right sensorimotor symptoms … who was found to have SSEH"
+    }
+  ],
+  "augmented": ["presentation.allergies: not reported"]
+}

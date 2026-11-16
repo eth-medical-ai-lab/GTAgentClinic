@@ -1,0 +1,200 @@
+{
+  "id": "pmc-PMC6682249-brash-hyperkalemia-tmp-smx",
+  "title": "Syncope at the doctor's office with a pulse of 20",
+  "category": "renal",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC6682249",
+    "pmid": "31403103",
+    "doi": "10.5811/cpcem.2019.5.43118",
+    "citation": "Diribe N, Le J. Trimethoprim/Sulfamethoxazole-Induced Bradycardia, Renal Failure, AV-Node Blockers, Shock and Hyperkalemia Syndrome. Clin Pract Cases Emerg Med. 2019;3(3):282-285.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6682249/"
+  },
+  "patient": { "age": 51, "sex": "M", "arrival": "ems" },
+  "presentation": {
+    "chiefComplaint": "Syncope at his primary care physician's office",
+    "hpi": "Started on trimethoprim–sulfamethoxazole for otitis media a week ago. Three days after the first dose he developed progressive weakness and fatigue, and he was being assessed for this as an outpatient when he passed out in his primary care physician's office. Paramedics found a pulse of 20/min and a blood pressure of 60/30 mm Hg, started transcutaneous pacing and brought him in. He denies any recent dose changes or overdose.",
+    "pmh": [
+      "Pituitary carcinoma, resected, with liver metastases",
+      "Cushing syndrome",
+      "Hypertension",
+      "Hyperlipidemia",
+      "Hypothyroidism",
+      "Insulin-dependent diabetes mellitus",
+      "Renal insufficiency (baseline creatinine 1.7 mg/dL)"
+    ],
+    "meds": [
+      "Carvedilol 6.25 mg twice daily",
+      "Eplerenone 25 mg daily",
+      "Trimethoprim–sulfamethoxazole (started 1 week ago for otitis media)",
+      "Insulin (regimen not reported)"
+    ],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 39, "sbp": 80, "dbp": 60, "rr": 18, "spo2": 96, "tempC": 36.6, "gcs": 14 },
+  "exam": ["Somnolent but arousable", "Arrived on transcutaneous pacing at 90/min and 70 mA with poor capture; persistently hypotensive"],
+  "investigations": [
+    { "name": "Potassium", "value": "8.6", "unit": "mmol/L", "flag": "critical" },
+    { "name": "Sodium", "value": "130", "unit": "mmol/L", "flag": "L" },
+    { "name": "BUN", "value": "51", "unit": "mg/dL", "flag": "H" },
+    { "name": "Creatinine", "value": "3.3", "unit": "mg/dL", "flag": "H" },
+    { "name": "Troponin I", "value": "0.010", "unit": "ng/mL" },
+    { "name": "Glucose", "value": "128", "unit": "mg/dL", "augmented": true }
+  ],
+  "ecg": "Third-degree AV block with a ventricular escape rhythm at 39/min, peaked T waves and QRS duration 173 ms",
+  "diagnosis": {
+    "primary": "BRASH syndrome (bradycardia, renal failure, AV-nodal blockade, shock, hyperkalemia) precipitated by trimethoprim–sulfamethoxazole in a patient with chronic kidney disease taking eplerenone and carvedilol",
+    "icd10": "E87.5 / I44.2 / N17.9 / T37.0X5A",
+    "differentials": [
+      "Beta-blocker overdose",
+      "Digoxin toxicity",
+      "Acute inferior myocardial infarction with complete heart block",
+      "Adrenal crisis",
+      "Primary conduction-system disease"
+    ]
+  },
+  "management": [
+    "Transcutaneous pacing continued; bradycardia refractory to atropine",
+    "IV calcium chloride, insulin with dextrose, and albuterol",
+    "IV hydrocortisone to cover possible adrenal crisis",
+    "After treatment heart rate 97/min, blood pressure 140/52 mm Hg and normal consciousness; nephrology consulted for possible dialysis; ICU admission",
+    "ICU: diuresis and sodium polystyrene sulfonate; potassium 5.0 mmol/L within 24 h, so dialysis was not needed"
+  ],
+  "outcome": "Potassium fell to 5.0 mmol/L within 24 h without dialysis. Discharged 3 days later with potassium 4.1 mmol/L, BUN 31 mg/dL and creatinine 1.4 mg/dL; eplerenone was stopped.",
+  "teachingPoints": [
+    "BRASH: AV-nodal blockers and hyperkalemia act synergistically, so profound bradycardia and shock can occur at long-standing doses; the low output then worsens renal function and potassium.",
+    "Trimethoprim blocks the epithelial sodium channel in the distal nephron, as amiloride does; hyperkalemia is most likely with renal impairment and with mineralocorticoid antagonists or other RAAS blockers.",
+    "With hyperkalemic ECG changes give IV calcium first, then insulin with glucose and a beta-agonist, then remove potassium with diuretics, binders or dialysis (UK Kidney Association hyperkalaemia guideline).",
+    "Atropine often fails and pacing may not capture until potassium is treated; epinephrine or isoproterenol infusions add chronotropy and shift potassium into cells.",
+    "Stop the culprit drugs and review every prescription for potassium-raising combinations."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "Which unifying diagnosis best explains his presentation?",
+      "extra": "ECG: third-degree AV block, ventricular rate 39/min, peaked T waves, QRS 173 ms. K⁺ 8.6 mmol/L, creatinine 3.3 mg/dL (baseline 1.7), BUN 51 mg/dL, troponin I normal.",
+      "options": [
+        "Carvedilol overdose with incidental hyperkalemia",
+        "BRASH syndrome triggered by trimethoprim–sulfamethoxazole",
+        "Acute inferior myocardial infarction with complete heart block",
+        "Adrenal crisis from metastatic pituitary disease"
+      ],
+      "answer": 1,
+      "explanation": "Bradycardia, renal failure, an AV-nodal blocker, shock and hyperkalemia form the BRASH cycle: trimethoprim and eplerenone raised potassium in a patient with chronic kidney disease, potassium and carvedilol together blocked AV conduction, and the low output worsened renal function. He took no extra carvedilol and troponin is normal; hydrocortisone reasonably covered adrenal crisis, but the drug trigger explains the picture."
+    },
+    {
+      "kind": "management",
+      "q": "Which treatment should be given first?",
+      "options": [
+        "Sodium polystyrene sulfonate 30 g orally",
+        "Isoproterenol infusion titrated to heart rate",
+        "IV calcium, repeated if the ECG does not improve",
+        "Emergency hemodialysis before any drug therapy"
+      ],
+      "answer": 2,
+      "explanation": "With hyperkalemic ECG changes and conduction block, IV calcium (chloride or gluconate) stabilizes the myocardium within minutes without lowering potassium; insulin with glucose and a beta-agonist follow at once to shift potassium into cells (UK Kidney Association hyperkalaemia guideline). Binders act over hours, and dialysis takes time to arrange."
+    },
+    {
+      "kind": "risk",
+      "q": "Which drug started this week caused the hyperkalemia, and by what mechanism?",
+      "options": [
+        "Trimethoprim: amiloride-like block of distal sodium channels",
+        "Trimethoprim: inhibition of adrenal aldosterone synthesis",
+        "Sulfamethoxazole: amiloride-like block of distal sodium channels",
+        "Sulfamethoxazole: suppression of renin release"
+      ],
+      "answer": 0,
+      "explanation": "Trimethoprim blocks the epithelial sodium channel in the distal nephron, as amiloride does, so less potassium is secreted; the effect is greatest with renal impairment and on top of a mineralocorticoid antagonist such as eplerenone. Heparin, not trimethoprim, suppresses aldosterone synthesis. Trimethoprim also raises creatinine by blocking its tubular secretion."
+    },
+    {
+      "kind": "interpretation",
+      "q": "What is the most likely reason the transcutaneous pacing fails to capture?",
+      "options": [
+        "Carvedilol stops the paced impulse crossing the AV node",
+        "The escape rhythm is inhibiting the demand pacemaker output",
+        "Hyponatremia has lowered the cardiac action potential amplitude",
+        "Severe hyperkalemia raises the myocardial capture threshold"
+      ],
+      "answer": 3,
+      "explanation": "Hyperkalemia depolarizes resting membranes and inactivates sodium channels, raising the capture threshold, so pacing often fails until potassium is treated; IV calcium and potassium-shifting therapy restore excitability. Ventricular pacing bypasses the AV node, so the beta-blocker is not the reason, and a mild hyponatremia does not prevent capture."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint",
+      "quote": "A 51-year-old male … presented to the emergency department (ED) after a syncopal episode at the office of his primary care physician (PCP)."
+    },
+    {
+      "field": "presentation.pmh[0], presentation.pmh[1], presentation.pmh[2], presentation.pmh[3], presentation.pmh[4], presentation.pmh[5], presentation.pmh[6]",
+      "quote": "past medical history of pituitary carcinoma with resection, metastasis to the liver, Cushing's syndrome, hypertension, hyperlipidemia, hypothyroidism, insulin dependent diabetes mellitus, and renal insufficiency"
+    },
+    { "field": "presentation.pmh[6]", "quote": "According to his PCP, his baseline creatinine level was 1.7 mg/dL." },
+    {
+      "field": "presentation.hpi, presentation.meds[2]",
+      "quote": "he had been started on TMP/SMX for otitis media a week prior to presentation and had developed progressive weakness and fatigue three days after his first dose"
+    },
+    { "field": "presentation.hpi", "quote": "He was being evaluated on an outpatient basis for said weakness when he had the syncopal episode." },
+    {
+      "field": "presentation.hpi",
+      "quote": "He was found to have a pulse of 20 beats per minute (bpm) and blood pressure of 60/30 millimeters of mercury (mmHg)"
+    },
+    { "field": "patient.arrival, presentation.hpi", "quote": "by paramedics who immediately initiated transcutaneous pacing and transported him to the ED" },
+    { "field": "presentation.hpi", "quote": "He denied any recent dosage changes or attempted overdose." },
+    {
+      "field": "presentation.meds[0], presentation.meds[1]",
+      "quote": "the patient's medications included the beta-blocker carvedilol (6.25 mg twice daily) and eplerenone (25 mg daily), a potassium-sparing diuretic"
+    },
+    {
+      "field": "exam[0], exam[1], vitals.sbp, vitals.dbp",
+      "quote": "On arrival, the patient was somnolent but arousable, paced at 90 bpm at 70 milliamps, and persistently hypotensive with blood pressure of 80/60 mm Hg."
+    },
+    { "field": "exam[1]", "quote": "Pacer capture was poor." },
+    {
+      "field": "vitals.hr, ecg",
+      "quote": "His electrocardiogram (ECG) revealed third-degree AV block and marked bradycardia with heart rate of 39 bpm, peaked T waves, and widened QRS of 173 milliseconds"
+    },
+    { "field": "ecg", "quote": "third-degree atrioventricular block with a ventricular escape rhythm" },
+    { "field": "management[0]", "quote": "The patient's bradycardia was refractory to atropine, and pacing was resumed." },
+    {
+      "field": "investigations[Potassium]",
+      "quote": "Initial laboratory data was significant for elevated serum potassium of 8.6 millimoles per liter (mmol/L) (reference range 3.5 – 4.9 mmol/L)"
+    },
+    {
+      "field": "investigations[BUN], investigations[Creatinine]",
+      "quote": "blood urea nitrogen (BUN) of 51 milligrams per deciliter (mg/dL) (reference range 8 – 26 mg/dL), and creatinine of 3.3 mg/dL"
+    },
+    {
+      "field": "investigations[Sodium], investigations[Troponin I]",
+      "quote": "Sodium was low at 130 mmol/L (reference range 138 – 146 mmol/L), and troponin I was normal at 0.010 ng/mL"
+    },
+    {
+      "field": "management[1]",
+      "quote": "Intravenous (IV) calcium chloride, insulin with dextrose, and albuterol were administered to treat his hyperkalemia."
+    },
+    { "field": "management[2]", "quote": "IV hydrocortisone was additionally given for potential adrenal crisis." },
+    {
+      "field": "management[3]",
+      "quote": "With treatment, his heart rate and blood pressure improved to 97 bpm and 140/52 mmHg, respectively. His level of consciousness likewise was restored."
+    },
+    { "field": "management[3]", "quote": "Nephrology was contacted for possible dialysis, and the patient was admitted to the intensive care unit." },
+    { "field": "management[4]", "quote": "His hospital course consisted of continued therapy with additional diuresis and sodium polystyrene sulfonate" },
+    { "field": "management[4], outcome", "quote": "Within 24 hours, his potassium level corrected to 5.0 mmol/L, and therefore dialysis was not initiated." },
+    { "field": "outcome", "quote": "Upon discharge three days later, his potassium was 4.1 mmol/L, BUN 31 mg/dL, and creatinine 1.4 mg/dL." },
+    { "field": "outcome", "quote": "He was instructed to stop taking his eplerenone and was discharged in stable condition" },
+    { "field": "diagnosis.primary", "quote": "This case highlights bradycardia, renal failure, AV-node blockers, shock and hyperkalemia (BRASH) syndrome" },
+    {
+      "field": "diagnosis.primary",
+      "quote": "the initiation of antibiotic therapy with TMP/SMX worsened our patient's already-known renal insufficiency and on top of the eplerenone and carvedilol he was taking"
+    }
+  ],
+  "augmented": [
+    "presentation.meds[3]: inferred from 'insulin dependent diabetes mellitus'; regimen not reported",
+    "presentation.allergies: not reported",
+    "vitals.rr: not reported",
+    "vitals.spo2: not reported",
+    "vitals.tempC: not reported",
+    "vitals.gcs: not reported; GCS 14 estimated from 'somnolent but arousable'",
+    "investigations[Glucose]: not reported; a normal value assumed before insulin with dextrose was given"
+  ]
+}

@@ -1,0 +1,55 @@
+[
+ {
+  "file": "dog-bark-1.mp3",
+  "kind": "dog_bark",
+  "what": "three yaps",
+  "source": "Scottish Terrier Puppies Playing and Barking, RegicideAudio (2011), Public Domain Mark 1.0; from \"Mother Mack Trains Her Seven Puppies\" (Frith Films, 1952, Prelinger Archives, public domain) — https://archive.org/details/ScottishTerrierPuppiesPlayingAndBarking"
+ },
+ {
+  "file": "dog-bark-2.mp3",
+  "kind": "dog_bark",
+  "what": "two yaps",
+  "source": "Scottish Terrier Puppies Playing and Barking, RegicideAudio (2011), Public Domain Mark 1.0; from \"Mother Mack Trains Her Seven Puppies\" (Frith Films, 1952, Prelinger Archives, public domain) — https://archive.org/details/ScottishTerrierPuppiesPlayingAndBarking"
+ },
+ {
+  "file": "dog-bark-3.mp3",
+  "kind": "dog_bark",
+  "what": "yaps and a grumble",
+  "source": "Scottish Terrier Puppies Playing and Barking, RegicideAudio (2011), Public Domain Mark 1.0; from \"Mother Mack Trains Her Seven Puppies\" (Frith Films, 1952, Prelinger Archives, public domain) — https://archive.org/details/ScottishTerrierPuppiesPlayingAndBarking"
+ },
+ {
+  "file": "cough-m-1.mp3",
+  "kind": "cough",
+  "voice": "m",
+  "what": "two dry coughs",
+  "source": "Man coughing, stilgar (PDSounds #625), public domain — https://commons.wikimedia.org/wiki/File:Man_coughing.ogg"
+ },
+ {
+  "file": "cough-m-2.mp3",
+  "kind": "cough",
+  "voice": "m",
+  "what": "a long cough",
+  "source": "Man coughing, stilgar (PDSounds #625), public domain — https://commons.wikimedia.org/wiki/File:Man_coughing.ogg"
+ },
+ {
+  "file": "cough-m-3.mp3",
+  "kind": "cough",
+  "voice": "m",
+  "what": "a chesty cough",
+  "source": "Cough 1, ezwa (PDSounds #440), public domain — https://commons.wikimedia.org/wiki/File:Cough_1.ogg"
+ },
+ {
+  "file": "cough-m-4.mp3",
+  "kind": "cough",
+  "voice": "m",
+  "what": "a short cough",
+  "source": "Cough 1, ezwa (PDSounds #440), public domain — https://commons.wikimedia.org/wiki/File:Cough_1.ogg"
+ },
+ {
+  "file": "cough-f-1.mp3",
+  "kind": "cough",
+  "voice": "f",
+  "what": "three small coughs",
+  "source": "Woman coughing three times, Ashe Kirk, CC0 1.0 — https://commons.wikimedia.org/wiki/File:Woman_coughing_three_times.wav"
+ }
+]

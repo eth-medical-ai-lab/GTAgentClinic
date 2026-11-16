@@ -1,0 +1,199 @@
+{
+  "id": "pmc-PMC6304635-lemierre-septic-emboli-ards",
+  "title": "Chest pain just as a sore throat was settling",
+  "category": "infectious",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC6304635",
+    "pmid": "30631607",
+    "doi": "10.1155/2018/7373914",
+    "citation": "Jafri FN, Shulman J, Gómez-Márquez JC, Lazarus M, Ginsburg DM. Sore Throat, Fever, Septic Emboli, and Acute Respiratory Distress Syndrome: A Case of Lemierre Syndrome. Case Rep Emerg Med. 2018;2018:7373914.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6304635/"
+  },
+  "patient": { "age": 18, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Fever and severe chest pain",
+    "hpi": "Five days ago he woke up with a sore throat; his pediatrician's rapid group A streptococcal swab was negative. Over the next three days he developed nausea, vomiting, intermittent fevers, sweats and chills, and on a second visit his pediatrician started oseltamivir for presumed influenza. The sore throat and chills improved last night, but he then developed severe suprasternal chest discomfort and pleuritic chest pain.",
+    "pmh": ["No known chronic illnesses"],
+    "meds": ["Oseltamivir, started by his pediatrician for presumed influenza"],
+    "allergies": ["No known drug allergies"],
+    "social": "Has never used alcohol or illicit drugs."
+  },
+  "vitals": { "hr": 127, "sbp": 88, "dbp": 46, "rr": 24, "spo2": 99, "tempC": 37.2 },
+  "exam": [
+    "Drowsy but oriented to person, place and time",
+    "Shortly after the initial evaluation: fever of 103 °F (39.4 °C)",
+    "Moist mucous membranes; no throat exudates",
+    "No carotid bruits; no cervical or axillary lymphadenopathy",
+    "Lungs clear on auscultation; no heart murmur",
+    "No cyanosis or mottling of the skin"
+  ],
+  "investigations": [
+    { "name": "White cell count", "value": "17", "unit": "x10³/µL", "flag": "H" },
+    { "name": "Bands", "value": "28", "unit": "%", "flag": "H" },
+    { "name": "Platelets", "value": "50", "unit": "x10³/µL", "flag": "L" },
+    { "name": "Total bilirubin", "value": "2.4", "unit": "mg/dL", "flag": "H" },
+    { "name": "Lactic acid", "value": "3.1", "unit": "mmol/L", "flag": "H" },
+    { "name": "Troponin", "value": "Negative" },
+    { "name": "Blood cultures (two sets)", "value": "Fusobacterium necrophorum (reported two days later)" }
+  ],
+  "imaging": [
+    { "modality": "Chest radiograph", "finding": "No acute abnormality" },
+    { "modality": "Non-contrast CT chest", "finding": "Bibasilar patchy infiltrates, right greater than left, with additional scattered nodular opacities" },
+    { "modality": "Chest radiograph (ICU, within 12 h)", "finding": "Marked progression of bilateral pulmonary infiltrates" },
+    {
+      "modality": "CT neck and chest with IV contrast (after blood cultures turned positive)",
+      "finding": "Complete occlusion of the right internal jugular vein with surrounding inflammatory change (thrombophlebitis), a 0.6 cm right peritonsillar abscess, and multiple cavitary and non-cavitary pulmonary nodules consistent with septic emboli"
+    }
+  ],
+  "diagnosis": {
+    "primary": "Lemierre syndrome (Fusobacterium necrophorum bacteremia with right internal jugular vein septic thrombophlebitis, a small peritonsillar abscess and septic pulmonary emboli) complicated by sepsis with hypotension and ARDS",
+    "icd10": "A41.4 / I80.8 / J80",
+    "differentials": [
+      "Severe community-acquired pneumonia",
+      "Influenza with secondary bacterial pneumonia",
+      "Right-sided infective endocarditis with septic emboli",
+      "Pulmonary embolism",
+      "Peritonsillar abscess without vascular involvement"
+    ]
+  },
+  "management": [
+    "Blood cultures, then levofloxacin and clindamycin for presumed bilateral community-acquired pneumonia",
+    "ICU admission for hypotension, bandemia and lactic acidosis",
+    "Within 12 h, ARDS with severe hypoxemia: intubation and pressure-control ventilation with PEEP up to 20 cm H2O and neuromuscular blockade",
+    "Transferred to a tertiary center for possible ECMO, which was not needed",
+    "Contrast CT of the neck and chest once blood cultures grew F. necrophorum; antibiotics continued as meropenem and linezolid"
+  ],
+  "outcome": "Continued on meropenem and linezolid and liberated from mechanical ventilation over the following days, without needing ECMO.",
+  "teachingPoints": [
+    "Lemierre syndrome typically strikes healthy adolescents and young adults: pharyngitis, then (often after apparent improvement) rigors, sepsis and septic emboli, usually to the lungs, within about a week.",
+    "A negative rapid streptococcal test does not exclude Fusobacterium necrophorum pharyngitis.",
+    "Sepsis with thrombocytopenia, raised bilirubin and multiple nodular or cavitating lung lesions after a recent sore throat should prompt contrast CT of the neck.",
+    "Treat with antibiotics that reliably cover anaerobes (piperacillin–tazobactam, a carbapenem, or ceftriaxone plus metronidazole) and drain any collection; the role of anticoagulation remains unsettled.",
+    "Septic pulmonary emboli can progress to ARDS within hours."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "extra": "WBC 17 × 10³/µL with 28% bands, platelets 50 × 10³/µL, total bilirubin 2.4 mg/dL, lactic acid 3.1 mmol/L, troponin negative. Chest radiograph: no acute abnormality. Non-contrast CT chest: bibasilar patchy infiltrates with scattered nodular opacities.",
+      "options": [
+        "Influenza with secondary bacterial pneumonia",
+        "Lemierre syndrome with septic pulmonary emboli",
+        "Acute pulmonary embolism with lung infarction",
+        "Viral myopericarditis with cardiogenic shock"
+      ],
+      "answer": 1,
+      "explanation": "A young adult whose pharyngitis seemed to settle, then sepsis with hypotension, thrombocytopenia, raised bilirubin and scattered nodular lung opacities, should be assumed to have Lemierre syndrome until a contrast neck CT says otherwise. Nodules in this setting suggest septic emboli rather than simple pneumonia, and a negative rapid strep test does not exclude Fusobacterium."
+    },
+    {
+      "kind": "next-step",
+      "q": "Which investigation will best confirm the diagnosis?",
+      "options": [
+        "Contrast-enhanced CT of the neck and chest",
+        "Transesophageal echocardiography",
+        "Repeat rapid streptococcal antigen test",
+        "Bronchoalveolar lavage with viral PCR"
+      ],
+      "answer": 0,
+      "explanation": "Contrast CT of the neck shows internal jugular thrombophlebitis and any peritonsillar or parapharyngeal collection, and extending it to the chest shows the septic emboli. Ultrasound can show a jugular thrombus but sees poorly beneath the clavicle and mandible; blood cultures usually grow F. necrophorum, but only after days."
+    },
+    {
+      "kind": "management",
+      "q": "Which empiric antibiotic regimen is most appropriate once this diagnosis is suspected?",
+      "options": ["Ceftriaxone plus azithromycin", "Vancomycin plus aztreonam", "Levofloxacin alone", "Piperacillin–tazobactam"],
+      "answer": 3,
+      "explanation": "Fusobacterium necrophorum is an obligate anaerobe, intrinsically resistant to macrolides and occasionally beta-lactamase producing, so treatment needs reliable anaerobic cover: piperacillin–tazobactam, a carbapenem, or ceftriaxone plus metronidazole, usually for several weeks with drainage of collections. Vancomycin and aztreonam have no useful activity against it."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint",
+      "quote": "An eighteen-year-old male presented to the Emergency Department with fever and severe chest pain."
+    },
+    { "field": "presentation.hpi", "quote": "His symptoms developed five days earlier when he woke up with a sore throat." },
+    { "field": "presentation.hpi", "quote": "He was seen by his pediatrician who performed a negative Rapid Group-A Streptococcus swab." },
+    { "field": "presentation.hpi", "quote": "Over the following three days, he developed nausea, vomiting, intermittent fevers, sweats, and chills." },
+    {
+      "field": "presentation.hpi, presentation.meds[0]",
+      "quote": "He went back to his pediatrician who this time started him empirically on oseltamivir phosphate for presumed influenza."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "His symptoms of sore throat and chills improved the night prior to admission, but then he developed severe suprasternal chest discomfort and pleuritic chest pain."
+    },
+    { "field": "presentation.social", "quote": "He had never used alcohol or illicit drugs." },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.spo2",
+      "quote": "He was hypotensive with a blood pressure of 88/46 mmHg and a heart rate of 127 beats per minute. His initial saturation was 99% on room air."
+    },
+    {
+      "field": "vitals.tempC, exam[1]",
+      "quote": "the patient was initially afebrile, but shortly after his initial evaluation he developed a fever of 103 degrees Fahrenheit"
+    },
+    { "field": "exam[0]", "quote": "On examination, he was noted to be drowsy but oriented to person, place, and time." },
+    { "field": "exam[2]", "quote": "He had moist mucous membranes and no throat exudates." },
+    { "field": "exam[3]", "quote": "He had no carotid bruits or cervical or axillary lymphadenopathy." },
+    { "field": "exam[4]", "quote": "His pulmonary auscultation was normal, and his heart exam had no murmurs." },
+    { "field": "exam[5]", "quote": "He had no cyanosis or mottling of skin." },
+    {
+      "field": "investigations[0], investigations[1], investigations[2], investigations[3]",
+      "quote": "Labs were notable for white count of 17 thousand per mL with 28% bands, total bilirubin of 2.4 mg/dL, platelet count of 50 thousand per mL"
+    },
+    { "field": "investigations[4], investigations[5]", "quote": "lactic acid of 3.1 mg/dL, and a negative troponin" },
+    { "field": "investigations[6], diagnosis.primary", "quote": "Two days later, patient had two blood cultures which grew Fusobacterium necrophorum." },
+    { "field": "imaging[0]", "quote": "A plain chest X-ray had no acute abnormalities" },
+    {
+      "field": "imaging[1]",
+      "quote": "There are bibasilar patchy infiltrates, right greater than left (black arrows). There are additional scattered nodular opacities"
+    },
+    {
+      "field": "imaging[2], management[2]",
+      "quote": "Within 12 hours, he had a rapid and sharp clinical decline with worsening and severe hypoxemia and marked progression of his bilateral pulmonary infiltrates readily evidenced on CXR."
+    },
+    {
+      "field": "imaging[3], diagnosis.primary",
+      "quote": "demonstrating a right internal jugular thrombophlebitis, a 0.6 cm right peritonsillar abscess, and multiple pulmonary cavitary infiltrates consistent with septic emboli"
+    },
+    { "field": "imaging[3]", "quote": "There is complete occlusion of the right internal jugular vein (black arrow)." },
+    { "field": "imaging[3]", "quote": "A small amount of hypodense fluid surrounding the occluded right internal jugular vein reflects inflammatory changes." },
+    {
+      "field": "imaging[3]",
+      "quote": "Multiple nodules were visualized in the imaged portion of the chest, including cavitary (black arrow) and noncavitary nodules"
+    },
+    { "field": "diagnosis.primary", "quote": "He was diagnosed with Lemierre's syndrome." },
+    {
+      "field": "management[0]",
+      "quote": "After blood cultures were drawn and with a presumed diagnosis of bilateral community acquired pneumonia, Levofloxacin, and Clindamycin were initiated."
+    },
+    {
+      "field": "management[1], diagnosis.primary",
+      "quote": "Because of hypotension, bandemia, and lactic acidosis, he was admitted to the Intensive Care Unit for further monitoring."
+    },
+    {
+      "field": "management[2], diagnosis.primary",
+      "quote": "He required mechanical ventilation and was diagnosed with Acute Respiratory Distress Syndrome (ARDS)."
+    },
+    {
+      "field": "management[2]",
+      "quote": "Pressure control ventilation with positive end-expiratory pressure (PEEP) up to 20 cm H20 and paralytics were needed to maintain adequate oxygenation and saturation."
+    },
+    {
+      "field": "management[3], outcome",
+      "quote": "He was subsequently transferred to a tertiary care center for further management and possible Extracorporeal Membrane Oxygenation (ECMO) which in the end he did not require."
+    },
+    { "field": "management[4]", "quote": "Upon notification of the positive blood cultures, he had a CT scan of his neck with intravenous contrast" },
+    {
+      "field": "management[4], outcome",
+      "quote": "Over the course of the next few days, he continued treatment with Meropenem and Linezolid and was liberated from mechanical ventilation."
+    }
+  ],
+  "augmented": [
+    "vitals.tempC: report says initially afebrile, with 103 °F shortly after the initial evaluation (see exam)",
+    "vitals.rr: not reported",
+    "presentation.pmh: none reported",
+    "presentation.allergies: not reported",
+    "investigations[Lactic acid]: report prints '3.1 mg/dL' but calls it lactic acidosis; mmol/L assumed"
+  ]
+}

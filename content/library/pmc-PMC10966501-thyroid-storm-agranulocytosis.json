@@ -1,0 +1,200 @@
+{
+  "id": "pmc-PMC10966501-thyroid-storm-agranulocytosis",
+  "title": "Sore throat, fever and a pulse of 167",
+  "category": "endocrine",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC10966501",
+    "pmid": "38546308",
+    "doi": "10.5811/cpcem.6609",
+    "citation": "Kunz MJ, Martini WA, Filler L. The Rare Sore Throat: A Case of Thyroid Storm and Agranulocytosis. Clin Pract Cases Emerg Med. 2024;8(1):34-37.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10966501/"
+  },
+  "patient": { "age": 26, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Sore throat, fever and diarrhea",
+    "hpi": "Nine days of progressively worsening sore throat, which has stopped him taking his methimazole (10 mg twice daily); since it began he has had watery stools several times a day. Lesions come and go on his chest, back and oral mucosa. Three similar episodes in the past year led to visits to other hospitals, most recently 2–3 months ago, when he was told he would need a tonsillectomy and was discharged with outpatient follow-up.",
+    "pmh": ["Hyperthyroidism with thyromegaly", "Three similar sore-throat episodes in the past year; tonsillectomy suggested"],
+    "meds": ["Methimazole 10 mg twice daily (not taken for 9 days)"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 167, "sbp": 146, "dbp": 70, "rr": 20, "spo2": 99, "tempC": 38.6 },
+  "exam": [
+    "Uncomfortable, visibly diaphoretic and lethargic, but oriented to person, place and time",
+    "Posterior oropharyngeal erythema and tonsillar edema without exudate",
+    "No palpable goiter or thyroid mass",
+    "Tachypneic with clear breath sounds; tachycardic with a regular rhythm, no murmurs",
+    "Multiple acneiform lesions at various stages of healing on the front and back of the neck and trunk"
+  ],
+  "investigations": [
+    { "name": "White cell count", "value": "0.5", "unit": "x10⁹/L", "flag": "critical" },
+    { "name": "Lactate", "value": "5", "unit": "mmol/L", "flag": "critical" },
+    { "name": "TSH", "value": "<0.015", "unit": "mIU/L", "flag": "L" },
+    { "name": "Free T4", "value": ">6.99", "unit": "ng/dL", "flag": "H" },
+    { "name": "Sodium", "value": "130", "unit": "mEq/L", "flag": "L" },
+    { "name": "Potassium", "value": "3.3", "unit": "mEq/L", "flag": "L" },
+    { "name": "INR", "value": "2.5", "flag": "H" },
+    { "name": "Bone marrow biopsy", "value": "Suggestive of methimazole-induced marrow suppression" }
+  ],
+  "ecg": "Sinus tachycardia at about 167/min",
+  "diagnosis": {
+    "primary": "Thyroid storm with methimazole-induced agranulocytosis and neutropenic fever",
+    "icd10": "E05.91 / D70.2 / T38.2X5A",
+    "differentials": [
+      "Sepsis from bacterial pharyngitis",
+      "Sympathomimetic toxicity",
+      "Acute retroviral syndrome or infectious mononucleosis",
+      "Alcohol or sedative withdrawal",
+      "Pheochromocytoma crisis"
+    ]
+  },
+  "management": [
+    "Propranolol 1 mg IV, 1 L of 0.9% saline and acetaminophen 650 mg orally; methimazole 20 mg orally ordered",
+    "Methimazole cancelled when the laboratory called a WBC of 0.5 × 10⁹/L; moved to a negative-pressure isolation room",
+    "Piperacillin–tazobactam and vancomycin for neutropenic fever",
+    "MICU: further IV fluids, oral propranolol (later 60 mg four times daily), hydrocortisone 100 mg IV then 60 mg IV four times daily, cholestyramine 4 g daily, potassium and magnesium",
+    "Endocrinology and ENT advised thyroidectomy: total thyroidectomy at another facility 14 days after presentation"
+  ],
+  "outcome": "Heart rate fell from 167 to 110/min with IV fluids and propranolol, and he improved clinically. After total thyroidectomy on day 14 he continued to improve and was discharged the next day with endocrinology follow-up.",
+  "teachingPoints": [
+    "Fever or sore throat in a patient taking a thionamide is agranulocytosis until proven otherwise: stop the drug and check a CBC with differential (2016 ATA hyperthyroidism guideline).",
+    "Thyroid storm is a clinical diagnosis; a Burch–Wartofsky score of 45 or more is highly suggestive, and hormone levels do not separate storm from uncomplicated thyrotoxicosis.",
+    "Standard therapy is a beta-blocker, a thionamide, iodine given at least an hour after the thionamide, a glucocorticoid, cooling and treatment of the precipitant.",
+    "After thionamide-induced agranulocytosis the other thionamide is contraindicated (cross-reactivity), and iodine without thionamide cover can worsen thyrotoxicosis; bridge with beta-blockade, glucocorticoid and cholestyramine to early thyroidectomy.",
+    "Neutropenic fever needs immediate broad-spectrum antibiotics; avoid aspirin for fever in thyroid storm because it displaces hormone from binding proteins."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "Which diagnosis best explains his presentation?",
+      "options": [
+        "Bacterial tonsillitis with sepsis",
+        "Infectious mononucleosis with dehydration",
+        "Thyroid storm after stopping methimazole",
+        "Sympathomimetic drug toxicity"
+      ],
+      "answer": 2,
+      "explanation": "Known hyperthyroidism, nine days without methimazole, fever 38.6 °C, a heart rate of 167/min, diarrhea, diaphoresis and lethargy make thyroid storm the leading diagnosis; the treating team's Burch–Wartofsky score was 60 (45 or more is highly suggestive). Infection may be the trigger, so it is sought and treated in parallel rather than chosen instead."
+    },
+    {
+      "kind": "next-step",
+      "q": "The laboratory calls a critical result. What is the most appropriate change to the plan?",
+      "extra": "WBC 0.5 × 10⁹/L. Methimazole 20 mg orally has been ordered but not yet given.",
+      "options": [
+        "Switch methimazole to propylthiouracil 200 mg every 4 hours",
+        "Give potassium iodide now to block hormone release",
+        "Continue methimazole and add G-CSF to restore neutrophils",
+        "Cancel methimazole and start broad-spectrum IV antibiotics"
+      ],
+      "answer": 3,
+      "explanation": "Agranulocytosis on methimazole means stopping it, and the 2016 ATA guideline advises against switching to propylthiouracil because of cross-reactivity. Fever with neutropenia needs immediate broad-spectrum antibiotics. Iodine should not be given without a thionamide on board, because it can fuel further hormone synthesis and release."
+    },
+    {
+      "kind": "management",
+      "q": "With thionamides ruled out, which regimen is most appropriate until definitive treatment?",
+      "options": [
+        "Beta-blocker, hydrocortisone and cholestyramine; then thyroidectomy",
+        "Radioactive iodine ablation as soon as he is stable",
+        "Lugol's iodine alone, then propylthiouracil once neutrophils recover",
+        "Aspirin for the fever and diltiazem for rate control"
+      ],
+      "answer": 0,
+      "explanation": "Propranolol controls adrenergic effects and, at high doses, slows T4-to-T3 conversion; hydrocortisone also reduces conversion; cholestyramine interrupts enterohepatic recycling of thyroid hormone. Thyroidectomy is the definitive option once he is stable (2016 ATA guideline). Radioiodine acts too slowly for storm, and aspirin is avoided because it displaces thyroid hormone from binding proteins."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.pmh[0]",
+      "quote": "A 26-year-old male with a past medical history of hyperthyroidism and thyromegaly presented to the ED with complaints of sore throat, fever, and diarrhea."
+    },
+    {
+      "field": "presentation.hpi, presentation.meds[0]",
+      "quote": "nine days prior he began to have a progressively worsening sore throat, which prevented him from taking his prescribed methimazole (10 milligrams [mg] twice daily)"
+    },
+    { "field": "presentation.hpi", "quote": "Following the onset of his sore throat, he reported watery stools that occurred several times per day." },
+    { "field": "presentation.hpi", "quote": "He also complained of lesions to his chest, back, and oral mucosa that would appear periodically." },
+    {
+      "field": "presentation.hpi, presentation.pmh[1]",
+      "quote": "The patient described three similar episodes over the prior year, which prompted visits to other hospitals, with the most recent episode 2–3 months earlier."
+    },
+    {
+      "field": "presentation.hpi, presentation.pmh[1]",
+      "quote": "He was told on his most recent visit that he would require a tonsillectomy and was discharged with outpatient follow-up."
+    },
+    {
+      "field": "exam[0]",
+      "quote": "Initial physical examination revealed an uncomfortable appearing male, visibly diaphoretic and lethargic, but oriented to person, place, and time."
+    },
+    {
+      "field": "vitals.hr, vitals.sbp, vitals.dbp, vitals.rr",
+      "quote": "Vital signs were notable for a heart rate of 167 beats per minute (bpm), blood pressure of 146/70 millimeters of mercury, respiratory rate of 20 breaths per minute"
+    },
+    { "field": "vitals.spo2, vitals.tempC", "quote": "oxygen saturation of 99% on room air, and a temperature of 38.6°C" },
+    { "field": "exam[1]", "quote": "He was found to have posterior oropharyngeal erythema and tonsillar edema without exudates." },
+    { "field": "exam[2]", "quote": "No goiter or thyroid masses were palpable." },
+    { "field": "exam[3]", "quote": "He was tachypneic with clear breath sounds and tachycardic with a regular rhythm and no appreciable murmurs." },
+    {
+      "field": "exam[4]",
+      "quote": "Skin examination was notable for multiple acneiform lesions at various stages of healing to the anterior and posterior neck and trunk."
+    },
+    { "field": "investigations[White cell count]", "quote": "noting a white blood cell count of 0.5 × 10⁹ cells per L (reference range 4.5–11.0 × 10⁹/L)" },
+    { "field": "investigations[Lactate]", "quote": "Additional studies were notable for a lactate of 5 millimoles (mmol) per L (0.5–2.2 mmol/L)" },
+    {
+      "field": "investigations[TSH], investigations[Free T4]",
+      "quote": "TSH less than 0.015 international units per milliliter (IU/mL) (0.465–4.680 IU/mL); T4 greater than 6.99 nanograms per deciliter (ng/dL) (0.78–2.19 ng/dL)"
+    },
+    { "field": "investigations[INR]", "quote": "PT 28.2 seconds (25.1–36.5 seconds); and INR 2.5 (0.9–1.1)" },
+    {
+      "field": "investigations[Sodium], investigations[Potassium]",
+      "quote": "Pertinent CMP findings included a sodium level of 130 milliequivalents (mEq) per L (135–145 mEq/L) and potassium level of 3.3 mEq/L (3.5–5.1 mEq/L)."
+    },
+    {
+      "field": "investigations[Bone marrow biopsy], diagnosis.primary",
+      "quote": "He received a bone marrow biopsy, which was suggestive of methimazole-induced bone marrow suppression."
+    },
+    {
+      "field": "diagnosis.primary",
+      "quote": "He was found to have thyrotoxicosis as well as methimazole-induced bone marrow suppression resulting in agranulocytosis."
+    },
+    {
+      "field": "diagnosis.primary",
+      "quote": "our diagnosis of TS and concomitant agranulocytosis with possible sepsis secondary to underlying bacterial illness"
+    },
+    {
+      "field": "management[0]",
+      "quote": "Initial therapies ordered included propranolol 1 mg intravenously (IV), sodium chloride 0.9% one liter (L) IV, acetaminophen 650 mg orally (PO), and methimazole 20 mg PO."
+    },
+    {
+      "field": "management[1]",
+      "quote": "Upon receiving this information, we canceled the order for methimazole, and the patient was placed in a negative pressure isolation room."
+    },
+    {
+      "field": "management[2]",
+      "quote": "Broad spectrum antibiotics, including piperacillin-tazobactam and vancomycin, were administered given agranulocytosis and neutropenic fever."
+    },
+    {
+      "field": "management[3]",
+      "quote": "Upon admission, the MICU ordered additional IV fluids, propranolol 40 mg PO, potassium chloride 10 mEq IV, magnesium 1g IV, and hydrocortisone sodium succinate 100 mg IV."
+    },
+    {
+      "field": "management[3]",
+      "quote": "beta-blockers (propranolol 60 mg PO four times daily), steroids (hydrocortisone 60 mg IV four times daily), and bile acid sequestrants (cholestyramine 4 g packet once daily)"
+    },
+    {
+      "field": "management[4]",
+      "quote": "Both the endocrinology and otorhinolaryngology services evaluated the patient and determined that a thyroidectomy was required."
+    },
+    { "field": "management[4], outcome", "quote": "Fourteen days following his initial ED presentation, he underwent a total thyroidectomy." },
+    {
+      "field": "outcome",
+      "quote": "Clinical improvement was noted with the initial order of IV fluids and IV propranolol, including improvement of his tachycardia (110 bpm vs 167 bpm on arrival)."
+    },
+    { "field": "outcome", "quote": "He continued to improve clinically following the procedure and was discharged the next day" }
+  ],
+  "augmented": [
+    "presentation.allergies: not reported",
+    "ecg: obtained but not described; sinus tachycardia assumed from the regular tachycardia on examination",
+    "investigations[TSH]: unit given as IU/mL in the source; shown as mIU/L, the unit that matches the stated reference range of 0.465–4.680"
+  ]
+}

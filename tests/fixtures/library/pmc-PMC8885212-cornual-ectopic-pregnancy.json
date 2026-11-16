@@ -1,0 +1,90 @@
+{
+  "id": "pmc-PMC8885212-cornual-ectopic-pregnancy",
+  "title": "Sudden left lower abdominal pain with vomiting",
+  "category": "obstetrics",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC8885212",
+    "pmid": "35226846",
+    "doi": "10.5811/cpcem.2021.10.54388",
+    "citation": "Carius BM, Houston EJ, Griffith SP. A Case Report of Massive Intraperitoneal Hemorrhage from Rare Cornual Pregnancy. Clin Pract Cases Emerg Med. 2022;6(1):41-44.",
+    "license": "CC BY",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885212/"
+  },
+  "patient": { "age": 34, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Left lower abdominal pain and vomiting for 20 minutes",
+    "hpi": "Twenty minutes of left-sided lower abdominal pain with four episodes of non-bloody vomiting; no vaginal bleeding. Both of her previous ectopic pregnancies were treated with intramuscular methotrexate: one about six months ago, and one declared resolved a month ago after the beta-hCG fell from over 16,000 to 1700 mIU/mL (measured two weeks before arrival).",
+    "pmh": ["Gravida 4, para 2", "Two previous ectopic pregnancies, both treated with methotrexate"],
+    "meds": [],
+    "allergies": []
+  },
+  "vitals": { "hr": 85, "sbp": 86, "dbp": 51, "rr": 16, "spo2": 99, "tempC": 36.8 },
+  "exam": ["Voluntary guarding of the abdomen", "Moderate left lower quadrant tenderness"],
+  "investigations": [
+    { "name": "Hemoglobin (first)", "value": "12.0", "unit": "g/dL" },
+    { "name": "Hemoglobin (repeat, after syncope)", "value": "6.2", "unit": "g/dL", "flag": "critical" }
+  ],
+  "imaging": [{ "modality": "Point-of-care ultrasound", "finding": "Free fluid in the abdomen; thickened endometrium with an endometrial mass" }],
+  "diagnosis": {
+    "primary": "Ruptured left cornual (interstitial) ectopic pregnancy with about 2 L of intraperitoneal hemorrhage",
+    "differentials": ["Ruptured hemorrhagic ovarian cyst", "Ovarian torsion", "Incomplete miscarriage", "Pelvic inflammatory disease"]
+  },
+  "management": [
+    "1 L saline bolus: transient rise in blood pressure to 108/58 mm Hg",
+    "Two units of packed red cells en route to the operating room",
+    "Cornual wedge resection and unilateral salpingectomy"
+  ],
+  "outcome": "Uneventful recovery; discharged on postoperative day three.",
+  "teachingPoints": [
+    "An ectopic pregnancy declared resolved after methotrexate can still rupture; a falling beta-hCG does not exclude it.",
+    "Interstitial (cornual) pregnancies tend to rupture later and bleed more because of the myometrial blood supply, and can look intrauterine on ultrasound.",
+    "Hypotension with a normal heart rate does not exclude hemorrhagic shock; free fluid on bedside ultrasound needs emergency gynecological review."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "She has just fainted. What is the most useful immediate investigation?",
+      "extra": "After 1 L of saline her BP rose transiently to 108/58 mm Hg; first hemoglobin 12.0 g/dL. Standing up to give a urine sample, she becomes pale and faints for under a minute: BP now 68/38 mm Hg, HR 108/min.",
+      "options": ["Urine pregnancy test before anything else", "Point-of-care abdominal and pelvic ultrasound", "CT abdomen and pelvis with contrast", "Repeat hemoglobin in one hour"],
+      "answer": 1,
+      "explanation": "Bedside ultrasound finds free intraperitoneal fluid within minutes and must not wait for a urine test or CT in an unstable patient; here it showed free fluid and an endometrial mass. The first hemoglobin is often normal in acute hemorrhage, because dilution takes time."
+    },
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "extra": "Bedside ultrasound: free fluid in the abdomen; thickened endometrium with an endometrial mass. Repeat hemoglobin 6.2 g/dL.",
+      "options": ["Ruptured hemorrhagic ovarian cyst", "Ovarian torsion", "Incomplete miscarriage", "Ruptured ectopic pregnancy"],
+      "answer": 3,
+      "explanation": "Two previous ectopics treated medically, a beta-hCG still at 1700 mIU/mL two weeks ago, hypotension, free fluid and a falling hemoglobin mean a ruptured ectopic pregnancy until surgery proves otherwise. At operation it was a ruptured left cornual (interstitial) ectopic with about 2 L of blood in the abdomen."
+    },
+    {
+      "kind": "management",
+      "q": "What is the definitive management?",
+      "options": ["Repeat intramuscular methotrexate", "Uterine artery embolization", "Expectant management with serial beta-hCG", "Emergency surgery with blood transfusion"],
+      "answer": 3,
+      "explanation": "A ruptured ectopic pregnancy with hemodynamic instability needs emergency surgery and blood products (NICE NG126); methotrexate and expectant management are only for stable, unruptured cases. She received two units of red cells on the way to theatre and had a cornual wedge resection with salpingectomy."
+    }
+  ],
+  "evidence": [
+    { "field": "patient, presentation.pmh", "quote": "A 34-year-old gravida four, para two female with history of two ectopic pregnancies" },
+    { "field": "presentation.chiefComplaint, presentation.hpi", "quote": "arrived at the ED complaining of 20 minutes of left-sided lower abdominal pain with four episodes of non-bloody emesis" },
+    { "field": "presentation.hpi", "quote": "She denied other symptoms, including vaginal bleeding." },
+    { "field": "presentation.hpi, presentation.pmh[1]", "quote": "approximately six months prior to arrival at the ED, resolved with intramuscular methotrexate" },
+    { "field": "presentation.hpi, presentation.pmh[1]", "quote": "deemed resolved after intramuscular methotrexate one month prior to arrival" },
+    { "field": "presentation.hpi", "quote": "After initial quantitative beta-human chorionic gonadotropin (βhCG) of over 16,000 milli-international units per milliliter (mIU/mL)" },
+    { "field": "presentation.hpi", "quote": "her levels fell to 1700 mIU/mL two weeks prior to arrival" },
+    { "field": "vitals.sbp, vitals.dbp", "quote": "Triage vital signs were significant for blood pressure (BP) of 86/51 millimeters mercury (mm Hg)" },
+    { "field": "vitals.hr", "quote": "but were otherwise within normal limits, including a heart rate (HR) of 85 beats per minutes (bpm)" },
+    { "field": "exam[0], exam[1]", "quote": "Physical examination revealed voluntary guarding of the abdomen and only moderate tenderness of the left lower quadrant." },
+    { "field": "investigations[0]", "quote": "initial complete blood count (CBC) found stable hemoglobin and hematocrit of 12.0 grams/deciliter (g/dL)" },
+    { "field": "investigations[1]", "quote": "repeat hemoglobin and hematocrit revealed a dramatic decline to 6.2 g/dL and 20.1%" },
+    { "field": "imaging[0]", "quote": "Point-of-care US revealed free fluid in the abdomen as well as a thickened endometrium with an endometrial mass" },
+    { "field": "diagnosis.primary", "quote": "The surgeons found approximately two liters of intraperitoneal blood and diagnosed a ruptured, left cornual ectopic pregnancy" },
+    { "field": "management[0]", "quote": "A one-liter saline intravenous bolus provided transient BP improvement to 108/58 mm Hg" },
+    { "field": "management[1]", "quote": "Two units of packed red blood cells were administered en route to the operating room." },
+    { "field": "management[2]", "quote": "A cornual wedge resection and a unilateral salpingectomy were performed." },
+    { "field": "outcome", "quote": "The patient recovered uneventfully and was discharged on postoperative day three." }
+  ],
+  "augmented": ["vitals.rr: reported only as within normal limits; a value was added", "vitals.spo2: reported only as within normal limits; a value was added", "vitals.tempC: reported only as within normal limits; a value was added", "presentation.meds: not reported", "presentation.allergies: not reported"]
+}

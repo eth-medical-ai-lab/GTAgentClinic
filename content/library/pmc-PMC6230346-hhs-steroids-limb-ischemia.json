@@ -1,0 +1,182 @@
+{
+  "id": "pmc-PMC6230346-hhs-steroids-limb-ischemia",
+  "title": "Confusion and a cold, pulseless leg",
+  "category": "endocrine",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC6230346",
+    "pmid": "30443624",
+    "doi": "10.5811/cpcem.2018.9.39920",
+    "citation": "Al Hazmi A, Manning S. Limb Ischemia in a Patient with Hyperosmolar Hyperglycemic State. Clin Pract Cases Emerg Med. 2018;2(4):348-352.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6230346/"
+  },
+  "patient": { "age": 61, "sex": "M", "arrival": "ems" },
+  "presentation": {
+    "chiefComplaint": "Confusion",
+    "hpi": "Recently started on prednisone for newly diagnosed pemphigus vulgaris. Over the past two weeks his family has noticed a gradual functional and mental decline with poor oral intake; his skin lesions have not changed. Today he stopped responding verbally to them, and they called an ambulance.",
+    "pmh": ["Pemphigus vulgaris, recently diagnosed, treated with glucocorticoids", "No known diabetes mellitus or peripheral vascular disease"],
+    "meds": ["Prednisone (recently started; dose not reported)"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 134, "sbp": 141, "dbp": 86, "rr": 16, "spo2": 95, "tempC": 37.1, "gcs": 13 },
+  "exam": [
+    "Waxing and waning level of consciousness; oriented to self only",
+    "Ill-appearing with dry mucous membranes and poor skin turgor",
+    "Cold, pulseless right lower extremity"
+  ],
+  "investigations": [
+    { "name": "Glucose", "value": "1077", "unit": "mg/dL", "flag": "critical" },
+    { "name": "Sodium", "value": "172", "unit": "mmol/L", "flag": "critical" },
+    { "name": "Effective osmolality (calculated)", "value": "404", "unit": "mOsm/kg", "flag": "H", "augmented": true },
+    { "name": "Anion gap", "value": "23", "flag": "H" },
+    { "name": "Creatinine", "value": "2.47", "unit": "mg/dL", "flag": "H" },
+    { "name": "Hemoglobin", "value": "20", "unit": "g/dL", "flag": "H" },
+    { "name": "Urinalysis", "value": "Findings of urinary tract infection; ketones negative" },
+    { "name": "Thyroid-stimulating hormone", "value": "Normal" }
+  ],
+  "imaging": [
+    { "modality": "CT head (noncontrast)", "finding": "Unremarkable" },
+    { "modality": "Duplex ultrasound, right lower extremity", "finding": "Total occlusion of the right proximal common iliac and popliteal arteries" }
+  ],
+  "diagnosis": {
+    "primary": "Hyperosmolar hyperglycemic state with acute right lower-limb arterial thrombosis and sepsis from a urinary tract infection, in a man without known diabetes recently started on prednisone",
+    "icd10": "E09.00 / I74.5 / I74.3 / A41.9",
+    "differentials": [
+      "Diabetic ketoacidosis",
+      "Sepsis-associated encephalopathy",
+      "Acute ischemic stroke",
+      "Cardioembolic acute limb ischemia",
+      "Glucocorticoid-induced psychosis"
+    ]
+  },
+  "management": [
+    "IV insulin, therapeutic heparin and broad-spectrum antibiotics started in the ED",
+    "Free-water deficit estimated at more than 10 L; initial volume resuscitation with 3 L of Plasma-Lyte",
+    "Then slow sodium correction with 0.9% saline over 24 h",
+    "ICU admission with vascular surgery consultation for the ischemic limb",
+    "Through-knee amputation on hospital day 3 for irreversible tissue damage"
+  ],
+  "outcome": "Glucose and sodium were corrected gradually and the acute kidney injury resolved. After the amputation he did well and was discharged to inpatient rehabilitation on hospital day 11.",
+  "teachingPoints": [
+    "HHS develops over days to weeks with profound dehydration; glucose is usually above 600 mg/dL with marked hyperosmolality and little ketosis or acidosis.",
+    "Glucocorticoids and infection are classic precipitants, including in people without known diabetes: check glucose in any confused patient taking steroids.",
+    "A normal or high sodium despite severe hyperglycemia signals a large free-water deficit; corrected sodium adds about 1.6 mmol/L per 100 mg/dL of glucose above 100.",
+    "HHS is prothrombotic: look for arterial and venous thrombosis (limbs, brain, heart, gut); an ischemic limb needs full heparin anticoagulation and emergency vascular review.",
+    "Correct slowly: isotonic fluid first, low-dose insulin once glucose stops falling, and a sodium fall of no more than 10 mmol/L in 24 h (JBDS HHS guidance)."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "Which diagnosis best explains his metabolic picture?",
+      "extra": "Glucose 1077 mg/dL, Na⁺ 172 mmol/L, Hb 20 g/dL, creatinine 2.47 mg/dL, anion gap 23. Urinalysis: signs of infection, no ketones.",
+      "options": [
+        "Hyperosmolar hyperglycemic state",
+        "Diabetic ketoacidosis",
+        "Central diabetes insipidus with stress hyperglycemia",
+        "Salt poisoning with hypernatremic dehydration"
+      ],
+      "answer": 0,
+      "explanation": "Glucose above 1000 mg/dL with an effective osmolality of about 404 mOsm/kg (2 × 172 + 1077/18), no ketonuria and two weeks of decline define HHS; glucocorticoids and infection are classic precipitants. The raised anion gap without ketones points to another acid, such as lactate from the ischemic limb, or to kidney injury, rather than to DKA."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate immediate management of the right leg?",
+      "extra": "Duplex ultrasound: total occlusion of the right proximal common iliac and popliteal arteries.",
+      "options": [
+        "Aspirin and repeat duplex scanning in 24 hours",
+        "Prophylactic-dose enoxaparin and vascular review tomorrow",
+        "Elevate the leg and defer anticoagulation until sodium normalizes",
+        "IV unfractionated heparin and emergency vascular surgery consultation"
+      ],
+      "answer": 3,
+      "explanation": "An acutely cold, pulseless limb needs immediate systemic heparin and emergency vascular surgical assessment for revascularization, or amputation if the limb is not viable (ESVS 2020 acute limb ischaemia guideline). Dehydration, hyperosmolality and hyperviscosity make HHS prothrombotic."
+    },
+    {
+      "kind": "management",
+      "q": "Which initial fluid and insulin strategy is most appropriate?",
+      "extra": "No ketonuria; estimated free-water deficit more than 10 L.",
+      "options": [
+        "0.45% saline at 1 L/h with insulin 0.1 U/kg/h started at once",
+        "Isotonic fluid first; low-dose insulin once glucose stops falling",
+        "5% dextrose to replace the free-water deficit within 12 hours",
+        "Oral water 3 L and subcutaneous basal insulin, then reassess"
+      ],
+      "answer": 1,
+      "explanation": "JBDS HHS guidance starts with isotonic fluid, which alone lowers glucose, and adds fixed-rate insulin at 0.05 U/kg/h only once glucose stops falling, unless there is ketonemia. It aims for gradual falls in glucose and osmolality and a sodium fall of no more than 10 mmol/L in 24 h; rapid hypotonic fluid or early full-dose insulin risks an abrupt fall in osmolality."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Using the 1.6 mmol/L per 100 mg/dL correction, what is his glucose-corrected sodium?",
+      "extra": "Glucose 1077 mg/dL, Na⁺ 172 mmol/L.",
+      "options": ["About 158 mmol/L", "About 172 mmol/L", "About 188 mmol/L", "About 210 mmol/L"],
+      "answer": 2,
+      "explanation": "Corrected Na = 172 + 1.6 × (1077 − 100)/100 ≈ 188 mmol/L (about 195 with the 2.4 factor). A high measured sodium at this glucose means profound free-water loss; as glucose falls, water moves back into cells and the measured sodium can rise unless free water is replaced."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, patient.arrival, presentation.chiefComplaint",
+      "quote": "A 61-year-old man was transported to the ED by ambulance with a complaint of confusion."
+    },
+    {
+      "field": "presentation.pmh[0], presentation.meds[0]",
+      "quote": "His past medical history was significant for recently diagnosed pemphigus vulgaris that was being treated with steroids."
+    },
+    { "field": "presentation.hpi", "quote": "His family described gradual functional decline over the prior two weeks with no changes in his skin lesion." },
+    { "field": "presentation.hpi", "quote": "On the day of ED presentation, he was no longer responding verbally to his family members." },
+    {
+      "field": "presentation.hpi, presentation.meds[0]",
+      "quote": "He had recently started taking prednisone to manage his autoimmune disease and had a progressive decline in his mental status along with decreased oral intake."
+    },
+    { "field": "presentation.pmh[1]", "quote": "He had no history of diabetes mellitus or peripheral vascular disease." },
+    { "field": "exam[0]", "quote": "he was found to have a waxing and waning level of consciousness and was alert to self only" },
+    {
+      "field": "vitals.hr, vitals.sbp, vitals.dbp, vitals.rr",
+      "quote": "His initial vital signs were heart rate of 134 beats per minute, blood pressure of 141/86 millimeters of mercury, respiration of 16 breaths per minute"
+    },
+    { "field": "vitals.tempC, vitals.spo2", "quote": "temperature of 37.1°C (98.8°F), and oxygen saturation of 95% on room air" },
+    { "field": "exam[1]", "quote": "He was ill-appearing with dry mucous membranes and poor skin turgor." },
+    { "field": "exam[2]", "quote": "He was also found to have a cold, pulseless, right lower extremity." },
+    {
+      "field": "investigations[Glucose], investigations[Hemoglobin], investigations[Sodium]",
+      "quote": "marked hyperclycemia (blood glucose, 1077 milligrams per deciliter [mg/dL]), hemoconcentration (hemoglobin, 20 grams/dL), sodium concentration of 172 millimoles/L"
+    },
+    { "field": "investigations[Anion gap], investigations[Creatinine]", "quote": "anion gap of 23, and acute kidney injury (creatinine, 2.47 mg/dL)" },
+    { "field": "investigations[Urinalysis]", "quote": "Urinalysis revealed a urinary tract infection without ketones." },
+    {
+      "field": "investigations[Thyroid-stimulating hormone], imaging[0]",
+      "quote": "His thyroid-stimulating hormone level and a noncontrast computed tomography of his head were unremarkable."
+    },
+    {
+      "field": "imaging[1]",
+      "quote": "Duplex ultrasound of the lower extremity demonstrated total occlusion of the right proximal common iliac and popliteal arteries."
+    },
+    { "field": "diagnosis.primary", "quote": "Based on these results, we diagnosed HHS with limb ischemia and sepsis from urinary tract infection." },
+    {
+      "field": "diagnosis.primary",
+      "quote": "Evaluation revealed hyperosmolar hyperglycemic state (HHS) and occlusive arterial thrombosis, a rare but known complication of HHS."
+    },
+    { "field": "management[0]", "quote": "The patient was treated with insulin, heparin, and broad-spectrum antibiotics in the ED." },
+    {
+      "field": "management[1]",
+      "quote": "His free water deficit was calculated to be greater than 10 L. Fluid management included initial volume resuscitation with 3 L of Plasma-Lyte."
+    },
+    { "field": "management[2]", "quote": "He was then transitioned to slow sodium correction with normal saline over 24 hours." },
+    {
+      "field": "management[3]",
+      "quote": "He was admitted to an intensive care unit (ICU) with vascular surgery consultation for management of the limb ischemia."
+    },
+    { "field": "management[4], outcome", "quote": "The patient underwent through-the-knee amputation due to irreversible tissue damage on hospital day three." },
+    { "field": "outcome", "quote": "During his ICU stay, his blood glucose and sodium levels were corrected gradually and the acute kidney injury resolved." },
+    {
+      "field": "outcome",
+      "quote": "The patient did well during hospitalization and was discharged to an inpatient rehabilitation facility on hospital day 11."
+    }
+  ],
+  "augmented": [
+    "presentation.allergies: not reported",
+    "vitals.gcs: not reported; GCS 13 (E3 V4 M6) estimated from a waxing and waning level of consciousness, oriented to self only",
+    "investigations[Effective osmolality (calculated)]: not reported; calculated from the reported values as 2 × Na + glucose/18"
+  ]
+}

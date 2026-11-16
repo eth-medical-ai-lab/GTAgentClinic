@@ -1,0 +1,187 @@
+{
+  "id": "pmc-PMC9205385-bilateral-tension-pneumothorax",
+  "title": "A tearing chest pain during breathing exercises",
+  "category": "pulmonology",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC9205385",
+    "pmid": "35733472",
+    "doi": "10.7759/cureus.25107",
+    "citation": "June C, Viscusi C, DeLange B. Simultaneous Spontaneous Bilateral Tension Pneumothorax Post COVID-19 Infection: A Case Study. Cureus. 2022;14(5):e25107.",
+    "license": "CC BY 3.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9205385/"
+  },
+  "patient": { "age": 54, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Sudden dyspnea and substernal chest pain radiating to the back",
+    "hpi": "While doing breathing exercises he felt a sudden sharp tear in the middle of his chest. The pain went through to his back and was followed by breathlessness and chest tightness with every breath. He was diagnosed with COVID-19 pneumonia 18 days ago and needed high-flow nasal oxygen, but was weaned off supplemental oxygen four days ago.",
+    "pmh": ["COVID-19 pneumonia 18 days ago, treated with high-flow nasal oxygen", "No other pre-existing medical conditions"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"],
+    "social": "Never smoked."
+  },
+  "vitals": { "hr": 135, "sbp": 164, "dbp": 96, "rr": 34, "spo2": 75, "tempC": 37 },
+  "exam": [
+    "Toxic-appearing, pale, diaphoretic, in severe respiratory distress",
+    "Trachea midline; breath sounds diminished on both sides",
+    "On 15 L/min oxygen by nonrebreather mask: HR 119/min, RR 28/min, SpO2 95%",
+    "Shortly afterwards, taken to radiology for CT: decompensated with hemodynamic instability (blood pressure not recorded) and lost consciousness"
+  ],
+  "investigations": [
+    { "name": "Hemoglobin", "value": "14.6", "unit": "g/dL", "augmented": true },
+    { "name": "White cell count", "value": "9.8", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Platelets", "value": "262", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Sodium", "value": "138", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.1", "unit": "mmol/L", "augmented": true },
+    { "name": "Creatinine", "value": "0.98", "unit": "mg/dL", "augmented": true }
+  ],
+  "imaging": [
+    {
+      "modality": "Chest radiograph (initial)",
+      "finding": "Bilateral pneumothorax with severe airspace disease; flattened diaphragms and an expanded thoracic cage"
+    },
+    { "modality": "CT chest (requested for suspected aortic dissection)", "finding": "Bilateral pneumothorax with significant lung collapse" },
+    {
+      "modality": "Chest radiograph and CT after bilateral chest tubes",
+      "finding": "Both lungs re-expanded and diaphragms dome-shaped again; diffuse bilateral airspace opacities and cysts consistent with COVID-19 pneumonia; a large bleb in the left lung"
+    }
+  ],
+  "ecg": "Sinus tachycardia 135/min without acute ST-segment changes",
+  "diagnosis": {
+    "primary": "Bilateral spontaneous tension pneumothorax, secondary to recent COVID-19 pneumonia",
+    "icd10": "J93.0",
+    "differentials": [
+      "Acute aortic dissection",
+      "Pulmonary embolism after COVID-19",
+      "Acute coronary syndrome",
+      "Spontaneous pneumomediastinum",
+      "Worsening COVID-19 pneumonia or ARDS"
+    ]
+  },
+  "management": [
+    "Oxygen 15 L/min by nonrebreather mask",
+    "Chest radiograph, then sent to radiology for CT because of concern for aortic dissection",
+    "After he decompensated and lost consciousness: intubation for acute hypoxic respiratory failure, severe respiratory distress and hypoventilation",
+    "Bilateral 28F chest tubes (right 5th and left 7th intercostal space): a rush of air on insertion, then rapid improvement in oxygen saturation",
+    "ICU monitoring; weaned off the ventilator 24 h later",
+    "Tubes clamped on day 4 with a persistent right air leak (small residual right pneumothorax, subcutaneous emphysema); left tube removed on day 5 and right tube on day 6 once the leak resolved",
+    "Discharged with a surgical consult for video-assisted thoracoscopic surgery (VATS) and pleurodesis"
+  ],
+  "outcome": "Survived: extubated after 24 h, both chest tubes out by day 6 and subcutaneous emphysema improving by day 7; discharged with a planned surgical consult for VATS and pleurodesis.",
+  "teachingPoints": [
+    "Spontaneous pneumothorax is a recognized complication two to three weeks after COVID-19 pneumonia; think of it with sudden chest pain and dyspnea.",
+    "In bilateral tension pneumothorax the trachea stays midline and breath sounds are symmetrically reduced; do not mistake 'equal' for normal.",
+    "Tearing pain radiating to the back is not specific for dissection; an unstable patient should not leave the resuscitation bay for CT. Use lung ultrasound or a portable chest radiograph.",
+    "Positive-pressure ventilation worsens a pneumothorax; decompress promptly around intubation.",
+    "Treat tension pneumothorax by immediate decompression (finger or needle thoracostomy) and chest tubes; a persistent air leak needs thoracic surgical review (VATS, pleurodesis)."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "options": ["Bilateral spontaneous pneumothorax", "Acute type A aortic dissection", "Acute pulmonary embolism", "Worsening COVID-19 pneumonia with ARDS"],
+      "answer": 0,
+      "explanation": "Sudden pain while straining during breathing exercises, severe hypoxemia and symmetrically diminished breath sounds after recent COVID-19 pneumonia point to bilateral pneumothorax; the trachea stays midline because the pressure is equal on both sides. Dissection would not explain bilateral loss of breath sounds or an SpO2 of 75%."
+    },
+    {
+      "kind": "next-step",
+      "q": "What is the immediate priority?",
+      "extra": "Chest radiograph: bilateral pneumothorax with flattened diaphragms and an expanded thoracic cage. On the way to CT he becomes unresponsive and hemodynamically unstable.",
+      "options": [
+        "Complete the CT angiogram to exclude aortic dissection",
+        "Intubate and ventilate, then reassess before any procedure",
+        "Immediate decompression of both hemithoraces, then chest tubes",
+        "Chest tube only on the side that looks larger"
+      ],
+      "answer": 2,
+      "explanation": "Shock with flattened diaphragms and an expanded thorax means bilateral tension; ATLS treats tension pneumothorax with immediate decompression (finger or needle thoracostomy) followed by chest tubes, here on both sides. Ventilating without decompression worsens tension, and an unstable patient should not stay in the CT scanner."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Why was the trachea midline despite tension physiology?",
+      "options": [
+        "Stiff lungs after COVID-19 cannot push the mediastinum",
+        "Equal pressure in both hemithoraces leaves the mediastinum central",
+        "Tracheal deviation appears only after cardiac arrest",
+        "The pneumothoraces were too small to cause a shift"
+      ],
+      "answer": 1,
+      "explanation": "Tracheal and mediastinal shift need a pressure difference between the two hemithoraces; with bilateral tension both sides push equally, so the trachea stays central, as the authors point out. Tracheal deviation is a late and unreliable sign even in unilateral tension."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint",
+      "quote": "A 54-year-old male presents to the emergency department with acute onset of dyspnea and substernal chest pain radiating to the back."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "At the time of onset, he was practicing breathing exercises when a sharp tear was felt in the middle of his chest."
+    },
+    { "field": "presentation.hpi", "quote": "The pain radiated to the back, and he began to have dyspnea and tightness in his chest with each breath." },
+    {
+      "field": "presentation.hpi, presentation.pmh[0]",
+      "quote": "He was diagnosed with COVID-19 pneumonia 18 days prior and required oxygen via a high-flow nasal cannula."
+    },
+    { "field": "presentation.hpi", "quote": "He was weaned off the supplemental oxygen four days before presenting to the emergency department." },
+    { "field": "presentation.pmh[1], presentation.social", "quote": "He had no other pre-existing medical conditions and no history of smoking." },
+    { "field": "exam[0]", "quote": "Upon arrival, he was toxic appearing, pale, diaphoretic, and in severe respiratory distress." },
+    { "field": "exam[1]", "quote": "His trachea was midline with diminished breath sounds bilaterally." },
+    { "field": "vitals.spo2", "quote": "The patient was tachycardic and tachypneic; blood pressure was elevated, and oxygen saturation was 75% on room air." },
+    { "field": "management[0]", "quote": "Supplemental oxygen was given at 15 L/min through a nonrebreather mask." },
+    {
+      "field": "vitals.hr, vitals.rr, exam[2]",
+      "quote": "Heart rate decreased from 135 bpm to 119 bpm; respiratory rate decreased from 34 to 28 breaths per minute, and oxygen saturation increased to 95% with oxygen administration."
+    },
+    {
+      "field": "imaging[0]",
+      "quote": "Chest x-ray: spontaneous bilateral pneumothorax with severe airspace disease. The diaphragm is flattened, and the thoracic cage is expanded."
+    },
+    { "field": "imaging[1], management[1]", "quote": "the patient was rushed to radiology for a CT scan … due to concern for aortic dissection" },
+    {
+      "field": "exam[3]",
+      "quote": "He began to decompensate; hemodynamic instability was noted, but blood pressure was not recorded, and the patient lost consciousness."
+    },
+    {
+      "field": "management[2]",
+      "quote": "Intubation was initiated due to acute hypoxic respiratory failure, severe respiratory distress, and hypoventilation."
+    },
+    { "field": "imaging[1]", "quote": "Bilateral pneumothorax was noted on imaging with significant lung collapse" },
+    {
+      "field": "management[3]",
+      "quote": "28F chest tubes were inserted into the right and left pleural spaces at the fifth and seventh intercostal spaces, respectively"
+    },
+    { "field": "management[3]", "quote": "Upon insertion, a rush of air was released indicating that tension was present. Oxygen saturations rapidly improved" },
+    { "field": "imaging[2]", "quote": "Chest x-ray: bilateral chest tube insertion (black arrows), lung re-expansion, and diaphragm returned to a dome shape" },
+    { "field": "imaging[2]", "quote": "A large bleb on the left lung was noted during the second CT scan." },
+    { "field": "imaging[2]", "quote": "Bilateral diffuse airspace opacities consistent with COVID pneumonia were shown on imaging." },
+    { "field": "management[4], outcome", "quote": "The patient was transferred to the ICU for monitoring and weaned off the ventilator 24 hours later." },
+    {
+      "field": "management[5]",
+      "quote": "Chest tubes were clamped on the fourth day, but there was a persistent right-sided leak, and a chest x-ray showed small residual pneumothorax on the right with subcutaneous emphysema."
+    },
+    {
+      "field": "management[5], outcome",
+      "quote": "The left chest tube was removed the following day, and on the sixth day, the right chest tube was removed as the air leak resolved."
+    },
+    { "field": "outcome", "quote": "On the seventh day, the chest x-ray demonstrated improvement in subcutaneous emphysema." },
+    {
+      "field": "management[6], outcome",
+      "quote": "The patient was discharged with a scheduled follow-up for a surgical consult for video-assisted thoracoscopic surgery (VATS) procedure and pleurodesis."
+    },
+    { "field": "diagnosis.primary", "quote": "We present a patient with spontaneous bilateral tension pneumothorax 18 days after COVID-19 infection." },
+    {
+      "field": "diagnosis.primary",
+      "quote": "Upon tube insertion, a rush of air was observed bilaterally, indicating tension was present within the thorax. On this observation, the diagnosis of bilateral tension pneumothorax was made."
+    }
+  ],
+  "augmented": [
+    "vitals.sbp: report says blood pressure was elevated",
+    "vitals.dbp: report says blood pressure was elevated",
+    "vitals.tempC: not reported",
+    "presentation.meds: not reported",
+    "presentation.allergies: not reported",
+    "ecg: not reported; a non-ischemic sinus tachycardia matching the recorded heart rate was added",
+    "investigations[0]: no laboratory results were reported; a normal blood count, electrolytes and creatinine were added"
+  ]
+}

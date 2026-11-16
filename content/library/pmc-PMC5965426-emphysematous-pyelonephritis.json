@@ -1,0 +1,168 @@
+{
+  "id": "pmc-PMC5965426-emphysematous-pyelonephritis",
+  "title": "Four days of right flank pain and vomiting",
+  "category": "infectious",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC5965426",
+    "pmid": "29849419",
+    "doi": "10.5811/cpcem.2016.12.32714",
+    "citation": "McCafferty G, Shorette A, Singh S, Budhram G. Emphysematous Pyelonephritis: Bedside Ultrasound Diagnosis in the Emergency Department. Clin Pract Cases Emerg Med. 2017;1(2):92-94.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5965426/"
+  },
+  "patient": { "age": 84, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Right flank pain for four days",
+    "hpi": "Four days of right flank pain with nausea, vomiting and loss of appetite.",
+    "pmh": ["Diabetes mellitus", "Hypertension", "Chronic kidney disease"],
+    "meds": ["Antidiabetic and antihypertensive therapy (agents not reported)"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 132, "sbp": 98, "dbp": 63, "rr": 27, "spo2": 96, "tempC": 39 },
+  "exam": ["Ill-appearing and diaphoretic", "Tenderness of the right flank and right costophrenic angle"],
+  "investigations": [
+    { "name": "White cell count", "value": "14,600", "unit": "/mm³", "flag": "H" },
+    { "name": "Bicarbonate", "value": "14", "unit": "mmol/L", "flag": "L" },
+    { "name": "Anion gap", "value": "Raised (anion gap metabolic acidosis)" },
+    { "name": "Lactate", "value": "8.4", "unit": "mmol/L", "flag": "critical" },
+    { "name": "pH", "value": "7.26", "flag": "L" },
+    { "name": "Creatinine", "value": "4.0", "unit": "mg/dL", "flag": "H" },
+    { "name": "Urinalysis", "value": "Heavy bacteriuria and pyuria" }
+  ],
+  "imaging": [
+    {
+      "modality": "Point-of-care ultrasound (RUSH examination and right kidney)",
+      "finding": "Enlarged right kidney with echogenic foci in the renal medulla and reverberation artifact from air (\"dirty shadowing\")"
+    },
+    { "modality": "CT abdomen and pelvis", "finding": "Enlarged right kidney with perinephric stranding and air in the renal cortex" }
+  ],
+  "diagnosis": {
+    "primary": "Emphysematous pyelonephritis (right kidney) with septic shock, needing emergency nephrectomy after failed medical management",
+    "icd10": "N10 / A41.9 / R65.21",
+    "differentials": [
+      "Uncomplicated acute pyelonephritis",
+      "Obstructive pyelonephritis with infected hydronephrosis",
+      "Renal or perinephric abscess",
+      "Emphysematous pyelitis",
+      "Acute cholecystitis"
+    ]
+  },
+  "management": [
+    "Bedside RUSH ultrasound by the emergency physician, then emergent urology consultation once renal gas was seen",
+    "Antibiotics started; the urologist recommended conservative management and ICU admission",
+    "Hospital day 6: altered mental status, fever and hypotension requiring vasopressors",
+    "Emergency open right nephrectomy"
+  ],
+  "outcome": "Improved after surgery: renal function returned to baseline and the delirium resolved. After a short stay in a rehabilitation facility she returned home.",
+  "teachingPoints": [
+    "Emphysematous pyelonephritis occurs mostly in people with diabetes or urinary obstruction; suspect it when apparent pyelonephritis comes with shock, severe acidosis or no response to antibiotics.",
+    "On bedside ultrasound, gas appears as echogenic foci with 'dirty' shadowing and reverberation artifact, unlike the clean, echo-free shadow of a stone.",
+    "CT confirms the diagnosis and maps the gas (for example by the Huang–Tseng classes), which guides the choice between drainage and nephrectomy.",
+    "Antibiotics alone carry a much higher mortality than antibiotics plus percutaneous drainage or nephrectomy; involve urology at once and reassess early.",
+    "Resuscitate sepsis-induced hypoperfusion with at least 30 mL/kg of crystalloid in the first 3 hours, with frequent reassessment (Surviving Sepsis Campaign 2021)."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "extra": "Bedside ultrasound: enlarged right kidney with echogenic foci in the medulla and posterior 'dirty' shadowing with reverberation artifact.",
+      "options": [
+        "Obstructive pyelonephritis from a ureteric stone",
+        "Renal abscess with perinephric extension",
+        "Emphysematous pyelonephritis",
+        "Acute uncomplicated pyelonephritis"
+      ],
+      "answer": 2,
+      "explanation": "Echogenic foci with 'dirty' shadowing and reverberation artifact inside an enlarged kidney mean gas in the renal parenchyma: emphysematous pyelonephritis, in an elderly woman with diabetes and sepsis. A stone casts a clean, echo-free shadow, and treating this as uncomplicated pyelonephritis can be fatal."
+    },
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate next step after the bedside ultrasound?",
+      "options": [
+        "CT of the abdomen and pelvis to define the gas and its extent",
+        "Intravenous urography to look for obstruction",
+        "Repeat ultrasound after 24 hours of antibiotics",
+        "Diagnostic laparoscopy to inspect the kidney"
+      ],
+      "answer": 0,
+      "explanation": "CT (non-contrast is enough) confirms gas in the renal parenchyma, maps its extent and shows any obstruction, which decides between drainage and nephrectomy; urology should be called at the same time. Waiting 24 hours or relying on urography wastes time in a necrotizing infection."
+    },
+    {
+      "kind": "management",
+      "q": "Which management approach gives her the best chance of survival?",
+      "extra": "CT: enlarged right kidney with perinephric stranding and air in the renal cortex.",
+      "options": [
+        "IV antibiotics alone, with surgery only if gas persists at 6 weeks",
+        "IV antibiotics plus early percutaneous drainage or nephrectomy",
+        "Oral antibiotics and early discharge with urology follow-up",
+        "Hyperbaric oxygen therapy as the first-line treatment"
+      ],
+      "answer": 1,
+      "explanation": "Reported mortality is far higher with antibiotics alone than with antibiotics plus percutaneous drainage or nephrectomy; the choice depends on the extent of gas, obstruction and organ dysfunction. This patient was first managed conservatively and needed an emergency open nephrectomy when septic shock developed on day 6."
+    },
+    {
+      "kind": "management",
+      "q": "What initial fluid resuscitation does the Surviving Sepsis Campaign 2021 guideline suggest for her?",
+      "extra": "Lactate 8.4 mmol/L, pH 7.26, bicarbonate 14 mmol/L, creatinine 4.0 mg/dL.",
+      "options": [
+        "No fluids until a central venous pressure is available",
+        "250 mL boluses titrated to urine output alone",
+        "At least 30 mL/kg IV crystalloid within the first 3 hours",
+        "Albumin 20% as the first-line resuscitation fluid"
+      ],
+      "answer": 2,
+      "explanation": "For sepsis-induced hypoperfusion (lactate 8.4 mmol/L) or septic shock, SSC 2021 suggests at least 30 mL/kg of IV crystalloid within the first 3 hours, with frequent reassessment, preferably by dynamic measures, and balanced crystalloids over saline. Albumin is reserved for patients who have already received large crystalloid volumes."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.pmh, presentation.chiefComplaint, presentation.hpi",
+      "quote": "An 84-year-old woman with diabetes, hypertension, and chronic kidney disease presented to our emergency department with four days of right flank pain with nausea, vomiting, and anorexia."
+    },
+    {
+      "field": "vitals.tempC, vitals.hr, vitals.rr, vitals.sbp, vitals.dbp",
+      "quote": "She was febrile (39°C/102.2°F), tachycardic (heart rate 132), tachypneic (respiratory rate 27), and hypotensive (98/63 mmHg)."
+    },
+    {
+      "field": "exam[0], exam[1]",
+      "quote": "On examination she was ill appearing, diaphoretic, and had tenderness in the right flank and right costophrenic angle."
+    },
+    {
+      "field": "imaging[0], management[0]",
+      "quote": "In addition to performing a rapid ultrasound in shock (RUSH) examination to assess cardiac function, fluid status and sources of shock"
+    },
+    {
+      "field": "imaging[0]",
+      "quote": "ultrasound showed an enlarged right kidney with echogenic foci in the renal medulla and reverberation artifacts representing air, referred to as “dirty shadowing”"
+    },
+    { "field": "management[0]", "quote": "This was concerning for EPN, prompting emergent urology consultation." },
+    {
+      "field": "investigations[0], investigations[1], investigations[2], investigations[3], investigations[4]",
+      "quote": "Significant laboratory tests included a white blood cell count of 14,600/mm³, an anion gap acidosis with bicarbonate of 14mmol/L, lactate of 8.4mmol/L, pH 7.26"
+    },
+    { "field": "investigations[5]", "quote": "and kidney injury with creatinine 4.0mg/dL" },
+    { "field": "investigations[6]", "quote": "Urinalysis showed heavy bacteria and pyuria." },
+    { "field": "imaging[1], diagnosis.primary", "quote": "The computed tomography (CT) demonstrated air in the right kidney consistent with EPN" },
+    {
+      "field": "imaging[1]",
+      "quote": "Computed tomography of the abdomen and pelvis showing an enlarged right kidney with perinephric stranding and air in the renal cortex"
+    },
+    { "field": "diagnosis.primary", "quote": "the emergency physician diagnosed EPN by POCUS in a patient with septic shock and pyelonephritis" },
+    {
+      "field": "management[1]",
+      "quote": "Antibiotics were started and the consulting urologist recommended conservative management and admission to the intensive care unit."
+    },
+    { "field": "management[2]", "quote": "on hospital day six she developed altered mental status, fever, and hypotension requiring vasopressors" },
+    { "field": "management[3], diagnosis.primary", "quote": "She was taken emergently to the operating room where an open right nephrectomy was performed." },
+    {
+      "field": "outcome",
+      "quote": "Following surgery her condition improved, renal function returned to baseline, and delirium resolved. After a short stay in a rehabilitation facility she returned home."
+    }
+  ],
+  "augmented": [
+    "vitals.spo2: not reported",
+    "presentation.meds: not reported; consistent with treated diabetes and hypertension",
+    "presentation.allergies: not reported"
+  ]
+}

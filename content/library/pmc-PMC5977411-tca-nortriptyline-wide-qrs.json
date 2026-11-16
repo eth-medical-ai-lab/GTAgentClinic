@@ -1,0 +1,262 @@
+{
+  "id": "pmc-PMC5977411-tca-nortriptyline-wide-qrs",
+  "title": "Seizing on arrival after a mixed sedative overdose",
+  "category": "toxicology",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC5977411",
+    "pmid": "29854605",
+    "doi": "10.1016/j.toxrep.2018.03.009",
+    "citation": "Giwa A, Oey E. The return of an old nemesis: Survival after severe tricyclic antidepressant toxicity, a case report. Toxicol Rep. 2018;5:357-362.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5977411/"
+  },
+  "patient": { "age": 34, "sex": "F", "arrival": "ems" },
+  "presentation": {
+    "chiefComplaint": "Generalized seizure after an intentional overdose",
+    "hpi": "Brought in by EMS about 2–3 hours after an apparently intentional overdose of an unknown quantity of alprazolam, eszopiclone and tramadol. She had recently been voicing suicidal thoughts and has attempted suicide before. She is having a generalized tonic–clonic seizure on the EMS stretcher as she arrives. Asked about any other medication she could have taken, her partner at first says there is none.",
+    "pmh": ["Depression", "Anxiety", "Hypertension", "Rheumatoid arthritis", "Previous suicide attempt"],
+    "meds": ["Regular medications not documented; the overdose involved alprazolam, eszopiclone and tramadol"],
+    "allergies": ["No known drug allergies"],
+    "social": "Recent suicidal ideation, reported by EMS and her partner."
+  },
+  "vitals": { "hr": 140, "sbp": 139, "dbp": 77, "rr": 25, "spo2": 99, "tempC": 38.8, "gcs": 8 },
+  "exam": [
+    "Generalized tonic–clonic seizure on arrival, stopping immediately after lorazepam 2 mg IV",
+    "After the seizure: GCS 8, so intubation is prepared to protect the airway; SpO2 99% on a non-rebreather mask",
+    "Over the first 2 h on telemetry: repeated widening of the QRS, each episode followed by pulseless ventricular tachycardia (five arrests)",
+    "After the fifth return of circulation (about 2.5 h after arrival): further seizure activity"
+  ],
+  "investigations": [
+    { "name": "pH (venous)", "value": "6.94", "flag": "critical" },
+    { "name": "pCO2 (venous)", "value": "74", "unit": "mm Hg", "flag": "H" },
+    { "name": "Bicarbonate (venous)", "value": "16", "unit": "mmol/L", "flag": "L" },
+    { "name": "Potassium", "value": "3.8", "unit": "mmol/L" },
+    { "name": "Lactate", "value": ">15", "unit": "mmol/L", "flag": "critical" },
+    { "name": "Potassium after first arrest", "value": "2.9", "unit": "mmol/L", "flag": "L" },
+    { "name": "pH (venous) after 5th ROSC", "value": "7.49", "flag": "H" },
+    { "name": "Potassium after 5th ROSC", "value": "2.6", "unit": "mmol/L", "flag": "critical" },
+    { "name": "Ethanol (serum)", "value": "<10.0", "unit": "mg/dL" },
+    { "name": "Acetaminophen", "value": "<3", "unit": "µg/mL" },
+    { "name": "Salicylate", "value": "<5", "unit": "mg/dL" },
+    { "name": "Urine drug screen", "value": "Benzodiazepines positive; amphetamines, barbiturates, cocaine, opiates, PCP, methadone and cannabinoids negative" },
+    { "name": "Nortriptyline (serum)", "value": "1581", "unit": "ng/mL", "flag": "critical" },
+    { "name": "EEG", "value": "No intracranial cause of the seizures" }
+  ],
+  "imaging": [
+    { "modality": "Echocardiography", "finding": "No structural or ischemic cause of the cardiac arrests" },
+    { "modality": "MRI brain", "finding": "No intracranial cause of the seizures" }
+  ],
+  "ecg": "Wide-complex tachycardia, ventricular rate 165/min, QRS > 150 ms (read as possible polymorphic VT). After one ampule of sodium bicarbonate: regular tachycardia 153/min, QRS narrowed to 156 ms, QTc 619 ms.",
+  "diagnosis": {
+    "primary": "Nortriptyline poisoning (undisclosed tricyclic co-ingestion) with seizures, wide-complex tachycardia and recurrent pulseless ventricular tachycardia",
+    "icd10": "T43.012A",
+    "differentials": [
+      "Tramadol toxicity",
+      "Bupropion poisoning",
+      "Diphenhydramine (sodium-channel-blocking antihistamine) poisoning",
+      "Structural heart disease with ventricular tachycardia",
+      "Status epilepticus from another cause"
+    ]
+  },
+  "management": [
+    "Lorazepam 2 mg IV for the seizure",
+    "Sodium bicarbonate 8.4% 50 mEq IV and a 2 L normal saline bolus: partial narrowing of the QRS",
+    "Rapid sequence intubation (etomidate, rocuronium); propofol and fentanyl infusions",
+    "Second bicarbonate ampule after intubation, then a sodium bicarbonate infusion",
+    "Five pulseless VT arrests within 2 h: CPR, defibrillation, repeated sodium bicarbonate boluses and epinephrine, plus magnesium 2 g and calcium; ROSC after each",
+    "Norepinephrine for persistent post-arrest hypotension",
+    "Amiodarone 300 mg and infusion at the fifth arrest; stopped within 3 h after cardiology review",
+    "Levetiracetam and propofol for recurrent seizures",
+    "Activated charcoal via nasogastric tube once the rhythm was stable",
+    "ICU admission for targeted temperature management"
+  ],
+  "outcome": "Extubated after several days of targeted temperature management; no structural cardiac or intracranial cause found. Discharged 5 days after the arrests with normal neurological function and a narrow QRS (100 ms).",
+  "teachingPoints": [
+    "Seizures, hyperthermia, tachycardia, a wide QRS and acidosis after an overdose point to a sodium-channel blocker such as a tricyclic, even when the history denies one: ask specifically.",
+    "A QRS above 100 ms predicts seizures and above 160 ms ventricular arrhythmias (Boehnert and Lovejoy); a terminal R wave in aVR is another marker.",
+    "Hypertonic sodium bicarbonate boluses (1–2 mEq/kg, repeated) are first line for QRS widening, hypotension and ventricular arrhythmias; alkalinization drives potassium down, so monitor and replace it.",
+    "Around intubation, give bicarbonate and keep minute ventilation high: respiratory acidosis worsens sodium-channel blockade.",
+    "For arrhythmias refractory to bicarbonate, lidocaine is preferred; avoid class IA and IC antiarrhythmics, and avoid flumazenil and physostigmine in tricyclic poisoning."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "Which agent best explains this presentation?",
+      "extra": "ECG: wide-complex tachycardia, rate 165/min, QRS > 150 ms. VBG: pH 6.94, pCO2 74 mm Hg, HCO3⁻ 16 mmol/L, K⁺ 3.8 mmol/L, lactate > 15 mmol/L.",
+      "options": [
+        "Tramadol alone",
+        "An undisclosed tricyclic antidepressant",
+        "Alprazolam combined with eszopiclone",
+        "Hypoxic seizure from opioid co-ingestion"
+      ],
+      "answer": 1,
+      "explanation": "Seizures, hyperthermia, tachycardia, a QRS above 150 ms and severe acidosis are the sodium-channel blockade picture of tricyclic poisoning. Tramadol causes seizures but rarely this degree of QRS widening, and sedative-hypnotics cause neither. When asked again, her partner recalled a bottle of nortriptyline at home."
+    },
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate immediate treatment?",
+      "extra": "ECG: wide-complex tachycardia, rate 165/min, QRS > 150 ms. BP 139/77 mm Hg; she has a pulse.",
+      "options": [
+        "IV amiodarone 150 mg over 10 minutes",
+        "IV procainamide infusion",
+        "Synchronized cardioversion at 100 J",
+        "IV sodium bicarbonate 1–2 mEq/kg bolus"
+      ],
+      "answer": 3,
+      "explanation": "Hypertonic sodium bicarbonate counters fast sodium-channel blockade through the sodium load and alkalinization; her QRS narrowed within minutes. Procainamide (class IA) deepens the block and is contraindicated, cardioversion rarely helps a toxin-induced wide-complex rhythm with a pulse, and amiodarone is not first line."
+    },
+    {
+      "kind": "management",
+      "q": "Despite repeated bicarbonate boluses and an infusion, she has had two more pulseless VT arrests. Which antiarrhythmic is preferred?",
+      "options": ["Procainamide infusion", "Esmolol infusion", "Lidocaine IV bolus", "Flecainide IV bolus"],
+      "answer": 2,
+      "explanation": "Lidocaine (class IB) binds and leaves sodium channels quickly and may displace the slowly dissociating tricyclic. Class IA and IC drugs deepen sodium-channel blockade and beta-blockers worsen hypotension. Amiodarone, given at her fifth arrest, is generally avoided because it prolongs the QT and adds sodium-channel and beta-blocking effects."
+    },
+    {
+      "kind": "risk",
+      "q": "Which treatment should be avoided in this patient?",
+      "extra": "Urine drug screen: benzodiazepines positive, opiates negative. Serum nortriptyline 1581 ng/mL (therapeutic 50–150).",
+      "options": [
+        "Flumazenil to reverse the benzodiazepine",
+        "Activated charcoal via a nasogastric tube",
+        "Levetiracetam for recurrent seizures",
+        "Norepinephrine for post-arrest hypotension"
+      ],
+      "answer": 0,
+      "explanation": "Flumazenil can precipitate seizures and arrhythmias when a proconvulsant such as a tricyclic has been co-ingested, and is contraindicated here; physostigmine is likewise contraindicated in tricyclic poisoning. Charcoal through a protected airway, anticonvulsants after benzodiazepines and vasopressors for hypotension are all reasonable."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.pmh[0], presentation.pmh[1], presentation.pmh[2], presentation.pmh[3]",
+      "quote": "A 34 year-old female with a past medical history of depression, anxiety, hypertension, and rheumatoid arthritis was brought in by emergency medical services (EMS)"
+    },
+    {
+      "field": "presentation.chiefComplaint, patient.arrival",
+      "quote": "brought in by Emergency Medical Services (EMS) with generalized tonic clonic seizure, status post intentional ingestion of multiple drugs"
+    },
+    {
+      "field": "presentation.hpi, presentation.meds",
+      "quote": "after taking an unknown quantity of alprazolam, eszopiclone, and tramadol in an apparent intentional overdose"
+    },
+    {
+      "field": "presentation.hpi, presentation.pmh[4], presentation.social",
+      "quote": "she had been expressing some suicidal ideations, and had a previous history of attempted suicide"
+    },
+    {
+      "field": "presentation.hpi, exam[0], management[0]",
+      "quote": "She was noted to be actively seizing (generalized tonic clonic) on the EMS stretcher upon arrival to the ED and was immediately given lorazepam 2 mg intravenously (IV)"
+    },
+    { "field": "presentation.hpi", "quote": "As our patient was 2–3 h after ingestion" },
+    {
+      "field": "presentation.hpi",
+      "quote": "We asked the patient's significant other for any possible additional medications that she could have ingested, and after initially denying"
+    },
+    { "field": "diagnosis.primary", "quote": "he recalled she had an \"unopened\" bottle of nortriptyline that had been lying in a cabinet for several weeks" },
+    {
+      "field": "vitals.gcs, exam[1]",
+      "quote": "was noted to have a Glasgow Coma Scale (GCS) of 8. We prepared to protect her airway via endotracheal intubation"
+    },
+    {
+      "field": "vitals.tempC, vitals.hr, vitals.rr",
+      "quote": "Temp 38.8 °C, heart rate (HR) 140 beats per minute, respiratory rate (RR) 25 breaths per minute"
+    },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.spo2, exam[1]",
+      "quote": "blood pressure (BP) 139/77 mmHg, oxygen saturation (SaO2) 99% on a nonrebreather facemask"
+    },
+    {
+      "field": "exam[2], management[4]",
+      "quote": "with a total of 5 pulseless ventricular tachycardia arrests in the span of 2 h, each preceded by her cardiac telemetry showing a widened rhythm"
+    },
+    { "field": "exam[3]", "quote": "Fifth ROSC. Myoclonic seizure activity noted, propofol restarted." },
+    {
+      "field": "ecg",
+      "quote": "Wide complex tachycardia, concerning for polymorphic ventricular tachycardia. Ventricular rate at 165 BPM, QRS duration prolonged >150 msec."
+    },
+    {
+      "field": "ecg",
+      "quote": "Narrowing of QRS intervals is seen, rhythm appears regular, tachycardic, ventricular rate at 153 bpm, QRS prolonged 156 msec, QTc prolonged 619 msec."
+    },
+    {
+      "field": "investigations[pH (venous)], investigations[pCO2 (venous)], investigations[Bicarbonate (venous)], investigations[Potassium], investigations[Lactate]",
+      "quote": "Her initial venous blood gas at this time was pH 6.94, pCO2 74 mmHg, HCO3 16 mmHg, K 3.8 mEq/L, with a lactate that was >15 mmol/L"
+    },
+    {
+      "field": "investigations[Potassium after first arrest]",
+      "quote": "Her venous blood gas after the first cardiac arrest revealed a pH of 7.35, pCO2 50 mmHg, HCO3 28 mmHg, K 2.9 mEq/L, lactate 6.5 mmol/L."
+    },
+    {
+      "field": "investigations[pH (venous) after 5th ROSC], investigations[Potassium after 5th ROSC]",
+      "quote": "her venous blood gas revealed pH 7.49, pCO2 38 mmHg, HCO3 29 mmHg, K 2.6 mEq/L, lactate 6.8 mmol/L"
+    },
+    { "field": "investigations[Ethanol (serum)]", "quote": "Alcohol, serum | <10.0 mg/dL" },
+    { "field": "investigations[Acetaminophen]", "quote": "Acetaminophen | <3 mcg/mL" },
+    { "field": "investigations[Salicylate]", "quote": "Salicylate | <5 mg/dL" },
+    {
+      "field": "investigations[Urine drug screen]",
+      "quote": "U-Barbiturate | Negative U-Benzodiazepines | Positive U-Cocaine | Negative U-Opiate | Negative U-Phencyclidine | Negative U-Methadone | Negative Cannabinoids | Negative"
+    },
+    { "field": "investigations[Urine drug screen]", "quote": "U-Amphetamine | Negative" },
+    {
+      "field": "investigations[Nortriptyline (serum)], diagnosis.primary",
+      "quote": "Her TCA (Nortriptyline) level was 1581 ng/mL (Table 2), with a therapeutic range of 50–150 ng/mL"
+    },
+    { "field": "imaging[0]", "quote": "Both laboratory and echocardiography did not reveal any ischemic or structural related causes of her cardiac arrest." },
+    {
+      "field": "imaging[1], investigations[EEG]",
+      "quote": "magnetic resonance imaging and an electroencephalography did not reveal any intracranial causes of her seizures"
+    },
+    { "field": "management[1]", "quote": "She was immediately given an ampule of sodium bicarbonate (8.4%, 50 mEq) and 2 liters of normal saline 0.9% bolus." },
+    { "field": "management[1]", "quote": "A repeat EKG was obtained (Fig. 2), and showed some narrowing of her previously widened QRS." },
+    {
+      "field": "management[2]",
+      "quote": "Rapid sequence intubation (RSI) was performed on first attempt with etomidate and rocuronium, and she was maintained on IV infusions of propofol and fentanyl for sedation."
+    },
+    {
+      "field": "management[3]",
+      "quote": "Post intubation, the patient was given another ampule of sodium bicarbonate, with a subsequent bicarbonate drip (containing 100mEq of sodium bicarbonate)"
+    },
+    {
+      "field": "management[4]",
+      "quote": "another ampule of sodium bicarbonate, 2 g of magnesium, and two ampules of epinephrine were given before obtaining return of spontaneous circulation (ROSC)"
+    },
+    { "field": "management[4]", "quote": "with more rounds of both epinephrine, sodium bicarbonate, and calcium before ROSC was regained" },
+    {
+      "field": "management[4]",
+      "quote": "Each arrest was followed by further boluses of IV sodium bicarbonate ampules, epinephrine, and defibrillation with ROSC after each arrest."
+    },
+    {
+      "field": "management[5]",
+      "quote": "Despite ROSC, her hypotension persisted, so peripheral norepinephrine was started with an appropriate response to her blood pressure."
+    },
+    {
+      "field": "management[6]",
+      "quote": "During the final pulseless ventricular tachycardic arrest, 300 mg of amiodarone was administered with a subsequent amiodarone drip."
+    },
+    { "field": "management[6]", "quote": "the amiodarone drip was eventually discontinued within 3 h in conjunction with a cardiology consultation" },
+    {
+      "field": "management[7]",
+      "quote": "Just as the triple lumen central line was being placed, the patient began to seize, and thus the propofol was restarted. She was also given levetiracetam"
+    },
+    {
+      "field": "management[8]",
+      "quote": "An NGT was finally placed and activated charcoal was administered in conjunction with the poison control's updated recommendations."
+    },
+    {
+      "field": "management[9]",
+      "quote": "transferred to the medical intensive care unit for further care and to initiate Targeted Temperature Management (hypothermia)"
+    },
+    { "field": "outcome", "quote": "The patient was extubated after several days of Targeted Temperature Management and continued cardiovascular support." },
+    {
+      "field": "outcome",
+      "quote": "After 5 days of further stabilization, the patient had a subsequent complete recovery with normal neurological function at discharge from the medical unit."
+    },
+    { "field": "outcome", "quote": "Normal sinus rhythm, mild tachycardia with a ventricular rate of 109 bpm. QRS duration 100 msec and normal." }
+  ],
+  "augmented": [
+    "presentation.allergies: not reported",
+    "investigations[2]: the source prints the bicarbonate unit as 'mmHg' (a typo); mmol/L intended, value unchanged"
+  ]
+}

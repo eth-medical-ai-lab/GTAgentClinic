@@ -1,0 +1,252 @@
+{
+  "id": "pmc-PMC12715975-anti-nmdar-encephalitis-psychiatric",
+  "title": "Spasms and numbness after several ED visits in one week",
+  "category": "psychiatry",
+  "acuity": 3,
+  "source": {
+    "pmcid": "PMC12715975",
+    "pmid": "41426864",
+    "doi": "10.7759/cureus.97226",
+    "citation": "Bleier M, Corinaldi C, Nichita C, Banashkevich A, Leontieva L. Beyond the Psychiatric Lens: Difficulties in Diagnosing Anti-N-Methyl-D-Aspartate Receptor Encephalitis With Psychiatric Presentation. Cureus. 2025;17(11):e97226.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12715975/"
+  },
+  "patient": { "age": 21, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Left-sided numbness, headaches and uncontrollable spasms for seven days",
+    "hpi": "Seven days of intermittent numbness of the left side of the body, headaches and uncontrollable spasms that began suddenly. She has been to several other EDs during the past week and was discharged each time with primary care follow-up; CT and MRI at outside hospitals reportedly showed nothing significant. She arrives with her parents.",
+    "pmh": ["Anxiety"],
+    "meds": ["Acetaminophen for headaches"],
+    "allergies": ["No known drug allergies"],
+    "social": "Regular cannabis use until 5 days before presentation."
+  },
+  "vitals": { "hr": 105, "sbp": 116, "dbp": 74, "rr": 24, "spo2": 97, "tempC": 36.9, "gcs": 15 },
+  "exam": [
+    "Very anxious, crying, hyperventilating and clutching her father's hand",
+    "While in the ED: recurrent episodes of retching, drooling, dry heaving and brief (10–20 s) body contortion, hyperventilation and shouting",
+    "Fully conscious and responsive to voice during the episodes; no tonic-clonic activity or postictal state"
+  ],
+  "investigations": [
+    { "name": "Bicarbonate", "value": "15", "unit": "mmol/L", "flag": "L" },
+    { "name": "Phosphorus", "value": "2.1", "unit": "mg/dL", "flag": "L" },
+    { "name": "AST", "value": "36", "unit": "U/L" },
+    { "name": "White blood cell count", "value": "10.3", "unit": "x10³/µL" },
+    { "name": "Hemoglobin", "value": "15.8", "unit": "g/dL", "flag": "H" },
+    { "name": "Hematocrit", "value": "46.1", "unit": "%", "flag": "H" },
+    { "name": "Free T4", "value": "1.99", "unit": "ng/dL", "flag": "H" },
+    { "name": "Urine drug screen", "value": "Positive for cannabinoids" },
+    { "name": "Sodium", "value": "140", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "3.9", "unit": "mmol/L", "augmented": true },
+    { "name": "Creatinine", "value": "0.74", "unit": "mg/dL", "augmented": true },
+    { "name": "Glucose", "value": "94", "unit": "mg/dL", "augmented": true },
+    { "name": "Platelets", "value": "268", "unit": "x10³/µL", "augmented": true },
+    { "name": "Creatine kinase (day 10)", "value": "952", "unit": "U/L", "flag": "H" },
+    { "name": "Creatinine (day 10)", "value": "1.10", "unit": "mg/dL", "flag": "H" },
+    { "name": "White blood cell count (day 10)", "value": "18.9", "unit": "x10³/µL", "flag": "H" },
+    { "name": "Serum anti-NMDA receptor antibodies (day 14)", "value": "Positive" },
+    { "name": "CSF anti-NMDA receptor antibodies", "value": "Positive" },
+    { "name": "ESR (day 18)", "value": "26", "unit": "mm/h", "flag": "H" },
+    { "name": "EEG", "value": "Diffuse slowing, no epileptiform discharges" }
+  ],
+  "imaging": [
+    { "modality": "CT and MRI at outside hospitals (previous week)", "finding": "No significant findings, as reported by her parents" },
+    { "modality": "Pelvic ultrasound (day 14)", "finding": "Right ovarian cyst, 3.5 cm" },
+    { "modality": "CT abdomen and pelvis (day 16)", "finding": "Right adnexal teratoma, 5.1 × 3.9 cm, benign in appearance" },
+    { "modality": "MRI brain under anesthesia (day 17)", "finding": "Nonspecific punctate T2-FLAIR hyperintensities in the white matter of both frontal lobes" }
+  ],
+  "diagnosis": {
+    "primary": "Anti-NMDA receptor encephalitis with a right ovarian teratoma, initially misdiagnosed as anxiety and psychogenic nonepileptic seizures",
+    "icd10": "G04.81",
+    "differentials": [
+      "Functional neurological disorder with psychogenic nonepileptic seizures",
+      "Cannabis- or substance-induced psychotic disorder",
+      "Neuroleptic malignant syndrome",
+      "Herpes simplex encephalitis",
+      "Primary psychotic or bipolar disorder"
+    ]
+  },
+  "management": [
+    "ED: migraine cocktail and low-dose diazepam without benefit; hydroxyzine gave mild relief; discharged with outpatient psychiatry follow-up",
+    "Returned the same day with escalating agitation and needed ketamine sedation; neurology diagnosed possible PNES and migraine; admitted to the psychiatric unit on day 2",
+    "Fluoxetine and olanzapine, then risperidone from day 6, without improvement",
+    "Day 8: organic psychosis work-up including an autoimmune encephalitis panel and serum anti-NMDAR antibodies",
+    "Day 10: antipsychotics stopped for suspected neuroleptic malignant syndrome; transferred to medicine for IV fluids",
+    "From day 14: IV immunotherapy and steroids, including a 5-day course of IVIG",
+    "Day 18: robotic-assisted right ovarian cystectomy; teratoma with mature tissues and focal immature cartilage and neural epithelium",
+    "IV methylprednisolone then an oral prednisone taper, briefly delayed by aspiration pneumonia treated with IV antibiotics"
+  ],
+  "outcome": "Cognition markedly improved by day 28: alert and oriented but amnestic for much of the admission. Discharged on day 30 with a prednisone taper, physical and occupational therapy and gynecologic oncology follow-up, needing no psychiatric medication. Near-complete recovery with mild short-term memory loss and marked deconditioning.",
+  "teachingPoints": [
+    "A psychiatric history, substance use and repeated ED visits invite anchoring on a functional diagnosis; reassess when symptoms progress or new neurological features appear.",
+    "Red flags for an autoimmune cause of new psychiatric symptoms include abnormal movements, seizures, fluctuating consciousness, autonomic instability, catatonia and poor tolerance of antipsychotics.",
+    "Antipsychotics are poorly tolerated in anti-NMDAR encephalitis; an NMS-like picture should prompt a search for encephalitis.",
+    "Test CSF as well as serum for NMDAR antibodies (CSF is more sensitive), and look for an ovarian teratoma in women.",
+    "Treat with first-line immunotherapy (steroids, IVIG or plasma exchange) plus tumor removal; escalate to rituximab or cyclophosphamide if there is no response."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "Which diagnosis best explains the whole course?",
+      "extra": "Days 2–10 on the psychiatric unit: escalating agitation, screaming, body contortions, hypersexuality and nihilistic delusions ('I am dead'), with no response to olanzapine or risperidone. Day 10: temperature 37.9 °C (100.2 °F), tachycardia, hypertension, CK 952 U/L, creatinine 1.10 mg/dL, WBC 18.9 ×10³/µL; no rigidity or diaphoresis. EEG: diffuse slowing without epileptiform discharges.",
+      "options": [
+        "Neuroleptic malignant syndrome on a primary psychotic disorder",
+        "Anti-NMDA receptor encephalitis",
+        "Functional neurological disorder with nonepileptic seizures",
+        "Cannabis-induced psychotic disorder"
+      ],
+      "answer": 1,
+      "explanation": "Psychiatric symptoms followed by abnormal movements, fluctuating behavior, autonomic instability and intolerance of antipsychotics are the typical course of anti-NMDAR encephalitis (Graus 2016 criteria; red flags in the 2020 international consensus on autoimmune psychosis). NMS was considered, but rigidity and diaphoresis were absent and it cannot explain the preceding weeks."
+    },
+    {
+      "kind": "next-step",
+      "q": "Which investigation is most important next?",
+      "extra": "Serum anti-NMDA receptor antibodies come back positive on day 14.",
+      "options": [
+        "Pelvic imaging to look for an ovarian teratoma",
+        "Repeat urine drug screen for synthetic cannabinoids",
+        "Prolonged video EEG before starting any treatment",
+        "Serum ceruloplasmin and 24-hour urine copper"
+      ],
+      "answer": 0,
+      "explanation": "Ovarian teratoma is the tumor most often associated with anti-NMDAR encephalitis, especially in young women, and removing it speeds recovery, so pelvic ultrasound, MRI or CT should follow promptly (here a 3.5 cm cyst on ultrasound, then a teratoma on CT). CSF antibody testing is more sensitive than serum and later confirmed the diagnosis."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate treatment?",
+      "extra": "CT confirms a right ovarian teratoma; CSF anti-NMDA receptor antibodies are positive.",
+      "options": [
+        "Higher-dose antipsychotic and a benzodiazepine, with outpatient gynecology review",
+        "Rituximab alone, deferring surgery until symptoms resolve",
+        "IV steroids with IVIG or plasma exchange, and removal of the teratoma",
+        "IV acyclovir for 21 days while awaiting HSV PCR"
+      ],
+      "answer": 2,
+      "explanation": "First-line treatment is immunotherapy (high-dose corticosteroids, IVIG and/or plasma exchange) together with prompt tumor removal; second-line agents such as rituximab or cyclophosphamide are added when there is no response. Antipsychotics are poorly tolerated in this disease and can precipitate NMS-like reactions."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.pmh[0], presentation.hpi",
+      "quote": "A 21-year-old Caucasian woman with a psychiatric history of anxiety presented to the emergency department (ED) with her parents."
+    },
+    {
+      "field": "presentation.chiefComplaint, presentation.hpi",
+      "quote": "The patient reported intermittent numbness on the left side of her body, headaches, and uncontrollable spasms for the past seven days. Symptoms had begun suddenly."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "she and her family had visited several other EDs in the preceding week, each time discharged with outpatient follow-up to her primary care provider."
+    },
+    {
+      "field": "presentation.hpi, imaging[0]",
+      "quote": "Prior computed tomography (CT) scans and magnetic resonance imaging (MRI) at outside hospitals were performed; however, her parents reported there were no significant findings."
+    },
+    {
+      "field": "vitals.hr, vitals.spo2",
+      "quote": "On arrival, she was mildly tachycardic (heart rate 105) but otherwise normotensive, afebrile, and saturating 97% on room air."
+    },
+    { "field": "exam[0]", "quote": "she appeared very anxious, crying, hyperventilating, and clutching her father’s hand." },
+    {
+      "field": "presentation.social, investigations[Urine drug screen]",
+      "quote": "A urine drug screen was positive for cannabinoids. She confirmed regular cannabis use until five days prior to presentation to the ED"
+    },
+    {
+      "field": "investigations[Bicarbonate], investigations[Phosphorus], investigations[AST], presentation.meds[0]",
+      "quote": "except for low bicarbonate (15 mmol/L), low phosphorus (2.1 mg/dL), and a mild AST elevation (36 U/L, likely secondary to acetaminophen used for headaches)"
+    },
+    {
+      "field": "investigations[White blood cell count], investigations[Hemoglobin], investigations[Hematocrit]",
+      "quote": "Complete blood count showed leukocytosis (WBC 10.3 × 10³/µL, Hgb/Hct 15.8 g/dL/46.1%)."
+    },
+    {
+      "field": "investigations[Free T4]",
+      "quote": "Thyroid function tests were normal aside from a slightly elevated T4 (1.99 ng/dL), which normalized by day 12."
+    },
+    {
+      "field": "management[0]",
+      "quote": "Initial treatment in the ED included a migraine cocktail and a small dose of diazepam, with no improvement. Hydroxyzine provided mild symptomatic relief"
+    },
+    {
+      "field": "exam[1]",
+      "quote": "episodes while in the ED described as \"phasic,\" characterized by retching, drooling, dry heaving, and brief (10-20 seconds) periods of body contortion, hyperventilation, and shouting."
+    },
+    {
+      "field": "exam[2], vitals.gcs",
+      "quote": "she remained fully conscious and responsive to verbal stimuli during these episodes, with no tonic-clonic activity or postictal features."
+    },
+    {
+      "field": "management[0]",
+      "quote": "She was initially discharged from the ED with hydroxyzine and instructed to follow up with outpatient psychiatric care."
+    },
+    {
+      "field": "management[1]",
+      "quote": "her behavior continued to escalate to the point that she required ketamine sedation. Neurology was consulted and diagnosed possible psychogenic nonepileptic seizures (PNES) and migraines"
+    },
+    { "field": "management[1]", "quote": "the patient was eventually admitted to the inpatient psychiatric unit on the second day for continued management." },
+    { "field": "management[2]", "quote": "Psychiatry initiated fluoxetine and olanzapine for presumed unspecified anxiety disorder with panic attacks" },
+    { "field": "management[2]", "quote": "By day 6, risperidone was substituted for olanzapine due to lack of improvement." },
+    {
+      "field": "management[3]",
+      "quote": "A full psychosis organic workup was ordered, which included an autoimmune encephalitis panel and serum anti-NMDAR antibodies."
+    },
+    {
+      "field": "management[4]",
+      "quote": "By day 10, antipsychotics were discontinued due to lack of efficacy and concern for neuroleptic malignant syndrome (NMS)"
+    },
+    {
+      "field": "investigations[Creatine kinase (day 10)], investigations[Creatinine (day 10)], investigations[White blood cell count (day 10)]",
+      "quote": "low-grade fever (100.2°F), tachycardia, hypertension, elevated creatine kinase (CK 952 U/L), acute kidney injury (Cr 1.10 mg/dL), and worsening leukocytosis (18.9 ×10³/µL)"
+    },
+    { "field": "management[4]", "quote": "she was transferred to the medicine floor for supportive care with IV fluids and further management of agitation." },
+    {
+      "field": "investigations[Serum anti-NMDA receptor antibodies (day 14)]",
+      "quote": "On day 14, the patient’s serum anti-NMDAR antibodies returned positive"
+    },
+    { "field": "imaging[1]", "quote": "A pelvic ultrasound revealed a right ovarian cyst measuring 3.5 cm." },
+    {
+      "field": "management[5]",
+      "quote": "Neurology recommended prompt treatment for anti-NMDAR encephalitis, initiating IV immunotherapy, steroids, and further workup from gynecology for the right ovarian cyst"
+    },
+    { "field": "imaging[2]", "quote": "The arrow indicates 5.1 x 3.9 cm benign right adnexal teratoma." },
+    { "field": "imaging[2]", "quote": "CT abdomen/pelvis on day 16 confirmed a right adnexal teratoma" },
+    {
+      "field": "imaging[3]",
+      "quote": "The MRI indicated nonspecific punctate T2 FLAIR hyperintensities within the white matter in the bilateral frontal lobes"
+    },
+    { "field": "management[5]", "quote": "In the following days, the patient completed her five-day course of IVIG." },
+    {
+      "field": "management[6], diagnosis.primary",
+      "quote": "she underwent robotic-assisted right ovarian cystectomy, with pathology confirming a teratoma … as well as focal immature cartilage and immature neural epithelium."
+    },
+    {
+      "field": "investigations[CSF anti-NMDA receptor antibodies], diagnosis.primary",
+      "quote": "results of the CSF from the LP indicated positive antibodies for NMDAR, confirming the diagnosis."
+    },
+    { "field": "investigations[ESR (day 18)]", "quote": "an elevated ESR (26 mm/h on day 18)" },
+    { "field": "investigations[EEG]", "quote": "EEG: Diffuse slowing, no epileptiform discharges." },
+    {
+      "field": "management[7]",
+      "quote": "Neurology recommended treatment with IV methylprednisolone, followed by an oral prednisone taper. This was slightly delayed due to concern for aspiration pneumonia"
+    },
+    { "field": "management[7]", "quote": "which improved with broad-spectrum IV antibiotics" },
+    {
+      "field": "outcome",
+      "quote": "the patient’s cognition had finally significantly improved. She was alert, oriented, and aware of her diagnosis, though amnestic for much of her hospitalization."
+    },
+    {
+      "field": "outcome",
+      "quote": "There was no indication for further treatment with any psychiatric medications. On day 30, she was discharged with outpatient physical and occupational therapy, a prednisone taper"
+    },
+    { "field": "outcome", "quote": "close gynecologic oncology follow-up due to the ovarian teratoma finding" },
+    { "field": "outcome", "quote": "near-complete recovery by day 30 with mild short-term memory loss" },
+    { "field": "outcome", "quote": "the patient was significantly deconditioned due to a long hospitalization" }
+  ],
+  "augmented": [
+    "vitals.sbp: report says normotensive",
+    "vitals.dbp: report says normotensive",
+    "vitals.rr: report says hyperventilating",
+    "vitals.tempC: report says afebrile",
+    "vitals.gcs: GCS 15 inferred from 'fully conscious and responsive'",
+    "presentation.allergies: not reported"
+  ]
+}

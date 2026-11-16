@@ -1,0 +1,7 @@
+Loading-screen comic panels (crew, clear, cart, walk, stare .webp), made for GTAgentClinic.
+
+Rendered by scripts/assets/render-loading-art.mjs from the game's own 3D scene: Microsoft Rocketbox
+avatars and mocap (MIT, see ../chars/LICENSE-Rocketbox.txt), posed with procedural props from
+client/src/world (aviators, stethoscopes, defibrillator paddles and cart, ambulance) and, in "cart",
+the CC0 ambientCG Bricks051 texture set (../tex/CREDITS.txt). The ink, halftone and outline look is
+the dev page client/src/dev/loadingArt.ts. No outside artwork. Re-run the script to regenerate.

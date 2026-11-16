@@ -1,0 +1,70 @@
+{
+  "name": "agentclinic-hospital",
+  "version": "0.3.0",
+  "private": true,
+  "license": "Apache-2.0 AND CC-BY-4.0",
+  "description": "GTAgentClinic — a 3D embodied hospital environment where AI agents and humans reason, triage and treat LLM-powered patients.",
+  "type": "module",
+  "bin": {
+    "agentclinic": "bin/agentclinic.mjs"
+  },
+  "scripts": {
+    "preinstall": "node scripts/check-node.mjs",
+    "start": "node bin/agentclinic.mjs",
+    "dev": "tsx watch server/index.ts --dev",
+    "server": "tsx server/index.ts",
+    "build": "vite build",
+    "postbuild": "node scripts/check-secrets.mjs --dist",
+    "build:demo": "vite build --mode demo",
+    "postbuild:demo": "node scripts/check-secrets.mjs --dist=dist/demo",
+    "preview:demo": "vite preview --mode demo --host 127.0.0.1 --port 7318 --strictPort",
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "prepare": "node scripts/install-hooks.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "cases": "tsx scripts/case-sheets.ts",
+    "cases:check": "tsx scripts/case-sheets.ts --check",
+    "badges": "node scripts/badges.mjs",
+    "agent:demo": "tsx agents/demo-agent.ts",
+    "agent:claude": "tsx agents/claude-doctor.ts",
+    "mcp": "tsx agents/mcp-server.ts",
+    "e2e:shots": "tsx tests/e2e-screenshots.ts",
+    "e2e:embodied": "tsx tests/embodied-e2e.ts",
+    "e2e:observe": "tsx tests/observe-e2e.ts",
+    "e2e:audit": "tsx tests/interact-audit-e2e.ts",
+    "e2e:playthrough": "tsx tests/playthrough-e2e.ts",
+    "storyboard": "tsx tests/storyboard.ts",
+    "library": "tsx scripts/library/sheets.ts",
+    "library:check": "tsx scripts/library/sheets.ts --check",
+    "library:fetch": "node scripts/library/fetch-europepmc.mjs",
+    "voices:install": "node scripts/voices.mjs install",
+    "voices:remove": "node scripts/voices.mjs remove",
+    "mac-launcher": "node scripts/mac-launcher.mjs"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@openai/codex-sdk": "^0.167.0",
+    "playwright": "^1.65.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.187.0",
+    "tsx": "^4.23.15",
+    "ws": "^8.22.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "@types/ws": "^8.18.2",
+    "@vitejs/plugin-react": "^6.2.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0"
+  }
+}

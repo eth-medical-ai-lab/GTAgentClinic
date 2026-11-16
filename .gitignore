@@ -1,0 +1,28 @@
+node_modules/
+dist/
+data/
+*.log
+.DS_Store
+Thumbs.db
+test-results/
+coverage/
+shots/
+*.tgz
+
+# outputs of the Unreal Engine try-out (branch experiment/unreal) left in older checkouts
+/unreal/
+
+# personal settings for one checkout, e.g. the Claude Code opt-in (docs/SETUP.md#claude-code)
+agentclinic.local.json
+
+
+# secrets: never commit these (see SECURITY.md; scripts/check-secrets.mjs flags them too)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+.claude/settings.local.json

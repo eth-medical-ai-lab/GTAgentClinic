@@ -1,0 +1,100 @@
+{
+  "id": "pmc-PMC10099660-hyperkalemia-rhabdomyolysis",
+  "title": "Chest pressure and less urine in a 79-year-old",
+  "category": "renal",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC10099660",
+    "pmid": "37065408",
+    "doi": "10.7759/cureus.36124",
+    "citation": "Chandok T, Lee S, Ali N, et al. Dynamic Changes of EKG by Severe Hyperkalemia: Transient Left Bundle Branch Block. Cureus. 2023;15(3):e36124.",
+    "license": "CC BY",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10099660/"
+  },
+  "patient": { "age": 79, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Chest pain",
+    "hpi": "One hour of retrosternal, pressure-like, non-exertional chest pain that settled on its own, with mild breathlessness and palpitations. She has passed less urine for two days. Her atorvastatin was increased from 10 to 40 mg two months ago.",
+    "pmh": ["Coronary artery disease with drug-eluting stents to the mid-LAD and circumflex", "Peripheral vascular disease", "Hypertension and type 2 diabetes, poorly controlled", "Hyperlipidemia", "Chronic kidney disease stage IV", "Breast cancer in remission"],
+    "meds": ["Atorvastatin 40 mg", "Ezetimibe", "Clopidogrel", "Aspirin 81 mg", "Losartan 50 mg", "Isosorbide mononitrate", "Sitagliptin", "Insulin glargine"],
+    "allergies": []
+  },
+  "vitals": { "hr": 94, "sbp": 143, "dbp": 61, "rr": 18, "spo2": 98, "tempC": 36.4 },
+  "exam": ["Physical examination unremarkable"],
+  "investigations": [
+    { "name": "Potassium (first draw)", "value": "8.5", "unit": "mEq/L", "flag": "critical" },
+    { "name": "Potassium (repeat)", "value": "9.3", "unit": "mEq/L", "flag": "critical" },
+    { "name": "Creatinine (baseline 2.1–2.7)", "value": "8.6", "unit": "mg/dL", "flag": "H" },
+    { "name": "Bicarbonate", "value": "9", "unit": "mEq/L", "flag": "critical" },
+    { "name": "Creatine kinase", "value": "24,779", "unit": "U/L", "flag": "H" },
+    { "name": "High-sensitivity troponin", "value": "582", "unit": "ng/L", "flag": "H" }
+  ],
+  "imaging": [{ "modality": "Transthoracic echocardiogram", "finding": "Ejection fraction 63%, concentric left ventricular hypertrophy, no wall-motion abnormality" }],
+  "ecg": "Sinus rhythm 86/min, PR 196 ms, QRS 216 ms with a deep S wave in V1 and a broad monomorphic R wave in V6 (new left bundle branch block pattern)",
+  "diagnosis": {
+    "primary": "Severe hyperkalemia with a new wide-QRS (left bundle branch block) pattern from acute kidney injury due to statin-induced rhabdomyolysis",
+    "differentials": ["Acute coronary syndrome with new LBBB", "Digoxin toxicity", "Tumor lysis syndrome", "Sodium-channel blocker toxicity"]
+  },
+  "management": [
+    "Calcium gluconate, inhaled albuterol, sodium zirconium cyclosilicate and IV regular insulin with dextrose",
+    "Urgent hemodialysis for hyperkalemia resistant to medical treatment: potassium fell to 5.0 mEq/L and the QRS narrowed to 146 ms"
+  ],
+  "outcome": "The left bundle branch block resolved; she had intermittent dialysis until kidney function improved and the rhabdomyolysis resolved, and was discharged home.",
+  "teachingPoints": [
+    "Severe hyperkalemia can mimic an acute coronary syndrome: a new wide QRS or bundle branch block in a patient with kidney disease needs an immediate potassium.",
+    "Give IV calcium first to stabilize the myocardium, then shift potassium into cells (insulin with dextrose, nebulized salbutamol), then remove it (binders, dialysis).",
+    "A statin dose increase, especially with chronic kidney disease, can cause rhabdomyolysis and acute kidney injury."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "Which result do you need most urgently?",
+      "extra": "ECG: sinus rhythm 86/min, PR 196 ms, QRS 216 ms with a deep S wave in V1 and a broad monomorphic R wave in V6, new compared with before.",
+      "options": ["High-sensitivity troponin", "D-dimer", "Serum potassium (blood gas)", "NT-proBNP"],
+      "answer": 2,
+      "explanation": "A new, very wide QRS in a patient with stage IV kidney disease, two days of low urine output and an angiotensin receptor blocker is hyperkalemia until proven otherwise; a blood gas gives the potassium within minutes. Hers was 8.5 mEq/L. Treating this as a new LBBB acute coronary syndrome would miss it."
+    },
+    {
+      "kind": "management",
+      "q": "Potassium is 8.5 mEq/L with these ECG changes. What should be given first?",
+      "options": ["IV sodium bicarbonate", "IV calcium gluconate", "Oral sodium zirconium cyclosilicate", "IV furosemide"],
+      "answer": 1,
+      "explanation": "With ECG changes, IV calcium (gluconate or chloride) comes first: it stabilizes the cardiac membrane within minutes but does not lower potassium. Then shift potassium into cells with IV insulin and dextrose and nebulized salbutamol, and remove it with binders or dialysis (UK Kidney Association hyperkalaemia guideline)."
+    },
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely cause of her acute kidney injury?",
+      "extra": "Creatinine 8.6 mg/dL (baseline 2.1–2.7); bicarbonate 9 mEq/L; creatine kinase 24,779 U/L; high-sensitivity troponin 582 ng/L. Echocardiogram: ejection fraction 63%, no wall-motion abnormality.",
+      "options": ["Statin-induced rhabdomyolysis", "Contrast-induced nephropathy", "Cardiorenal syndrome after myocardial infarction", "Obstructive uropathy"],
+      "answer": 0,
+      "explanation": "A creatine kinase near 25,000 U/L two months after a statin dose increase, with oliguric acute kidney injury on top of stage IV CKD, points to statin-induced rhabdomyolysis; the echocardiogram showed no wall-motion abnormality. Stop the statin; this patient needed dialysis until her kidney function recovered."
+    }
+  ],
+  "evidence": [
+    { "field": "patient, presentation.chiefComplaint", "quote": "A 79-year-old female presented to the emergency department with a chief complaint of chest pain." },
+    { "field": "presentation.hpi", "quote": "The chest pain was retrosternal, non-exertional, and pressure-like." },
+    { "field": "presentation.hpi", "quote": "Chest pain lasted about one hour and resolved on its own." },
+    { "field": "presentation.hpi", "quote": "decreased urine output for the last two days" },
+    { "field": "presentation.hpi, presentation.meds[0]", "quote": "attributed to the increase in the dose of statin to 40 mg recently two months back" },
+    { "field": "presentation.hpi", "quote": "The patient was on atorvastatin 10 mg previously for the past one year." },
+    { "field": "presentation.pmh[3], presentation.pmh[4]", "quote": "hyperlipidemia and stage IV chronic kidney disease" },
+    { "field": "presentation.meds[4]", "quote": "losartan 50 mg" },
+    { "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.tempC, vitals.spo2", "quote": "Blood pressure was 143/61 mmHg, pulse 94 bpm, temperature 97.6 degrees F, and pulse oximeter showed 98% oxygen on room air." },
+    { "field": "investigations[0]", "quote": "Potassium 8.5" },
+    { "field": "investigations[1], investigations[2]", "quote": "severe hyperkalemia with serum potassium (K) of 9.3mEq/L and AKI with creatinine of 8.6 mg/dL" },
+    { "field": "investigations[2]", "quote": "(baseline creatinine was 2.1-2.7)" },
+    { "field": "investigations[3]", "quote": "bicarbonate 9 mEq/L" },
+    { "field": "investigations[4]", "quote": "elevated serum creatinine kinase level of 24,779 u/L" },
+    { "field": "investigations[5]", "quote": "elevated high sensitivity troponin 582 ng/L" },
+    { "field": "imaging[0]", "quote": "ejection fraction of 63%, concentric left ventricular hypertrophy, no wall motion abnormality" },
+    { "field": "ecg", "quote": "wide QRS complex with a duration of 216 ms with dominant deep S-wave in V1, and broad monomorphic R-wave in V6" },
+    { "field": "diagnosis.primary", "quote": "AKI was from rhabdomyolysis and the etiology of rhabdomyolysis was suspected statin-induced myopathy." },
+    { "field": "management[0]", "quote": "The patient received calcium gluconate, albuterol inhalation, lokelma (sodium zirconium cyclosilicate), and intravenous insulin regular with dextrose" },
+    { "field": "management[1]", "quote": "hyperkalemia was resistant to potassium-lowering medical treatment and hence, she underwent urgent hemodialysis." },
+    { "field": "management[1]", "quote": "After hemodialysis, the patient's potassium trended down to 5.0mEq/L." },
+    { "field": "management[1]", "quote": "still wide but narrower QRS complex with a duration of 146 ms" },
+    { "field": "outcome", "quote": "showed normal sinus rhythm with resolved LBBB." },
+    { "field": "outcome", "quote": "until her kidney function improved and rhabdomyolysis resolved and was discharged home" }
+  ],
+  "augmented": ["vitals.rr: not reported; a value was added", "presentation.allergies: not reported", "presentation.pmh[0]: listed in the case report; no short quote captured", "presentation.hpi: breathlessness and palpitations are in the case report; no short quote captured"]
+}

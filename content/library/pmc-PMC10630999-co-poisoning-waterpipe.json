@@ -1,0 +1,183 @@
+{
+  "id": "pmc-PMC10630999-co-poisoning-waterpipe",
+  "title": "Brief blackout while smoking at home",
+  "category": "toxicology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC10630999",
+    "pmid": "37936075",
+    "doi": "10.1186/s12245-023-00560-7",
+    "citation": "Mohsen G, Kemmerer M, Eichhorn L. Carbon monoxide intoxication with a CO-Hb of 30% while smoking waterpipe: a case report. Int J Emerg Med. 2023;16(1):83.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10630999/"
+  },
+  "patient": { "age": 21, "sex": "M", "arrival": "ems" },
+  "presentation": {
+    "chiefComplaint": "Brief loss of consciousness at home",
+    "hpi": "While smoking a tobacco waterpipe at home he felt suddenly dizzy with a mild headache, then lost consciousness for about 10 seconds. He denies chest pain, dyspnea and palpitations. The portable CO detector carried by the ambulance crew (alarm threshold 60 ppm) did not alarm in the home.",
+    "pmh": ["No past medical history"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"],
+    "social": "Smokes one pack of cigarettes a day (3 years) and a waterpipe about three times a week; 2–3 units of alcohol once or twice a week; denies recreational drugs.",
+    "family": "Coronary artery disease on his father's side."
+  },
+  "vitals": { "hr": 125, "sbp": 180, "dbp": 130, "rr": 18, "spo2": 94, "tempC": 36, "gcs": 15 },
+  "exam": ["Conscious and fully aware (GCS 15)", "No injuries from the fall"],
+  "investigations": [
+    { "name": "Carboxyhemoglobin (arterial, 2 h after arrival)", "value": "30.4", "unit": "%", "flag": "critical" },
+    { "name": "pH (arterial)", "value": "7.42" },
+    { "name": "PaCO2", "value": "39.9", "unit": "mm Hg" },
+    { "name": "PaO2", "value": "91.4", "unit": "mm Hg" },
+    { "name": "Lactate", "value": "1.0", "unit": "mmol/L" },
+    { "name": "Complete blood count, chemistry and cardiac enzymes", "value": "Within normal limits" },
+    { "name": "Urine drug panel", "value": "Unremarkable" },
+    { "name": "Hemoglobin", "value": "15.2", "unit": "g/dL", "augmented": true },
+    { "name": "Sodium", "value": "140", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "3.9", "unit": "mmol/L", "augmented": true },
+    { "name": "Creatinine", "value": "0.9", "unit": "mg/dL", "augmented": true },
+    { "name": "Troponin T (high-sensitivity)", "value": "6", "unit": "ng/L", "augmented": true },
+    { "name": "Carboxyhemoglobin on arrival at the hyperbaric center", "value": "17.2", "unit": "%", "flag": "H" }
+  ],
+  "ecg": "Sinus tachycardia 125/min with frequent ventricular extrasystoles; normal axis, normal P wave, PR and QRS, normal ST-T segments and QT",
+  "diagnosis": {
+    "primary": "Carbon monoxide poisoning from waterpipe (shisha) smoking, with transient loss of consciousness",
+    "icd10": "T58.8X1A",
+    "differentials": ["Vasovagal syncope", "Nicotine toxicity", "Arrhythmic syncope", "Seizure", "Sympathomimetic drug use"]
+  },
+  "management": [
+    "Oxygen via a simple face mask once the carboxyhemoglobin result was available, 2 h after arrival",
+    "Transfer to the nearest hyperbaric center; hyperbaric oxygen started about 4 h after ED arrival, by which time the headache had settled",
+    "Three hyperbaric oxygen sessions, each 145 min at 2.4 atmospheres with 100% oxygen"
+  ],
+  "outcome": "Symptom-free after the three hyperbaric sessions and discharged with normal vital signs. At a telephone interview 2.5 years later he reported no lasting problems such as memory impairment or palpitations.",
+  "teachingPoints": [
+    "Consider carbon monoxide in any young patient with headache, dizziness or syncope during waterpipe use: the charcoal produces large amounts of CO, and the source is easily overlooked.",
+    "Pulse oximetry counts carboxyhemoglobin as oxyhemoglobin and the PaO2 stays normal; measure COHb by arterial or venous co-oximetry. The 2017 ACEP clinical policy advises against diagnosing CO toxicity with noninvasive pulse CO-oximetry.",
+    "Give 100% oxygen as soon as CO poisoning is suspected: the COHb half-life falls from about 5 h on room air to roughly 1–1.5 h on 100% oxygen, and further under hyperbaric conditions.",
+    "COHb correlates poorly with symptoms and outcome, especially after a delay or oxygen therapy; a falling level does not mean the patient was never at risk.",
+    "Hyperbaric oxygen is usually considered after loss of consciousness, with neurological deficits, cardiovascular involvement, severe acidosis, COHb above about 25% or pregnancy; ACEP recommends HBO2 or high-flow normobaric oxygen, since HBO2's long-term superiority is uncertain."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "What is the most useful next investigation?",
+      "options": ["CT head without contrast", "Noninvasive pulse CO-oximetry (SpCO)", "Blood gas with CO-oximetry", "Transthoracic echocardiography"],
+      "answer": 2,
+      "explanation": "Headache, dizziness and syncope during waterpipe use suggest CO poisoning, which is confirmed by a COHb level on arterial or venous co-oximetry. The 2017 ACEP clinical policy recommends against using noninvasive pulse CO-oximetry to diagnose CO toxicity. In this case the gas was drawn only 2 h after arrival, which delayed oxygen therapy."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Why is his pulse oximetry reading of 94% misleading?",
+      "options": [
+        "Standard oximeters count carboxyhemoglobin as oxyhemoglobin",
+        "Carboxyhemoglobin lowers the PaO2 to below 60 mm Hg",
+        "Tachycardia causes motion artefact at the probe",
+        "Hypertension reduces finger perfusion and the signal"
+      ],
+      "answer": 0,
+      "explanation": "Two-wavelength pulse oximeters cannot tell COHb from oxyhemoglobin, so SpO2 overestimates true oxygen saturation. His PaO2 was a normal 91 mm Hg despite a COHb of 30.4%: CO reduces oxygen content and delivery, not the dissolved oxygen tension."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate treatment?",
+      "extra": "ABG 2 h after arrival: COHb 30.4%, pH 7.42, PaCO2 39.9 mm Hg, PaO2 91.4 mm Hg, lactate 1.0 mmol/L. ECG: sinus tachycardia with frequent ventricular ectopics. Blood counts, chemistry and cardiac enzymes normal. Headache improving; neurologically normal.",
+      "options": [
+        "Oxygen by nasal cannula at 2 L/min until symptoms resolve",
+        "High-flow oxygen now and referral for hyperbaric oxygen",
+        "Discharge once a repeat COHb level is below 10%",
+        "Observation on room air with a repeat ECG in 6 hours"
+      ],
+      "answer": 1,
+      "explanation": "Give 100% oxygen immediately to shorten the COHb half-life. Transient loss of consciousness and COHb above 25% are commonly used criteria for hyperbaric oxygen; the 2017 ACEP clinical policy recommends HBO2 or high-flow normobaric oxygen, noting uncertainty about HBO2's long-term benefit. He received three sessions, as the German guideline cited by the authors suggests."
+    },
+    {
+      "kind": "interpretation",
+      "q": "The ambulance CO detector did not alarm in his home. What best explains his COHb of 30.4%?",
+      "options": [
+        "A laboratory artefact needing a repeat venous sample",
+        "Heavy cigarette smoking of one pack a day",
+        "Endogenous CO production from hemolysis",
+        "Direct inhalation of charcoal-heated waterpipe smoke"
+      ],
+      "answer": 3,
+      "explanation": "Waterpipe charcoal generates large amounts of CO that the smoker inhales directly (the authors cite about 145 mg of CO per hour of smoking), while room levels can stay below a 60-ppm alarm threshold. Cigarette smokers typically have COHb up to about 10%, and hemolysis raises it only slightly."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.pmh, presentation.meds",
+      "quote": "A 21-year-old male with no past medical history and no regular medications was brought to the emergency department via ambulance"
+    },
+    {
+      "field": "patient.arrival, presentation.chiefComplaint, presentation.hpi",
+      "quote": "brought to the emergency department via ambulance after experiencing a 10 second episode of unconsciousness at home, following the smoking of a waterpipe containing tobacco"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "Prior to collapsing, the patient reported a sudden onset of dizziness and mild headaches. The patient denied experiencing angina pectoris, dyspnea, or palpitations."
+    },
+    { "field": "presentation.hpi", "quote": "they did not trigger the alarm of the CO detector carried by the ambulance team set to 60 ppm" },
+    { "field": "presentation.family", "quote": "The family history was positive for coronary artery disease on the father's side." },
+    {
+      "field": "vitals.tempC, vitals.hr, vitals.rr",
+      "quote": "the ambulance team documented the patient's vital signs, including a temperature of 36.0 °C, heart rate of 125/min, respiratory rate of 18/min"
+    },
+    { "field": "vitals.sbp, vitals.dbp, vitals.spo2", "quote": "blood pressure of 180/130 mmHg, and a pulse oximetry reading of 94% while breathing room air" },
+    { "field": "vitals.gcs, exam[0]", "quote": "the patient was found to be conscious and fully aware, scoring 15 on the Glasgow coma scale" },
+    { "field": "exam[1]", "quote": "No physical injuries were observed as a result of the fall." },
+    {
+      "field": "ecg",
+      "quote": "An electrocardiogram (ECG) showed sinus tachycardia with 125/min with frequent ventricular extrasystoles (VES), normal axis, normal P, PQ, ORS-segments, and also normal ST/T segments and QT time."
+    },
+    {
+      "field": "presentation.social",
+      "quote": "The patient reported a history of tobacco use, consuming one pack daily over the past 3 years. Additionally, he smokes a water pipe approximately three times a week."
+    },
+    {
+      "field": "presentation.social",
+      "quote": "He also disclosed the consumption of 2–3 units of alcohol on 1–2 occasions weekly. The use of recreational drugs was denied."
+    },
+    {
+      "field": "investigations[5]",
+      "quote": "the patient's complete blood count, serum chemistry panel, and cardiac enzyme levels were all within normal limits and showed no abnormalities"
+    },
+    { "field": "investigations[Urine drug panel]", "quote": "The results of the urine drug panel were also unremarkable." },
+    {
+      "field": "investigations[0], investigations[pH (arterial)], investigations[PaCO2], investigations[PaO2], investigations[Lactate]",
+      "quote": "The first arterial blood gas (ABG) (Fig. 1.) was obtained 2 h after arrival in the emergency department, which revealed a COHb of 30.4%, pH 7.42"
+    },
+    { "field": "investigations[PaCO2], investigations[PaO2], investigations[Lactate]", "quote": "pCO2 39.9 mmHg, pO2 91.4 mmHg, and a Lactate of 1.0 mmol/l" },
+    {
+      "field": "diagnosis.primary",
+      "quote": "a patient who suffered from severe carbon monoxide poisoning causing a collapse at home while smoking a water pipe"
+    },
+    {
+      "field": "management[0], management[1]",
+      "quote": "the patient was promptly started on oxygen therapy using a simple face mask and was then transported to the next hyperbaric oxygen therapy (HBO) center"
+    },
+    {
+      "field": "investigations[Carboxyhemoglobin on arrival at the hyperbaric center]",
+      "quote": "Upon admission to the hyperbaric center, the COHb was measured to be 17.2%."
+    },
+    {
+      "field": "management[1]",
+      "quote": "The HBO therapy was initiated nearly 4 h after the patient's initial admission to the ED, by which time the patient's headaches had already subsided."
+    },
+    {
+      "field": "management[2]",
+      "quote": "The patient underwent three hyperbaric oxygen therapy sessions, each lasting for 145 min at 2.4 atmospheres with 100% FiO2."
+    },
+    {
+      "field": "outcome",
+      "quote": "Following the completion of the therapy, the patient was released and exhibited no symptoms or complaints. His vital signs before discharge were unremarkable."
+    },
+    {
+      "field": "outcome",
+      "quote": "the patient reported no noticeable long-term health complications, such as memory impairment, heart palpitations, or an increase in the frequency of illness"
+    }
+  ],
+  "augmented": [
+    "presentation.allergies: not reported",
+    "investigations[Hemoglobin]: individual values not reported (blood count, chemistry and cardiac enzymes described as normal)"
+  ]
+}

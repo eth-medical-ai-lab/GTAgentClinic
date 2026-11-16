@@ -1,0 +1,107 @@
+{
+  "id": "pmc-PMC5965410-spinal-epidural-abscess",
+  "title": "Feverish, breathless and confused at times at 65",
+  "category": "neurology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC5965410",
+    "pmid": "29849403",
+    "doi": "10.5811/cpcem.2016.12.33001",
+    "citation": "Spano C, Ward M, Zagelbaum N. Spinal Epidural Abscess Complicated by Meningitis, Sepsis and Thrombocytopenia in a Patient Lacking Traditional Risk Factors. Clin Pract Cases Emerg Med. 2017;1(2):115-117.",
+    "license": "CC BY",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5965410/"
+  },
+  "patient": { "age": 65, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Feeling generally unwell and short of breath",
+    "hpi": "Two to three days of generalized fatigue and rapid breathing; he has felt feverish but did not check his temperature. On review of systems he mentions mild neck discomfort and tingling in both hands. His son says he has seemed confused at times over the past week.",
+    "pmh": ["Transmetatarsal amputation of the right foot one year ago after a traumatic injury; otherwise healthy"],
+    "meds": [],
+    "allergies": [],
+    "social": "Married; does not drink alcohol or smoke."
+  },
+  "vitals": { "hr": 110, "sbp": 128, "dbp": 74, "rr": 22, "spo2": 94, "tempC": 38 },
+  "exam": [
+    "Nuchal rigidity",
+    "Decreased light-touch sensation in the C5 and C6 dermatomes on both sides",
+    "Strength and reflexes normal",
+    "No midline bony tenderness over the cervical, thoracic or lumbar spine",
+    "Chronic draining sinus at the transmetatarsal amputation site on the right foot, draining serous fluid"
+  ],
+  "investigations": [
+    { "name": "White cell count (80% neutrophils, 12% bands)", "value": "20.7", "unit": "x10³/µL", "flag": "H" },
+    { "name": "Platelets", "value": "71", "unit": "x10³/µL", "flag": "L" },
+    { "name": "CSF glucose", "value": "10", "unit": "mg/dL", "flag": "L" },
+    { "name": "CSF white cells", "value": "1670", "unit": "cells/µL", "flag": "H" }
+  ],
+  "imaging": [
+    { "modality": "CT brain (before lumbar puncture)", "finding": "Negative" },
+    { "modality": "MRI cervical and thoracic spine", "finding": "8 cm epidural abscess from C2 to C6" }
+  ],
+  "diagnosis": {
+    "primary": "Cervical spinal epidural abscess (C2–C6) with meningitis and methicillin-sensitive Staphylococcus aureus bacteremia",
+    "differentials": ["Bacterial meningitis without an epidural focus", "Cervical spondylotic myelopathy", "Vertebral osteomyelitis", "Pneumonia with sepsis"]
+  },
+  "management": [
+    "Vancomycin and piperacillin/tazobactam in the ED",
+    "Emergent neurosurgical consult; surgery deferred because of thrombocytopenia",
+    "Abscess extended to 12 cm on follow-up MRI; transferred to a tertiary center for planned surgical drainage"
+  ],
+  "outcome": "The abscess grew to 12 cm on follow-up MRI and he was transferred to a tertiary care center for planned surgical drainage; the final outcome is not reported.",
+  "teachingPoints": [
+    "The classic triad of fever, spinal pain and neurological deficit is present in only a minority of spinal epidural abscesses at first presentation.",
+    "Meningism with new radicular or sensory symptoms in a septic patient warrants emergent MRI of the spine with gadolinium.",
+    "Staphylococcus aureus causes most spinal epidural abscesses, often from a skin or soft-tissue source."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "The lumbar puncture suggests bacterial meningitis. What is the most important next investigation?",
+      "extra": "WBC 20.7 x10³/µL (80% neutrophils, 12% bands), platelets 71 x10³/µL. CT brain negative. CSF cloudy: glucose 10 mg/dL, white cells 1670 cells/µL, mostly neutrophils, Gram stain negative.",
+      "options": ["Repeat lumbar puncture in 24 hours", "Transthoracic echocardiography", "Electromyography and nerve conduction studies", "Emergent MRI of the cervical and thoracic spine"],
+      "answer": 3,
+      "explanation": "Bilateral C5–C6 sensory loss and neck symptoms in a bacteremic, meningitic patient point to a spinal focus; emergent MRI of the spine with gadolinium is the test of choice for an epidural abscess. Here it showed an 8 cm abscess from C2 to C6."
+    },
+    {
+      "kind": "diagnosis",
+      "q": "Which organism is most likely responsible?",
+      "extra": "MRI: 8 cm epidural abscess from C2 to C6.",
+      "options": ["Streptococcus pneumoniae", "Neisseria meningitidis", "Staphylococcus aureus", "Listeria monocytogenes"],
+      "answer": 2,
+      "explanation": "Staphylococcus aureus causes about two-thirds of spinal epidural abscesses, usually by spread from a skin or soft-tissue source such as his chronically draining amputation sinus. Blood and urine cultures grew methicillin-sensitive S. aureus."
+    },
+    {
+      "kind": "management",
+      "q": "Neurosurgery is consulted emergently. Which result is the main obstacle to immediate surgical drainage?",
+      "options": ["Platelet count of 71 x10³/µL", "White cell count of 20.7 x10³/µL", "CSF glucose of 10 mg/dL", "Negative CSF Gram stain"],
+      "answer": 0,
+      "explanation": "Severe thrombocytopenia raises the bleeding risk of decompression, and surgery was deferred for it; it needs correcting quickly, because deficits from an epidural abscess can progress within hours. Here the abscess grew to 12 cm on follow-up MRI and he was transferred for planned drainage."
+    }
+  ],
+  "evidence": [
+    { "field": "patient, presentation.social, presentation.pmh", "quote": "The patient was a 65-year-old healthy, white, married, non-drinking, non-smoking educated male" },
+    { "field": "presentation.chiefComplaint", "quote": "presented to our ED complaining of generalized illness and shortness of breath" },
+    { "field": "presentation.hpi", "quote": "He reported experiencing generalized fatigue with rapid breathing over the prior 2 – 3 days" },
+    { "field": "presentation.hpi", "quote": "He reported feeling “feverish” but did not take his temperature" },
+    { "field": "presentation.hpi", "quote": "review of systems revealed mild neck discomfort with bilateral hand paresthesias" },
+    { "field": "presentation.hpi", "quote": "The patient’s son reported that he appeared to be confused at times over the preceding week." },
+    { "field": "presentation.pmh", "quote": "his surgical history was only significant for a transmetatarsal amputation one-year prior for a traumatic foot injury" },
+    { "field": "vitals.tempC, vitals.spo2, vitals.hr", "quote": "rectal temperature of 100.4, oxygen saturation of 94% on room air, a heart rate of 110 beats per minute" },
+    { "field": "exam[0], exam[1]", "quote": "sensation to light touch was decreased along the C5 and C6 dermatome bilaterally. Neck exam revealed nuchal rigidity." },
+    { "field": "exam[2]", "quote": "His strength and reflexes were normal" },
+    { "field": "exam[3]", "quote": "There was no midline bony tenderness on the cervical, thoracic or lumbar spine." },
+    { "field": "exam[4]", "quote": "Skin exam revealed a chronic-appearing draining sinus at the site of a previous transmetatarsal amputation of the right foot." },
+    { "field": "exam[4]", "quote": "which was draining serous fluid at time of exam" },
+    { "field": "investigations[0]", "quote": "leukocytosis of 20.7 10³/uL with 80% neutrophils and 12% bands" },
+    { "field": "investigations[1]", "quote": "thrombocytopenia of 71 10³/uL" },
+    { "field": "investigations[2], investigations[3]", "quote": "with a glucose of 10 mg/dL, white blood cell count of 1670 cells/uL" },
+    { "field": "imaging[0]", "quote": "A computed tomography of the brain was performed prior to lumbar puncture, which was negative." },
+    { "field": "imaging[1], diagnosis.primary", "quote": "The MRI revealed an 8 cm epidural abscess involving C2 through C6" },
+    { "field": "diagnosis.primary", "quote": "Blood and urine cultures on day two grew methicillin-sensitive Staphylococcus aureus." },
+    { "field": "management[0]", "quote": "Vancomycin and piperacillin/tazobactam were administered in the ED." },
+    { "field": "management[1]", "quote": "An emergent consult was placed to neurosurgery but surgery was deferred secondary to thrombocytopenia." },
+    { "field": "management[2], outcome", "quote": "a follow-up MRI revealed an extension of the abscess to 12 cm" },
+    { "field": "management[2], outcome", "quote": "he was transferred to a tertiary care facility for planned surgical drainage." }
+  ],
+  "augmented": ["vitals.sbp: not reported; a value was added", "vitals.dbp: not reported; a value was added", "vitals.rr: 22/min in the case report; no short quote captured", "vitals.tempC: reported as a rectal temperature of 100.4 (unit not stated; read as °F)", "presentation.meds: not reported", "presentation.allergies: not reported"]
+}

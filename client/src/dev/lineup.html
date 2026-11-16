@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cast lineup</title>
+    <link rel="icon" href="data:," />
+    <style>
+      html, body { margin: 0; background: #1b1f22; color: #ddd; font: 12px/1.3 ui-sans-serif, system-ui, sans-serif; }
+      #wrap { position: relative; display: inline-block; }
+      canvas { display: block; }
+      .label { position: absolute; padding: 2px 5px; background: rgba(0, 0, 0, 0.55); border-radius: 3px; white-space: nowrap; pointer-events: none; }
+    </style>
+  </head>
+  <body>
+    <!--
+      Dev page (not part of the game build): the authored cast (client/src/world/casting.ts) rendered
+      with the game's avatar code, for checking faces, head swaps and recolors side by side.
+      On a dev server: /src/dev/lineup.html?set=staff|recolored|crowd|all|models&view=face|full|back|turn|head
+      &light=ward|waiting&check=holes, or ?ids=rn_rosa,amb_dog (CAST ids). window.__lineup.ready flips once
+      every model is in; with check=holes, window.__lineup.holes lists see-through pixels per head view
+      (tests/heads-e2e.ts). See lineup.ts.
+    -->
+    <div id="wrap"><canvas id="c"></canvas></div>
+    <script type="module" src="./lineup.ts"></script>
+  </body>
+</html>

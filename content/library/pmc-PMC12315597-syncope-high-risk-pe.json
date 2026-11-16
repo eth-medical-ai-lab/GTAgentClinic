@@ -1,0 +1,243 @@
+{
+  "id": "pmc-PMC12315597-syncope-high-risk-pe",
+  "title": "Two faints and a low blood pressure, but no breathlessness",
+  "category": "pulmonology",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC12315597",
+    "pmid": "40755597",
+    "doi": "10.7759/cureus.87159",
+    "citation": "Wery L. Syncope as the Initial Presentation of Severe Pulmonary Embolism Without Hypoxemia: A Clinical Case. Cureus. 2025;17(7):e87159.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12315597/"
+  },
+  "patient": { "age": 71, "sex": "M", "arrival": "ems" },
+  "presentation": {
+    "chiefComplaint": "Two episodes of syncope",
+    "hpi": "Brought in by ambulance after two faints, each without any warning: the first while straining on the toilet, the second while standing at the top of a staircase. On systematic questioning he has had no dyspnea, orthopnea or paroxysmal nocturnal dyspnea, and denies chest pain and palpitations.",
+    "pmh": ["Quadruple coronary artery bypass grafting", "Treated hypertension", "Type 2 diabetes mellitus, not on insulin", "Obesity"],
+    "meds": ["Aspirin 100 mg daily", "Atorvastatin 40 mg daily", "Ramipril 5 mg daily", "Metformin 1 g twice daily"],
+    "allergies": ["No known drug allergies"],
+    "social": "Lives independently at home and is fully autonomous in daily activities.",
+    "family": "Family history suggestive of thrombophilia (his only identified VTE risk factor); no personal history of thromboembolism."
+  },
+  "vitals": { "hr": 111, "sbp": 86, "dbp": 45, "rr": 18, "spo2": 98, "tempC": 36 },
+  "exam": [
+    "Signs of circulatory shock: pallor, cold extremities, capillary refill 4 s, weak and thready radial pulses, mottled lower limbs",
+    "Tachycardic heart sounds without murmur; jugular venous pressure not raised",
+    "Bilateral pitting leg edema, reportedly unchanged; no tenderness or induration along the leg veins, soft calves, negative Homans sign",
+    "Abdominal, genitourinary and neurological examinations noncontributory"
+  ],
+  "investigations": [
+    { "name": "pH (arterial, room air)", "value": "7.33", "flag": "L" },
+    { "name": "PaCO2", "value": "27", "unit": "mm Hg", "flag": "L" },
+    { "name": "PaO2 (room air)", "value": "86", "unit": "mm Hg" },
+    { "name": "Lactate (arterial)", "value": "6.33", "unit": "mmol/L", "flag": "critical" },
+    { "name": "Bicarbonate (arterial)", "value": "14", "unit": "mmol/L", "flag": "L" },
+    { "name": "Base excess", "value": "-12", "unit": "mmol/L", "flag": "L" },
+    { "name": "Glucose", "value": "21.1", "unit": "mmol/L", "flag": "H" },
+    { "name": "Hemoglobin", "value": "13.8", "unit": "g/dL", "augmented": true },
+    { "name": "Platelets", "value": "214", "unit": "x10⁹/L", "augmented": true },
+    { "name": "INR", "value": "1.0", "augmented": true },
+    { "name": "Potassium", "value": "4.4", "unit": "mmol/L", "augmented": true },
+    { "name": "D-dimer (drawn after thrombolysis)", "value": ">7,650", "unit": "ng/mL", "flag": "H" },
+    { "name": "High-sensitivity troponin T (after thrombolysis)", "value": "41", "unit": "ng/L", "flag": "H" },
+    { "name": "NT-proBNP (after thrombolysis)", "value": "855", "unit": "pg/mL", "flag": "H" },
+    { "name": "Creatinine", "value": "1.9", "unit": "mg/dL", "flag": "H" },
+    { "name": "Urea", "value": "99", "unit": "mg/dL", "flag": "H" },
+    { "name": "eGFR", "value": "35", "unit": "mL/min/1.73 m²", "flag": "L" }
+  ],
+  "imaging": [
+    {
+      "modality": "Bedside transthoracic echocardiography in the ED (after the fluid challenge)",
+      "finding": "Right ventricular dilation with paradoxical septal motion and a moderately dilated right atrium; LV systolic function moderately reduced (EF about 45%); no LV hypertrophy, no pericardial effusion"
+    },
+    {
+      "modality": "CT pulmonary angiography (30 min after arrival, 5 min after the echo)",
+      "finding": "Massive bilateral pulmonary embolism: thrombus in both main pulmonary arteries and both interlobar arteries, with perfusion defects in both lungs"
+    },
+    {
+      "modality": "Lower-limb venous ultrasound (later in the admission)",
+      "finding": "Deep vein thrombosis from the proximal to the middle segment of the right superficial femoral vein"
+    }
+  ],
+  "ecg": "Sinus tachycardia about 105/min without repolarization abnormalities",
+  "diagnosis": {
+    "primary": "Acute bilateral pulmonary embolism, high-risk (obstructive shock), from a right femoral deep vein thrombosis with heterozygous factor V Leiden",
+    "icd10": "I26.09 / I82.411 / D68.51",
+    "differentials": [
+      "Cardiogenic shock (acute coronary syndrome or graft failure after CABG)",
+      "Arrhythmic syncope",
+      "Hypovolemic shock from occult hemorrhage",
+      "Cardiac tamponade",
+      "Septic shock"
+    ]
+  },
+  "management": [
+    "Fluid challenge with 250 mL crystalloid over 10 min: heart rate fell slightly, blood pressure did not improve",
+    "Radial arterial line for invasive blood pressure monitoring",
+    "Bedside echocardiography raised suspicion of PE with obstructive shock; IV unfractionated heparin bolus given",
+    "Emergency and intensive care physicians agreed to confirm the diagnosis by immediate CTPA (scanner available), then thrombolyse if indicated",
+    "Systemic thrombolysis for persistent hypotension with no contraindications: alteplase 10 mg bolus, then 90 mg over 2 h",
+    "ICU admission on continuous unfractionated heparin; no vasopressor or inotropic support needed",
+    "Brief stay on the pulmonology ward, then discharged on apixaban"
+  ],
+  "outcome": "Hemodynamically stable after thrombolysis without vasopressors; work-up found a right femoral DVT and heterozygous factor V Leiden. After a brief ICU and ward stay he was discharged on apixaban, clinically recovered.",
+  "teachingPoints": [
+    "Syncope can be the only symptom of PE; normal oxygen saturation and no dyspnea do not exclude it.",
+    "Syncope plus hypotension calls for bedside echocardiography: a dilated RV with paradoxical septal motion in shock means obstructive shock until proven otherwise.",
+    "High-risk PE (2019 ESC) is cardiac arrest, obstructive shock or persistent hypotension; start unfractionated heparin with a weight-adjusted bolus as soon as it is suspected.",
+    "Confirm with CTPA when it is immediately available and the patient can travel; if not, RV dysfunction on echo justifies reperfusion therapy.",
+    "Systemic thrombolysis is first-line for high-risk PE without contraindications; surgical embolectomy or catheter-directed therapy if lysis is contraindicated or fails."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely cause of this patient's shock?",
+      "extra": "Bedside echo after a 250 mL fluid challenge: dilated right ventricle with paradoxical septal motion, moderately dilated right atrium, LVEF about 45%, no pericardial effusion. ECG: sinus tachycardia, no ST changes. ABG on room air: pH 7.33, PaO2 86 mm Hg, lactate 6.33 mmol/L.",
+      "options": [
+        "Cardiogenic shock from acute left ventricular infarction",
+        "Cardiac tamponade",
+        "Hypovolemic shock from occult bleeding",
+        "Obstructive shock from acute pulmonary embolism"
+      ],
+      "answer": 3,
+      "explanation": "Shock with a dilated right heart, paradoxical septal motion and no effusion points to acute RV pressure overload, i.e. obstructive shock from PE, even without hypoxemia or dyspnea. Hypovolemia gives small, hyperdynamic ventricles, and the ECG shows no ischemia to explain an LV cause."
+    },
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate immediate step?",
+      "extra": "Suspected PE with obstructive shock; a CT scanner is free right now.",
+      "options": [
+        "Send a D-dimer before deciding on imaging",
+        "IV unfractionated heparin bolus, then immediate CTPA",
+        "Give two more litres of crystalloid, then reassess",
+        "Coronary angiography for suspected graft occlusion"
+      ],
+      "answer": 1,
+      "explanation": "In suspected high-risk PE the 2019 ESC guideline recommends anticoagulation with unfractionated heparin, including a weight-adjusted bolus, without delay, and immediate CTPA (bedside echo if CTPA is not feasible); D-dimer has no role. Large fluid volumes can worsen RV dilation, so only cautious volume loading is advised."
+    },
+    {
+      "kind": "management",
+      "q": "What is the recommended treatment now?",
+      "extra": "CTPA: thrombus in both main and both interlobar pulmonary arteries. BP still about 86/45 mm Hg; no contraindication to thrombolysis.",
+      "options": [
+        "Continue heparin alone on a monitored ward",
+        "Place an inferior vena cava filter and continue heparin",
+        "Systemic thrombolysis with alteplase alongside heparin",
+        "Switch to a direct oral anticoagulant and observe"
+      ],
+      "answer": 2,
+      "explanation": "Persistent hypotension makes this high-risk PE, for which the 2019 ESC guideline recommends systemic thrombolysis (here alteplase 10 mg bolus plus 90 mg over 2 h), keeping surgical embolectomy or catheter-directed therapy for contraindications or failure. Heparin alone is for normotensive patients, and a filter does nothing for the clot already in the lungs."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, patient.arrival, presentation.chiefComplaint",
+      "quote": "A 71-year-old male patient was admitted to the emergency department via prehospital emergency medical service following two episodes of syncope."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "The first occurred during a Valsalva maneuver while straining on the toilet, and the second occurred while standing at the top of a staircase."
+    },
+    { "field": "presentation.hpi", "quote": "No prodromal symptoms preceded either syncopal event." },
+    {
+      "field": "presentation.hpi",
+      "quote": "a systematic history did not reveal any associated complaints such as dyspnea, orthopnea, or paroxysmal nocturnal dyspnea. The patient also denied chest pain and palpitations."
+    },
+    {
+      "field": "presentation.pmh",
+      "quote": "His medical history included quadruple coronary artery bypass grafting (CABG), treated arterial hypertension, non-insulin-dependent type 2 diabetes mellitus, and obesity."
+    },
+    { "field": "presentation.social", "quote": "He lived independently at home and maintained full autonomy in daily activities." },
+    {
+      "field": "presentation.family",
+      "quote": "The only venous thromboembolism (VTE) risk factor identified was a family history suggestive of thrombophilia, with no personal history of thromboembolic events."
+    },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.rr",
+      "quote": "hypotension (blood pressure: 86/45 mmHg), sinus tachycardia at 111 beats per minute, a respiratory rate of 18 breaths per minute"
+    },
+    {
+      "field": "vitals.spo2, vitals.tempC, investigations[Glucose]",
+      "quote": "a peripheral oxygen saturation of 98% on ambient air, a body temperature of 36°C, and marked hyperglycemia at 21.1 mmol/L"
+    },
+    {
+      "field": "exam[0]",
+      "quote": "pallor, delayed capillary refill time (4 seconds), cold extremities, weak and thready radial pulses, and mottling of the lower limbs"
+    },
+    { "field": "exam[2]", "quote": "Bilateral pitting edema was noted in the lower limbs and was reportedly stable per patient." },
+    {
+      "field": "exam[2]",
+      "quote": "No induration or tenderness along the venous pathways of the lower limbs was found; calves were supple, and Homans' sign was negative."
+    },
+    { "field": "exam[1]", "quote": "Cardiopulmonary auscultation revealed tachycardia with no murmurs and no signs of elevated jugular venous pressure." },
+    { "field": "exam[3]", "quote": "Abdominal, genitourinary, and neurological examinations were noncontributory." },
+    { "field": "ecg", "quote": "An electrocardiogram revealed sinus tachycardia without associated repolarization abnormalities" },
+    { "field": "ecg", "quote": "Sinus tachycardia (105 beats per minute)" },
+    {
+      "field": "management[0]",
+      "quote": "a fluid challenge was performed with 250 mL of crystalloid solution over 10 minutes … a slight reduction in heart rate but no significant improvement in blood pressure"
+    },
+    { "field": "management[1]", "quote": "Invasive arterial blood pressure monitoring via a radial artery catheter was performed." },
+    {
+      "field": "investigations[0], investigations[1], investigations[2], investigations[3]",
+      "quote": "metabolic acidosis with a pH of 7.33, partial pressure of carbon dioxide (PaCO2) of 27 mmHg, partial pressure of oxygen (PaO2) of 86 mmHg, lactate level of 6.33 mmol/L"
+    },
+    { "field": "investigations[4], investigations[5]", "quote": "bicarbonate level of 14 mmol/L, and base excess of -12 mmol/L" },
+    {
+      "field": "imaging[0]",
+      "quote": "It revealed impaired left ventricular (LV) systolic function with a moderately reduced ejection fraction estimated at 45%, paradoxical septal motion, a moderately dilated right atrium, and right ventricular dilation."
+    },
+    { "field": "imaging[0]", "quote": "There was no evidence of left ventricular hypertrophy or pericardial effusion." },
+    {
+      "field": "management[2]",
+      "quote": "These combined findings raised a high degree of clinical suspicion of PE presenting with obstructive shock. A bolus of unfractionated heparin (UFH) was administered."
+    },
+    {
+      "field": "management[3]",
+      "quote": "a decision was made to proceed with computed tomography pulmonary angiography (CTPA) to confirm the diagnosis, given immediate scanner availability, followed by thrombolysis if indicated"
+    },
+    { "field": "imaging[1]", "quote": "CTPA confirmed massive bilateral pulmonary embolism with perfusion defects in both lung fields" },
+    { "field": "imaging[1]", "quote": "CTPA was performed 30 minutes after admission and five minutes after bedside ultrasound." },
+    { "field": "imaging[1]", "quote": "Thrombus is visible in the right and left interlobar pulmonary arteries." },
+    { "field": "imaging[1]", "quote": "Thrombus is visible in both the right and left pulmonary arteries, consistent with a proximal pulmonary embolism." },
+    {
+      "field": "management[4]",
+      "quote": "Owing to persistent hypotension, absence of contraindications to thrombolysis, and a confirmed diagnosis of severe PE, systemic thrombolysis was initiated using alteplase"
+    },
+    { "field": "management[4]", "quote": "with a 10 mg bolus, followed by a continuous infusion of 90 mg over two hours" },
+    { "field": "investigations[11]", "quote": "After thrombolysis, laboratory investigations revealed markedly elevated D-dimer levels (>7,650 ng/mL)" },
+    { "field": "investigations[12]", "quote": "increased high-sensitivity cardiac troponin T at 41 ng/L" },
+    { "field": "investigations[13]", "quote": "NT-proBNP 855 pg/mL <400 pg/mL" },
+    {
+      "field": "investigations[Creatinine], investigations[Urea], investigations[eGFR]",
+      "quote": "moderate renal impairment (creatinine of 1.9 mg/dL, urea of 99 mg/dL, and estimated glomerular filtration rate (eGFR) of 35 mL/minute/1.73 m²)"
+    },
+    { "field": "management[5]", "quote": "The patient was admitted to the intensive care unit (ICU) for monitoring under continuous UFH." },
+    { "field": "management[5], outcome", "quote": "he remained stable and did not require vasopressor or inotropic support during his ICU stay" },
+    {
+      "field": "imaging[2], diagnosis.primary",
+      "quote": "a deep vein thrombus extending from the proximal to middle segment of the right superficial femoral vein (part of the deep venous system)"
+    },
+    { "field": "diagnosis.primary, outcome", "quote": "in the context of a heterozygous factor V Leiden mutation" },
+    {
+      "field": "management[6], outcome",
+      "quote": "Following a brief hospitalization in the pneumology department, the patient was discharged on apixaban therapy."
+    },
+    {
+      "field": "diagnosis.primary",
+      "quote": "Clinical examination and bedside echocardiography revealed signs of right ventricular (RV) dysfunction, leading to the diagnosis of high-risk pulmonary embolism."
+    },
+    { "field": "diagnosis.primary", "quote": "Due to persistent hypotension, our patient had, according to ESC stratification, a high-risk PE." },
+    {
+      "field": "outcome",
+      "quote": "He required a brief hospitalization for monitoring in the intensive care unit (ICU) and has successfully recovered clinically."
+    }
+  ],
+  "augmented": [
+    "presentation.meds: not reported; typical agents after CABG with treated hypertension and non-insulin type 2 diabetes were added",
+    "presentation.allergies: not reported",
+    "investigations[7]: hemoglobin, platelets, INR and potassium were not reported; normal values were added"
+  ]
+}

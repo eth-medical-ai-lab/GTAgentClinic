@@ -1,0 +1,167 @@
+{
+  "id": "pmc-PMC9197752-testicular-torsion-rlq-pain",
+  "title": "Right lower quadrant pain and diarrhea in a young man",
+  "category": "other",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC9197752",
+    "pmid": "35701346",
+    "doi": "10.5811/cpcem.2022.2.55315",
+    "citation": "Stephenson GS, Langdorf MI. Testicular Torsion Appearance and Diagnosis on Computed Tomography of the Abdomen and Pelvis: Case Report. Clin Pract Cases Emerg Med. 2022;6(2):117-120.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9197752/"
+  },
+  "patient": { "age": 21, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Sudden right lower quadrant pain for 3.5 hours",
+    "hpi": "Sudden, constant right lower quadrant pain began 3.5 hours ago and radiates to the scrotum, which hurts when touched. At onset he felt an urge to defecate, followed by increased flatus and several episodes of diarrhea. No urinary frequency, urgency, dysuria or penile discharge.",
+    "pmh": ["No past medical history"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"],
+    "social": "Not sexually active."
+  },
+  "vitals": { "hr": 92, "sbp": 128, "dbp": 71, "rr": 16, "spo2": 100, "tempC": 36.6 },
+  "exam": [
+    "Mild right lower quadrant tenderness without rebound or guarding",
+    "Remainder of the documented examination normal; no genitourinary examination documented"
+  ],
+  "investigations": [
+    { "name": "White cell count", "value": "11.6", "unit": "x10⁹/L", "flag": "H" },
+    { "name": "Serum electrolytes", "value": "Normal" },
+    { "name": "Urinalysis", "value": "3 WBC/hpf; leukocyte esterase and nitrite negative; no bacteria" },
+    { "name": "Urine PCR for gonorrhea and chlamydia", "value": "Negative (resulted the next day)" },
+    { "name": "Sodium", "value": "139", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.0", "unit": "mmol/L", "augmented": true },
+    { "name": "Creatinine", "value": "0.9", "unit": "mg/dL", "augmented": true },
+    { "name": "Hemoglobin", "value": "15.1", "unit": "g/dL", "augmented": true }
+  ],
+  "imaging": [
+    {
+      "modality": "CT abdomen and pelvis with IV contrast (first visit)",
+      "finding": "Reported as unremarkable: appendix not identified, no right lower quadrant inflammation; no comment on the scrotum. On later review, a 'whirl' sign is visible in the right scrotum at the inferior edge of the images."
+    },
+    { "modality": "Scrotal Doppler ultrasound (urgent care, about 48 h later)", "finding": "No arterial or venous flow in the right testis" }
+  ],
+  "diagnosis": {
+    "primary": "Right testicular torsion (540° spermatic cord torsion) presenting as right lower quadrant pain, missed at the first visit, with testicular infarction",
+    "icd10": "N44.00",
+    "differentials": ["Acute appendicitis", "Epididymo-orchitis", "Torsion of a testicular appendage", "Ureteric colic", "Incarcerated inguinal hernia"]
+  },
+  "management": [
+    "Ketorolac 15 mg, morphine 4 mg and 1 L of normal saline IV",
+    "CT abdomen and pelvis for suspected appendicitis, read as unremarkable; symptoms improved and he was discharged home without a genital examination",
+    "Returned about 48 h later after an urgent-care Doppler ultrasound showed no flow in the right testis; ED examination found a high-riding, exquisitely tender, mildly swollen right testis and a normal left testis",
+    "Emergency urology consultation: right orchiectomy and left orchiopexy"
+  ],
+  "outcome": "The right testis was necrotic with 540° (1.5 turns) of spermatic cord torsion and was removed; pathology showed hemorrhagic infarction of the testis and epididymis consistent with torsion, with no malignancy.",
+  "teachingPoints": [
+    "Examine the genitals of every male with lower abdominal or groin pain: torsion can present as abdominal pain, and here the scrotum was never examined.",
+    "Pain radiating to the scrotum, or a scrotum that hurts to touch, means torsion must be excluded with examination, urgent Doppler ultrasound or urology review, not only an appendicitis work-up.",
+    "Read the image margins: a 'whirl' sign of the spermatic cord at the inferior edge of an abdominopelvic CT suggests torsion.",
+    "Improvement after analgesia does not exclude torsion, and intermittent torsion can untwist and recur.",
+    "Salvage depends on ischemia time; after a delay of 2 days this testis was necrotic, and the contralateral testis was fixed because the predisposition is usually bilateral."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "What is the most important next step in his evaluation?",
+      "options": [
+        "CT of the abdomen and pelvis with IV contrast for appendicitis",
+        "Stool cultures and oral rehydration for presumed gastroenteritis",
+        "Genital examination, including testicular lie and cremasteric reflex",
+        "Urine nucleic acid testing for gonorrhea and chlamydia"
+      ],
+      "answer": 2,
+      "explanation": "Pain radiating to the scrotum and a scrotum that hurts to touch make testicular torsion the time-critical diagnosis, so the genital examination (high-riding or horizontal testis, absent cremasteric reflex) comes before imaging for appendicitis. If torsion is possible, Doppler ultrasound or urology review follows, and imaging should not delay exploration when suspicion is high."
+    },
+    {
+      "kind": "interpretation",
+      "q": "What does the 'whirl' sign most likely represent?",
+      "extra": "CT abdomen and pelvis with IV contrast was read as unremarkable (appendix not seen, no inflammation). On review, a 'whirl' sign is visible in the right scrotum at the inferior edge of the images.",
+      "options": [
+        "A varicocele of the pampiniform plexus",
+        "An inguinal hernia containing small bowel",
+        "Cord edema from acute epididymitis",
+        "Twisting of the right spermatic cord"
+      ],
+      "answer": 3,
+      "explanation": "A whirl sign is the CT appearance of a structure twisted around its pedicle, as in volvulus or adnexal torsion; in the scrotum it indicates spermatic cord torsion. Here it lay at the edge of an abdominal CT and was not reported, so the margins of the images deserve a look when pain radiates to the groin."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate management?",
+      "extra": "Discharged after the CT. About 48 h later: Doppler ultrasound shows no arterial or venous flow in the right testis, which is high-riding, exquisitely tender and mildly swollen.",
+      "options": [
+        "Manual detorsion in the ED and outpatient urology review next week",
+        "Emergency scrotal exploration; orchiectomy if non-viable, plus contralateral orchiopexy",
+        "IV antibiotics for epididymo-orchitis with scrotal elevation and rest",
+        "Repeat Doppler ultrasound in 24 hours before deciding on surgery"
+      ],
+      "answer": 1,
+      "explanation": "Absent flow in a high-riding, tender testis is torsion and needs emergency exploration, with orchiectomy if the testis is necrotic and fixation of the other testis, because the predisposition is usually bilateral (EAU guidelines). Manual detorsion only buys time and does not replace surgery."
+    },
+    {
+      "kind": "risk",
+      "q": "How does the time from onset of pain relate to the chance of saving the testis?",
+      "options": [
+        "Salvage is unaffected by time while the pain responds to analgesia",
+        "Salvage depends only on the degree of twist, not on its duration",
+        "Salvage is likely within about 6 hours and falls steeply after 12–24 hours",
+        "Most testes stay viable for 72 hours, so next-day surgery is safe"
+      ],
+      "answer": 2,
+      "explanation": "Ischemic injury begins within hours: salvage is high when detorsion occurs within about 6 hours and falls sharply after 12–24 hours, although the degree of twist also matters. After about 2 days and 540° of torsion this testis was necrotic; improvement after analgesia is not reassurance."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.pmh[0]",
+      "quote": "A 21-year-old man with no previous medical history presented to the emergency department (ED) with sudden right lower quadrant (RLQ) pain for 3.5 hours."
+    },
+    { "field": "presentation.hpi", "quote": "The pain was constant and radiated to his scrotum, with reported pain when the scrotum was touched." },
+    { "field": "presentation.hpi", "quote": "He had the urge to defecate at onset, with increased flatulence, and multiple episodes of diarrhea." },
+    { "field": "presentation.hpi, presentation.social", "quote": "He denied frequency, urgency, penile discharge, and dysuria. He was not sexually active." },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.rr",
+      "quote": "blood pressure of 128/71 millimeters of mercury, heart rate of 92 beats per minute, respiratory rate of 16 breaths per minute"
+    },
+    { "field": "vitals.tempC, vitals.spo2", "quote": "temperature of 36.6° Celsius, and oxygen saturation of 100% on room air" },
+    { "field": "exam[0]", "quote": "His documented exam included mild RLQ tenderness to palpation without rebound or guarding." },
+    { "field": "exam[1], management[1]", "quote": "His physical exam was otherwise marked as normal, with no genitourinary exam documented." },
+    { "field": "management[0]", "quote": "The patient was given 15 milligrams (mg) of ketorolac, 4 mg of morphine sulphate, and 1 liter (L) of normal saline." },
+    {
+      "field": "investigations[White cell count], investigations[Serum electrolytes]",
+      "quote": "white blood cell (WBC) count of 11.6 x 10⁹ cells/L (reference range [RR] 3.8–11 x 10⁹ cells/L), normal serum electrolytes"
+    },
+    {
+      "field": "investigations[Urinalysis]",
+      "quote": "urinalysis with 3 WBCs per high powered field (hpf) (0–5/ hpf), negative leukocyte esterase and nitrite (RR negative), and no bacteria"
+    },
+    { "field": "investigations[3]", "quote": "Urine polymerase chain reaction tests for gonorrhea and chlamydia resulted negative the following day." },
+    {
+      "field": "imaging[0], management[1]",
+      "quote": "unremarkable CT of the abdomen and pelvis. The appendix is not discretely identified; however, no inflammatory changes are seen in the right lower quadrant to suggest acute appendicitis."
+    },
+    { "field": "imaging[0]", "quote": "There was no comment on the scrotum in the report." },
+    {
+      "field": "imaging[0]",
+      "quote": "Axial computed tomography of the abdomen and pelvis showing “whirl” sign in the right scrotum at the inferior periphery of the image suggestive of testicular torsion."
+    },
+    { "field": "management[1]", "quote": "The patient’s symptoms were documented as improved upon re-evaluation and he was discharged home." },
+    {
+      "field": "imaging[1], management[2]",
+      "quote": "roughly 48 hours later he was seen in urgent care. There, he had a testicular ultrasound showing no arterial or venous flow in the right testicle."
+    },
+    { "field": "management[2]", "quote": "Right testis is high riding, exquisitely tender and mildly edematous. Left testis is normal and non-tender." },
+    { "field": "management[3]", "quote": "A urologist was consulted for emergent right orchiectomy and left orchiopexy." },
+    {
+      "field": "outcome, diagnosis.primary",
+      "quote": "The operative report documented a necrotic right testis, and the surgeon noted 540 degrees (1.5 rotations) of spermatic cord torsion."
+    },
+    {
+      "field": "outcome, diagnosis.primary",
+      "quote": "hemorrhagic infarct of the testicular and epididymal parenchyma consistent with torsion. Spermatic cord with vascular congestion. No evidence of malignancy."
+    }
+  ],
+  "augmented": ["presentation.meds: none reported; consistent with no medical history", "presentation.allergies: not reported"]
+}

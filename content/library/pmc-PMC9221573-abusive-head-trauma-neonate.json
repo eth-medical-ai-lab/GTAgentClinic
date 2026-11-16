@@ -1,0 +1,214 @@
+{
+  "id": "pmc-PMC9221573-abusive-head-trauma-neonate",
+  "title": "Fever and twitching spells in a 2-week-old",
+  "category": "pediatrics",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC9221573",
+    "pmid": "35740745",
+    "doi": "10.3390/children9060808",
+    "citation": "Yoon S, Lee J, Jun YH, Jeon GW. Neonatal Abusive Head Trauma without External Injuries: Suspicion Improves Diagnosis. Children (Basel). 2022;9(6):808.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9221573/"
+  },
+  "patient": { "age": 0.04, "ageMonths": 0.5, "sex": "M", "arrival": "walk-in" },
+  "presentation": {
+    "chiefComplaint": "Fever with recurrent seizure-like episodes",
+    "hpi": "Two days ago his parents noticed episodes of mouth twitching, roving eye movements and eyelid blinking; a local pediatrician planned follow-up because neonatal seizures could not be excluded. Today he developed a fever of 38.2 °C with similar episodes, so his parents brought him to the emergency department. They deny any trauma.",
+    "pmh": ["Term birth at 40+5 weeks, birth weight 3270 g, vaginal delivery", "No prenatal or postnatal problems"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"],
+    "social": "First child of a two-parent family."
+  },
+  "vitals": { "hr": 144, "sbp": 67, "dbp": 42, "rr": 48, "spo2": 98, "tempC": 38.5 },
+  "exam": [
+    "Alert; no irritability, lethargy or vomiting",
+    "Pupils normal in size and reactive to light",
+    "No external injuries",
+    "Weight 3420 g (17th percentile; 150 g gained since birth); head circumference 36.5 cm (70th percentile)"
+  ],
+  "investigations": [
+    { "name": "Hemoglobin", "value": "12.4", "unit": "g/dL" },
+    { "name": "White cell count", "value": "19,980", "unit": "/µL" },
+    { "name": "Neutrophils", "value": "62", "unit": "%" },
+    { "name": "Platelets", "value": "582,000", "unit": "/µL" },
+    { "name": "C-reactive protein", "value": "0.21", "unit": "mg/dL" },
+    { "name": "Procalcitonin", "value": "0.20", "unit": "ng/mL" },
+    { "name": "Sodium", "value": "136.7", "unit": "mEq/L" },
+    { "name": "Potassium", "value": "5.04", "unit": "mEq/L" },
+    { "name": "Chloride", "value": "100.1", "unit": "mEq/L" },
+    { "name": "AST", "value": "33", "unit": "IU/L" },
+    { "name": "ALT", "value": "13", "unit": "IU/L" },
+    { "name": "Coagulation profile", "value": "Normal" },
+    { "name": "Urinalysis", "value": "Leukocyte esterase positive; WBC ≥16–20/hpf" },
+    { "name": "CSF appearance (lumbar puncture)", "value": "Bloody" },
+    { "name": "CSF red cell count", "value": "1,260,000", "unit": "/mm³", "flag": "H" },
+    { "name": "CSF white cell count", "value": "2350", "unit": "/mm³", "flag": "H" },
+    { "name": "EEG", "value": "Normal stage 1 sleep record" },
+    { "name": "Dilated fundoscopy", "value": "No retinal hemorrhage" }
+  ],
+  "imaging": [
+    {
+      "modality": "Cranial ultrasound (hospital day 4)",
+      "finding": "Increased echogenicity in the right caudothalamic groove (possible germinal matrix hemorrhage), increased cortical echogenicity in both hemispheres and brain swelling, read as suggesting meningoencephalitis"
+    },
+    {
+      "modality": "Brain MRI (hospital day 5)",
+      "finding": "Subacute subdural hemorrhage along the posterior falx and occipital convexity; subarachnoid hemorrhage in the sylvian fissure and sulci; multiple cortical hemorrhages with edema; left frontal microhemorrhages; diffuse axonal injury (periventricular white matter, corpus callosum, right thalamus, internal and external capsules)"
+    },
+    { "modality": "Radiographs of skull, ribs and all four limbs", "finding": "No fractures" },
+    { "modality": "Abdominal ultrasound", "finding": "Liver, spleen, adrenals, pancreas and bowel normal" }
+  ],
+  "diagnosis": {
+    "primary": "Abusive head trauma with subacute subdural, subarachnoid and multiple cortical hemorrhages and diffuse axonal injury, without external injuries or fractures",
+    "icd10": "T74.12XA / S06.5X0A",
+    "differentials": [
+      "Neonatal sepsis or bacterial meningitis",
+      "Herpes simplex encephalitis",
+      "Birth-related subdural hemorrhage",
+      "Vitamin K deficiency bleeding or another coagulopathy",
+      "Cerebral venous sinus thrombosis"
+    ]
+  },
+  "management": [
+    "Empirical antibiotics for a presumed urinary tract infection; the fever settled and no further seizure-like episodes occurred",
+    "After the MRI the parents were asked again about trauma and denied it; skeletal radiographs, fundoscopy and abdominal ultrasound were done to look for other injuries",
+    "Reported to the national investigative agency for suspected child abuse; the infant was discharged to a child welfare facility"
+  ],
+  "outcome": "Normal weight gain but poor head growth (36.5 cm at 14 days, 37.0 cm at 53 days; 70th to 7th percentile). Brain CT at 2 months showed right parieto-occipital encephalomalacia, widened CSF spaces and ventriculomegaly (atrophy). No epilepsy by 2 months, but high risk of long-term neurodevelopmental impairment; under regular follow-up.",
+  "teachingPoints": [
+    "Abusive head trauma can present with seizures, fever or other nonspecific symptoms and no external injury; up to 40% of infants with AHT have none, and the caregivers' history may be incomplete or untrue.",
+    "Seizures in a neonate are never 'febrile seizures' (a diagnosis of children aged about 6 months to 5 years) and call for neuroimaging.",
+    "Grossly bloody CSF with a very high red cell count in an infant with seizures should not be written off as a traumatic tap; image the brain.",
+    "When abuse is suspected in an infant: neuroimaging, skeletal survey, dilated retinal examination, coagulation studies and screening for abdominal injury (AAP 2015 clinical report on suspected child physical abuse).",
+    "Reporting requires reasonable suspicion, not proof; normal fundi and a normal skeletal survey do not exclude abuse."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "Apart from empirical antibiotics, what is the most appropriate next step?",
+      "extra": "Urinalysis: leukocyte esterase positive, 16–20 WBC/hpf. Lumbar puncture: grossly bloody CSF, RBC 1,260,000/mm³, WBC 2350/mm³. CRP 0.21 mg/dL; coagulation normal.",
+      "options": [
+        "Repeat the lumbar puncture at a higher interspace",
+        "Urgent neuroimaging of the brain",
+        "Treat the urinary tract infection and observe",
+        "Discharge once a routine EEG is reported normal"
+      ],
+      "answer": 1,
+      "explanation": "Any neonate with seizures needs neuroimaging, and grossly bloody CSF with over a million red cells/mm³ may reflect intracranial hemorrhage rather than a traumatic tap. Fever and pyuria do not explain the seizures, and a normal interictal EEG does not exclude a structural cause; here imaging was delayed to days 4 and 5."
+    },
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "extra": "Brain MRI (day 5): subacute subdural hemorrhage along the posterior falx and occipital convexity, subarachnoid hemorrhage, multiple cortical hemorrhages with edema and diffuse axonal injury. Skeletal radiographs, fundoscopy and abdominal ultrasound normal; coagulation normal.",
+      "options": ["Vitamin K deficiency bleeding", "Birth-related subdural hemorrhage", "Herpes simplex encephalitis", "Abusive head trauma"],
+      "answer": 3,
+      "explanation": "Subdural and subarachnoid blood with multiple cortical hemorrhages, edema and diffuse axonal injury in a 2-week-old with no history of trauma points to inflicted injury; normal fundi and no fractures do not exclude it. Normal coagulation argues against vitamin K deficiency bleeding, and birth-related subdural blood would not explain cortical hemorrhages and axonal injury."
+    },
+    {
+      "kind": "management",
+      "q": "What must the treating team do now?",
+      "options": [
+        "Discharge home once the fever settles, with clinic follow-up",
+        "Report only if a skeletal survey or fundoscopy is abnormal",
+        "Report to child protective services now, on reasonable suspicion",
+        "Wait for genetic and metabolic results before any report"
+      ],
+      "answer": 2,
+      "explanation": "Clinicians are mandated reporters: reasonable suspicion of abuse, not proof, triggers a report to child protection services and/or law enforcement (AAP 2015 clinical report on the evaluation of suspected child physical abuse). Normal fundi or skeletal survey do not remove the obligation, and the infant must not be discharged to a potentially unsafe setting."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint",
+      "quote": "A 14-day-old boy was admitted to the neonatal intensive care unit through the emergency room with a suspicious febrile convulsion."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "two days before admission, he had seizure-like symptoms including twitching of the mouth, roving eye movements, and eyelid blinking"
+    },
+    { "field": "presentation.hpi", "quote": "He was expected to be followed up with because of the uncertainty of neonatal seizure." },
+    { "field": "presentation.hpi", "quote": "On the day of admission, he had a fever of 38.2 °C with seizures similar to the previous one." },
+    { "field": "presentation.hpi, patient.arrival", "quote": "Thus, the parents brought him to the emergency room of our hospital." },
+    { "field": "presentation.hpi", "quote": "The parents denied a history of trauma." },
+    { "field": "presentation.pmh[0]", "quote": "He was born at 40+5 weeks of gestation with a body weight of 3270 g … via vaginal delivery." },
+    { "field": "presentation.pmh[1]", "quote": "There were no prenatal or postnatal problems." },
+    { "field": "presentation.social", "quote": "He was the first baby of a healthy two-parent … family." },
+    {
+      "field": "exam[3]",
+      "quote": "his body weight was 3420 g (150 g of weight gain for postnatal two weeks, 17 percentile … a head circumference of 36.5 cm (70 percentile"
+    },
+    {
+      "field": "vitals.hr, vitals.sbp, vitals.dbp, vitals.rr, vitals.tempC",
+      "quote": "Vital signs at admission were as follows: heart rate, 144 beats/min; blood pressure, 67/42 mmHg; respiratory rate, 48 breaths/min; and body temperature, 38.5 °C."
+    },
+    { "field": "exam[0]", "quote": "He did not have irritability, lethargy, or vomiting. His mental status was alert." },
+    { "field": "exam[1]", "quote": "His pupil size and light reflex were normal." },
+    { "field": "exam[2]", "quote": "He did not have any external injuries suggesting abuse." },
+    {
+      "field": "investigations[0], investigations[1], investigations[2], investigations[3], investigations[4], investigations[5]",
+      "quote": "hemoglobin, 12.4 g/dL; white blood cells (WBC), 19,980/µL (neutrophil 62%); platelets, 582,000/µL; C-reactive protein, 0.21 mg/dL; procalcitonin, 0.20 ng/mL"
+    },
+    {
+      "field": "investigations[6], investigations[7], investigations[8], investigations[9], investigations[10]",
+      "quote": "sodium/potassium/chloride, 136.7/5.04/100.1 mEq/L; aspartate aminotransferase/alanine transaminase, 33/13 IU/L"
+    },
+    { "field": "investigations[11]", "quote": "He had normal coagulation profiles." },
+    {
+      "field": "investigations[12]",
+      "quote": "His urinalysis at admission was positive for leukocyte esterase, showing WBC ≥ 16~20/high power field with microscopy."
+    },
+    {
+      "field": "investigations[13], investigations[14], investigations[15]",
+      "quote": "His cerebrospinal fluid (CSF) was bloody by lumbar puncture at admission, showing 1,260,000/mm³ of red blood cells and 2350/mm³ of WBCs."
+    },
+    {
+      "field": "management[0]",
+      "quote": "With the impression of a urinary tract infection, empirical antibiotics were prescribed. The fever subsided. No more seizure-like movements were detected during hospitalization."
+    },
+    { "field": "investigations[16]", "quote": "Electroencephalography revealed a normal stage one sleep record." },
+    {
+      "field": "imaging[0]",
+      "quote": "Brain ultrasonography on the fourth day of admission revealed increased echogenicity in the right caudothalamic groove suggesting germinal matrix hemorrhage"
+    },
+    { "field": "imaging[0]", "quote": "increased echogenicity through the cortex in bilateral hemispheres, and brain swelling suggesting meningoencephalitis" },
+    {
+      "field": "imaging[1], diagnosis.primary",
+      "quote": "subacute SDH along the posterior aspect of the falx cerebri and occipital convexity, subarachnoid hemorrhage in the sylvian fissure and along the sulci"
+    },
+    {
+      "field": "imaging[1], diagnosis.primary",
+      "quote": "multiple cortical hemorrhages with edema, microhemorrhages in the left frontal lobe, and diffuse axonal injury in the periventricular white matter, corpus callosum, right thalamus"
+    },
+    {
+      "field": "management[1]",
+      "quote": "We informed the parents of these findings from the brain MRI and asked them again about the history of trauma. However, they denied trauma emphatically."
+    },
+    {
+      "field": "imaging[2]",
+      "quote": "Radiographs of the skull, ribs, upper extremities, and lower extremities showed no abnormal findings such as fractures."
+    },
+    { "field": "investigations[17]", "quote": "Fundoscopy revealed no abnormal findings such as retinal hemorrhage." },
+    { "field": "imaging[3]", "quote": "Abdominal ultrasonography revealed no abnormal findings in the liver, spleen, adrenal gland, pancreas, or intestine." },
+    { "field": "diagnosis.primary", "quote": "AHT was strongly implied by a skilled neuroradiologist based on his brain MRI findings" },
+    {
+      "field": "management[2]",
+      "quote": "we immediately reported this case to the National Investigative Agency, which investigated the parents for child abuse"
+    },
+    { "field": "management[2]", "quote": "The baby was separated from the parents and admitted to a child welfare facility" },
+    {
+      "field": "outcome",
+      "quote": "his weight increased within normal ranges until 2 months of age. However, his head growth was poor … and 37.0 cm (7 percentile"
+    },
+    {
+      "field": "outcome",
+      "quote": "Brain computed tomography taken at 2 months of age revealed encephalomalacia in the right parieto-occipital cerebral hemisphere"
+    },
+    { "field": "outcome", "quote": "widened CSF spaces (right > left), and ventriculomegaly suggesting brain atrophy" },
+    {
+      "field": "outcome",
+      "quote": "Although he did not present epilepsy until 2 months of age at follow-up, he is at great risk for long-term neurodevelopmental impairments"
+    }
+  ],
+  "augmented": ["vitals.spo2: not reported", "presentation.meds: none reported; healthy neonate", "presentation.allergies: not reported"]
+}

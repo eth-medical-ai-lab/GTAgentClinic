@@ -1,0 +1,95 @@
+{
+  "id": "pmc-PMC5965129-pulmonary-embolism-syncope",
+  "title": "Found on the floor after standing up",
+  "category": "pulmonology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC5965129",
+    "pmid": "29849268",
+    "doi": "10.5811/cpcem.2017.12.36410",
+    "citation": "Andrusaitis J, Helmy M, McCoy CE, et al. Submassive Central Saddle and Extensive Bilateral Pulmonary Embolism Presenting as Syncope Treated with Catheter-directed Therapy. Clin Pract Cases Emerg Med. 2018;2(1):7-11.",
+    "license": "CC BY",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5965129/"
+  },
+  "patient": { "age": 52, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Syncope",
+    "hpi": "On standing he felt lightheaded and short of breath with blurred vision, and next remembers waking up on the floor. His breathlessness has been worsening for three days, and since last night he has had a dull, constant, pressure-like feeling over the left side of his chest.",
+    "pmh": ["Morbid obesity: 181 kg, BMI 59", "Deep vein thrombosis with pulmonary embolism after knee arthroscopy two years ago"],
+    "meds": [],
+    "allergies": []
+  },
+  "vitals": { "hr": 114, "sbp": 137, "dbp": 91, "rr": 18, "spo2": 94, "tempC": 36.5 },
+  "exam": ["Tachycardic but well perfused; no cyanosis; capillary refill under 2 seconds", "Lungs clear without increased work of breathing"],
+  "investigations": [
+    { "name": "Troponin (reference 0.00–0.03 ng/mL)", "value": "0.17", "unit": "ng/mL", "flag": "H" },
+    { "name": "D-dimer (reference <500 ng/mL)", "value": ">1000", "unit": "ng/mL", "flag": "H" }
+  ],
+  "imaging": [{ "modality": "CT pulmonary angiography", "finding": "Central saddle embolus with bilateral lobar, segmental and subsegmental emboli; enlarged main pulmonary artery; interventricular septum straightened to bowing leftward" }],
+  "ecg": "Sinus tachycardia 103/min with an S wave in lead I, a Q wave in lead III and small ST elevations in V1–V3",
+  "diagnosis": {
+    "primary": "Submassive (intermediate-high-risk) pulmonary embolism: central saddle and extensive bilateral emboli with right heart strain",
+    "differentials": ["Arrhythmic syncope", "Acute coronary syndrome", "Vasovagal syncope", "Aortic stenosis"]
+  },
+  "management": [
+    "No heparin first: straight to clot aspiration and catheter-directed tPA into each pulmonary artery",
+    "Cardiac arrest on hospital day 4 after sustained hypoxia; an inferior vena cava filter the next day"
+  ],
+  "outcome": "Extubated on hospital day 14 and transferred to a skilled nursing facility on day 20, neurologically intact.",
+  "teachingPoints": [
+    "Syncope can be the presenting feature of a large pulmonary embolism; look for tachycardia, hypoxemia and right-heart strain.",
+    "ESC 2019 risk classes rest on hemodynamics first, then sPESI, right ventricular dysfunction on imaging and troponin.",
+    "Intermediate-high-risk embolism: anticoagulate and monitor closely, and keep reperfusion for deterioration."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "He is hemodynamically stable. What is the most appropriate next investigation?",
+      "extra": "ECG: sinus tachycardia 103/min, S wave in lead I, Q wave in lead III, small ST elevations in V1–V3. Troponin 0.17 ng/mL (reference 0.00–0.03). D-dimer >1000 ng/mL.",
+      "options": ["Emergency coronary angiography", "CT pulmonary angiography", "Ventilation–perfusion scan after 24 hours", "Echocardiography only"],
+      "answer": 1,
+      "explanation": "Syncope, tachycardia, hypoxemia, an S1Q3 pattern and prior venous thromboembolism give a high clinical probability of pulmonary embolism; in a stable patient CT pulmonary angiography is the test of choice (ESC 2019). The right-precordial ST changes reflect right ventricular strain, not an anterior STEMI."
+    },
+    {
+      "kind": "risk",
+      "q": "How is this embolism classified by the 2019 ESC guidelines?",
+      "extra": "CT pulmonary angiography: central saddle embolus with bilateral lobar, segmental and subsegmental emboli; enlarged main pulmonary artery; septum straightened to bowing leftward. BP 137/91 mm Hg.",
+      "options": ["Intermediate-high risk", "High risk", "Intermediate-low risk", "Low risk"],
+      "answer": 0,
+      "explanation": "He is normotensive, so not high risk, but he has right ventricular dysfunction on CT, an elevated troponin and a positive sPESI (heart rate of 110 or more): intermediate-high risk. A saddle clot does not by itself mean high risk; hemodynamic instability does."
+    },
+    {
+      "kind": "management",
+      "q": "What is the recommended initial treatment?",
+      "options": ["Immediate full-dose systemic thrombolysis", "Inferior vena cava filter", "Heparin and close monitoring; reperfusion only if he deteriorates", "Surgical embolectomy"],
+      "answer": 2,
+      "explanation": "For intermediate-high-risk embolism the ESC 2019 guidelines recommend anticoagulation (UFH or LMWH) with monitoring, and rescue reperfusion if he decompensates; routine primary systemic thrombolysis is not recommended because of bleeding risk. In this case the team went straight to catheter-directed therapy."
+    }
+  ],
+  "evidence": [
+    { "field": "patient, presentation.chiefComplaint", "quote": "A 52-year-old morbidly obese male presented to the Emergency Department (ED) with a chief complaint of syncope." },
+    { "field": "presentation.hpi", "quote": "he reported feeling lightheaded with shortness of breath and blurry vision upon standing. He next remembered waking up on the floor." },
+    { "field": "presentation.hpi", "quote": "He reported worsening shortness of breath over the prior three days." },
+    { "field": "presentation.hpi", "quote": "a dull, constant, pressure-like sensation over the left side of his chest that had begun the night before" },
+    { "field": "presentation.pmh[0]", "quote": "His weight was 181 kilograms (body mass index of 59)." },
+    { "field": "presentation.pmh[1]", "quote": "he had a history of a deep vein thrombosis (DVT) with a PE after a knee arthroscopy two years earlier" },
+    { "field": "vitals.tempC, vitals.hr, vitals.sbp, vitals.dbp", "quote": "His temperature was 36.5 degrees Celsius, heart rate of 114 beats per minute, blood pressure of 137/91 mmHg" },
+    { "field": "vitals.rr, vitals.spo2", "quote": "respiratory rate of 18 breaths per minute, and pulse oximetry of 94% on room air" },
+    { "field": "exam[0]", "quote": "He was noted to be tachycardic but was well perfused, with no signs of cyanosis and a capillary refill less than two seconds." },
+    { "field": "exam[1]", "quote": "His lungs were clear to auscultation bilaterally without an increase in work of breathing." },
+    { "field": "investigations[0]", "quote": "His initial troponin was above the normal limit at 0.17 ng/mL [0.00–0.03 ng/mL]." },
+    { "field": "investigations[1]", "quote": "D-dimer was >1000ng/ml [<500 ng/ml]." },
+    { "field": "imaging[0], diagnosis.primary", "quote": "It demonstrated a central saddle embolism and multiple occlusive and nonocclusive lobar, segmental, and subsegmental pulmonary arterial emboli bilaterally." },
+    { "field": "imaging[0]", "quote": "Right heart strain and pulmonary hypertension were evidenced by enlargement of the main pulmonary artery" },
+    { "field": "imaging[0]", "quote": "straightening to leftward bowing of the interventricular septum" },
+    { "field": "ecg", "quote": "sinus tachycardia at 103 beats per minute with a S-wave in lead I, Q-wave in lead III, and small ST-elevations in V1–V3" },
+    { "field": "management[0]", "quote": "the decision was made to not start heparin and instead immediately take the patient for thrombectomy" },
+    { "field": "management[0]", "quote": "The patient underwent clot aspiration and catheter-directed intra-procedural tissue plasminogen activator (tPA) administration into each pulmonary artery." },
+    { "field": "management[1]", "quote": "On hospital day 4, he had sustained hypoxia and then suffered a cardiac arrest" },
+    { "field": "management[1]", "quote": "an inferior vena cava filter was placed the following day" },
+    { "field": "outcome", "quote": "On hospital day 14, he was extubated and transferred out of the ICU." },
+    { "field": "outcome", "quote": "On hospital day 20, he was transferred to a skilled nursing facility for rehabilitation." },
+    { "field": "outcome", "quote": "At time of discharge, he was neurologically intact and required minimal assistance with activities of daily living." }
+  ],
+  "augmented": ["presentation.meds: not reported", "presentation.allergies: not reported", "presentation.pmh[1]: in the report this history came out hours into the ED stay"]
+}

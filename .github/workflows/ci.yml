@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: read # gitleaks-action lists a PR's commits
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      # only needed when the repository belongs to an organization (free key: https://gitleaks.io)
+      GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}
+    steps:
+      # Node 24 action majors: GitHub removed Node 20 from hosted runners on 2026-09-16 (checkout@v4, setup-node@v4 and gitleaks-action@v2 ran on it)
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # full history, so gitleaks can scan every commit
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      # dependency-free, so it runs before npm ci and fails fast
+      - name: Secret scan (tracked files)
+        run: node scripts/check-secrets.mjs
+
+      - run: npm ci
+
+      - run: npm run typecheck
+
+      - run: npm test
+
+      - name: Build client (postbuild scans dist/client for secrets)
+        run: npm run build
+
+      - name: Build and scan the static browser demo
+        run: npm run build:demo
+
+      - name: gitleaks (full git history)
+        if: ${{ github.event.repository.owner.type == 'User' || env.GITLEAKS_LICENSE != '' }}
+        uses: gitleaks/gitleaks-action@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_ENABLE_COMMENTS: false

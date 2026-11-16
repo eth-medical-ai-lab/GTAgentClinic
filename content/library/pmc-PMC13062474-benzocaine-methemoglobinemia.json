@@ -1,0 +1,207 @@
+{
+  "id": "pmc-PMC13062474-benzocaine-methemoglobinemia",
+  "title": "Stuck at 89% on high-flow oxygen",
+  "category": "toxicology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC13062474",
+    "pmid": "41970091",
+    "doi": "10.7759/cureus.104949",
+    "citation": "Panossian A, Sadra A, Namavar AA. Over-the-Counter Benzocaine Gel as a Cause of Methemoglobinemia: A Case Report. Cureus. 2026;18(3):e104949.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13062474/"
+  },
+  "patient": { "age": 72, "sex": "F", "arrival": "walk-in" },
+  "presentation": {
+    "chiefComplaint": "Shortness of breath, chest tightness and low oxygen readings at home",
+    "hpi": "Since a recent ENT operation (diverticulectomy with cricopharyngeal myotomy) she has had increasing shortness of breath and chest tightness, and her home pulse oximeter keeps reading in the 80s despite supplemental oxygen. She has noticed a bluish tinge to her fingers and toes. No fever, chills or cough. For about a year she has used an over-the-counter oral gel for discomfort from her dental retainers.",
+    "pmh": ["Recent diverticulectomy with cricopharyngeal myotomy (ENT surgery)", "Chronic oral discomfort from dental retainers"],
+    "meds": ["Over-the-counter benzocaine oral gel (Orajel), used for about a year", "Supplemental oxygen at home"],
+    "allergies": ["No known drug allergies"],
+    "social": "Lives with her husband. Never smoked; no alcohol."
+  },
+  "vitals": { "hr": 102, "sbp": 142, "dbp": 78, "rr": 24, "spo2": 89, "tempC": 36.9, "gcs": 15 },
+  "exam": [
+    "Alert and oriented, in mild respiratory distress",
+    "Saturation stays around 89% despite escalation to high-flow nasal cannula (35 L/min, FiO₂ 0.88)",
+    "Mild cyanosis of the lips and nail beds",
+    "No focal neurological deficit; no cardiac murmur",
+    "Mild subcutaneous crepitus over the lateral neck and upper chest; breath sounds otherwise normal"
+  ],
+  "investigations": [
+    { "name": "Methemoglobin (arterial co-oximetry, before treatment)", "value": "14.7", "unit": "%", "flag": "H" },
+    { "name": "Oxyhemoglobin (arterial co-oximetry)", "value": "83.1", "unit": "%", "flag": "L" },
+    { "name": "Carboxyhemoglobin", "value": "<1.0", "unit": "%" },
+    { "name": "pH (arterial, FiO₂ 0.88)", "value": "7.51", "flag": "H" },
+    { "name": "PaCO2", "value": "37", "unit": "mm Hg" },
+    { "name": "PaO2 (FiO₂ 0.88)", "value": "314", "unit": "mm Hg", "flag": "H" },
+    { "name": "Bicarbonate", "value": "29.3", "unit": "mmol/L", "flag": "H" },
+    { "name": "Base excess", "value": "6", "unit": "mmol/L", "flag": "H" },
+    { "name": "O2 saturation reported by the blood gas analyzer", "value": "97", "unit": "%" },
+    { "name": "Hemoglobin", "value": "10.2", "unit": "g/dL", "flag": "L" },
+    { "name": "Methemoglobin (venous, after methylene blue)", "value": "1.9", "unit": "%", "flag": "H" },
+    { "name": "White cell count", "value": "7.6", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Platelets", "value": "231", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Sodium", "value": "139", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.0", "unit": "mmol/L", "augmented": true },
+    { "name": "Creatinine", "value": "0.8", "unit": "mg/dL", "augmented": true },
+    { "name": "Glucose", "value": "102", "unit": "mg/dL", "augmented": true }
+  ],
+  "imaging": [
+    {
+      "modality": "Chest radiograph (portable AP)",
+      "finding": "Extensive subcutaneous emphysema of the lower neck and upper chest wall; no pneumonia, pulmonary edema, pleural effusion or pneumothorax"
+    }
+  ],
+  "ecg": "Sinus tachycardia 102/min, normal axis, no acute ST-segment changes",
+  "diagnosis": {
+    "primary": "Acquired methemoglobinemia from chronic use of an over-the-counter benzocaine oral gel",
+    "icd10": "D74.8 / T41.3X5A",
+    "differentials": [
+      "Postoperative pulmonary embolism",
+      "Aspiration pneumonitis",
+      "Esophageal or airway injury after cricopharyngeal myotomy",
+      "Carbon monoxide poisoning",
+      "Sulfhemoglobinemia"
+    ]
+  },
+  "management": [
+    "Escalating supplemental oxygen up to high-flow nasal cannula, without improvement in saturation",
+    "Toxicology consulted; methylene blue recommended",
+    "Methylene blue 1.5 mg/kg IV over 5 minutes",
+    "Supplemental oxygen weaned once the cause was identified",
+    "Advised to stop all benzocaine-containing products; ENT follow-up for postoperative care"
+  ],
+  "outcome": "Symptoms and hypoxia resolved within 30 minutes of methylene blue; methemoglobin 1.9% afterwards; stable overnight and discharged home the next day.",
+  "teachingPoints": [
+    "An SpO₂ stuck in the 80s despite high FiO₂, with a high PaO₂, is a saturation gap: think dyshemoglobin and ask for co-oximetry.",
+    "Blood gas analyzers may report a calculated saturation (97% here) that misses methemoglobin; co-oximetry measures it directly.",
+    "Topical benzocaine causes methemoglobinemia even as an over-the-counter gel, especially with mucosal injury, older age and comorbidity.",
+    "Treat symptomatic methemoglobinemia with IV methylene blue 1–2 mg/kg and remove the oxidant; check for G6PD deficiency and serotonergic drugs.",
+    "Subcutaneous emphysema after neck surgery was a distractor here: it does not explain hypoxemia with a PaO₂ of 314 mm Hg."
+  ],
+  "questions": [
+    {
+      "kind": "interpretation",
+      "q": "Which test best explains the discrepancy between her oximetry and her blood gas?",
+      "extra": "Arterial blood gas on FiO₂ 0.88: pH 7.51, PaCO₂ 37 mm Hg, PaO₂ 314 mm Hg; analyzer-reported O₂ saturation 97%. Pulse oximetry 89%.",
+      "options": ["CT pulmonary angiography", "Co-oximetry of the arterial sample", "Repeat arterial gas from the other radial artery", "Contrast esophagram"],
+      "answer": 1,
+      "explanation": "A PaO₂ of 314 mm Hg with an SpO₂ stuck near 89% is a saturation gap: the analyzer's saturation is calculated from PaO₂ and is blind to dyshemoglobins. Co-oximetry measures methemoglobin and carboxyhemoglobin directly; PE or aspiration would lower the PaO₂ instead."
+    },
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely cause of her hypoxemia?",
+      "extra": "Co-oximetry: methemoglobin 14.7%, oxyhemoglobin 83.1%, carboxyhemoglobin <1.0%.",
+      "options": [
+        "Air tracking from the subcutaneous emphysema",
+        "Oxygen toxicity from home oxygen",
+        "Inherited cytochrome b5 reductase deficiency",
+        "Oxidant stress from the benzocaine gel"
+      ],
+      "answer": 3,
+      "explanation": "Benzocaine oxidizes ferrous hemoglobin to ferric methemoglobin, which cannot carry oxygen; chronic use, recent mucosal injury and older age all raise the risk. A first presentation at 72 after a year of a known oxidant points to acquired, not congenital, disease."
+    },
+    {
+      "kind": "management",
+      "q": "She remains dyspneic with chest tightness. What is the most appropriate treatment?",
+      "extra": "Methemoglobin 14.7%, hemoglobin 10.2 g/dL.",
+      "options": [
+        "Hyperbaric oxygen therapy",
+        "Intubation and mechanical ventilation",
+        "Methylene blue 1–2 mg/kg IV over 5 minutes",
+        "Oral ascorbic acid and observation"
+      ],
+      "answer": 2,
+      "explanation": "Symptomatic methemoglobinemia, usually above 20% but lower with anemia or cardiopulmonary disease, is treated by removing the oxidant and giving IV methylene blue 1–2 mg/kg; she improved within 30 minutes. Ascorbic acid, exchange transfusion and hyperbaric oxygen are reserved for failure or contraindications."
+    },
+    {
+      "kind": "risk",
+      "q": "Which condition makes methylene blue potentially harmful or ineffective?",
+      "options": ["Glucose-6-phosphate dehydrogenase deficiency", "Penicillin allergy", "Iron-deficiency anemia", "Hypothyroidism"],
+      "answer": 0,
+      "explanation": "Methylene blue needs NADPH from the G6PD pathway to reduce methemoglobin, so in G6PD deficiency it can fail and trigger hemolysis. Serotonergic drugs are the other classic caution, because methylene blue inhibits MAO-A."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi",
+      "quote": "A 72-year-old female … presented to the emergency department with progressive shortness of breath, chest tightness, and refractory hypoxia"
+    },
+    { "field": "presentation.pmh[0], presentation.hpi", "quote": "complex medical history, including recent diverticulectomy and cricopharyngeal myotomy" },
+    {
+      "field": "presentation.hpi, presentation.meds[1]",
+      "quote": "she observed persistently low oxygen saturation readings in the 80s despite supplemental oxygen use, prompting her to seek emergency care"
+    },
+    {
+      "field": "presentation.hpi, presentation.meds[0], presentation.pmh[1]",
+      "quote": "The patient reported using an over-the-counter benzocaine-containing oral gel over the past year for oral discomfort related to dental retainers."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "She denied fever, chills, or cough, but noted mild cyanosis of her extremities and increasing dyspnea following her recent ENT procedure."
+    },
+    { "field": "exam[0]", "quote": "On presentation, she was alert and oriented, with mild respiratory distress." },
+    {
+      "field": "vitals.spo2, exam[1], management[0]",
+      "quote": "Despite escalation of supplemental oxygen therapy, including high-flow nasal cannula at 35 L/min with 88% FiO₂, her oxygen saturation remained suboptimal at 89%."
+    },
+    {
+      "field": "exam[2], exam[3]",
+      "quote": "Physical examination revealed mild cyanosis of the lips and nail beds, but no focal neurological deficits or cardiac murmurs."
+    },
+    {
+      "field": "exam[4]",
+      "quote": "Chest examination showed mild subcutaneous crepitus over the lateral neck and upper chest, consistent with subcutaneous emphysema, but breath sounds were otherwise normal"
+    },
+    {
+      "field": "investigations[0], investigations[5]",
+      "quote": "the patient’s pre-treatment arterial sample demonstrated marked methemoglobinemia (14.7%) with elevated pO₂ (314 mmHg) and discordantly low oxygen saturation"
+    },
+    { "field": "investigations[0], investigations[10]", "quote": "Methemoglobin (%) | ≤ 1.5 | 14.7 | 1.9" },
+    { "field": "investigations[1]", "quote": "Oxyhemoglobin (%) | ≥ 94 | 83.1 | 53.1" },
+    { "field": "investigations[2]", "quote": "Carboxyhemoglobin (%) | ≤ 1.5 | <1.0 | <1.0" },
+    { "field": "investigations[3]", "quote": "pH | 7.35–7.45 | 7.51 | 7.41" },
+    { "field": "investigations[4]", "quote": "pCO₂ (mmHg) | 35–45 | 37 | 51" },
+    { "field": "investigations[6]", "quote": "Bicarbonate (mmol/L) | 22–26 | 29.3 | 32.2" },
+    { "field": "investigations[7]", "quote": "Base Excess (mmol/L) | ≤ 3 | 6 | 8" },
+    { "field": "investigations[8]", "quote": "O₂ Saturation (%) | ≥ 94 (arterial) | 97 | 64.6" },
+    { "field": "investigations[9]", "quote": "Hemoglobin (g/dL) | 12–16 | 10.2 | 10.1" },
+    {
+      "field": "imaging[0]",
+      "quote": "Chest radiography demonstrated extensive subcutaneous emphysema involving the lower neck and upper chest wall, with no evidence of pneumonia, pulmonary edema, pleural effusion, or pneumothorax"
+    },
+    { "field": "diagnosis.primary", "quote": "chronic benzocaine use, contained in the Orajel, was identified as the likely cause of her methemoglobinemia" },
+    { "field": "management[1]", "quote": "Toxicology was consulted and recommended treatment with methylene blue" },
+    {
+      "field": "management[2], outcome",
+      "quote": "Following administration of methylene blue at a dose of 1.5 mg/kg over five minutes, her symptoms resolved rapidly within 30 minutes."
+    },
+    {
+      "field": "management[3]",
+      "quote": "Given that supplemental oxygen cannot reverse the underlying hemoglobin oxidation, she was weaned off oxygen therapy."
+    },
+    {
+      "field": "outcome, investigations[10]",
+      "quote": "Post-treatment venous co-oximetry showed normalization of methemoglobin to 1.9% and clinical resolution of hypoxia."
+    },
+    { "field": "outcome", "quote": "She remained stable overnight and was discharged home the following day in good condition." },
+    {
+      "field": "management[4]",
+      "quote": "advised to discontinue all benzocaine-containing products and follow up with her otolaryngologist for postoperative care"
+    }
+  ],
+  "augmented": [
+    "vitals.hr: not reported",
+    "vitals.sbp: not reported",
+    "vitals.dbp: not reported",
+    "vitals.rr: not reported; consistent with 'mild respiratory distress'",
+    "vitals.tempC: not reported; she denied fever",
+    "vitals.gcs: inferred from 'alert and oriented'",
+    "patient.arrival: not reported",
+    "presentation.allergies: not reported",
+    "presentation.social: not reported",
+    "ecg: not reported; non-contributory tracing added",
+    "management[2]: IV route per the report's introduction ('administered intravenously over 5 minutes')"
+  ]
+}

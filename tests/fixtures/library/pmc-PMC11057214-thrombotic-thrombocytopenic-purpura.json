@@ -1,0 +1,96 @@
+{
+  "id": "pmc-PMC11057214-thrombotic-thrombocytopenic-purpura",
+  "title": "Dizzy a week after COVID-19",
+  "category": "hematology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC11057214",
+    "pmid": "38686279",
+    "doi": "10.7759/cureus.57252",
+    "citation": "Waleed MS, Dhulipalla L, Niazi M, et al. COVID-Induced Thrombotic Thrombocytopenic Purpura: A Case Report and Treatment-Focused Review. Cureus. 2024;16(3):e57252.",
+    "license": "CC BY",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11057214/"
+  },
+  "patient": { "age": 51, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Dizziness and lightheadedness since this morning",
+    "hpi": "Dizziness and lightheadedness since earlier today. A week ago urgent care diagnosed COVID-19 after headaches and weakness. On the way to hospital her right arm went numb; in the ED she feels better and the numbness has gone.",
+    "pmh": ["Hypertension"],
+    "meds": [],
+    "allergies": []
+  },
+  "vitals": { "hr": 120, "sbp": 183, "dbp": 91, "rr": 18, "spo2": 98, "tempC": 36.8 },
+  "exam": ["Rectal examination: brown stool"],
+  "investigations": [
+    { "name": "Hemoglobin", "value": "5.7", "unit": "g/dL", "flag": "critical" },
+    { "name": "Platelet count", "value": "69", "unit": "x10³/µL", "flag": "L" },
+    { "name": "LDH", "value": "930", "unit": "U/L", "flag": "H" },
+    { "name": "Haptoglobin", "value": "Low", "flag": "L" },
+    { "name": "Blood film", "value": "4–5 schistocytes per high-power field" },
+    { "name": "PLASMIC score", "value": "6 (high risk)" },
+    { "name": "ADAMTS13 activity", "value": "<2", "unit": "%", "flag": "critical" },
+    { "name": "ADAMTS13 antibody", "value": "21", "unit": "U/mL", "flag": "H" }
+  ],
+  "imaging": [{ "modality": "CT head", "finding": "No acute pathology" }],
+  "diagnosis": {
+    "primary": "Immune-mediated thrombotic thrombocytopenic purpura after COVID-19 (ADAMTS13 activity <2% with an inhibitor)",
+    "differentials": ["Hemolytic uremic syndrome", "Disseminated intravascular coagulation", "Evans syndrome", "Hypertensive emergency with microangiopathy"]
+  },
+  "management": [
+    "Two units of packed red cells in the ED",
+    "Prednisone 1 mg/kg daily and therapeutic plasma exchange from the next morning (four sessions, days 2, 3, 4 and 7)",
+    "Rituximab a few days after admission"
+  ],
+  "outcome": "LDH fell from 930 to 500 U/L and ADAMTS13 activity recovered to 41.7%; platelets were 649 x10³/µL before discharge.",
+  "teachingPoints": [
+    "Thrombocytopenia plus microangiopathic hemolysis (schistocytes, high LDH, low haptoglobin) is TTP until proven otherwise; neurological symptoms may be transient.",
+    "A PLASMIC score of 6–7 predicts severe ADAMTS13 deficiency, so treatment starts before the result is back.",
+    "Start plasma exchange and corticosteroids urgently and avoid platelet transfusion unless bleeding is life-threatening; rituximab and caplacizumab are added in immune TTP (ISTH 2020)."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "extra": "Hemoglobin 5.7 g/dL, platelets 69 x10³/µL, LDH 930 U/L, low haptoglobin, mildly raised bilirubin, acute kidney injury. Blood film: 4–5 schistocytes per high-power field. CT head: no acute pathology.",
+      "options": ["Immune thrombocytopenia", "Disseminated intravascular coagulation", "Thrombotic thrombocytopenic purpura", "Upper gastrointestinal bleeding"],
+      "answer": 2,
+      "explanation": "Microangiopathic hemolytic anemia (schistocytes, LDH 930 U/L, low haptoglobin) with thrombocytopenia and a transient neurological deficit is thrombotic thrombocytopenic purpura until proven otherwise; ADAMTS13 activity was <2% with an inhibitor. Immune thrombocytopenia does not hemolyze, and the stool was brown."
+    },
+    {
+      "kind": "risk",
+      "q": "Her PLASMIC score is 6. What does this mean?",
+      "options": ["High probability of severe ADAMTS13 deficiency", "Low probability, so look for another cause", "High risk of major bleeding", "Need for urgent splenectomy"],
+      "answer": 0,
+      "explanation": "The PLASMIC score (platelets <30, hemolysis, no active cancer, no transplant, MCV <90 fL, INR <1.5, creatinine <2.0 mg/dL; one point each) predicts severe ADAMTS13 deficiency: 6–7 is high risk, so treatment starts before the ADAMTS13 result returns."
+    },
+    {
+      "kind": "management",
+      "q": "Which treatment should start as soon as possible?",
+      "options": ["Platelet transfusion to above 50 x10³/µL", "Therapeutic plasma exchange with corticosteroids", "Intravenous immunoglobulin alone", "Low-molecular-weight heparin"],
+      "answer": 1,
+      "explanation": "Immune TTP is a hematological emergency: daily plasma exchange (removes the ADAMTS13 inhibitor and replaces the enzyme) with corticosteroids, plus rituximab and, where available, caplacizumab (ISTH 2020 guidelines). Platelet transfusion is avoided unless bleeding is life-threatening."
+    }
+  ],
+  "evidence": [
+    { "field": "patient, presentation.pmh", "quote": "A 51-year-old female with a past medical history of hypertension" },
+    { "field": "presentation.chiefComplaint, presentation.hpi", "quote": "presented to the emergency department (ED) with a complaint of dizziness and lightheadedness that started earlier in the day" },
+    { "field": "presentation.hpi", "quote": "She had recently visited urgent care for headaches and weakness and was diagnosed with COVID-19 a week ago." },
+    { "field": "presentation.hpi", "quote": "On her way to the hospital, she had right arm numbness." },
+    { "field": "presentation.hpi", "quote": "In the ED, the patient said she felt better and denied any numbness in the right arm." },
+    { "field": "vitals.sbp, vitals.dbp, vitals.hr", "quote": "She was afebrile, had a blood pressure of 183/91 mmHg, and a heart rate of 120 beats per minute." },
+    { "field": "investigations[0], management[0]", "quote": "Her hemoglobin being 5.7 g/dL, she was given two units of packed red blood cells (PRBC) in the ED" },
+    { "field": "investigations[1]", "quote": "Platelet count 69" },
+    { "field": "investigations[2], outcome", "quote": "LDH trended down from 930 units/L to 500 units/L." },
+    { "field": "investigations[3]", "quote": "acute kidney injury, low haptoglobin, lactate dehydrogenase (LDH) over 900 U/L, mildly elevated total bilirubin" },
+    { "field": "investigations[4]", "quote": "four to five schistocytes per high power field (HPF)" },
+    { "field": "investigations[5]", "quote": "The plasmic score was 6 (high risk)." },
+    { "field": "investigations[6], investigations[7], diagnosis.primary", "quote": "ADAMTS13 activity of <2%, and ADAMTS13 antibody of 21 units/mL were noted." },
+    { "field": "imaging[0]", "quote": "CT head showed no acute pathology" },
+    { "field": "management[1]", "quote": "The patient started on steroids (1 mg/kg prednisone) daily the next morning." },
+    { "field": "management[1]", "quote": "The patient was started on therapeutic plasma exchange (TPE) the next morning." },
+    { "field": "management[1], outcome", "quote": "After four sessions of TPE (Days 2, 3, 4, and 7 of admission), ADAMTS-13 activity improved to 41.7%." },
+    { "field": "management[2]", "quote": "We also started our patient on rituximab a few days after her admission and post-plasmapheresis." },
+    { "field": "outcome", "quote": "The platelet count remained stable and was 649K/uL before discharge." }
+  ],
+  "augmented": ["vitals.tempC: reported only as afebrile; a value was added", "vitals.rr: not reported; a value was added", "vitals.spo2: not reported; a value was added", "exam[0]: in the case report; no short quote captured", "presentation.meds: not reported", "presentation.allergies: not reported"]
+}

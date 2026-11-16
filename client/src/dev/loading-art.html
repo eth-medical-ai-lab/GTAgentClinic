@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loading-screen art</title>
+    <link rel="icon" href="data:," />
+    <style>
+      html, body { margin: 0; background: #141414; color: #ddd; font: 13px/1.4 ui-sans-serif, system-ui, sans-serif; }
+      main { padding: 16px; display: grid; gap: 16px; }
+      figure { margin: 0; }
+      figure img { display: block; width: 100%; max-width: 960px; height: auto; border: 1px solid #333; }
+      figcaption { padding: 4px 0; color: #999; }
+    </style>
+  </head>
+  <body>
+    <!--
+      Dev page for the loading-screen comic panels (not part of the game build).
+      Open it on a dev server (npm run dev → /src/dev/loading-art.html) to preview every panel,
+      or run `node scripts/assets/render-loading-art.mjs` to write client/public/res/loading/*.webp.
+    -->
+    <main id="out"><p>Rendering…</p></main>
+    <script type="module" src="./loadingArt.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+{
+  "id": "pmc-PMC13517984-aortic-dissection-paraplegia",
+  "title": "Sudden paraplegia after a fleeting chest pain",
+  "category": "vascular",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC13517984",
+    "pmid": "42647948",
+    "doi": "10.5811/cpcem.61883",
+    "citation": "Nagarajan S, Ganessane E, Kowsthubha BG, Somasundaram A, Balamurugan N. A Diagnostic Pitfall in the Emergency Department -Aortic Dissection Masquerading as Acute Paraplegia: A Case Report. Clin Pract Cases Emerg Med. 2026;10(3):380-384.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13517984/"
+  },
+  "patient": { "age": 52, "sex": "M", "arrival": "transfer" },
+  "presentation": {
+    "chiefComplaint": "Sudden inability to move both legs",
+    "hpi": "Well until this morning, when he had a few minutes of central, non-radiating chest pain with sweating and palpitations that settled by itself; no dyspnea or syncope. Soon afterwards both legs began to tingle and go numb, progressing rapidly to complete paralysis with urinary incontinence. A nearby hospital obtained a lumbar spine CT 3–4 h after onset, which was unremarkable. With no diagnosis, he was transferred and arrives about 17 h after symptom onset.",
+    "pmh": ["Congenital blindness", "No known hypertension, diabetes mellitus or connective tissue disease"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"],
+    "social": "Lives with his wife and is independent in daily activities. Never smoked; drinks alcohol rarely; denies cocaine or other drug use."
+  },
+  "vitals": { "hr": 76, "sbp": 170, "dbp": 110, "rr": 20, "spo2": 98, "tempC": 37, "gcs": 15 },
+  "exam": [
+    "Alert and oriented; general physical examination otherwise unremarkable",
+    "Normal heart sounds without murmurs; respiratory and abdominal examinations normal",
+    "Flaccid paralysis of both legs: power 0/5, absent deep tendon reflexes, mute plantar responses",
+    "Loss of pain and temperature sensation below L1 with preserved vibration and proprioception",
+    "Cranial nerves and upper limbs normal",
+    "Peripheral pulses palpable and symmetric in all four limbs",
+    "Four-limb blood pressure (checked later): right arm 170/110, left arm 182/100, both legs 180/100 mm Hg",
+    "About 6 h after arrival, while under observation: new, worsening tachypnea"
+  ],
+  "investigations": [
+    { "name": "Arterial blood gas (6 h after arrival)", "value": "High anion gap metabolic acidosis with raised lactate" },
+    { "name": "pH (arterial)", "value": "7.24", "flag": "L", "augmented": true },
+    { "name": "PaCO2", "value": "26", "unit": "mm Hg", "flag": "L", "augmented": true },
+    { "name": "Bicarbonate", "value": "11", "unit": "mmol/L", "flag": "L", "augmented": true },
+    { "name": "Lactate", "value": "7.2", "unit": "mmol/L", "flag": "critical", "augmented": true },
+    { "name": "Anion gap", "value": "24", "unit": "mmol/L", "flag": "H", "augmented": true },
+    { "name": "Hemoglobin", "value": "12.9", "unit": "g/dL", "flag": "L" },
+    { "name": "Urea", "value": "40", "unit": "mg/dL" },
+    { "name": "Creatinine", "value": "1.9", "unit": "mg/dL", "flag": "H" },
+    { "name": "Sodium", "value": "137", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.6", "unit": "mmol/L", "augmented": true },
+    { "name": "Chloride", "value": "102", "unit": "mmol/L", "augmented": true },
+    { "name": "Glucose", "value": "126", "unit": "mg/dL", "augmented": true },
+    { "name": "White cell count", "value": "10.2", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Platelets", "value": "198", "unit": "x10⁹/L", "augmented": true }
+  ],
+  "imaging": [
+    { "modality": "CT lumbar spine (referring hospital)", "finding": "No acute abnormality" },
+    { "modality": "Chest radiograph", "finding": "Widened mediastinum" },
+    {
+      "modality": "Contrast CT chest and abdomen",
+      "finding": "Stanford type A dissection of the ascending aorta and arch with aneurysmal dilatation, extending into the descending thoracic aorta. Celiac, superior mesenteric and right renal arteries arise from the true lumen; the left renal artery arises from the false lumen (non-opacified left kidney). False lumen partly thrombosed; no active hemorrhage."
+    }
+  ],
+  "ecg": "Sinus rhythm 76/min, normal axis, no acute ST-segment or T-wave changes",
+  "diagnosis": {
+    "primary": "Acute Stanford type A aortic dissection with spinal cord ischemia (anterior spinal artery syndrome) and left renal malperfusion",
+    "icd10": "I71.010",
+    "differentials": [
+      "Anterior spinal artery infarction from another cause",
+      "Acute transverse myelitis",
+      "Spinal epidural abscess or hematoma",
+      "Guillain–Barré syndrome",
+      "Hypokalemic periodic paralysis"
+    ]
+  },
+  "management": [
+    "Urgent surgical repair recommended; the patient declined surgery and chose supportive medical care",
+    "Intravenous labetalol infusion for blood pressure control",
+    "Hemodialysis (several sessions) for progressive renal failure"
+  ],
+  "outcome": "Progressive renal failure from left renal artery ischemia with worsening metabolic acidosis; died of uremic complications 5 days after admission.",
+  "teachingPoints": [
+    "Aortic dissection can present with neurological deficits and little or no pain; consider it in any acute non-traumatic paraplegia.",
+    "Anterior spinal artery syndrome: paraplegia, areflexia and loss of pain and temperature sensation with preserved vibration and proprioception.",
+    "Symmetric pulses and limb pressures do not exclude dissection (pulse deficits are present in only a minority).",
+    "New lactic acidosis or rising creatinine in a 'neurological' patient suggests malperfusion; image the whole aorta.",
+    "Type A dissection needs emergency surgery; meanwhile beta-blockade first, then vasodilators, to cut aortic wall stress."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate next investigation?",
+      "extra": "6 h after arrival: new tachypnea. ABG pH 7.24, HCO3⁻ 11 mmol/L, anion gap 24, lactate 7.2 mmol/L. Chest radiograph: widened mediastinum.",
+      "options": [
+        "MRI of the thoracolumbar spine",
+        "CT angiography of the chest, abdomen and pelvis",
+        "Lumbar puncture with CSF analysis",
+        "Nerve conduction studies and EMG"
+      ],
+      "answer": 1,
+      "explanation": "Paraplegia that followed chest pain, plus new lactic acidosis and a widened mediastinum, makes an acute aortic syndrome likely; in a stable patient CT angiography of the whole aorta is the first-line test (ESC 2014 aortic disease guidelines; 2022 ACC/AHA aortic disease guideline). Spine MRI would delay the diagnosis that matters."
+    },
+    {
+      "kind": "interpretation",
+      "q": "The neurological findings are best explained by ischemia in which territory?",
+      "options": ["Anterior spinal artery", "Posterior spinal arteries", "Both anterior cerebral arteries", "Cauda equina nerve roots"],
+      "answer": 0,
+      "explanation": "The anterior spinal artery feeds the anterior two-thirds of the cord (corticospinal and spinothalamic tracts) and spares the dorsal columns, hence lost power and pain/temperature with preserved vibration and proprioception. Dissection can cut off the artery of Adamkiewicz, which usually arises from the aorta between T9 and L2."
+    },
+    {
+      "kind": "management",
+      "q": "While cardiothoracic surgery is called, which blood pressure strategy is most appropriate?",
+      "extra": "CT angiography: Stanford type A dissection from the ascending aorta to the descending thoracic aorta; left renal artery from the false lumen. BP 182/100 mm Hg, HR 80/min.",
+      "options": [
+        "IV nitroprusside alone, titrated quickly to an SBP below 120 mm Hg",
+        "IV hydralazine boluses every 20 minutes until SBP is below 140 mm Hg",
+        "IV esmolol or labetalol first, adding a vasodilator if SBP stays above 120 mm Hg",
+        "Oral amlodipine, with a repeat blood pressure in one hour"
+      ],
+      "answer": 2,
+      "explanation": "Anti-impulse therapy starts with an IV beta-blocker to lower heart rate and aortic wall shear stress; a vasodilator given alone causes reflex tachycardia. Usual targets are a heart rate around 60/min and SBP 100–120 mm Hg (ESC 2014 aortic disease guidelines; 2022 ACC/AHA aortic disease guideline)."
+    },
+    {
+      "kind": "management",
+      "q": "What is the definitive treatment of choice?",
+      "extra": "CT angiography: Stanford type A dissection from the ascending aorta to the descending thoracic aorta; left renal artery from the false lumen.",
+      "options": [
+        "Thoracic endovascular aortic repair (TEVAR) of the descending aorta",
+        "Medical therapy alone, since the false lumen is partly thrombosed",
+        "Delayed elective repair once renal function has recovered",
+        "Emergency open surgical repair of the ascending aorta and arch"
+      ],
+      "answer": 3,
+      "explanation": "Type A dissection is a surgical emergency (ESC 2014; 2022 ACC/AHA): untreated mortality rises by roughly 1–2% per hour early on and approaches 50% at 48 h. TEVAR is mainly for complicated type B dissection, and malperfusion is a reason for urgency, not delay."
+    }
+  ],
+  "evidence": [
+    { "field": "patient, presentation.chiefComplaint", "quote": "We report a 52-year-old male who presented with sudden-onset paraplegia." },
+    {
+      "field": "presentation.hpi",
+      "quote": "he developed an episode of central, nonradiating chest pain associated with diaphoresis and palpitations. The pain lasted for a few minutes and resolved spontaneously"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "he developed tingling and numbness in both lower limbs, which rapidly progressed to complete paralysis, accompanied by urinary incontinence"
+    },
+    {
+      "field": "presentation.hpi, imaging[0]",
+      "quote": "computed tomography of the lumbar spine was performed to evaluate for spinal pathology and showed no acute abnormality"
+    },
+    {
+      "field": "patient.arrival, presentation.hpi",
+      "quote": "he was referred to our tertiary care center, where he arrived approximately 17 hours after symptom onset"
+    },
+    { "field": "presentation.pmh[0]", "quote": "His medical history was notable only for congenital blindness." },
+    { "field": "presentation.pmh[1]", "quote": "There was no known history of hypertension, diabetes mellitus, or connective tissue disease." },
+    {
+      "field": "vitals.hr, vitals.rr, vitals.sbp, vitals.dbp",
+      "quote": "heart rate, 76 beats per minute; respiratory rate, 20 breaths per minute; blood pressure, 170/110 mm Hg"
+    },
+    { "field": "vitals.tempC, vitals.spo2", "quote": "temperature; 37 °C; and oxygen saturation, 98% on room air" },
+    { "field": "exam[0]", "quote": "the patient was alert and oriented … The general physical examination was unremarkable." },
+    {
+      "field": "exam[1]",
+      "quote": "Cardiovascular examination demonstrated normal heart sounds without murmurs. Respiratory and abdominal examinations were normal."
+    },
+    { "field": "exam[2]", "quote": "paralysis of both lower limbs with motor strength 0/5, absent deep tendon reflexes, and mute plantar responses" },
+    {
+      "field": "exam[3], diagnosis.primary",
+      "quote": "loss of pain and temperature sensation below the first lumbar dermatome with preserved vibration and proprioception, consistent with anterior spinal artery syndrome"
+    },
+    { "field": "exam[4]", "quote": "Cranial nerve and upper limb examinations were normal." },
+    { "field": "exam[5]", "quote": "Peripheral pulses were palpable and symmetric in all four extremities." },
+    { "field": "exam[6]", "quote": "170/110 mm Hg in the right upper limb, 182/100 mm Hg in the left upper limb, and 180/100 mm Hg in both lower limbs" },
+    { "field": "exam[7]", "quote": "Approximately six hours after arrival, while he was under observation in the ED, he developed worsening tachypnea" },
+    { "field": "investigations[0]", "quote": "The arterial blood gas analysis revealed a high anion gap metabolic acidosis with elevated lactate levels" },
+    {
+      "field": "investigations[Hemoglobin], investigations[Urea], investigations[Creatinine]",
+      "quote": "hemoglobin,12.9 g/dL (reference range, 13.1–17.2 g/dL); urea, 40 mg/dL (17–43 mg/dL); and creatinine, 1.9 mg/dL (0.6–1.17 mg/dL)"
+    },
+    { "field": "imaging[1]", "quote": "A chest radiograph demonstrated a widened mediastinum" },
+    {
+      "field": "imaging[2], diagnosis.primary",
+      "quote": "a Stanford type A aortic dissection involving the ascending aorta and aortic arch, associated with aneurysmal dilatation, with extension into the descending thoracic aorta"
+    },
+    { "field": "imaging[2]", "quote": "The right renal artery originated from the true lumen, while the left renal artery arose from the false lumen." },
+    { "field": "imaging[2]", "quote": "Partial thrombosis of the false lumen was noted, without evidence of active hemorrhage" },
+    {
+      "field": "management[0]",
+      "quote": "counseled regarding the need for urgent surgical repair, but he declined operative intervention and opted for supportive medical management"
+    },
+    { "field": "management[1]", "quote": "Blood pressure was controlled with an intravenous labetalol infusion." },
+    {
+      "field": "outcome, diagnosis.primary",
+      "quote": "the patient developed progressive renal failure secondary to left renal artery ischemia and worsening metabolic acidosis"
+    },
+    {
+      "field": "management[2], outcome",
+      "quote": "He underwent multiple sessions of hemodialysis but continued to deteriorate and subsequently succumbed five days after admission due to uremic complications."
+    }
+  ],
+  "augmented": [
+    "vitals.gcs: GCS 15 inferred from 'alert and oriented'",
+    "presentation.meds: none reported; consistent with no known chronic illness",
+    "presentation.allergies: not reported",
+    "presentation.social: not reported",
+    "ecg: not reported; a non-ischemic tracing was added"
+  ]
+}

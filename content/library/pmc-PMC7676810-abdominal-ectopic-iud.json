@@ -1,0 +1,217 @@
+{
+  "id": "pmc-PMC7676810-abdominal-ectopic-iud",
+  "title": "Fainting on the toilet three days after a visit for constipation",
+  "category": "obstetrics",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC7676810",
+    "pmid": "33217272",
+    "doi": "10.5811/cpcem.2020.7.48258",
+    "citation": "Jones DD, Kummer T, Schoen JC. Ruptured Ectopic Pregnancy with an Intrauterine Device: Case Report and Sonographic Considerations. Clin Pract Cases Emerg Med. 2020;4(4):559-563.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7676810/"
+  },
+  "patient": { "age": 21, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Fainted on the toilet; abdominal pain",
+    "hpi": "Three days ago she was seen at an urgent care clinic for constipation and sent home with lactulose. The next day she developed abdominal cramps and several near-fainting spells. Today, after a dose of lactulose, she had sudden diarrhea with worsening abdominal pain and briefly lost consciousness while seated on the toilet, without injury. Her last menstrual period was about a month ago, and she has a levonorgestrel intrauterine device for contraception. No fever, vomiting or vaginal bleeding.",
+    "pmh": ["Previously healthy"],
+    "meds": ["Lactulose (prescribed 3 days ago at urgent care)", "Levonorgestrel-releasing intrauterine device"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 84, "sbp": 78, "dbp": 64, "rr": 18, "spo2": 100, "tempC": 36.5, "gcs": 15 },
+  "exam": [
+    "Awake, alert and in no distress",
+    "Abdomen soft and mildly distended with diffuse tenderness; no guarding",
+    "After a 1 L normal saline bolus: blood pressure 101/55 mm Hg"
+  ],
+  "investigations": [
+    { "name": "Hemoglobin", "value": "7.9", "unit": "g/dL", "flag": "L" },
+    { "name": "Hematocrit", "value": "23.4", "unit": "%", "flag": "L" },
+    { "name": "Urine pregnancy test", "value": "Positive" },
+    { "name": "Electrolytes, glucose and lactate", "value": "Unremarkable" },
+    { "name": "Sodium", "value": "138", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "3.9", "unit": "mmol/L", "augmented": true },
+    { "name": "Glucose", "value": "92", "unit": "mg/dL", "augmented": true },
+    { "name": "Lactate", "value": "1.4", "unit": "mmol/L", "augmented": true },
+    { "name": "White cell count", "value": "9.6", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Platelets", "value": "246", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Hemoglobin (repeat, before transfer)", "value": "6.2", "unit": "g/dL", "flag": "critical" }
+  ],
+  "imaging": [
+    { "modality": "Point-of-care ultrasound, right upper quadrant", "finding": "Free fluid in the hepatorenal recess (Morison's pouch)" },
+    {
+      "modality": "Point-of-care transabdominal pelvic ultrasound",
+      "finding": "IUD within the uterus; no intrauterine pregnancy; free fluid behind the uterus"
+    },
+    {
+      "modality": "Transvaginal ultrasound (obstetrics)",
+      "finding": "10-cm heterogeneous mass posterior to the uterus, moderate free pelvic fluid, no intrauterine pregnancy and no adnexal abnormality; IUD well positioned in the endometrial canal"
+    }
+  ],
+  "ecg": "Sinus rhythm 84/min, normal intervals, no pre-excitation or ischemic changes",
+  "diagnosis": {
+    "primary": "Ruptured abdominal ectopic pregnancy (posterior cul-de-sac) with hemoperitoneum, despite a well-positioned levonorgestrel IUD",
+    "icd10": "O00.00",
+    "differentials": [
+      "Ruptured tubal ectopic pregnancy",
+      "Ruptured hemorrhagic corpus luteum cyst",
+      "Splenic rupture or other intra-abdominal bleeding",
+      "Hemorrhagic pelvic neoplasm (retro-uterine mass)",
+      "Vasovagal syncope with gastroenteritis"
+    ]
+  },
+  "management": [
+    "Cardiac monitoring, peripheral IV access and a 1 L normal saline bolus (BP 78/64 to 101/55 mm Hg)",
+    "Bedside ultrasound (right upper quadrant and transabdominal pelvic) while the urine pregnancy test was pending",
+    "On-call obstetrician consulted in the ED; formal transvaginal ultrasound",
+    "Because the retro-uterine mass raised concern for other pathology such as malignancy, transfer to a tertiary center by air ambulance; repeat hemoglobin 6.2 g/dL, transfusion of 1 unit of packed red cells started",
+    "Referral ED: BP 119/54 mm Hg, HR 82/min; emergency operation found extensive hemoperitoneum and organized clot behind the uterus, and an abdominal implantation site in the posterior cul-de-sac (medial to the left uterosacral ligament) that was excised and confirmed by pathology",
+    "Intramuscular methotrexate because of the abdominal implantation site, with hCG followed to negative"
+  ],
+  "outcome": "Uncomplicated recovery: discharged the same day as surgery; after methotrexate, hCG was negative about 4 weeks later.",
+  "teachingPoints": [
+    "Test for pregnancy in every woman of reproductive age with syncope or abdominal pain, even with highly effective contraception: when an IUD fails, the pregnancy is disproportionately likely to be extrauterine.",
+    "Tachycardia is often absent in a ruptured ectopic pregnancy; hemoperitoneum can cause a relative bradycardia, so a normal heart rate does not exclude major bleeding.",
+    "In suspected ectopic pregnancy, an empty uterus plus free fluid in Morison's pouch on bedside ultrasound is highly specific for rupture and predicts the need for surgery.",
+    "IUD-associated ectopic pregnancies implant more often at distal sites (ovary, abdomen); normal adnexa on transvaginal ultrasound do not exclude an extrauterine pregnancy.",
+    "Hemodynamic instability or hemoperitoneum means surgery, not methotrexate, and confirmatory imaging or transfer should not delay it."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "While the urine pregnancy test is pending, what is the most useful immediate bedside investigation?",
+      "options": [
+        "Point-of-care ultrasound for free intraperitoneal fluid",
+        "CT of the abdomen and pelvis with intravenous contrast",
+        "Plain abdominal radiograph for stool burden or obstruction",
+        "Serum quantitative β-hCG before deciding on ultrasound"
+      ],
+      "answer": 0,
+      "explanation": "Syncope, abdominal pain and hypotension in a woman of reproductive age suggest hemoperitoneum, and bedside ultrasound can show free fluid within minutes during resuscitation. The β-hCG level should not decide whether a symptomatic patient is scanned (ACEP 2017 clinical policy on early pregnancy), and CT takes an unstable patient out of the resuscitation bay."
+    },
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "extra": "Urine pregnancy test positive. Hemoglobin 7.9 g/dL. Bedside ultrasound: free fluid in Morison's pouch; IUD in the uterus; no intrauterine pregnancy.",
+      "options": [
+        "Ruptured hemorrhagic corpus luteum cyst",
+        "Ruptured ectopic pregnancy with hemoperitoneum",
+        "Uterine perforation by the IUD with bleeding",
+        "Splenic rupture with intraperitoneal bleeding"
+      ],
+      "answer": 1,
+      "explanation": "A positive pregnancy test, an empty uterus and free fluid in Morison's pouch is a ruptured ectopic pregnancy until proven otherwise, and the combination predicts the need for surgery. A pregnancy that occurs with an IUD in place is much more likely than usual to be extrauterine, even when the IUD is correctly positioned."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate definitive management?",
+      "extra": "Transvaginal ultrasound: 10-cm heterogeneous mass behind the uterus, moderate free pelvic fluid, normal adnexa, no intrauterine pregnancy. Repeat hemoglobin 6.2 g/dL; BP 101/55 mm Hg after 1 L of saline.",
+      "options": [
+        "Single-dose intramuscular methotrexate with hCG on days 4 and 7",
+        "Expectant management with serial hemoglobin and hCG levels",
+        "MRI of the pelvis to characterize the mass before intervening",
+        "Blood transfusion and emergency laparoscopy or laparotomy"
+      ],
+      "answer": 3,
+      "explanation": "Hemoperitoneum with a falling hemoglobin needs blood and an operation; ruptured ectopic pregnancy and hemodynamic instability are contraindications to methotrexate (ACOG Practice Bulletin 193). Normal adnexa do not exclude an abdominal implantation, which IUD-associated pregnancies favor, and more imaging only delays surgery."
+    },
+    {
+      "kind": "interpretation",
+      "q": "How should her heart rate of 84/min be interpreted alongside a blood pressure of 78/64 mm Hg?",
+      "options": [
+        "It argues against bleeding and favors a cardiac cause of syncope",
+        "A normal heart rate does not exclude major intraperitoneal bleeding",
+        "It means the hypotension is probably a cuff artifact to recheck later",
+        "It suggests hormonal blunting of the stress response by the IUD"
+      ],
+      "answer": 1,
+      "explanation": "Many patients with a ruptured ectopic pregnancy are not tachycardic; blood in the peritoneum can cause a vagally mediated relative bradycardia, and in one cited study only 12% presented with both tachycardia and hypotension. Hypotension with syncope in early pregnancy should be treated as hemorrhage."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.pmh[0]",
+      "quote": "A healthy 21-year-old female presented to the local community ED for evaluation of syncope and abdominal pain."
+    },
+    {
+      "field": "presentation.hpi, presentation.meds[0]",
+      "quote": "She had been evaluated at the local urgent care three days prior, complaining of constipation and was discharged with a prescription for lactulose."
+    },
+    { "field": "presentation.hpi", "quote": "The following day she developed abdominal cramping and several near-syncopal spells." },
+    {
+      "field": "presentation.hpi",
+      "quote": "developed sudden onset diarrhea and worsening abdominal pain. While seated on the toilet, she suffered a brief syncopal episode without associated trauma."
+    },
+    {
+      "field": "presentation.hpi, presentation.meds[1]",
+      "quote": "her last menstrual period was one month prior and that she had a levonorgestrel IUD in place for contraception"
+    },
+    { "field": "presentation.hpi", "quote": "She reported no fever, vomiting, or vaginal bleeding." },
+    { "field": "exam[0]", "quote": "On arrival in the ED, the patient was awake, alert, and in no distress." },
+    {
+      "field": "vitals.tempC, vitals.hr, vitals.sbp, vitals.dbp",
+      "quote": "temperature of 36.5º Celsius, heart rate of 84 beats per minute, blood pressure of 78/64 millimeters of mercury"
+    },
+    { "field": "vitals.rr, vitals.spo2", "quote": "respiratory rate of 18 breaths per minute, and oxygen saturation of 100% on room air" },
+    { "field": "exam[1]", "quote": "her abdomen was soft and mildly distended with diffuse tenderness to palpation; she had no guarding" },
+    { "field": "management[0]", "quote": "The patient was maintained on a cardiac monitor, and a peripheral intravenous line was established." },
+    { "field": "exam[2], management[0]", "quote": "She was resuscitated with one liter normal saline bolus and her blood pressure improved to 101/55 mm Hg." },
+    {
+      "field": "investigations[Hemoglobin], investigations[Hematocrit]",
+      "quote": "hemoglobin 7.9 grams (g) per deciliter (dL) (reference [ref] range: 12.0–15.5 g/dL) and hematocrit 23.4%"
+    },
+    { "field": "investigations[3]", "quote": "Her electrolytes, blood glucose, and lactate were unremarkable." },
+    {
+      "field": "imaging[0], management[1]",
+      "quote": "POCUS was notable for free fluid in the hepatorenal recess (Morison’s pouch) in the right upper quadrant"
+    },
+    {
+      "field": "imaging[1], management[1]",
+      "quote": "Transabdominal point-of-care pelvic ultrasound demonstrated an IUD, but no visible intrauterine pregnancy (IUP)"
+    },
+    {
+      "field": "imaging[1]",
+      "quote": "an intrauterine device within the uterus (arrow), no evidence of intrauterine pregnancy, and free fluid posterior to the uterus"
+    },
+    { "field": "investigations[Urine pregnancy test]", "quote": "Subsequently, the urine pregnancy test result returned and was positive." },
+    {
+      "field": "management[2]",
+      "quote": "The obstetric physician on-call was consulted, evaluated the patient in the ED, reviewed the POCUS images, and requested comprehensive transvaginal (TV) ultrasound"
+    },
+    {
+      "field": "imaging[2]",
+      "quote": "This demonstrated a 10-centimeter heterogeneous mass posterior to the uterus, moderate free fluid in the pelvis, and no evidence of intrauterine pregnancy (IUP) or adnexal abnormality."
+    },
+    { "field": "imaging[2]", "quote": "The IUD was noted to be in good position in the endometrial canal." },
+    {
+      "field": "management[3]",
+      "quote": "raised concern for alternate pathology (such as malignancy) … the decision was made to transfer the patient to the regional tertiary care center"
+    },
+    {
+      "field": "investigations[10], management[3]",
+      "quote": "Repeat hemoglobin was 6.2 g/dL (ref range: 12.0–15.5 g/dL). Transfusion with one unit of packed red blood cells was initiated, and she was transferred via air ambulance."
+    },
+    {
+      "field": "management[4]",
+      "quote": "On arrival to the referral ED, she was hemodynamically stable with a blood pressure of 119/54 mm Hg and a heart rate of 82 beats per minute."
+    },
+    { "field": "management[4], diagnosis.primary", "quote": "She was noted to have extensive hemoperitoneum and organized clot posterior to the uterus." },
+    {
+      "field": "management[4], diagnosis.primary",
+      "quote": "the site of the ectopic pregnancy appeared to be abdominal in the posterior cul de sac medial to the left uterosacral ligament and lateral to the rectum"
+    },
+    { "field": "management[4]", "quote": "This was excised and later confirmed by pathology." },
+    { "field": "diagnosis.primary", "quote": "We present a rare case of ruptured abdominal ectopic pregnancy in a patient with a well-positioned IUD." },
+    { "field": "outcome", "quote": "The patient tolerated the procedure well and was discharged later that day." },
+    {
+      "field": "management[5], outcome",
+      "quote": "she was treated with intramuscular methotrexate and followed until beta human gonadotropin (hCG) levels were negative approximately four weeks later"
+    }
+  ],
+  "augmented": [
+    "vitals.gcs: GCS 15 inferred from 'awake, alert, and in no distress'",
+    "presentation.allergies: not reported",
+    "ecg: not reported; a normal tracing was added"
+  ]
+}

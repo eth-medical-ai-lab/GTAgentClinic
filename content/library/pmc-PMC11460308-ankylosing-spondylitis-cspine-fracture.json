@@ -1,0 +1,197 @@
+{
+  "id": "pmc-PMC11460308-ankylosing-spondylitis-cspine-fracture",
+  "title": "Left-sided weakness after a fall from standing",
+  "category": "trauma",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC11460308",
+    "pmid": "39381463",
+    "doi": "10.7759/cureus.68931",
+    "citation": "Baldwin ML, Shufflebarger EF, Pacheco ZS. Chalk-Stick Fracture in Ankylosing Spondylitis: A Case Report of Cervical Spine Injury Following Minor Trauma. Cureus. 2024;16(9):e68931.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11460308/"
+  },
+  "patient": { "age": 74, "sex": "M", "arrival": "ems" },
+  "presentation": {
+    "chiefComplaint": "Sudden left-sided weakness and neck pain after a fall from standing",
+    "hpi": "Known ankylosing spondylitis and a stable left cerebellopontine angle meningioma. He fell from standing and hit his head, without loss of consciousness, and then developed abrupt left-sided weakness and neck pain; he can no longer stand or walk on his own. He denies numbness, tingling and bowel or bladder incontinence. Paramedics called a prehospital stroke alert, and he arrives in a cervical collar.",
+    "pmh": ["Ankylosing spondylitis", "Stable left cerebellopontine angle meningioma", "Profound hearing loss"],
+    "meds": ["Medication history not reported"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 110, "sbp": 167, "dbp": 104, "rr": 18, "spo2": 95, "tempC": 36.7, "gcs": 15 },
+  "exam": [
+    "Alert and oriented; severe neck pain",
+    "Cervical collar in place; midline cervical tenderness without step-off, deformity, abrasion or laceration",
+    "Pupils equal and reactive, eye movements full, face symmetric, speech clear",
+    "Power 2/5 in the left arm and leg, 4/5 on the right",
+    "Hoffmann sign positive; Babinski upgoing bilaterally; reflexes 2+ and symmetric",
+    "Baseline profound hearing loss limits coordination and pronator drift testing"
+  ],
+  "investigations": [
+    { "name": "Glucose", "value": "123", "unit": "mg/dL" },
+    { "name": "Creatine kinase", "value": "291", "unit": "U/L", "flag": "H" },
+    { "name": "White cell count", "value": "21.54", "unit": "x10³/µL", "flag": "H" },
+    { "name": "Neutrophils", "value": "91", "unit": "%", "flag": "H" },
+    { "name": "Prothrombin time", "value": "14.7", "unit": "s", "flag": "H" },
+    { "name": "INR", "value": "1.16", "flag": "H" },
+    { "name": "PTT", "value": "28", "unit": "s" },
+    { "name": "Anti-Xa level", "value": "<0.1", "unit": "IU/mL" }
+  ],
+  "imaging": [
+    {
+      "modality": "Non-contrast CT, CT angiography and CT perfusion of head and neck (stroke alert)",
+      "finding": "Known cerebellopontine angle meningioma; no acute infarct or penumbra"
+    },
+    {
+      "modality": "CT cervical spine",
+      "finding": "Ankylosed spine with a fracture through the C6–C7 disc involving the C7 superior endplate and posteroinferior C6; 75% anterolisthesis of C6 on C7; posterior epidural haematoma"
+    },
+    {
+      "modality": "MRI cervical spine",
+      "finding": "Chalk-stick fracture through C5–C7 with grade 2 traumatic anterolisthesis of C6 on C7; epidural haemorrhage extending from C5 into the thoracic spine"
+    }
+  ],
+  "diagnosis": {
+    "primary": "Unstable C5–C7 chalk-stick fracture in ankylosing spondylitis with traumatic C6–C7 anterolisthesis, spinal epidural haematoma and cervical cord injury, after a fall from standing",
+    "icd10": "S12.500A / S12.600A / M45.9",
+    "differentials": [
+      "Acute ischaemic stroke",
+      "Traumatic intracranial haemorrhage",
+      "Central cord syndrome from hyperextension on a stenotic spine",
+      "Todd paresis after an unwitnessed seizure",
+      "Haemorrhage into the known meningioma"
+    ]
+  },
+  "management": [
+    "Prehospital stroke alert: non-contrast CT, CT angiography and CT perfusion",
+    "CT cervical spine; orthopaedic and trauma surgery consulted",
+    "MRI cervical spine",
+    "Posterior cervical decompression and fusion C3–T3, completed over two days because of intraoperative haemodynamic instability",
+    "Intubated in the trauma and burn ICU; extubated 3 days later",
+    "Oropharyngeal dysphagia: Dobhoff feeding tube, then percutaneous endoscopic gastrostomy"
+  ],
+  "outcome": "Discharged home 2 months after the injury, after a month of inpatient rehabilitation, with persistent left-sided weakness and PEG feeding; weakness improving at follow-up one month later.",
+  "teachingPoints": [
+    "In ankylosing spondylitis the fused, osteoporotic spine breaks like a long bone: low-energy falls cause transverse, three-column (chalk-stick) fractures, most often at C6–C7, that are usually unstable.",
+    "NEXUS and the Canadian C-spine rule do not address or explicitly exclude ankylosing spondylitis: image every such patient with neck pain after trauma by CT, with a low threshold for MRI.",
+    "New neurological deficit after a fall in AS means spinal cord injury or epidural haematoma until proven otherwise, even when a stroke alert has been called; bilateral upper motor neuron signs with neck pain localise to the cervical cord.",
+    "Immobilise in the pre-injury (often kyphotic) alignment; forcing the neck straight into a standard collar can displace the fracture.",
+    "Instability, epidural haematoma or a deteriorating examination need urgent spinal surgery; haematomas can also appear hours after injury."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely cause of his weakness?",
+      "extra": "Non-contrast CT, CT angiography and CT perfusion of the head: known meningioma; no acute infarct or penumbra.",
+      "options": [
+        "Right middle cerebral artery stroke not yet visible on CT",
+        "Unstable cervical spine fracture with cord compression",
+        "Todd paresis after an unwitnessed seizure causing the fall",
+        "Acute haemorrhage into the cerebellopontine angle meningioma"
+      ],
+      "answer": 1,
+      "explanation": "Severe midline neck pain after a fall, weakness on both sides (left 2/5, right 4/5) and bilateral upper motor neuron signs (Hoffmann, Babinski) localise to the cervical cord, not one hemisphere. In ankylosing spondylitis the rigid, osteoporotic spine fractures after low-energy falls, so a negative stroke work-up should prompt cervical spine imaging."
+    },
+    {
+      "kind": "next-step",
+      "q": "Which cervical spine imaging strategy is most appropriate?",
+      "options": [
+        "Three-view radiographs first, with CT only if they are abnormal",
+        "No imaging if he passes the Canadian C-spine rule once calm",
+        "CT of the cervical spine, plus MRI for the cord and canal",
+        "Flexion–extension radiographs to look for instability"
+      ],
+      "answer": 2,
+      "explanation": "NEXUS and the Canadian C-spine rule do not address or explicitly exclude ankylosing spondylitis, so these patients need CT after any trauma; MRI then shows cord compression, ligamentous injury and epidural haematoma (here from C5 into the thoracic spine). Radiographs miss fractures through the fused, osteopenic spine, and flexion–extension views are dangerous."
+    },
+    {
+      "kind": "management",
+      "q": "While awaiting surgery, how should his neck be immobilised?",
+      "extra": "CT cervical spine: fracture through the C6–C7 disc with 75% anterolisthesis of C6 on C7 and a posterior epidural haematoma.",
+      "options": [
+        "In his pre-injury alignment with padding, without forcing it straight",
+        "In a rigid collar after bringing the neck into neutral alignment",
+        "With cervical traction weights applied in the emergency department",
+        "Not at all, because a fused spine remains inherently stable"
+      ],
+      "answer": 0,
+      "explanation": "The ankylosed cervical spine is usually kyphotic; straightening it into a standard collar can displace the fracture and worsen cord injury. Immobilise in the patient's pre-injury posture with padding and blocks, and involve spinal surgery early: instability and epidural haematoma required decompression and C3–T3 fusion here."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.hpi, presentation.pmh[0], presentation.pmh[1]",
+      "quote": "A 74-year-old male with a history of AS and stable left cerebellopontine angle meningioma"
+    },
+    { "field": "presentation.chiefComplaint, presentation.hpi", "quote": "abrupt left-sided weakness and neck pain following a fall from standing" },
+    { "field": "presentation.hpi", "quote": "He had new difficulty ambulating due to this weakness and was unable to stand or walk on his own." },
+    {
+      "field": "presentation.hpi",
+      "quote": "The patient endorsed hitting his head but denied loss of consciousness. He also denied numbness, tingling, bowel incontinence, or bladder incontinence."
+    },
+    { "field": "exam[0]", "quote": "the patient was alert and oriented but reported severe neck pain" },
+    {
+      "field": "vitals.hr, vitals.sbp, vitals.dbp, vitals.rr",
+      "quote": "heart rate of 110 beats per minute and blood pressure of 167/104 mm/Hg. His respiratory rate was 18 respirations per minute"
+    },
+    { "field": "vitals.spo2, vitals.gcs", "quote": "his oxygen saturation on pulse oximetry was 95% on room air. He had a Glasgow Coma Scale score of 15." },
+    {
+      "field": "exam[1], presentation.hpi, patient.arrival",
+      "quote": "A cervical collar was in place on arrival, and the patient had tenderness to palpation over the cervical spine without any appreciable step-offs, deformities, abrasions, or lacerations."
+    },
+    {
+      "field": "exam[2]",
+      "quote": "pupils were equally round and reactive, external ocular movements intact, and gaze conjugate. His face was symmetric with intact strength and sensation, and his speech was clear"
+    },
+    { "field": "exam[3]", "quote": "His strength was 2/5 in the left upper and lower extremities and 4/5 on the right." },
+    { "field": "exam[4]", "quote": "Hoffman’s sign was positive, and he had upgoing Babinski’s bilaterally. Reflexes were 2+ and symmetric throughout." },
+    {
+      "field": "exam[5], presentation.pmh[2]",
+      "quote": "He had profound hearing loss at baseline that limited evaluation of coordination and pronator drift commands."
+    },
+    {
+      "field": "patient.arrival, presentation.hpi, management[0]",
+      "quote": "A stroke alert was initiated pre-hospital, and the patient received non-contrasted computed tomography (CT) imaging, as well as CT angiography and CT perfusion scans"
+    },
+    { "field": "imaging[0]", "quote": "These studies showed his known cerebellopontine angle mass without signs of acute cerebral infarct or penumbra." },
+    { "field": "imaging[1], management[1]", "quote": "revealed ankylosis of the spine, as well as a fracture through the C6-C7 disc" },
+    { "field": "imaging[1]", "quote": "with involvement of the superior endplate of the C7 vertebra and right posterior inferior aspect of the C6 vertebra" },
+    { "field": "imaging[1], diagnosis.primary", "quote": "There was also 75% anterolisthesis of C6 on C7 and a posterior epidural hematoma." },
+    { "field": "management[1]", "quote": "Given these findings, orthopedic surgery and trauma surgery services were consulted." },
+    {
+      "field": "imaging[2], management[2], diagnosis.primary",
+      "quote": "confirmed a chalk-stick fracture of C5, C6, and C7 vertebrae with grade 2 traumatic anterolisthesis of C6 on C7"
+    },
+    { "field": "imaging[2]", "quote": "an epidural hemorrhage extending from C5 to the thoracic spine was again visualized" },
+    {
+      "field": "diagnosis.primary",
+      "quote": "magnetic resonance imaging (MRI) of his cervical spine revealed a chalk-stick fracture of C5-C7, which required surgical intervention"
+    },
+    {
+      "field": "investigations[0], investigations[1], investigations[2], investigations[3]",
+      "quote": "mild hyperglycemia (123 mg/dL), elevated creatine kinase (291 units/L), and leukocytosis (21.54 x 10³ WBC with 91% neutrophils)"
+    },
+    {
+      "field": "investigations[4], investigations[5]",
+      "quote": "Prothrombin time (PT) was slightly elevated at 14.7 seconds. The international normalized ratio (INR) was 1.16"
+    },
+    { "field": "investigations[6], investigations[7]", "quote": "partial thromboplastin time (PTT) was 28 seconds, and anti-Xa levels were less than 0.1" },
+    {
+      "field": "management[3]",
+      "quote": "The patient underwent posterior cervical decompression and fusion of C3-T3. The surgical case was completed over the course of two days due to hemodynamic instability during the procedure."
+    },
+    {
+      "field": "management[4]",
+      "quote": "Postoperatively, he remained intubated in the trauma and burn intensive care unit and was successfully extubated three days later."
+    },
+    {
+      "field": "management[5]",
+      "quote": "Due to oropharyngeal dysphagia, he required the placement of a Dobhoff tube and later a percutaneous endoscopic gastrostomy (PEG) tube."
+    },
+    { "field": "outcome", "quote": "Two months after the injury, the patient was discharged home after a one-month stay in inpatient rehabilitation." },
+    { "field": "outcome", "quote": "At discharge, he continued to have left-sided weakness and required PEG tube feeding." },
+    { "field": "outcome", "quote": "the patient had improvement in his left-sided weakness at his outpatient follow-up one month later" }
+  ],
+  "augmented": ["vitals.tempC: not reported", "presentation.meds: not reported", "presentation.allergies: not reported"]
+}

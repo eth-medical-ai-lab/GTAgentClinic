@@ -1,0 +1,36 @@
+// Additional patient-voiced history, paraphrased from each linked library record's presentation.
+// Keep tests, diagnoses and the reported outcome out of the interview.
+import type { History } from './brief';
+
+export const reportHistory: Record<string, History> = {
+  PMC10332752: ['Duration and character',['start','when','time','character'],'The head pain has been sharp and constant for a week. The tiredness came a few days later.'],
+  PMC10630999: ['Prodrome before collapsing',['before','warning','feel','remember'],'I had a mild headache and felt dizzy just before I blacked out. I did not have chest pain or palpitations.'],
+  PMC10966501: ['Recurrent similar episodes',['before','prior','hospital','episode'],'I have been to other hospitals for this sore throat a few times this year. At one visit they suggested taking my tonsils out.'],
+  PMC11259184: ['Progression over days',['when','time','worse','long'],'It was three days ago that I got sick after eating seafood. I have felt weaker and shorter of breath each day.'],
+  PMC11345038: ['Brief recurrent episodes',['how long','duration','month','often'],'A few minutes at a time, sometimes several times a day, on and off for months.'],
+  PMC11460308: ['Baseline mobility changed',['walk','stand','baseline','before'],'I could stand before the fall. Now I cannot walk or stand without help.'],
+  PMC11661250: ['Vision and balance',['eyes','double','blur','balance'],'Everything looks blurry when I try to focus. I have to hold on to walk.'],
+  PMC12315597: ['Circumstances of second syncope',['second','again','stairs','position'],'The second time I was standing at the top of a staircase. I did not feel my heart racing.'],
+  PMC12333903: ['Timing and associated symptoms',['rash','chills','symptom','sick'],'The fever, vomiting and the rash all came on in the same day. I was well before this.'],
+  PMC12447112: ['Distribution of weakness',['face','which side','weakness','arm'],'My right arm and leg are weak. My face feels the same as usual.'],
+  PMC12661095: ['Associated symptoms',['vomit','stool','diarr','urine'],'I vomited once. No diarrhea, constipation or pain when I pass water.'],
+  PMC12727365: ['Character and associated symptoms',['where','feel','urine','vomit'],'The pain feels dull and low. I am queasy but have had no trouble passing urine.'],
+  PMC12930116: ['New progressive headache',['before','time','headache','vision'],'I have never had headaches like this. It has built up over five days, with spells of blurry vision.'],
+  PMC13062474: ['Response to home oxygen',['oxygen','saturation','reading','fever'],'The numbers on my home oximeter stay in the eighties even with oxygen. I have not had a fever or cough.'],
+  PMC13193562: ['Symptoms when arriving',['now','current','better','severity'],'Earlier the pain was seven out of ten. Now it is only about one.'],
+  PMC13231831: ['Progression after initial visit',['after','spread','mouth','worse'],'At first my skin was just red. They gave me steroid tablets, but now the skin peels and my mouth hurts.'],
+  PMC13242071: ['Pattern of visual symptoms',['blur','vision','light','neurolog'],'My sight is blurred and I cannot bear the light. I do not have a stiff neck.'],
+  PMC13397960: ['Repeated visits and recent infection',['before','throat','visit','infect'],'This is my third visit. The first time I had strep throat and mild back pain and took the antibiotics.'],
+  PMC13517984: ['Evolution of sensory deficit',['numb','bladder','urine','tingle'],'First both legs tingled, then they went numb and stopped moving. I lost control of my bladder.'],
+  PMC13539018: ['Other possible exposures',['food','alcohol','exercise','ill','other'],'No unusual food or drink, no illness or exercise. This was the only new medicine.'],
+  PMC13600141: ['Previous attacks and bowel symptoms',['before','similar','stool','diarr'],'I have never had this before. My bowels are the same and I have not had diarrhea.'],
+  PMC5965426: ['Associated symptoms',['nausea','vomit','appetite','eat'],'I keep being sick and nothing appeals to me to eat.'],
+  PMC6075496: ['Comparison with past headaches',['migraine','usual','prior','worse'],'I have migraines, but this one is different. I felt dizzy and unsteady and moving made the pain worse.'],
+  PMC6304635: ['Previous care',['swab','medicine','clinic','treat'],'My throat swab was negative. When I went back, they gave me a flu medicine.'],
+  PMC7434240: ['Pain characteristics',['where','lean','breath','radiat'],'In the middle of the chest. It does not spread, but breathing in or leaning forward makes it hurt.'],
+  PMC7676810: ['Preceding urgent-care visit',['before','laxative','stool','clinic'],'I went to urgent care for constipation three days ago. They gave me lactulose, then cramps and near-faints started.'],
+  PMC8311984: ['Temporal relationship',['time','when','before','start'],'The headache felt like my usual migraine. The twitching started shortly after my first sumatriptan tablet.'],
+  PMC8885234: ['Urinary changes',['urine','pee','burn','bladder'],'I feel like I need to go, but I cannot empty my bladder and it burns.'],
+  PMC9197740: ['Progression of dizziness',['time','before','headache','vision'],'The dizziness worsened for two weeks. The headache and neck pain started about four days ago.'],
+  PMC9197752: ['Abrupt onset with bowel symptoms',['start','when','stool','bowel'],'It started suddenly about three and a half hours ago. I needed to open my bowels, then had diarrhea.'],
+};

@@ -1,0 +1,199 @@
+{
+  "id": "pmc-PMC13600141-left-sided-appendicitis-nonrotation",
+  "title": "Two days of left iliac fossa pain, vomiting and a fever",
+  "category": "gastroenterology",
+  "acuity": 3,
+  "source": {
+    "pmcid": "PMC13600141",
+    "pmid": "42781106",
+    "doi": "10.7759/cureus.115045",
+    "citation": "Mulupuru S, Srinivasan S, Paul A, Yarlagadda LC. Appendicitis on the Wrong Side: A Case of Left-Sided Acute Appendicitis With Intestinal Nonrotation. Cureus. 2026;18(8):e115045.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13600141/"
+  },
+  "patient": { "age": 53, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Left-sided abdominal pain for two days",
+    "hpi": "Two days of sharp pain localized to the left iliac fossa, rated 7/10, with occasional vomiting and a single episode of fever. No diarrhea and no other gastrointestinal or urinary symptoms. This is his first episode; he has no history of chronic abdominal pain.",
+    "pmh": ["No history of chronic abdominal pain"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"],
+    "family": "Unremarkable."
+  },
+  "vitals": { "hr": 88, "sbp": 130, "dbp": 90, "rr": 22, "spo2": 97, "tempC": 37.4 },
+  "exam": ["Pain and tenderness localized to the left iliac fossa, without guarding, rigidity or rebound tenderness", "Decreased bowel sounds"],
+  "investigations": [
+    { "name": "White cell count", "value": "19,400", "unit": "/µL", "flag": "H" },
+    { "name": "Neutrophils", "value": "93.6", "unit": "%", "flag": "H" },
+    { "name": "Hemoglobin", "value": "11.8", "unit": "g/dL", "flag": "L" },
+    { "name": "Packed cell volume", "value": "36.4", "unit": "%", "flag": "L" },
+    { "name": "Renal function and serum electrolytes", "value": "Within normal limits" },
+    { "name": "Sodium", "value": "137", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.1", "unit": "mmol/L", "augmented": true },
+    { "name": "Creatinine", "value": "0.9", "unit": "mg/dL", "augmented": true },
+    { "name": "Urinalysis", "value": "No blood, leukocytes or nitrite", "augmented": true }
+  ],
+  "imaging": [
+    { "modality": "Abdominal ultrasound", "finding": "Appendix-like structure with surrounding inflammation in the left iliac fossa" },
+    {
+      "modality": "Contrast-enhanced CT abdomen",
+      "finding": "Dilated, thick-walled, fluid-filled appendix with surrounding fat stranding and adjacent lymph nodes in the left lower abdomen. Ascending colon on the left, running parallel to the descending colon; small bowel mainly on the right; superior mesenteric vein anterior to the superior mesenteric artery. Consistent with left-sided appendicitis and intestinal nonrotation."
+    }
+  ],
+  "diagnosis": {
+    "primary": "Left-sided acute suppurative appendicitis with intestinal (midgut) nonrotation",
+    "icd10": "K35.80 / Q43.3",
+    "differentials": [
+      "Sigmoid diverticulitis",
+      "Epiploic appendagitis",
+      "Left ureteric colic",
+      "Left-sided appendicitis with situs inversus totalis",
+      "Colitis (infectious or inflammatory bowel disease)"
+    ]
+  },
+  "management": [
+    "Ringer's lactate and tramadol in the ED",
+    "Surgery after CT review: appendectomy through a midline incision; the appendix and cecum lay on the left, confirming nonrotation; no Ladd procedure because the risk of obstruction was judged low",
+    "Postoperative day 3: peritonitis (pain, guarding, rigidity) with tachycardia; repeat CT showed a collection from an appendiceal stump leak; re-exploration with peritoneal lavage and drainage",
+    "Piperacillin–tazobactam 4.5 g and metronidazole 500 mg, each three times daily"
+  ],
+  "outcome": "Recovered after re-exploration for the stump leak; asymptomatic at the 21-day follow-up.",
+  "teachingPoints": [
+    "Left lower quadrant pain is not always diverticulitis: left-sided appendicitis occurs with midgut malrotation or nonrotation and with situs inversus, and most of these patients present with left lower quadrant pain.",
+    "Contrast-enhanced CT shows both the inflamed appendix and the anatomy: a left-sided colon, right-sided small bowel and an abnormal SMA–SMV relationship (normally the SMV lies to the right of the SMA).",
+    "Situs inversus mirrors all the viscera (liver, spleen, heart); in nonrotation only the bowel is misplaced.",
+    "Knowing the anatomy before surgery guides the approach; here the appendix was removed through a midline incision rather than a right iliac fossa incision.",
+    "Rotation anomalies can cause midgut volvulus; fever, tachycardia and peritonitis around day 3 after appendectomy suggest a stump leak or abscess and call for repeat CT."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "extra": "WBC 19,400/µL with 93.6% neutrophils. Contrast-enhanced CT: dilated, thick-walled, fluid-filled blind-ending tube with fat stranding in the left lower abdomen; ascending colon on the left, small bowel mostly on the right. Liver, spleen and heart are normally positioned.",
+      "options": [
+        "Sigmoid diverticulitis with a pericolic phlegmon",
+        "Primary epiploic appendagitis of the descending colon",
+        "Acute appendicitis with situs inversus totalis",
+        "Acute appendicitis with a left-sided cecum from nonrotation"
+      ],
+      "answer": 3,
+      "explanation": "An inflamed blind-ending tube in the left lower abdomen, with a left-sided colon and right-sided small bowel, is appendicitis in intestinal nonrotation. Normally placed liver, spleen and heart exclude situs inversus, and diverticulitis would center on the sigmoid wall rather than a separate dilated tube."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Which CT finding most specifically points to a midgut rotation anomaly?",
+      "options": [
+        "Superior mesenteric vein anterior to or left of the artery",
+        "Periappendiceal fat stranding around a dilated appendix",
+        "Liver and spleen in mirror-image positions",
+        "Diverticula throughout the sigmoid colon"
+      ],
+      "answer": 0,
+      "explanation": "Normally the superior mesenteric vein lies to the right of the artery; a vein anterior to or left of it, together with right-sided small bowel and left-sided colon, indicates malrotation or nonrotation (here the vein was anterior). Mirror-image organs indicate situs inversus instead, and fat stranding only shows inflammation."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate treatment?",
+      "extra": "CT: dilated, inflamed appendix in the left lower abdomen with intestinal nonrotation (left-sided colon, right-sided small bowel, superior mesenteric vein anterior to the artery).",
+      "options": [
+        "Oral antibiotics for diverticulitis and colonoscopy in 6 weeks",
+        "CT-guided percutaneous drainage of the left lower quadrant",
+        "Surgical review for appendectomy planned around the anatomy",
+        "Urgent colonoscopy to inspect the cecum and appendiceal orifice"
+      ],
+      "answer": 2,
+      "explanation": "This is acute appendicitis in an unusual position and needs surgical management, not treatment as diverticulitis; colonoscopy is unhelpful and risky in acute inflammation. Appendectomy, laparoscopic where expertise allows, remains standard (WSES Jerusalem 2020), and knowing the cecum is on the left lets the surgeon plan the approach (here a midline incision)."
+    },
+    {
+      "kind": "risk",
+      "q": "Which complication is the main long-term concern with intestinal rotation anomalies?",
+      "extra": "CT and surgery confirm intestinal nonrotation.",
+      "options": [
+        "Colonic pseudo-obstruction (Ogilvie syndrome)",
+        "Midgut volvulus with intestinal ischemia",
+        "Ileocolic intussusception",
+        "Sigmoid volvulus with colonic ischemia"
+      ],
+      "answer": 1,
+      "explanation": "When the midgut is not normally fixed it can twist around the superior mesenteric artery, causing volvulus and ischemia; this is mainly a neonatal problem but also occurs in adults. Nonrotation generally carries a lower volvulus risk than incomplete rotation because the mesenteric base tends to be broader; here the surgeons judged the risk low and did not add a Ladd procedure."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi",
+      "quote": "A 53-year-old man presented with a two-day history of left-sided abdominal pain, occasional vomiting, and a single episode of fever."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "The pain was localized to the left iliac fossa, was sharp in nature, and was rated as 7/10 in intensity. He denied diarrhea or other gastrointestinal or urinary symptoms."
+    },
+    {
+      "field": "presentation.hpi, presentation.pmh[0]",
+      "quote": "the patient had no history of chronic abdominal pain and presented for the first time with acute symptoms"
+    },
+    { "field": "presentation.family", "quote": "His family history was unremarkable." },
+    {
+      "field": "vitals.hr, vitals.sbp, vitals.dbp, vitals.rr",
+      "quote": "his pulse rate was 88 beats/min, blood pressure was 130/90 mmHg, and respiratory rate was 22 breaths/min"
+    },
+    { "field": "exam[0]", "quote": "He had pain and tenderness localized to the left iliac fossa, without guarding, rigidity, or rebound tenderness." },
+    { "field": "exam[1]", "quote": "Bowel sounds were decreased." },
+    {
+      "field": "investigations[0], investigations[1], investigations[2], investigations[3]",
+      "quote": "a leukocyte count of 19,400/µL, hemoglobin of 11.8 g/dL, packed cell volume (PCV) of 36.4%, and neutrophils of 93.6%"
+    },
+    { "field": "investigations[4]", "quote": "Renal function and serum electrolytes were within normal limits." },
+    { "field": "imaging[0]", "quote": "Abdominal ultrasonography identified an appendix-like structure with surrounding inflammation in the left iliac fossa." },
+    { "field": "imaging[1]", "quote": "an appendix-like structure showing features of inflammation and adjacent lymph nodes, suggestive of LSAA" },
+    { "field": "imaging[1]", "quote": "a thick-walled, dilated, inflamed appendix located in the left lower abdomen" },
+    {
+      "field": "imaging[1]",
+      "quote": "a left-sided dilated fluid-filled appendix, with surrounding inflammatory fat stranding, consistent with left-sided acute appendicitis"
+    },
+    {
+      "field": "imaging[1]",
+      "quote": "demonstrated the ascending colon positioned on the left side and running parallel to the descending colon, while the small bowel was predominantly positioned on the right side"
+    },
+    {
+      "field": "imaging[1]",
+      "quote": "The CT scan also demonstrated the superior mesenteric vein anterior to the superior mesenteric artery, representing an abnormal superior mesenteric vessel relationship"
+    },
+    {
+      "field": "management[0]",
+      "quote": "In the emergency department, the patient was administered Ringer's lactate and tramadol for fluid resuscitation and pain relief, respectively."
+    },
+    {
+      "field": "management[1]",
+      "quote": "Following review of the CT findings, surgical intervention was recommended. An appendectomy was performed through a midline incision."
+    },
+    {
+      "field": "management[1], diagnosis.primary",
+      "quote": "Intraoperatively, the appendix and cecum were identified in a left-sided position, consistent with intestinal nonrotation"
+    },
+    { "field": "management[1]", "quote": "No Ladd procedure was performed for the nonrotation because of the perceived low risk of intestinal obstruction." },
+    {
+      "field": "diagnosis.primary",
+      "quote": "Histopathological examination of the resected specimen confirmed acute suppurative appendicitis with periappendiceal inflammation. No evidence of malignancy was identified."
+    },
+    {
+      "field": "management[2]",
+      "quote": "On postoperative day 3, the patient developed peritonitis, presenting with abdominal pain, guarding, and rigidity. Tachycardia was also noted."
+    },
+    {
+      "field": "management[2]",
+      "quote": "A repeat contrast-enhanced CT scan of the abdomen revealed an intra-abdominal collection suggestive of a leak from the appendiceal stump"
+    },
+    { "field": "management[2], outcome", "quote": "underwent re-exploration, thorough peritoneal lavage, and drainage" },
+    {
+      "field": "management[3]",
+      "quote": "Broad-spectrum antibiotic therapy with piperacillin-tazobactam (4.5 g) and metronidazole (500 mg), both administered three times daily, was initiated."
+    },
+    { "field": "outcome", "quote": "At the 21-day follow-up, the patient was asymptomatic." }
+  ],
+  "augmented": [
+    "vitals.spo2: not reported",
+    "vitals.tempC: not reported in the ED; history of a single episode of fever",
+    "presentation.meds: not reported",
+    "presentation.allergies: not reported"
+  ]
+}

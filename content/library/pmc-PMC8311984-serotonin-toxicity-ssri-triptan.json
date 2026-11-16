@@ -1,0 +1,197 @@
+{
+  "id": "pmc-PMC8311984-serotonin-toxicity-ssri-triptan",
+  "title": "Right-sided twitching after a new migraine tablet",
+  "category": "toxicology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC8311984",
+    "pmid": "34304734",
+    "doi": "10.1186/s13256-021-02946-8",
+    "citation": "Jin G, Stokes P. Drug interaction between a selective serotonin reuptake inhibitor and a triptan leading to serotonin toxicity: a case report and review of the literature. J Med Case Rep. 2021;15(1):371.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8311984/"
+  },
+  "patient": { "age": 30, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Twitching of the right side of the face and the right leg",
+    "hpi": "Five days of headache like her usual migraines. Six to eight hours ago she took her first-ever dose of sumatriptan, newly prescribed by her GP. Shortly afterwards she developed gradually worsening twitching of the right face and leg, with discomfort in the right arm and leg and difficulty speaking. She also took paracetamol at home and denies any other prescription, over-the-counter or herbal products, and any recent alcohol or illicit drug use. No recent change in her regular medication doses.",
+    "pmh": [
+      "Long-standing depression",
+      "Hemiplegic migraine, usually managed with simple analgesia",
+      "Endometriosis",
+      "Paroxysmal supraventricular tachycardia"
+    ],
+    "meds": [
+      "Fluvoxamine 100 mg once daily (no recent dose change)",
+      "Sumatriptan, newly prescribed; first dose 6–8 h before arrival",
+      "Pregabalin (not taken on the day of presentation)",
+      "Tranexamic acid (not taken on the day of presentation)",
+      "Paracetamol taken at home for the headache"
+    ],
+    "allergies": ["No known drug allergies"],
+    "social": "No regular alcohol or drug use; non-smoker.",
+    "family": "No significant family history."
+  },
+  "vitals": { "hr": 120, "sbp": 144, "dbp": 96, "rr": 16, "spo2": 99, "tempC": 36.5, "gcs": 15 },
+  "exam": [
+    "Alert (GCS 15) and agitated",
+    "Notably diaphoretic palms",
+    "Resting tremor of the right arm and leg",
+    "Pupils dilated and sluggish bilaterally, with ocular clonus",
+    "Bilateral lower-limb hypertonia and hyperreflexia; 6–7 beats of inducible clonus at both ankles",
+    "Normal power and sensation in all four limbs; rest of the neurological and general examination unremarkable"
+  ],
+  "investigations": [
+    { "name": "Full blood count, electrolytes and liver function tests", "value": "Unremarkable" },
+    { "name": "Serum β-hCG", "value": "Negative" },
+    { "name": "Hemoglobin", "value": "13.2", "unit": "g/dL", "augmented": true },
+    { "name": "White cell count", "value": "8.1", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Platelets", "value": "254", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Sodium", "value": "139", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.0", "unit": "mmol/L", "augmented": true },
+    { "name": "ALT", "value": "21", "unit": "U/L", "augmented": true }
+  ],
+  "imaging": [{ "modality": "CT head (non-contrast)", "finding": "No intracranial lesion; normal for age" }],
+  "ecg": "Sinus tachycardia; QT interval below the treatment line on the QT nomogram",
+  "diagnosis": {
+    "primary": "Serotonin toxicity (serotonin syndrome) from a fluvoxamine–sumatriptan interaction",
+    "icd10": "G25.79 / T43.225A",
+    "differentials": [
+      "Hemiplegic migraine aura",
+      "Focal seizure",
+      "Stroke or transient ischemic attack",
+      "Anticholinergic or sympathomimetic toxicity",
+      "Drug withdrawal syndrome"
+    ]
+  },
+  "management": [
+    "Cardiac monitoring and slow IV fluids",
+    "Cyproheptadine 12 mg orally",
+    "Fluvoxamine and sumatriptan withheld; overnight observation in the ED short-stay unit",
+    "Discharged with advice to withhold fluvoxamine for 24 h and avoid combining triptans with it in future"
+  ],
+  "outcome": "Steady improvement overnight; by the next morning clonus and tremor had resolved and the neurological examination was normal apart from mild residual lower-limb hyperreflexia. Discharged home with GP follow-up.",
+  "teachingPoints": [
+    "Serotonin toxicity is a clinical diagnosis. Hunter criteria: a serotonergic drug plus spontaneous clonus; inducible or ocular clonus with agitation or diaphoresis; tremor with hyperreflexia; or hypertonia with temperature above 38 °C and ocular or inducible clonus.",
+    "Clonus and hyperreflexia, most marked in the legs, separate it from neuroleptic malignant syndrome (slow onset, lead-pipe rigidity, reduced reflexes) and anticholinergic toxicity (dry skin, normal reflexes).",
+    "Onset is typically within hours of starting, increasing or combining serotonergic drugs; ask about new prescriptions, triptans, opioids such as tramadol, and over-the-counter products.",
+    "Triptans are contraindicated in hemiplegic migraine (product labeling), so focal symptoms after a first dose also call for stroke and a hemiplegic aura to be considered.",
+    "Mild to moderate cases settle with stopping the serotonergic drugs, supportive care, benzodiazepines and observation; cyproheptadine (12 mg first dose) is an option. Severe hyperthermia needs sedation, paralysis and intubation.",
+    "The SSRI–triptan interaction carries a 2006 FDA warning, but the absolute risk appears low; the American Headache Society judged the evidence insufficient to restrict co-prescription."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "options": ["Hemiplegic migraine aura", "Focal motor seizure", "Serotonin toxicity", "Anticholinergic toxicity"],
+      "answer": 2,
+      "explanation": "She takes an SSRI, has just taken a triptan, and has ocular clonus, inducible ankle clonus with diaphoresis, and tremor with hyperreflexia, which meets the Hunter criteria. Anticholinergic toxicity causes dry skin and normal reflexes, and neither a migraine aura nor a focal seizure explains bilateral clonus with autonomic signs."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Which examination finding is most specific for this diagnosis?",
+      "options": ["Heart rate of 120/min", "Ocular and inducible ankle clonus", "Bilaterally dilated pupils", "Blood pressure of 144/96 mm Hg"],
+      "answer": 1,
+      "explanation": "Clonus (spontaneous, inducible or ocular) is the cornerstone of the Hunter criteria, which are more specific than the older Sternbach criteria. Tachycardia, hypertension and mydriasis are non-specific autonomic signs shared with sympathomimetic and anticholinergic toxidromes."
+    },
+    {
+      "kind": "management",
+      "q": "After stopping fluvoxamine and sumatriptan, which treatment is most appropriate?",
+      "extra": "ECG: sinus tachycardia, QT below the nomogram treatment line. FBC, electrolytes, LFTs and β-hCG unremarkable; CT head normal. Temperature 36.5 °C.",
+      "options": [
+        "Dantrolene 2.5 mg/kg IV",
+        "Bromocriptine 2.5 mg orally",
+        "Haloperidol 5 mg IM for the agitation",
+        "Cyproheptadine 12 mg orally and observation"
+      ],
+      "answer": 3,
+      "explanation": "Moderate serotonin toxicity is treated with supportive care, benzodiazepines for agitation and the 5-HT2A antagonist cyproheptadine (12 mg first dose), with observation until the clonus settles. Dantrolene and bromocriptine are not recommended (bromocriptine can worsen serotonin toxicity), and haloperidol risks NMS and does not treat the underlying excess serotonin."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint",
+      "quote": "A 30-year-old Caucasian woman presented to the emergency department (ED) with right-sided facial and lower limb twitching."
+    },
+    { "field": "presentation.hpi", "quote": "She also reported a headache for the past 5 days, similar to her previous migraines." },
+    {
+      "field": "presentation.hpi, presentation.meds[1]",
+      "quote": "She had taken a dose of sumatriptan approximately 6–8 hours prior to presentation to alleviate the pain."
+    },
+    {
+      "field": "presentation.hpi, presentation.meds[1]",
+      "quote": "This medication had been newly prescribed by her general practitioner with no history of prior use by the patient."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "the patient developed gradually worsening right-sided facial and lower limb twitching, with discomfort in the right arm and right leg and associated difficulty with speech"
+    },
+    {
+      "field": "presentation.hpi, presentation.meds[4]",
+      "quote": "She had taken paracetamol at home prior to this event and denied ingestion of any other medications"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "including prescription medications as well as herbal and over-the-counter supplements. She also denied any recent alcohol or illicit drug use."
+    },
+    {
+      "field": "presentation.pmh[0], presentation.pmh[1], presentation.pmh[2], presentation.pmh[3], presentation.meds[0]",
+      "quote": "longstanding depression for which she was on regular fluvoxamine 100 mg once daily, as well as hemiplegic migraines (usually managed with simple analgesia), endometriosis, and paroxysmal supraventricular tachycardia"
+    },
+    { "field": "presentation.hpi, presentation.meds[0]", "quote": "She denied any recent changes in her fluvoxamine dose." },
+    {
+      "field": "presentation.meds[2], presentation.meds[3]",
+      "quote": "Her other regular medications included pregabalin and tranexamic acid, which she did not take on the day of presentation."
+    },
+    {
+      "field": "presentation.family, presentation.social",
+      "quote": "She had no significant family history and denied regular alcohol or drug use. She denied any regular smoking history."
+    },
+    {
+      "field": "vitals.hr, vitals.sbp, vitals.dbp",
+      "quote": "she had a heart rate of 120 beats per minute and blood pressure of 144/96 mmHg, but otherwise normal vital signs"
+    },
+    { "field": "vitals.gcs, vitals.tempC", "quote": "a Glasgow Coma Scale (GCS) score of 15. Temperature was normal at 36.5 °C." },
+    {
+      "field": "exam[0], diagnosis.primary",
+      "quote": "She met both Sternbach and Hunter criteria for serotonin toxicity, presenting with agitation, tremor, hyperreflexia, and both spontaneous and inducible clonus, including limb and ocular clonus."
+    },
+    { "field": "exam[1], exam[2]", "quote": "She had notably diaphoretic palms and a resting tremor in her right arm and leg." },
+    { "field": "exam[3]", "quote": "Initial ophthalmic assessment showed bilaterally sluggish and dilated pupils with ocular clonus." },
+    { "field": "exam[4]", "quote": "She had bilateral lower limb hypertonicity and hyperreflexia with six to seven beats of inducible clonus in both ankles." },
+    {
+      "field": "exam[5]",
+      "quote": "Power and sensation were normal in all four limbs, and full neurological examination was otherwise unremarkable. There were no other significant findings on physical examination."
+    },
+    { "field": "ecg", "quote": "Initial electrocardiogram (ECG) showed sinus tachycardia with a QT interval below the treatment line on QT nomogram." },
+    {
+      "field": "investigations[0], investigations[1]",
+      "quote": "Full blood count, electrolytes, liver function tests, and serum beta human chorionic gonadotropin (HCG) were unremarkable."
+    },
+    { "field": "imaging[0]", "quote": "Computed tomography (CT) scan of her head showed no evidence of intracranial lesion and was grossly normal for age." },
+    { "field": "diagnosis.primary", "quote": "Based on her clinical presentation and history of SSRI use, the patient was diagnosed with serotonin toxicity." },
+    { "field": "management[0]", "quote": "The patient was placed on telemetry and was given supportive treatment with slow intravenous fluids" },
+    { "field": "management[1]", "quote": "as well as a dose of 12 mg oral cyproheptadine, a potent antihistamine and serotonin antagonist" },
+    {
+      "field": "management[2]",
+      "quote": "Her fluvoxamine and sumatriptan were withheld, and she was kept in the ED short-stay unit overnight for a prolonged period of observation."
+    },
+    {
+      "field": "management[3]",
+      "quote": "She was discharged home with instructions to withhold her fluvoxamine for 24 hours and to avoid taking any further concomitant triptan medications in the future"
+    },
+    { "field": "outcome", "quote": "Periodic reviews throughout her admission showed an incremental improvement in her serotonergic symptoms" },
+    {
+      "field": "outcome",
+      "quote": "On her morning review, the patient had returned to baseline with resolution of her clonus and tremor and a completely normal repeat neurological examination"
+    },
+    { "field": "outcome", "quote": "aside from some mild residual lower limb hyperreflexia" },
+    { "field": "outcome", "quote": "to be followed up by her usual general practitioner" }
+  ],
+  "augmented": [
+    "vitals.rr: report says otherwise normal vital signs",
+    "vitals.spo2: report says otherwise normal vital signs",
+    "presentation.allergies: not reported",
+    "investigations[Hemoglobin]: individual values not reported (FBC, electrolytes and LFTs described as unremarkable)"
+  ]
+}

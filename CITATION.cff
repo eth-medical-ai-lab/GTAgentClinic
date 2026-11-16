@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use GTAgentClinic or its cases, please cite it as below."
+type: software
+title: "GTAgentClinic: a 3D embodied hospital environment for AI and human agents"
+abstract: >-
+  An open, embodied 3D hospital where AI agents and humans take histories,
+  examine, order and read tests, call consultants and are scored like an OSCE.
+  It starts with the emergency department. Humans and agents share one action
+  space. The simulation is seeded; LLM replies can vary.
+authors:
+  - family-names: Moor
+    given-names: Michael
+    affiliation: ETH Zurich
+  - family-names: Indrakanti
+    given-names: Ashraya
+  - family-names: Kassraie
+    given-names: Arghavan
+  - family-names: Balfour
+    given-names: Jamie
+  - family-names: Lieberwirth
+    given-names: Johann
+version: 0.3.0
+date-released: 2026-11-16
+repository-code: "https://github.com/eth-medical-ai-lab/GTAgentClinic"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - medical education
+  - emergency medicine
+  - simulation
+  - AI agents
+  - LLM evaluation

@@ -1,0 +1,218 @@
+{
+  "id": "pmc-PMC12414438-salicylate-delayed-diagnosis",
+  "title": "Abdominal pain and drowsiness on a second ED visit",
+  "category": "toxicology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC12414438",
+    "pmid": "40922832",
+    "doi": "10.7759/cureus.89613",
+    "citation": "Singh M, Bloom J, Howland MA, Biary R, Su M. Delayed Diagnosis Salicylate Toxicity With Confirmed Cerebrospinal Fluid Salicylate Concentration: A Case Report of Altered Mental Status Without Neuroglycopenia and With Coagulopathy. Cureus. 2025;17(8):e89613.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12414438/"
+  },
+  "patient": { "age": 18, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Abdominal pain and altered mental state",
+    "hpi": "Previously healthy. She was seen at another hospital the day before for the same symptoms, where blood tests were reportedly normal and a CT (body region unclear) was unremarkable; this history cannot be verified. The abdominal pain has worsened since. She does not mention having taken anything.",
+    "pmh": ["Previously healthy"],
+    "meds": ["No reported use of oral anticoagulants, vitamin K antagonists or heparin"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 70, "sbp": 114, "dbp": 60, "rr": 18, "spo2": 100, "tempC": 37, "gcs": 14 },
+  "exam": ["Lethargic", "Diffuse abdominal tenderness", "Later in the ED: new fever of 38.0 °C (100.4 °F) and worsening altered mental status"],
+  "investigations": [
+    { "name": "Sodium", "value": "134", "unit": "mmol/L", "flag": "L" },
+    { "name": "Potassium", "value": "3.9", "unit": "mmol/L" },
+    { "name": "Chloride", "value": "101", "unit": "mmol/L" },
+    { "name": "Bicarbonate", "value": "14", "unit": "mmol/L", "flag": "L" },
+    { "name": "Anion gap", "value": "19", "unit": "mmol/L", "flag": "H" },
+    { "name": "Blood urea nitrogen", "value": "17", "unit": "mg/dL" },
+    { "name": "Creatinine", "value": "0.9", "unit": "mg/dL" },
+    { "name": "Glucose", "value": "87", "unit": "mg/dL" },
+    { "name": "Calcium", "value": "7.7", "unit": "mg/dL", "flag": "L" },
+    { "name": "White cell count", "value": "23", "unit": "x10³/µL", "flag": "H" },
+    { "name": "Hemoglobin", "value": "11.7", "unit": "g/dL", "flag": "L" },
+    { "name": "Platelets", "value": "441", "unit": "x10³/µL", "flag": "H" },
+    { "name": "AST", "value": "23", "unit": "U/L" },
+    { "name": "ALT", "value": "20", "unit": "U/L" },
+    { "name": "Total bilirubin", "value": "0.4", "unit": "mg/dL" },
+    { "name": "Urine pH", "value": "5.5" },
+    { "name": "CSF (lumbar puncture at 4.5 h)", "value": "Clear; WBC 0/mm³, RBC 1/mm³, glucose 60 mg/dL, protein < 10 mg/dL" },
+    { "name": "pH (arterial, 8.5 h)", "value": "7.392" },
+    { "name": "PaCO2", "value": "23.1", "unit": "mm Hg", "flag": "L" },
+    { "name": "Bicarbonate (arterial)", "value": "17", "unit": "mmol/L", "flag": "L" },
+    { "name": "Base excess", "value": "-10.9", "unit": "mmol/L", "flag": "L" },
+    { "name": "Salicylate (serum, first measured 25 h after arrival)", "value": "48.8", "unit": "mg/dL", "flag": "critical" },
+    { "name": "Prothrombin time", "value": "63", "unit": "s", "flag": "critical" },
+    { "name": "INR", "value": "5.52", "flag": "critical" },
+    { "name": "aPTT", "value": "40.2", "unit": "s", "flag": "H" },
+    { "name": "Salicylate after hemodialysis", "value": "9.6", "unit": "mg/dL", "flag": "H" },
+    { "name": "CSF salicylate (measured retrospectively)", "value": "23", "unit": "mg/dL", "flag": "H" }
+  ],
+  "imaging": [
+    { "modality": "Transvaginal ultrasound", "finding": "Right ovarian cyst" },
+    { "modality": "CT head", "finding": "Unremarkable" },
+    { "modality": "CT abdomen and pelvis", "finding": "Radio-opaque foreign bodies in the colon, consistent with pill fragments" }
+  ],
+  "diagnosis": {
+    "primary": "Salicylate poisoning (aspirin ingestion about 36 h before arrival), diagnosed late, with encephalopathy and coagulopathy",
+    "icd10": "T39.012A / D68.4",
+    "differentials": [
+      "Bacterial meningitis or encephalitis",
+      "Toxic alcohol ingestion (methanol or ethylene glycol)",
+      "Diabetic or alcoholic ketoacidosis",
+      "Sepsis from an abdominal source",
+      "Ruptured or torsed ovarian cyst"
+    ]
+  },
+  "management": [
+    "CT head, then lumbar puncture 4.5 h after arrival to exclude meningitis",
+    "Re-interviewed after CT showed pill fragments: she admitted taking an unknown number of aspirin tablets about 36 h before arrival",
+    "IV sodium bicarbonate on poison center advice, alkalinizing serum and urine (urine pH > 8)",
+    "Prothrombin complex concentrate 2,500 units before dialysis catheter placement, correcting the coagulopathy",
+    "Hemodialysis 37 h after arrival for suspected salicylate encephalopathy"
+  ],
+  "outcome": "Serum salicylate fell to below 1 mg/dL with bicarbonate and hemodialysis. Abdominal pain and encephalopathy resolved by hospital day 4; medically cleared with no deficits and transferred to inpatient psychiatry.",
+  "teachingPoints": [
+    "Salicylate poisoning is easily missed when the history is withheld; unexplained high anion gap acidosis, respiratory alkalosis, altered mental status or fever should prompt a salicylate level.",
+    "Check the PaCO2 against Winter's formula (1.5 × HCO3⁻ + 8 ± 2): a PaCO2 well below the expected value means a concurrent primary respiratory alkalosis, the classic salicylate pattern.",
+    "Altered mental status in salicylate poisoning is an indication for hemodialysis regardless of the level (EXTRIP salicylate recommendations); bicarbonate alone is not enough.",
+    "Alkalinize with IV sodium bicarbonate to a urine pH of 7.5–8.0 while replacing potassium; avoid intubation if possible, and if it is unavoidable, keep minute ventilation high.",
+    "Salicylate can prolong the PT/INR by reducing vitamin K-dependent factors, on top of its antiplatelet effect; bezoars or pill fragments delay absorption, so repeat levels until they fall."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "Which test is most likely to explain this presentation?",
+      "extra": "Na⁺ 134, Cl⁻ 101, HCO3⁻ 14 mmol/L (anion gap 19), glucose 87 mg/dL, creatinine 0.9 mg/dL, WBC 23 x10³/µL. ABG: pH 7.39, PaCO2 23.1 mm Hg, HCO3⁻ 17 mmol/L, base excess −10.9. CSF clear, 0 WBC. CT abdomen: radio-opaque fragments in the colon.",
+      "options": [
+        "Serum osmolality for an osmolal gap",
+        "Serum ammonia concentration",
+        "Serum salicylate concentration",
+        "Repeat lumbar puncture with viral PCR"
+      ],
+      "answer": 2,
+      "explanation": "For an HCO3⁻ of 17, Winter's formula predicts a PaCO2 of 31.5–35.5 mm Hg; 23 mm Hg means a primary respiratory alkalosis on top of a high anion gap metabolic acidosis, the classic salicylate pattern. With pill fragments on CT and unexplained encephalopathy, a salicylate level is the key test; toxic alcohols cause only compensatory hyperventilation. Here the level was first sent 25 h after arrival."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate management now?",
+      "extra": "Serum salicylate 48.8 mg/dL. She remains lethargic with altered mental status. Urine pH 5.5, K⁺ 3.9 mmol/L, creatinine 0.9 mg/dL.",
+      "options": [
+        "Bicarbonate alone, as the level is below 100 mg/dL",
+        "IV sodium bicarbonate and emergency hemodialysis",
+        "Rapid sequence intubation to protect the airway",
+        "Multiple-dose activated charcoal and observation"
+      ],
+      "answer": 1,
+      "explanation": "Altered mental status is an indication for extracorporeal removal regardless of the concentration (EXTRIP salicylate recommendations), so she needs bicarbonate (urine pH 7.5–8.0, with potassium replacement) and hemodialysis. Intubation removes her protective hyperventilation and can cause abrupt deterioration; if unavoidable, hyperventilate and give bicarbonate. Charcoal alone is inadequate."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Before dialysis catheter placement her clotting tests are abnormal. What is the most likely mechanism?",
+      "extra": "PT 63 s, INR 5.52, aPTT 40.2 s. AST 17 U/L, ALT 15 U/L, bilirubin 0.4 mg/dL, platelets 371 x10³/µL. No anticoagulant use reported.",
+      "options": [
+        "Salicylate-induced fall in vitamin K-dependent factors",
+        "Acute liver failure from occult paracetamol co-ingestion",
+        "Disseminated intravascular coagulation from sepsis",
+        "Dilution of clotting factors by bicarbonate infusion"
+      ],
+      "answer": 0,
+      "explanation": "Besides irreversibly inhibiting platelet cyclooxygenase, salicylate lowers vitamin K-dependent factors (II, VII, IX and X) in a warfarin-like way, prolonging the PT/INR more than the aPTT. Normal transaminases and bilirubin argue against liver failure, and a normal platelet count against DIC. Prothrombin complex concentrate corrected it before the catheter was placed."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.pmh",
+      "quote": "An 18-year-old healthy female patient presented to an emergency department (ED) with abdominal pain and an altered mental state"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "she was seen at a different hospital for the same symptoms one day prior with reportedly normal laboratory tests and an unremarkable CT imaging of an unspecified body part(s)"
+    },
+    { "field": "presentation.hpi", "quote": "According to the patient's history (which could not be verified)" },
+    { "field": "presentation.hpi", "quote": "Her abdominal pain had worsened since her prior visit." },
+    { "field": "presentation.hpi", "quote": "She did not initially report salicylate overdose." },
+    {
+      "field": "presentation.meds",
+      "quote": "despite normal hepatic function and lack of reported use of oral anticoagulants, vitamin K antagonists, or heparin"
+    },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.rr, vitals.tempC, vitals.spo2",
+      "quote": "her vital signs were: blood pressure 114/60 mmHg; heart rate 70 beats/minute; respiratory rate, 18 breaths/minute; temperature 98.6°F; and O2 saturation 100% (room air)"
+    },
+    { "field": "exam[0], exam[1]", "quote": "Her physical examination was notable for lethargy and diffuse abdominal tenderness." },
+    {
+      "field": "exam[2], management[0]",
+      "quote": "In the ED, she developed a fever of 100.4°F and altered mental status, prompting a lumbar puncture 4.5 hours after her presentation to the ED to rule out meningitis."
+    },
+    { "field": "investigations[Sodium]", "quote": "Sodium | 136-145 mEq/L | 134" },
+    { "field": "investigations[Potassium]", "quote": "Potassium | 3.5-5.0 mEq/L | 3.9" },
+    { "field": "investigations[Chloride]", "quote": "Chloride | 98-106 mEq/L | 101" },
+    { "field": "investigations[Bicarbonate]", "quote": "Bicarbonate | 23-28 mEq/L | 14" },
+    { "field": "investigations[Anion gap]", "quote": "Anion Gap | 4-12 mmol/L | 19" },
+    { "field": "investigations[Blood urea nitrogen]", "quote": "Blood Urea Nitrogen | 8-20 mg/dL | 17" },
+    { "field": "investigations[Creatinine]", "quote": "Creatinine | 0.50-1.10 mg/dL | 0.9" },
+    { "field": "investigations[Glucose]", "quote": "Glucose | 70-99 mg/dL | 87" },
+    { "field": "investigations[Calcium]", "quote": "Calcium | 8.6-10.2 mg/dL | 7.7" },
+    { "field": "investigations[White cell count]", "quote": "White Blood Cells | 4,500-11,000/mm³ | - | 23 | 14.1" },
+    { "field": "investigations[Hemoglobin]", "quote": "Hemoglobin | 12-16 g/dL | - | 11.7" },
+    { "field": "investigations[Platelets]", "quote": "Platelet Count | 150,000-450,000/μL | - | 441" },
+    { "field": "investigations[AST]", "quote": "Aspartate Transaminase | 10-40 U/L | 23" },
+    { "field": "investigations[ALT]", "quote": "Alanine Transaminase | 10-40 U/L | 20" },
+    { "field": "investigations[Total bilirubin]", "quote": "Total Bilirubin | 0.3-1.0 mg/dL | 0.4" },
+    { "field": "investigations[Urine pH]", "quote": "pH | 4.5-8.0 | 5.5" },
+    { "field": "investigations[16]", "quote": "CSF Appearance | Clear - Colorless | Clear" },
+    { "field": "investigations[16]", "quote": "CSF Glucose | 50-75 mg/dL | 60 CSF Total Protein | 15-45 mg/dL | <10" },
+    { "field": "investigations[17]", "quote": "pH | 7.35-5.45 | 7.392" },
+    { "field": "investigations[PaCO2]", "quote": "paCO2 | 35-45 mmHg | 23.1" },
+    { "field": "investigations[Bicarbonate (arterial)]", "quote": "HCO3 | 22-26 mEq/L | 17" },
+    { "field": "investigations[Base excess]", "quote": "Base Excess | -2-+2 mEq/L | -10.9" },
+    {
+      "field": "imaging[0]",
+      "quote": "the patient underwent a transvaginal ultrasound two hours after ED presentation for abdominal pain that visualized a right ovarian cyst"
+    },
+    { "field": "imaging[1]", "quote": "She also had an unremarkable CT brain scan that was ordered due to altered mental status." },
+    {
+      "field": "imaging[2]",
+      "quote": "She underwent a CT scan of the abdomen and pelvis, which noted radio-opaque foreign bodies in the colon that were deemed to be consistent with \"pill fragments\""
+    },
+    {
+      "field": "management[1], diagnosis.primary",
+      "quote": "On re-interview, the patient confirmed taking an unknown quantity of aspirin pills approximately 36 hours before arrival to the second hospital."
+    },
+    {
+      "field": "investigations[21], diagnosis.primary",
+      "quote": "A serum salicylate concentration obtained at 25 hours after the second ED presentation resulted in a value of 48.8 mg/dL (therapeutic range: 15-30 mg/dL)."
+    },
+    {
+      "field": "management[2]",
+      "quote": "The regional poison center was consulted and recommended treatment with IV sodium bicarbonate, and the patient's urine and serum were adequately alkalinized (urine pH > 8)."
+    },
+    { "field": "management[4], diagnosis.primary", "quote": "Hemodialysis (HD) was also recommended due to a concern for salicylate-induced encephalopathy." },
+    { "field": "management[4]", "quote": "Hemodialysis (HD) was performed 37 hours after ED presentation due to the altered mental state." },
+    {
+      "field": "investigations[Prothrombin time], investigations[INR], investigations[aPTT], diagnosis.primary",
+      "quote": "Prothrombin time was 63 seconds (reference range: 11-13 seconds), international normalized ratio was 5.52 (reference range: 0.8-1.1), and activated partial thromboplastin time was 40.2 seconds"
+    },
+    {
+      "field": "management[3]",
+      "quote": "The patient was administered 2,500 units of prothrombin complex concentrate (PCC) before catheter placement, which corrected the coagulopathy"
+    },
+    {
+      "field": "investigations[Salicylate after hemodialysis], outcome",
+      "quote": "Serum Salicylate | <1 mg/dL | - | - | 48.8 | - | 46.8 | 44.9 | 40.7 | 9.6 | 6.2 | - | 2.5 | <1"
+    },
+    { "field": "outcome", "quote": "The patient's serum salicylate concentration decreased with sodium bicarbonate infusion and HD" },
+    {
+      "field": "investigations[CSF salicylate (measured retrospectively)]",
+      "quote": "After the conclusion of this case, waste CSF from the patient's lumbar puncture from hospital day 1 was tested for salicylate concentration. The CSF salicylate concentration was 23 mg/dL"
+    },
+    {
+      "field": "outcome",
+      "quote": "On hospital day 4, the patient's abdominal pain and encephalopathy resolved. She was medically cleared with no noted deficits and transferred to the inpatient psychiatry service."
+    }
+  ],
+  "augmented": ["vitals.gcs: GCS 14 inferred from 'lethargy'", "presentation.allergies: not reported"]
+}

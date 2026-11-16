@@ -1,0 +1,193 @@
+{
+  "id": "pmc-PMC12945712-metoclopramide-pheochromocytoma-crisis",
+  "title": "Vomiting, palpitations and an antiemetic",
+  "category": "endocrine",
+  "acuity": 3,
+  "source": {
+    "pmcid": "PMC12945712",
+    "pmid": "41767077",
+    "doi": "10.1002/ccr3.72144",
+    "citation": "Yamanishi Y, Iio K, Shimizu K, Kasahara W, Hamaguchi J. Metoclopramide-Induced Pheochromocytoma Crisis: A Case Report and Literature Review. Clin Case Rep. 2026;14(3):e72144.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12945712/"
+  },
+  "patient": { "age": 41, "sex": "F", "arrival": "walk-in" },
+  "presentation": {
+    "chiefComplaint": "Vomiting",
+    "hpi": "This morning she developed palpitations and chest tightness, followed around noon by several episodes of vomiting. She has had high blood pressure and a fast heart rate for several years, treated by her primary care clinic.",
+    "pmh": ["Hypertension for several years", "Tachycardia for several years"],
+    "meds": ["Carvedilol", "Amlodipine"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 100, "sbp": 133, "dbp": 98, "rr": 18, "spo2": 100, "tempC": 36.5, "gcs": 15 },
+  "exam": [
+    "Fully conscious on arrival",
+    "10 min after IV metoclopramide 10 mg: HR 140/min, agitated, cyanotic, cold peripheries",
+    "1 h after metoclopramide: HR 170/min, RR 40/min, BP 139/113 mm Hg; SpO₂ unmeasurable because the extremities are cold",
+    "During transfer after intubation: increasing bradycardia, then loss of pulse; CPR started"
+  ],
+  "investigations": [
+    { "name": "pH (arterial, after ROSC)", "value": "6.99", "flag": "critical" },
+    { "name": "PaCO2", "value": "65.1", "unit": "mm Hg", "flag": "H" },
+    { "name": "Bicarbonate", "value": "15.5", "unit": "mEq/L", "flag": "L" },
+    { "name": "Lactate", "value": "19.0", "unit": "mmol/L", "flag": "critical" },
+    { "name": "PaO2 (FiO₂ 1.0)", "value": "74.8", "unit": "mm Hg", "flag": "L" },
+    { "name": "Plasma free metanephrine (result 1 week later)", "value": "52.3", "unit": "nmol/L", "flag": "H" },
+    { "name": "Plasma free normetanephrine (result 1 week later)", "value": "106.5", "unit": "nmol/L", "flag": "H" }
+  ],
+  "imaging": [
+    { "modality": "Chest radiograph", "finding": "Bilateral pulmonary infiltrates, predominantly on the left" },
+    { "modality": "Echocardiography", "finding": "Apical hypokinesis, ejection fraction 30%; no pericardial effusion, no D-shaped ventricle" },
+    { "modality": "Ultrasound", "finding": "Incidental left adrenal mass" },
+    { "modality": "CT abdomen", "finding": "Smooth, round left adrenal tumor, 45 mm in diameter" }
+  ],
+  "ecg": "Monitor on arrival at the tertiary center: asystole; no shockable rhythm at any point during resuscitation",
+  "diagnosis": {
+    "primary": "Pheochromocytoma crisis (biochemically supported; no histology) triggered by metoclopramide, with Takotsubo cardiomyopathy, pulmonary edema and cardiac arrest",
+    "icd10": "E27.5 / D35.02 / I51.81 / T45.0X5A",
+    "differentials": ["Neuroleptic malignant syndrome", "Anaphylaxis", "Thyroid storm", "Acute coronary syndrome", "Sympathomimetic toxicity"]
+  },
+  "management": [
+    "IV metoclopramide 10 mg for nausea",
+    "Tracheal intubation for respiratory failure, then transfer to a tertiary center",
+    "CPR for asystolic arrest; ROSC after 20 min and 3 mg epinephrine in total",
+    "Targeted temperature management for post-cardiac arrest syndrome",
+    "Continuous phentolamine infusion titrated to blood pressure, then a landiolol infusion for tachycardia",
+    "Tumor not resected because of the poor neurological prognosis; extubated to comfort care with morphine"
+  ],
+  "outcome": "Severe hypoxic encephalopathy on head CT at 72 h; comfort care; died on day 18 of illness (no autopsy).",
+  "teachingPoints": [
+    "Metoclopramide and other dopamine antagonists can precipitate a catecholamine crisis in undiagnosed pheochromocytoma; nausea is a presenting symptom in 20–40%.",
+    "Years of hypertension with tachycardia in a young patient, plus palpitations and chest tightness, should make you pause before giving metoclopramide.",
+    "Pheochromocytoma crisis can cause Takotsubo-type cardiomyopathy, pulmonary edema, shock and cardiac arrest; severe forms carry about 30% mortality.",
+    "Control catecholamine excess with alpha-blockade first (e.g. phentolamine) and add a beta-blocker only afterwards.",
+    "Plasma free metanephrines confirm the diagnosis (here over 50 times the upper limit); resection is curative once the patient is stable."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely explanation for her deterioration after the antiemetic?",
+      "options": [
+        "Neuroleptic malignant syndrome",
+        "Anaphylaxis to metoclopramide",
+        "Catecholamine crisis from an undiagnosed pheochromocytoma",
+        "Thyroid storm"
+      ],
+      "answer": 2,
+      "explanation": "Within minutes of a dopamine antagonist she developed extreme tachycardia, rising diastolic pressure, peripheral vasoconstriction and respiratory failure, on a background of years of hypertension and tachycardia: a classic metoclopramide-triggered pheochromocytoma crisis. NMS evolves over days with fever and rigidity, and anaphylaxis causes vasodilatory hypotension rather than cold peripheries with hypertension."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Which mechanism best explains the new left ventricular dysfunction?",
+      "extra": "After ROSC, echocardiography: apical hypokinesis, ejection fraction 30%, no pericardial effusion, no D-shaped ventricle. Chest radiograph: bilateral infiltrates.",
+      "options": [
+        "Right ventricular pressure overload from pulmonary embolism",
+        "Catecholamine-mediated myocardial stunning (Takotsubo type)",
+        "Pericardial tamponade",
+        "Chronic hypertensive heart disease"
+      ],
+      "answer": 1,
+      "explanation": "A catecholamine surge causes stress (Takotsubo-type) cardiomyopathy with apical hypokinesis and pulmonary edema, which the authors describe here. No D-shaped septum argues against RV pressure overload, there is no effusion, and chronic hypertensive disease would not produce sudden apical akinesis."
+    },
+    {
+      "kind": "management",
+      "q": "After ROSC she is hypertensive and tachycardic, with a 45 mm adrenal mass on CT. Which drug strategy is most appropriate?",
+      "options": [
+        "IV esmolol first, adding an alpha-blocker only if needed",
+        "IV labetalol boluses as the only agent",
+        "IV hydralazine with IV furosemide",
+        "IV phentolamine first, adding a beta-blocker after alpha-blockade"
+      ],
+      "answer": 3,
+      "explanation": "Catecholamine excess is controlled with alpha-blockade first (phentolamine here); beta-blockade on its own leaves alpha-mediated vasoconstriction unopposed and can worsen hypertension and pulmonary edema. A beta-blocker (landiolol here) is added once alpha-blockade is in place, the 'alpha before beta' principle of the 2014 Endocrine Society pheochromocytoma guideline."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, patient.arrival",
+      "quote": "A 41-year-old female patient presented to the emergency department of a secondary referral center with vomiting."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "Her symptoms began with palpitations and chest tightness in the morning, followed by several episodes of vomiting around noon."
+    },
+    {
+      "field": "presentation.hpi, presentation.pmh, presentation.meds",
+      "quote": "She had a history of hypertension and tachycardia of several years' duration and had been taking carvedilol and amlodipine prescribed by her primary care clinic."
+    },
+    {
+      "field": "vitals.hr, vitals.rr, vitals.spo2, vitals.sbp, vitals.dbp, vitals.tempC",
+      "quote": "heart rate 100 beats per minute, respiratory rate 18 breaths per minute, SpO2 100% on ambient air, blood pressure 133/98 mmHg, and body temperature 36.5°C"
+    },
+    { "field": "exam[0]", "quote": "She was fully conscious at the time of her presentation." },
+    { "field": "management[0], exam[1]", "quote": "During her evaluation, intravenous metoclopramide 10 mg was administered to alleviate her nausea." },
+    {
+      "field": "exam[1]",
+      "quote": "Ten minutes later, her heart rate had risen to 140 beats per minute. She became agitated and cyanotic and exhibited peripheral coldness."
+    },
+    {
+      "field": "exam[2]",
+      "quote": "One hour after the metoclopramide administration, her heart rate reached 170 beats per minute, and her respiratory rate increased to 40 breaths per minute."
+    },
+    { "field": "exam[2]", "quote": "her systolic blood pressure remained unchanged at 139 mmHg, her diastolic blood pressure had risen to 113 mmHg" },
+    {
+      "field": "exam[2], management[1]",
+      "quote": "Her SpO2 became unmeasurable due to coldness of the extremities. She underwent tracheal intubation for respiratory failure and was transported to the study center"
+    },
+    {
+      "field": "exam[3]",
+      "quote": "During transportation, the patient gradually became bradycardic, and her pulse became non-palpable, prompting the transportation team to initiate cardiopulmonary resuscitation"
+    },
+    { "field": "ecg", "quote": "Upon arrival, she had cardiopulmonary arrest, with electrocardiographic monitoring showing asystole." },
+    { "field": "ecg", "quote": "Shockable rhythms were not observed at any point during the resuscitation." },
+    {
+      "field": "management[2]",
+      "quote": "Spontaneous circulation was restored after 20 min of resuscitation, during which 3 mg of epinephrine in total was administered."
+    },
+    {
+      "field": "investigations[0], investigations[1], investigations[2], investigations[3]",
+      "quote": "mixed acidosis with pH 6.99, PaCO2 65.1 mmHg, HCO3 15.5 mEq/L, and lactate 19.0 mmol/L"
+    },
+    { "field": "investigations[4]", "quote": "Severe hypoxemia was also noted, with PaO2 74.8 mmHg on 1.0 FiO2." },
+    { "field": "imaging[0]", "quote": "Chest X-ray demonstrated bilateral pulmonary infiltrates, predominantly in the left lung." },
+    {
+      "field": "imaging[1], diagnosis.primary",
+      "quote": "Echocardiography revealed apical hypokinesis with an ejection fraction of 30% indicating Takotsubo cardiomyopathy."
+    },
+    { "field": "imaging[1]", "quote": "No pericardial effusion or D-shaped ventricular configuration was observed on echocardiography." },
+    { "field": "imaging[2]", "quote": "During ultrasonographic evaluation, a mass was incidentally detected on the left adrenal gland." },
+    { "field": "imaging[3]", "quote": "Abdominal computed tomography (CT) revealed a smooth, round tumor measuring 45 mm in diameter" },
+    {
+      "field": "diagnosis.primary",
+      "quote": "Given that the tumor was found in the context of rapid respiratory and cardiac deterioration following the administration of metoclopramide, a pheochromocytoma crisis was strongly suspected."
+    },
+    {
+      "field": "diagnosis.primary",
+      "quote": "Pheochromocytoma was unable to be diagnosed definitively in the present case owing to the lack of pathological information."
+    },
+    {
+      "field": "investigations[5], investigations[6]",
+      "quote": "showing a marked elevation in the metanephrine and normetanephrine value to 52.3 nmol/L and 106.5 nmol/L, respectively"
+    },
+    {
+      "field": "diagnosis.primary",
+      "quote": "metoclopramide exacerbated the pheochromocytoma crisis in this case and led to the development of Takotsubo cardiomyopathy and pulmonary edema"
+    },
+    { "field": "management[3]", "quote": "Intensive care, including target temperature management for post-cardiac arrest syndrome, was begun." },
+    {
+      "field": "management[4]",
+      "quote": "We initiated a continuous infusion of phentolamine mesylate and titrated the dose as needed to control hypertension."
+    },
+    { "field": "management[4]", "quote": "A landiolol hydrochloride infusion was added subsequently to control tachycardia." },
+    {
+      "field": "outcome",
+      "quote": "Head CT performed 72 h after the start of targeted temperature management found evidence of severe hypoxic encephalopathy."
+    },
+    {
+      "field": "management[5]",
+      "quote": "Given her poor neurological prognosis, the tumor was not resected. After discussing with her family, she was extubated, and continuous morphine administration was begun"
+    },
+    { "field": "outcome", "quote": "She passed away on day 18 of illness. In accordance with the family's wishes, no autopsy was performed." }
+  ],
+  "augmented": ["vitals.gcs: inferred from 'fully conscious'", "presentation.allergies: not reported"]
+}

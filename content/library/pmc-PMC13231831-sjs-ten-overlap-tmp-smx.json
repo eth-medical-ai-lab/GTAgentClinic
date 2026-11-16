@@ -1,0 +1,192 @@
+{
+  "id": "pmc-PMC13231831-sjs-ten-overlap-tmp-smx",
+  "title": "Peeling skin a week into a course of antibiotics",
+  "category": "dermatology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC13231831",
+    "pmid": "42245845",
+    "doi": "10.7759/cureus.108225",
+    "citation": "Shimizu Saito GK, Mendes da Costa Manteli G, Pinheiro Dos Santos B, Garrafoni Pessotti L, Laura Messias S, Cordeiro de Faria L, et al. Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis Overlap Induced by Trimethoprim/Sulfamethoxazole: A Case Report. Cureus. 2026;18(5):e108225.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13231831/"
+  },
+  "patient": { "age": 18, "sex": "F", "arrival": "transfer" },
+  "presentation": {
+    "chiefComplaint": "Generalised red rash with peeling skin and painful mouth sores",
+    "hpi": "Previously healthy, not pregnant. A week ago her primary care clinic started trimethoprim–sulfamethoxazole 160/800 mg twice daily for 14 days for asymptomatic bacteriuria found on a routine urinalysis. Three days in she developed skin redness, malaise and headache; an urgent care unit gave her an oral corticosteroid to take at home but did not advise stopping the antibiotic. Still taking it, she then deteriorated, with generalised redness, skin peeling at several sites and painful mucosal lesions. She returned to urgent care, was sent to an emergency department and is now transferred to a tertiary intensive care unit.",
+    "pmh": ["Previously healthy; not pregnant"],
+    "meds": [
+      "Trimethoprim–sulfamethoxazole 160/800 mg every 12 h (started 1 week ago, 14-day course)",
+      "Oral corticosteroid from urgent care (agent and dose not reported)"
+    ],
+    "allergies": ["No known drug allergies before this episode"]
+  },
+  "vitals": { "hr": 121, "sbp": 102, "dbp": 76, "rr": 19, "spo2": 96, "tempC": 37.5 },
+  "exam": [
+    "Severely dehydrated",
+    "Widespread atypical erythematous-violaceous macules and plaques, partly confluent, with flaccid bullae, erosions and epidermal detachment over about 20% of body surface area",
+    "Lips: erythema, oedema and haemorrhagic crusts",
+    "Palms: desquamation and areas of skin detachment",
+    "Day 2 ophthalmology and gynaecology review: no ocular or genital mucosal involvement initially"
+  ],
+  "investigations": [
+    { "name": "Hemoglobin", "value": "9.5", "unit": "g/dL", "flag": "L" },
+    { "name": "Hematocrit", "value": "28", "unit": "%", "flag": "L" },
+    { "name": "White cell count", "value": "5,100", "unit": "/µL" },
+    { "name": "Platelets", "value": "297,000", "unit": "/µL" },
+    { "name": "C-reactive protein", "value": "23.8", "unit": "mg/L", "flag": "H" },
+    { "name": "Glucose", "value": "98", "unit": "mg/dL" },
+    { "name": "Urea", "value": "21", "unit": "mg/dL" },
+    { "name": "Creatinine", "value": "0.67", "unit": "mg/dL" },
+    { "name": "Sodium", "value": "141", "unit": "mmol/L" },
+    { "name": "Potassium", "value": "4.3", "unit": "mmol/L" },
+    { "name": "Bicarbonate", "value": "23", "unit": "mmol/L", "augmented": true },
+    { "name": "ALT", "value": "23", "unit": "U/L" },
+    { "name": "AST", "value": "32", "unit": "U/L" },
+    { "name": "Total bilirubin", "value": "0.2", "unit": "mg/dL" },
+    { "name": "Skin biopsy", "value": "Not performed; diagnosis considered clinically evident" },
+    { "name": "ALDEN drug-causality score (trimethoprim–sulfamethoxazole)", "value": "4 (probable)" },
+    { "name": "SCORTEN (retrospective)", "value": "2 points (heart rate >120/min, detachment >10% BSA)" }
+  ],
+  "diagnosis": {
+    "primary": "Stevens–Johnson syndrome/toxic epidermal necrolysis overlap (epidermal detachment about 20% BSA) induced by trimethoprim–sulfamethoxazole",
+    "icd10": "L51.3 / T37.0X5A",
+    "differentials": [
+      "Erythema multiforme major",
+      "Staphylococcal scalded skin syndrome",
+      "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+      "Generalised bullous fixed drug eruption",
+      "Mycoplasma-induced rash and mucositis"
+    ]
+  },
+  "management": [
+    "Trimethoprim–sulfamethoxazole stopped; advanced supportive care started in the ICU",
+    "Dermatology advice: IV methylprednisolone 500 mg/day for 5 days, with liberal topical petroleum jelly or sunflower oil",
+    "Empirical ceftriaxone for suspected secondary skin infection",
+    "Ophthalmology and gynaecology consultations on day 2 to look for ocular and genital involvement"
+  ],
+  "outcome": "Improved with drug withdrawal and intensive supportive care; discharged after 22 days, with complete re-epithelialisation and no sequelae at 30-day follow-up.",
+  "teachingPoints": [
+    "SJS/TEN starts 4–28 days (usually 1–3 weeks) after a new drug; high-risk culprits include sulfonamide antibiotics, aromatic anticonvulsants, lamotrigine, allopurinol, oxicam NSAIDs and nevirapine.",
+    "The spectrum is defined by detached or detachable skin: SJS under 10% BSA, SJS/TEN overlap 10–30%, TEN over 30%; mucosal involvement is usual.",
+    "Stop the culprit immediately: continuing trimethoprim–sulfamethoxazole after the first erythema allowed progression here.",
+    "Calculate SCORTEN within 24 hours and manage extensive detachment in a burn centre or ICU, with early ophthalmology, gynaecology or urology and dermatology input.",
+    "The trigger was avoidable: asymptomatic bacteriuria in a healthy non-pregnant woman should not be treated."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "How is this reaction best classified?",
+      "options": [
+        "Erythema multiforme major with typical acral target lesions",
+        "Stevens–Johnson syndrome, with detachment under 10% of BSA",
+        "SJS/TEN overlap, with detachment of 10–30% of BSA",
+        "Toxic epidermal necrolysis, with detachment over 30% of BSA"
+      ],
+      "answer": 2,
+      "explanation": "Epidermal detachment of about 20% BSA with mucosal involvement a week after starting a sulfonamide is SJS/TEN overlap: SJS is under 10%, overlap 10–30% and TEN over 30% (the consensus classification used in the British Association of Dermatologists 2016 SJS/TEN guideline). Erythema multiforme major has typical, mainly acral targets with little detachment and is usually triggered by infection."
+    },
+    {
+      "kind": "risk",
+      "q": "What is her SCORTEN, and what mortality does it predict?",
+      "extra": "Urea 21 mg/dL (about 3.5 mmol/L), glucose 98 mg/dL, bicarbonate 23 mmol/L. No history of malignancy.",
+      "options": [
+        "1 point: predicted mortality about 3%",
+        "2 points: predicted mortality about 12%",
+        "3 points: predicted mortality about 35%",
+        "4 points: predicted mortality about 58%"
+      ],
+      "answer": 1,
+      "explanation": "SCORTEN gives one point each for age ≥40 years, malignancy, heart rate ≥120/min, detachment ≥10% BSA, urea >10 mmol/L, bicarbonate <20 mmol/L and glucose >14 mmol/L. She scores for heart rate and detachment only: 2 points, about 12% predicted mortality. The BAD 2016 guideline advises calculating SCORTEN within 24 hours of admission."
+    },
+    {
+      "kind": "management",
+      "q": "Which immediate action does most for her prognosis?",
+      "options": [
+        "Stop trimethoprim–sulfamethoxazole and every non-essential new drug",
+        "Switch to nitrofurantoin to complete treatment of the bacteriuria",
+        "Start prophylactic IV antibiotics to protect the denuded skin",
+        "Double the oral corticosteroid dose and review in 48 hours"
+      ],
+      "answer": 0,
+      "explanation": "Prompt withdrawal of the culprit is the most important modifiable prognostic factor and a core recommendation of the BAD 2016 SJS/TEN guideline; here, continuing the drug after the first erythema allowed progression. The bacteriuria never needed treatment (IDSA 2019 asymptomatic bacteriuria guideline), and antibiotics are kept for clinical signs of infection."
+    }
+  ],
+  "evidence": [
+    { "field": "patient, presentation.pmh[0], presentation.hpi", "quote": "An 18-year-old female patient, nonpregnant and previously healthy" },
+    {
+      "field": "presentation.hpi, presentation.meds[0]",
+      "quote": "was started on TMP-SMX (160/800 mg every 12 hours for 14 days) for asymptomatic bacteriuria detected on a routine urinalysis in primary care"
+    },
+    { "field": "presentation.hpi", "quote": "After three days of medication use, she developed cutaneous erythema, malaise, and headache." },
+    {
+      "field": "presentation.hpi, presentation.meds[1]",
+      "quote": "she was prescribed an oral corticosteroid for home use. At that time, no recommendation was made to discontinue TMP-SMX."
+    },
+    {
+      "field": "presentation.chiefComplaint, presentation.hpi",
+      "quote": "One week after treatment initiation, while still using TMP-SMX, the patient developed clinical deterioration, generalized erythema, epidermal detachment involving multiple body sites, and painful mucosal lesions."
+    },
+    { "field": "presentation.hpi", "quote": "She again sought care at an urgent care unit and was then admitted to the emergency department" },
+    {
+      "field": "patient.arrival, presentation.hpi",
+      "quote": "The patient was subsequently transferred to the intensive care unit (ICU) of a tertiary hospital."
+    },
+    {
+      "field": "exam[0], vitals.sbp, vitals.dbp, vitals.hr",
+      "quote": "Upon ICU admission, the patient presented with severe dehydration and the following vital signs: blood pressure at 102/76 mmHg; heart rate at 121 beats per minute (bpm)"
+    },
+    { "field": "vitals.rr, vitals.spo2", "quote": "respiratory rate at 19 breaths/min; and oxygen saturation at 96% on room air" },
+    {
+      "field": "exam[1], diagnosis.primary",
+      "quote": "widespread atypical erythematous-violaceous macules and plaques, partially confluent, associated with flaccid bullae, erosions, and epidermal detachment involving approximately 20% of the BSA"
+    },
+    { "field": "exam[2]", "quote": "Lips showing erythema, edema, and hemorrhagic crusts" },
+    { "field": "exam[3]", "quote": "Bilateral palmar surfaces showing desquamative areas and skin detachment" },
+    {
+      "field": "exam[4], management[3]",
+      "quote": "the ophthalmology and gynecology services were also consulted to evaluate possible ocular and genital mucosal involvement, respectively, with no involvement initially identified"
+    },
+    { "field": "investigations[Hemoglobin], investigations[Hematocrit]", "quote": "Hemoglobin 9.5 g/dL 12.0-16.0 g/dL Hematocrit 28%" },
+    {
+      "field": "investigations[White cell count], investigations[Platelets]",
+      "quote": "White blood cell count 5,100/µL 4,000-10,000/µL Total platelets count 297,000/µL"
+    },
+    { "field": "investigations[C-reactive protein], investigations[Glucose]", "quote": "C-reactive protein 23.8 mg/L <5 mg/L Glucose 98 mg/dL" },
+    {
+      "field": "investigations[Urea], investigations[Creatinine], investigations[Sodium], investigations[Potassium]",
+      "quote": "Blood urea 21 mg/dL 15-40 mg/dL Creatinine 0.67 mg/dL 0.5-1.1 mg/dL Sodium 141 mEq/L 135-145 mEq/L Potassium 4.3 mEq/L"
+    },
+    {
+      "field": "investigations[ALT], investigations[AST], investigations[Total bilirubin]",
+      "quote": "Alanine aminotransferase 23 U/L 7-35 U/L Aspartate aminotransferase 32 U/L 10-35 U/L Total bilirubin 0.2 mg/dL"
+    },
+    { "field": "investigations[Skin biopsy]", "quote": "Skin biopsy was not performed, as the diagnosis was considered clinically evident" },
+    { "field": "management[0]", "quote": "At this time, TMP-SMX was discontinued, and advanced supportive care was initiated." },
+    {
+      "field": "investigations[15], diagnosis.primary",
+      "quote": "score supported a probable causal relationship (ALDEN score = 4) between TMP-SMX exposure and the development of SJS/TEN overlap"
+    },
+    {
+      "field": "management[1]",
+      "quote": "intravenous methylprednisolone at a dose of 500 mg/day for five days, along with the liberal use of topical petroleum jelly or sunflower oil"
+    },
+    { "field": "management[2]", "quote": "Empirical antibiotic therapy with ceftriaxone was also initiated due to a suspected secondary cutaneous infection." },
+    {
+      "field": "investigations[16]",
+      "quote": "the SCORTEN yielded two points (heart rate >120 bpm and epidermal detachment >10% BSA), corresponding to an intermediate predicted mortality risk"
+    },
+    { "field": "diagnosis.primary", "quote": "subsequently developed SJS/TEN overlap with epidermal detachment involving 20% of the body surface area" },
+    {
+      "field": "outcome",
+      "quote": "The patient improved after withdrawal of the offending agent and intensive supportive management and was discharged after 22 days of hospitalization."
+    },
+    { "field": "outcome", "quote": "the patient remained clinically stable, with complete re-epithelialization and no residual sequelae" }
+  ],
+  "augmented": [
+    "vitals.tempC: not reported",
+    "presentation.allergies: not reported",
+    "investigations[Bicarbonate]: not reported; a normal value consistent with the authors' SCORTEN of 2"
+  ]
+}

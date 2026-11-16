@@ -1,0 +1,152 @@
+{
+  "id": "pmc-PMC6075496-missed-aneurysmal-sah",
+  "title": "A different headache that woke him from sleep",
+  "category": "neurology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC6075496",
+    "pmid": "30083630",
+    "doi": "10.5811/cpcem.2018.5.38417",
+    "citation": "Montemayor ET, Long B, Pfaff JA, Moore GP. Patient with a Subarachnoid Headache. Clin Pract Cases Emerg Med. 2018;2(3):193-196.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6075496/"
+  },
+  "patient": { "age": 53, "sex": "M", "arrival": "ems" },
+  "presentation": {
+    "chiefComplaint": "Severe headache that woke him from sleep",
+    "hpi": "Woken from sleep about 2 h before arrival by a severe, persistent occipital headache, throbbing and sharp, worse with movement. Nausea, dizziness, difficulty walking and tingling in his arms and legs; he nearly fainted but did not lose consciousness. He has a history of migraine but says this headache is different.",
+    "pmh": ["Migraine", "Sleep apnea"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 75, "sbp": 134, "dbp": 87, "rr": 16, "spo2": 100, "tempC": 36.8, "gcs": 15 },
+  "exam": [
+    "Mildly anxious, describing an occipital headache",
+    "No meningismus; no visual or focal neurological abnormalities",
+    "Remainder of the examination unremarkable"
+  ],
+  "investigations": [
+    { "name": "CSF red blood cells", "value": "Too numerous to count" },
+    { "name": "CSF xanthochromia", "value": "Absent" },
+    { "name": "Hemoglobin", "value": "14.8", "unit": "g/dL", "augmented": true },
+    { "name": "White cell count", "value": "7.9", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Platelets", "value": "245", "unit": "x10⁹/L", "augmented": true },
+    { "name": "Sodium", "value": "139", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.2", "unit": "mmol/L", "augmented": true },
+    { "name": "Creatinine", "value": "1.02", "unit": "mg/dL", "augmented": true },
+    { "name": "Glucose", "value": "108", "unit": "mg/dL", "augmented": true },
+    { "name": "INR", "value": "1.0", "augmented": true }
+  ],
+  "imaging": [{ "modality": "Noncontrast CT head", "finding": "Interpreted as negative for mass or hemorrhage" }],
+  "diagnosis": {
+    "primary": "Aneurysmal subarachnoid hemorrhage from a saccular anterior cerebral artery aneurysm (missed at the ED visit; fatal)",
+    "icd10": "I60.6",
+    "differentials": [
+      "Migraine attack with atypical features",
+      "Reversible cerebral vasoconstriction syndrome",
+      "Cervical artery dissection",
+      "Cerebral venous thrombosis",
+      "Pituitary apoplexy"
+    ]
+  },
+  "management": [
+    "Noncontrast head CT, then lumbar puncture, which was technically difficult",
+    "CSF red cells attributed to a traumatic tap because of the timing, the difficult procedure and the absence of xanthochromia",
+    "Metoclopramide, acetaminophen, dexamethasone, promethazine and hydromorphone; headache resolved completely",
+    "Discharged with primary care follow-up; seen in clinic 4 days later and referred to neurology"
+  ],
+  "outcome": "Found dead at home the day after the clinic visit (5 days after the ED visit) from subarachnoid hemorrhage due to a saccular anterior cerebral artery aneurysm. The family later reported that the headache had first started the evening before the ED visit, while he was weightlifting.",
+  "teachingPoints": [
+    "A severe headache that the patient describes as different from his usual migraines is a red flag; a migraine history does not lower the risk.",
+    "The Ottawa SAH rule rules out SAH only when every criterion is absent: age 40 or older alone means further testing is needed.",
+    "A negative CT is reassuring only within 6 h of a clearly timed onset. Here the headache had begun the previous evening, during exertion, so the CT was done outside that window.",
+    "Do not call a bloody tap traumatic just because xanthochromia is absent: it can take up to 12 h to form and visual inspection is insensitive. High CSF red cell counts after a sudden headache need vascular imaging.",
+    "Sentinel headaches precede aneurysmal SAH in a substantial minority of patients (10–43% in the studies cited by this report) and may be the last chance to secure the aneurysm before it ruptures."
+  ],
+  "questions": [
+    {
+      "kind": "risk",
+      "q": "Under the Ottawa SAH rule, which feature already means SAH cannot be ruled out on clinical grounds?",
+      "options": ["Age of 40 years or older", "Throbbing quality of the headache", "A history of migraine headaches", "Pain that worsens with movement"],
+      "answer": 0,
+      "explanation": "The Ottawa SAH rule applies to alert adults with a new, severe, atraumatic headache; any one of age ≥40, neck pain or stiffness, witnessed loss of consciousness, onset during exertion, thunderclap onset or limited neck flexion requires investigation. ACEP's 2019 clinical policy on acute headache supports using it to rule SAH out, not in."
+    },
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate next step?",
+      "extra": "Noncontrast head CT: no hemorrhage. Lumbar puncture (technically difficult): red cells too numerous to count, no xanthochromia. His pain has resolved after treatment.",
+      "options": [
+        "Discharge with a diagnosis of traumatic tap and migraine",
+        "Repeat the lumbar puncture in one week if the pain recurs",
+        "CT angiography of the head before any disposition",
+        "Outpatient MRI of the brain within two weeks"
+      ],
+      "answer": 2,
+      "explanation": "A traumatic tap cannot be assumed: xanthochromia may not have formed yet, visual inspection misses it, and red cells clearing across tubes is unreliable. Many CSF red cells after a sudden, different headache mean SAH until proven otherwise, so CT angiography to look for an aneurysm is needed before discharge."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Why does this new history change how the negative head CT should be read?",
+      "extra": "His family later reports that the headache first began the previous evening while he was weightlifting, and it then woke him from sleep.",
+      "options": [
+        "Exertional onset makes a migraine variant more likely than bleeding",
+        "Exertion causes CT artifacts that obscure the basal cisterns",
+        "The CT should have been done with contrast to show a leak",
+        "The CT was done more than 6 h after onset, when its sensitivity falls"
+      ],
+      "answer": 3,
+      "explanation": "A modern CT read by an experienced radiologist is close to 100% sensitive for SAH only within 6 h of a clearly timed onset (the basis of ACEP's 2019 clinical policy); after that, blood is cleared and sensitivity falls, so LP or CTA is still needed. Onset during exertion is itself an Ottawa rule criterion, not reassurance."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, patient.arrival, presentation.chiefComplaint, presentation.pmh[0], presentation.pmh[1]",
+      "quote": "A 53-year-old male with a history of migraine headaches and sleep apnea was brought in by emergency medical services with the chief complaint of headache."
+    },
+    {
+      "field": "presentation.hpi, presentation.chiefComplaint",
+      "quote": "He stated the headache had woken him from sleep approximately two hours prior to arrival, was in the occipital area, and was described as persistent, throbbing, sharp, and severe."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "He reported nausea, dizziness, trouble walking, and tingling of his extremities. He did not lose consciousness but described near syncope."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "The pain also was exacerbated by movement. He had a history of migraines; however, he stated this headache was different."
+    },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.rr, vitals.tempC",
+      "quote": "blood pressure 134/87 millimeters of mercury, heart rate of 75 beats per minute, respiratory rate of 16 breaths per minute, oral temperature of 98.2º Fahrenheit"
+    },
+    { "field": "vitals.spo2", "quote": "and oxygen saturation of 100%" },
+    {
+      "field": "exam[0], exam[1]",
+      "quote": "He appeared mildly anxious and described an occipital headache, which was without meningismus and visual or neurological abnormalities."
+    },
+    { "field": "exam[2]", "quote": "The remainder of the exam was unremarkable." },
+    { "field": "imaging[0], management[0]", "quote": "A noncontrast CT of the patient’s head was performed and interpreted as negative for masses or bleeds." },
+    {
+      "field": "investigations[0], investigations[1], management[0]",
+      "quote": "A LP was performed with difficulty and revealed a large number of red blood cells (TNTC) but an absence of xanthochromia."
+    },
+    {
+      "field": "management[1]",
+      "quote": "Given the time frame, the difficulty with the procedure and the lack of xanthochromia, the providers interpreted this to be a traumatic LP."
+    },
+    {
+      "field": "management[2]",
+      "quote": "The EP prescribed metaclopromide, acetaminophen, decadron, promethazine and hydoromorphone with complete resolution of his symptoms."
+    },
+    { "field": "management[3]", "quote": "The patient was instructed to see his primary care physician for follow-up care." },
+    { "field": "management[3], outcome", "quote": "The patient was seen in follow-up four days later in an outpatient setting." },
+    { "field": "management[3]", "quote": "His labs were reviewed, and it was arranged for him to follow up with a neurologist." },
+    {
+      "field": "outcome, diagnosis.primary",
+      "quote": "He was found dead at home the next day with a SAH secondary to a saccular aneurysm involving the anterior cerebral artery."
+    },
+    { "field": "outcome", "quote": "In retrospect, the family stated that he had developed a headache the evening before his ED visit while weightlifting." },
+    { "field": "diagnosis.primary", "quote": "We report a risk management case of a patient with a missed SAH resulting in a fatal outcome." }
+  ],
+  "augmented": ["vitals.gcs: GCS 15 inferred from a normal neurological examination", "presentation.meds: not reported", "presentation.allergies: not reported"]
+}

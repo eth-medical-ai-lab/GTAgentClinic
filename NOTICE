@@ -1,0 +1,21 @@
+GTAgentClinic
+Copyright 2026 ETH Medical AI Lab and the GTAgentClinic contributors
+https://github.com/eth-medical-ai-lab/GTAgentClinic
+
+This product includes software and clinical cases created by the
+GTAgentClinic contributors. If you use GTAgentClinic or its cases in your
+work, please cite it as given in CITATION.cff.
+
+Licences
+- Code, documentation and assets made for this project: Apache License 2.0
+  (LICENSE).
+- Clinical cases: Creative Commons Attribution 4.0 International
+  (LICENSE-CASES). This covers content/cases/, content/library/,
+  docs/cases/ and docs/library/. When you share these cases or material
+  adapted from them, credit them as:
+    "Cases from GTAgentClinic
+     (https://github.com/eth-medical-ai-lab/GTAgentClinic), CC BY 4.0"
+  Cases adapted from published case reports also require credit to the
+  report's authors. Each case records its source and licence.
+- Third-party assets, models and libraries keep their own licences. See
+  THIRD_PARTY_NOTICES.md.

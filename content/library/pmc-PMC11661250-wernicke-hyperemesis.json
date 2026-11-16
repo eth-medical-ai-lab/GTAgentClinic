@@ -1,0 +1,174 @@
+{
+  "id": "pmc-PMC11661250-wernicke-hyperemesis",
+  "title": "Confused and unable to walk at 13 weeks of pregnancy",
+  "category": "neurology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC11661250",
+    "pmid": "39704585",
+    "doi": "10.5811/cpcem.20522",
+    "citation": "Kreutzer B, Buehrer B, Pelikan A, Rohde P. Wernicke Encephalopathy Associated with Hyperemesis Gravidarum: A Case Report. Clin Pract Cases Emerg Med. 2024;8(4):357-360.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11661250/"
+  },
+  "patient": { "age": 22, "sex": "F" },
+  "presentation": {
+    "chiefComplaint": "Weakness and confusion",
+    "hpi": "G1P0 at 13 weeks' gestation. She fell in the shower and cannot walk without help. Blurred vision, difficulty focusing, a feeling that her eyes are bulging, headaches and dizziness; she is intermittently confused and says things that make no sense. Two weeks ago she spent 5 days on the obstetric ward with a urinary tract infection and hyperemesis gravidarum (ceftriaxone, IV fluids, antiemetics) and was discharged on cefdinir and several antiemetics. The symptoms began while she was still in hospital.",
+    "pmh": ["Hyperemesis gravidarum and urinary tract infection, admitted 2 weeks ago", "Healthy before pregnancy; no surgical history"],
+    "meds": ["Cefdinir", "Doxylamine", "Ondansetron", "Pyridoxine", "Loratadine"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 109, "sbp": 109, "dbp": 77, "rr": 20, "spo2": 100, "tempC": 36.2 },
+  "exam": [
+    "Alert, interactive, in no acute distress",
+    "Fully oriented, but repetitive questioning and frequent nonsensical statements",
+    "Restricted horizontal conjugate gaze in both directions",
+    "Decreased hearing in the left ear; other cranial nerves normal",
+    "Ataxic gait; full range of motion, normal strength and normal sensation in all four limbs",
+    "Cardiac, pulmonary, abdominal and skin examinations unremarkable"
+  ],
+  "investigations": [
+    { "name": "Hematocrit", "value": "30.1", "unit": "%", "flag": "L" },
+    { "name": "TSH", "value": "0.014", "unit": "mU/L", "flag": "L" },
+    { "name": "Free T3", "value": "1.28", "unit": "pg/mL" },
+    { "name": "Metabolic panel, magnesium, urinalysis and drug screens", "value": "Unremarkable" },
+    { "name": "Sodium", "value": "136", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "3.7", "unit": "mmol/L", "augmented": true },
+    { "name": "Glucose", "value": "86", "unit": "mg/dL", "augmented": true },
+    { "name": "Creatinine", "value": "0.62", "unit": "mg/dL", "augmented": true },
+    { "name": "Magnesium", "value": "1.9", "unit": "mg/dL", "augmented": true },
+    { "name": "CSF opening pressure", "value": "8 cm H2O" },
+    { "name": "CSF analysis", "value": "No abnormalities" },
+    { "name": "Serum thiamine", "value": "29", "unit": "nmol/L", "flag": "L" }
+  ],
+  "imaging": [
+    { "modality": "CT head and neck", "finding": "No acute intracranial abnormality" },
+    { "modality": "MRI brain", "finding": "T2-FLAIR hyperintensity in the bilateral medial thalami, mammillary bodies and periaqueductal gray matter" }
+  ],
+  "diagnosis": {
+    "primary": "Wernicke encephalopathy due to thiamine deficiency from hyperemesis gravidarum",
+    "icd10": "O99.281 / E51.2",
+    "differentials": [
+      "Cerebral venous thrombosis",
+      "Posterior reversible encephalopathy syndrome",
+      "Osmotic demyelination syndrome",
+      "Miller Fisher syndrome",
+      "Posterior circulation stroke"
+    ]
+  },
+  "management": ["Admitted to neurology for high-dose IV thiamine", "Discharged on hospital day 4 with oral thiamine, vitamin D and prenatal vitamins"],
+  "outcome": "Improved during admission and was discharged on day 4; she later gave birth to a healthy baby girl and made a full neurological recovery.",
+  "teachingPoints": [
+    "Wernicke encephalopathy is not only an alcohol disease: hyperemesis gravidarum, bariatric surgery and any cause of malnutrition can deplete thiamine, and pregnancy increases demand.",
+    "The full triad of confusion, eye signs and ataxia is present in only a minority; the Caine criteria (two of dietary deficiency, eye signs, cerebellar signs, altered mental state or memory impairment) are more sensitive.",
+    "Treat on clinical suspicion with high-dose IV thiamine before glucose; do not wait for MRI or a thiamine level.",
+    "Typical MRI: symmetric T2-FLAIR signal in the medial thalami, mammillary bodies and periaqueductal gray, but a normal MRI does not exclude the diagnosis.",
+    "Standard prenatal vitamins contain only 1–2 mg of thiamine, too little for a patient with hyperemesis; supplement it early."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "options": ["Posterior circulation ischemic stroke", "Cerebral venous sinus thrombosis", "Miller Fisher syndrome", "Wernicke encephalopathy"],
+      "answer": 3,
+      "explanation": "Confusion, horizontal gaze restriction and gait ataxia after weeks of vomiting are the classic triad of thiamine deficiency, and she meets all four Caine criteria. Miller Fisher syndrome causes ophthalmoplegia and ataxia without encephalopathy; cerebral venous thrombosis, a genuine risk in pregnancy, usually causes headache with raised pressure or focal deficits rather than a conjugate gaze palsy with ataxia."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate immediate treatment?",
+      "options": [
+        "IV thiamine 200 mg three times daily, given before any glucose",
+        "Oral thiamine 100 mg daily added to her prenatal vitamin",
+        "IV dextrose bolus now, then thiamine if MRI confirms it",
+        "IV methylprednisolone 1 g daily for five days"
+      ],
+      "answer": 0,
+      "explanation": "The EFNS guideline on Wernicke encephalopathy recommends IV thiamine 200 mg three times daily, started on clinical suspicion and before any carbohydrate, and continued until there is no further improvement. Oral doses are poorly absorbed and too low, and glucose given without thiamine can precipitate or worsen the encephalopathy."
+    },
+    {
+      "kind": "interpretation",
+      "q": "Which statement about these results is most accurate?",
+      "extra": "MRI brain: symmetric T2-FLAIR hyperintensity in the medial thalami, mammillary bodies and periaqueductal gray. Serum thiamine: 29 nmol/L (reference 70–180).",
+      "options": [
+        "The pattern is specific for osmotic demyelination syndrome",
+        "A thiamine level is required before treatment can start",
+        "The MRI pattern is typical, but a normal MRI would not exclude it",
+        "These lesions indicate irreversible injury despite thiamine"
+      ],
+      "answer": 2,
+      "explanation": "Symmetric signal change in the medial thalami, mammillary bodies and periaqueductal region is the characteristic pattern, but MRI misses about half of cases and blood thiamine levels are unreliable, so the diagnosis remains clinical (EFNS guideline). The lesions are often reversible with prompt thiamine, as in this patient."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi",
+      "quote": "A 22-year-old female, gravida 1 para 0 at 13 weeks estimated gestational age, presented to the ED complaining of weakness and confusion."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "She had fallen in the shower and was unable to ambulate independently. She had blurry vision, difficulty focusing, bulging eyes, headaches, and dizziness."
+    },
+    { "field": "presentation.hpi", "quote": "She was intermittently confused and making nonsensical statements." },
+    {
+      "field": "presentation.hpi, presentation.pmh[0]",
+      "quote": "Two weeks prior she had been admitted to the obstetrics service with a urinary tract infection and hyperemesis gravidarum."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "She was treated with ceftriaxone, intravenous (IV) fluids, and antiemetics and discharged on hospital day five with cefdinir and multiple antiemetics."
+    },
+    { "field": "presentation.hpi", "quote": "She had noticed development of these symptoms while still hospitalized." },
+    { "field": "presentation.pmh[1]", "quote": "Prior to the pregnancy, she was healthy without any significant medical concerns." },
+    { "field": "presentation.pmh[1]", "quote": "She had no surgical history." },
+    { "field": "presentation.meds", "quote": "Medications at time of evaluation included cefdinir, doxylamine, ondansetron, pyridoxine, and loratadine." },
+    { "field": "exam[0]", "quote": "On exam the patient was alert, interactive, and in no acute distress." },
+    {
+      "field": "vitals.tempC, vitals.rr, vitals.hr, vitals.sbp, vitals.dbp, vitals.spo2",
+      "quote": "temperature 36.2° Celsius, respiratory rate 20 breaths per minute, heart rate 109 beats per minute, blood pressure 109/77 millimeters of mercury, and pulse oximetry 100% on room air"
+    },
+    { "field": "exam[1]", "quote": "She was alert and fully oriented but had repetitive questioning and made frequent nonsensical statements." },
+    {
+      "field": "exam[4]",
+      "quote": "She had full range of motion in all extremities with normal strength and sensation to upper and lower extremities bilaterally. Her gait was ataxic."
+    },
+    {
+      "field": "exam[2], exam[3]",
+      "quote": "She had restricted horizontal conjugate gaze bilaterally and decreased hearing to the left ear. She had no other cranial nerve deficits."
+    },
+    {
+      "field": "exam[5]",
+      "quote": "Cardiac, pulmonary, and abdominal portions of the exam were unremarkable. She had no rashes, wounds, or lesions on skin exam."
+    },
+    {
+      "field": "investigations[Hematocrit]",
+      "quote": "the patient was mildly anemic with a hematocrit of 30.1% (reference range 36.0–48.0%), similar as compared to previous."
+    },
+    {
+      "field": "investigations[TSH], investigations[Free T3]",
+      "quote": "Thyroid stimulating hormone level was 0.014 milliunits per liter (mU/L) (0.4–4.0 mU/L) with free T3 level of 1.28 picograms per milliliter (pg/mL)"
+    },
+    { "field": "investigations[3]", "quote": "Complete metabolic panel, magnesium, urinalysis, and drug screens were unremarkable." },
+    { "field": "imaging[0]", "quote": "Computed tomography of the head and neck demonstrated no acute intracranial abnormality." },
+    {
+      "field": "investigations[CSF opening pressure], investigations[CSF analysis]",
+      "quote": "A lumbar puncture was performed with an opening pressure of eight centimeters of water, with no cerebrospinal fluid abnormalities."
+    },
+    {
+      "field": "imaging[1], diagnosis.primary",
+      "quote": "Magnetic resonance imaging of the brain showed T2 FLAIR signal hyperintensity within the bilateral medial thalami, mammillary bodies, and periaqueductal gray matter, a pattern consistent with Wernicke encephalopathy"
+    },
+    { "field": "investigations[Serum thiamine]", "quote": "Subsequent testing revealed a thiamine level of 29 nanomoles (nmol)/L (70–180 nmol/L)." },
+    { "field": "management[0]", "quote": "The patient was admitted to the neurology team for high-dose IV thiamine therapy." },
+    {
+      "field": "management[1], outcome",
+      "quote": "She had overall improvement and was discharged on hospital day four with oral thiamine, vitamin D, and prenatal vitamin supplements."
+    },
+    { "field": "outcome", "quote": "She has since given birth to a healthy baby girl and has made a full neurologic recovery." },
+    {
+      "field": "diagnosis.primary",
+      "quote": "Exam and workup ultimately revealed the diagnosis of Wernicke encephalopathy. Her symptoms improved after administration of thiamine."
+    }
+  ],
+  "augmented": ["presentation.allergies: not reported"]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "pmc-PMC12930116-cvst-anabolic-steroids",
+  "title": "Five days of worsening headache, then a first seizure",
+  "category": "neurology",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC12930116",
+    "pmid": "41742990",
+    "doi": "10.7759/cureus.102234",
+    "citation": "Ahmed AE, Sahli AH, Alenezi ML, Jamor OA, Alsubaie MA. Anabolic Androgen Abuse-Associated Cerebral Venous Sinus Thrombosis in a Young Adult: A Case Report. Cureus. 2026;18(1):e102234.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12930116/"
+  },
+  "patient": { "age": 29, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Progressively worsening headache for five days",
+    "hpi": "Five days of progressively worsening diffuse, severe, pressure-like headache, worst in the occiput and not relieved by over-the-counter analgesics, with nausea, intermittent vomiting, photophobia and episodes of blurred vision. Twenty-four hours ago he had a generalized tonic-clonic seizure lasting about a minute, followed by postictal confusion. No previous seizures or migraine, no head trauma, fever, recent infection, dehydration, immobilization or surgery.",
+    "pmh": ["No known chronic illness"],
+    "meds": [
+      "No prescribed medications",
+      "Self-administered anabolic steroids for about 3 years for bodybuilding: IM testosterone enanthate and oral methandrostenolone in high-dose cycles"
+    ],
+    "allergies": ["No known drug allergies"],
+    "social": "Bodybuilder using anabolic steroids without medical supervision; nonsmoker, occasional alcohol; denies cocaine, amphetamines and other illicit drugs.",
+    "family": "No personal or family history of venous thromboembolism, autoimmune disease, malignancy or inherited thrombophilia."
+  },
+  "vitals": { "hr": 96, "sbp": 148, "dbp": 92, "rr": 18, "spo2": 98, "tempC": 36.8, "gcs": 15 },
+  "exam": [
+    "Alert but in marked distress from the headache",
+    "Bilateral papilledema on fundoscopy; other cranial nerves intact",
+    "Strength 5/5 in all limbs with normal tone and reflexes; sensation and cerebellar testing normal",
+    "No meningism",
+    "Cardiovascular, respiratory and abdominal examinations normal; no peripheral edema or calf tenderness"
+  ],
+  "investigations": [
+    { "name": "Hemoglobin", "value": "18.2", "unit": "g/dL", "flag": "H" },
+    { "name": "Hematocrit", "value": "54", "unit": "%", "flag": "H" },
+    { "name": "White cell and platelet counts", "value": "Within normal limits" },
+    { "name": "Electrolytes, renal and liver tests", "value": "Largely normal; mildly elevated ALT" },
+    { "name": "PT and aPTT", "value": "Normal" },
+    { "name": "D-dimer", "value": "Elevated" },
+    { "name": "CRP and ESR", "value": "Not significantly raised" },
+    { "name": "Sodium", "value": "139", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.1", "unit": "mmol/L", "augmented": true },
+    { "name": "Creatinine", "value": "1.0", "unit": "mg/dL", "augmented": true },
+    { "name": "Glucose", "value": "101", "unit": "mg/dL", "augmented": true },
+    {
+      "name": "Thrombophilia screen",
+      "value": "Normal or negative (protein C, protein S, antithrombin, factor V Leiden, prothrombin mutation, antiphospholipid antibodies, homocysteine)"
+    },
+    { "name": "HIV and hepatitis serology", "value": "Negative" }
+  ],
+  "imaging": [
+    {
+      "modality": "Noncontrast CT brain",
+      "finding": "Hyperdensity along the right transverse sinus; no arterial infarct, space-occupying lesion or intracranial infection"
+    },
+    { "modality": "CT venography", "finding": "Filling defect along the right transverse sinus, confirming thrombosis" },
+    { "modality": "Repeat imaging (day 7)", "finding": "Partial recanalization of the affected sinuses and less cerebral edema" }
+  ],
+  "diagnosis": {
+    "primary": "Cerebral venous sinus thrombosis (right transverse sinus) attributed to anabolic androgenic steroid use with secondary polycythemia",
+    "icd10": "I67.6 / D75.1",
+    "differentials": [
+      "Subarachnoid hemorrhage",
+      "Idiopathic intracranial hypertension",
+      "Intracranial mass lesion",
+      "Meningitis or encephalitis",
+      "Reversible cerebral vasoconstriction syndrome"
+    ]
+  },
+  "management": [
+    "Admitted to the neurological ICU; therapeutic low-molecular-weight heparin started despite a small hemorrhagic component",
+    "Levetiracetam for seizure prophylaxis; acetazolamide for raised intracranial pressure",
+    "Anabolic steroids stopped at once, with counseling about their risks",
+    "Switched to warfarin, planned for at least 6–12 months"
+  ],
+  "outcome": "Headache improved gradually with no further seizures; day-7 imaging showed partial recanalization. Discharged home stable after 10 days; at 3 months the headaches had resolved completely and there had been no further seizures.",
+  "teachingPoints": [
+    "Headache is the commonest symptom of cerebral venous thrombosis; a progressive headache with papilledema, seizures or focal signs calls for venous imaging.",
+    "Noncontrast CT may show a hyperdense sinus but is often normal; CT venography or MR venography confirms the diagnosis.",
+    "Ask young men about testosterone and anabolic steroids: they raise thrombotic risk, partly through secondary polycythemia.",
+    "Anticoagulate with heparin even when there is a hemorrhagic component, then continue oral anticoagulation for 3–12 months.",
+    "D-dimer was raised here, but a normal D-dimer does not reliably exclude venous thrombosis, especially with isolated headache or several days of symptoms."
+  ],
+  "questions": [
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate next investigation?",
+      "extra": "Noncontrast CT brain: hyperdensity along the right transverse sinus; no infarct, mass or signs of infection.",
+      "options": [
+        "Lumbar puncture with opening pressure",
+        "CT venography or MR venography",
+        "Digital subtraction cerebral angiography",
+        "EEG before any further imaging"
+      ],
+      "answer": 1,
+      "explanation": "A progressive headache with papilledema and a first seizure, plus a hyperdense transverse sinus on CT, suggests cerebral venous thrombosis; CT or MR venography confirms it (2024 AHA scientific statement on cerebral venous thrombosis). Lumbar puncture does not make the diagnosis, and catheter angiography is kept for inconclusive noninvasive imaging or endovascular treatment."
+    },
+    {
+      "kind": "interpretation",
+      "q": "What best explains these results?",
+      "extra": "Hemoglobin 18.2 g/dL, hematocrit 54%; white cell and platelet counts normal; thrombophilia screen negative.",
+      "options": [
+        "Hemoconcentration from five days of vomiting",
+        "Polycythemia vera with a JAK2 mutation",
+        "Secondary erythrocytosis from anabolic steroids",
+        "Chronic hypoxemia from obstructive sleep apnea"
+      ],
+      "answer": 2,
+      "explanation": "Testosterone and other anabolic steroids stimulate red cell production, raising hematocrit and blood viscosity; with the other prothrombotic effects of androgens, this was the attributed cause once the thrombophilia screen was negative. Normal white cells and platelets make polycythemia vera less likely, and vomiting alone rarely raises the hematocrit this much."
+    },
+    {
+      "kind": "management",
+      "q": "What is the most appropriate initial treatment?",
+      "extra": "CT venography: filling defect in the right transverse sinus. A small hemorrhagic component is present.",
+      "options": [
+        "Withhold anticoagulation for a week because of the hemorrhage",
+        "Aspirin 300 mg daily until repeat imaging",
+        "Immediate endovascular thrombectomy",
+        "Therapeutic-dose low-molecular-weight heparin"
+      ],
+      "answer": 3,
+      "explanation": "Anticoagulation is recommended for acute cerebral venous thrombosis even when there is venous hemorrhage (ESO guideline; 2024 AHA scientific statement), and the ESO guideline suggests LMWH over unfractionated heparin. Endovascular therapy is reserved for patients who deteriorate despite anticoagulation, and aspirin is not a substitute."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi",
+      "quote": "A 29-year-old man was admitted to the emergency department with a five-day history of progressively worsening headache"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "described as diffuse, severe, and pressure-like, with a predominance in the occipital region. The headache was refractory to over-the-counter analgesics"
+    },
+    { "field": "presentation.hpi", "quote": "associated with nausea, intermittent vomiting, photophobia, and transient visual blurring" },
+    {
+      "field": "presentation.hpi",
+      "quote": "Twenty-four hours prior to presentation, he developed a generalized tonic-clonic seizure lasting approximately one minute, followed by postictal confusion"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "There was no prior history of seizures, migraine, head trauma, fever, recent infection, dehydration, prolonged immobilization, or recent surgery."
+    },
+    {
+      "field": "presentation.pmh[0], presentation.meds[0]",
+      "quote": "The patient had no known chronic medical illnesses and was not taking prescribed medications."
+    },
+    {
+      "field": "presentation.meds[1], presentation.social",
+      "quote": "he disclosed self-administered anabolic androgenic steroid use for bodybuilding purposes for approximately three years."
+    },
+    {
+      "field": "presentation.meds[1], presentation.social",
+      "quote": "His regimen included intramuscular testosterone enanthate and oral methandrostenolone, used in cyclical high doses without medical supervision."
+    },
+    { "field": "presentation.social", "quote": "He denied using other illicit drugs, including cocaine or amphetamines." },
+    { "field": "presentation.social", "quote": "He was a nonsmoker and consumed alcohol occasionally." },
+    {
+      "field": "presentation.family",
+      "quote": "There was no personal or family history of thromboembolic disease, autoimmune disorders, malignancy, or known inherited thrombophilia."
+    },
+    { "field": "exam[0]", "quote": "the patient was alert but in significant distress due to headache" },
+    {
+      "field": "vitals.sbp, vitals.dbp, vitals.hr, vitals.rr, vitals.tempC",
+      "quote": "Vital signs revealed blood pressure of 148/92 mmHg, heart rate of 96 beats per minute, respiratory rate of 18 breaths per minute, temperature of 36.8°C"
+    },
+    { "field": "vitals.spo2", "quote": "and oxygen saturation of 98% in room air" },
+    {
+      "field": "exam[1]",
+      "quote": "Neurological examination demonstrated bilateral papilledema on fundoscopic examination, suggesting raised intracranial pressure. Cranial nerve examination was otherwise intact."
+    },
+    {
+      "field": "exam[2]",
+      "quote": "Motor strength was 5/5 in all extremities, with normal tone and reflexes. Sensory examination and cerebellar testing were unremarkable."
+    },
+    { "field": "exam[3]", "quote": "There were no signs of meningism." },
+    {
+      "field": "exam[4]",
+      "quote": "Cardiovascular, respiratory, and abdominal examinations were within normal limits, and no peripheral edema or calf tenderness was noted."
+    },
+    {
+      "field": "investigations[Hemoglobin], investigations[Hematocrit]",
+      "quote": "revealed hemoglobin of 18.2 g/dL … and hematocrit of 54% … consistent with secondary polycythemia"
+    },
+    { "field": "investigations[2]", "quote": "White blood cell count and platelet count were within normal limits." },
+    {
+      "field": "investigations[3]",
+      "quote": "Serum electrolytes, renal function, and liver function tests were largely normal, apart from mildly elevated alanine aminotransferase."
+    },
+    { "field": "investigations[4]", "quote": "The coagulation profile showed normal prothrombin time and activated partial thromboplastin time." },
+    { "field": "investigations[D-dimer]", "quote": "D-dimer levels were elevated." },
+    {
+      "field": "investigations[6]",
+      "quote": "Inflammatory markers, including C-reactive protein and erythrocyte sedimentation rate, were not significantly raised."
+    },
+    {
+      "field": "investigations[Thrombophilia screen]",
+      "quote": "A comprehensive thrombophilia workup was performed … all of which were within normal limits or negative."
+    },
+    { "field": "investigations[HIV and hepatitis serology]", "quote": "Viral serology, including HIV and hepatitis panel, was negative." },
+    { "field": "imaging[0]", "quote": "Non-contrast computed tomography of the brain demonstrated hyperdensity along the right transverse sinus" },
+    { "field": "imaging[0]", "quote": "There was no evidence of arterial infarction, space-occupying lesion, or intracranial infection." },
+    {
+      "field": "imaging[1], diagnosis.primary",
+      "quote": "Axial computed tomography venogram showing a filling defect (arrow) along the right transverse sinus, confirming the presence of thrombosis"
+    },
+    {
+      "field": "diagnosis.primary",
+      "quote": "Given the absence of other prothrombotic conditions and the presence of long-term high-dose androgen abuse with secondary polycythemia, the CVST was attributed to androgen-induced hypercoagulability."
+    },
+    {
+      "field": "management[0]",
+      "quote": "admitted to the neurological intensive care unit and initiated on therapeutic anticoagulation with low-molecular-weight heparin, despite the presence of a small hemorrhagic component"
+    },
+    {
+      "field": "management[1]",
+      "quote": "Levetiracetam was started for seizure prophylaxis, and acetazolamide was administered to manage raised intracranial pressure."
+    },
+    {
+      "field": "management[2]",
+      "quote": "Androgen use was immediately discontinued, and the patient received counseling regarding the risks of anabolic steroid abuse."
+    },
+    {
+      "field": "outcome",
+      "quote": "Serial neurological assessments showed gradual improvement in headache severity, and no further seizures occurred during hospitalization."
+    },
+    {
+      "field": "imaging[2], outcome",
+      "quote": "repeat imaging performed on day 7 demonstrated partial recanalization of the affected sinuses and reduction in cerebral edema"
+    },
+    {
+      "field": "management[3], outcome",
+      "quote": "He was transitioned to oral anticoagulation with warfarin, with a planned duration of at least 6-12 months, and discharged home in stable condition after 10 days of hospitalization."
+    },
+    { "field": "outcome", "quote": "At the three-month follow-up, the patient reported complete resolution of headaches and no recurrent seizures." }
+  ],
+  "augmented": [
+    "vitals.gcs: GCS 15 inferred from an alert patient with a normal neurological examination apart from papilledema",
+    "presentation.allergies: not reported"
+  ]
+}

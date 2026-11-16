@@ -1,0 +1,223 @@
+{
+  "id": "pmc-PMC7434240-euglycemic-dka-sglt2-pericarditis",
+  "title": "Pleuritic chest pain during a daytime fast",
+  "category": "endocrine",
+  "acuity": 2,
+  "source": {
+    "pmcid": "PMC7434240",
+    "pmid": "32926693",
+    "doi": "10.5811/cpcem.2020.4.46056",
+    "citation": "Mendelsohn RA, Taveras AN, Mazer BA, Clayton LM. Euglycemic Diabetic Ketoacidosis Precipitated by SGLT-2 Inhibitor Use, Pericarditis, and Fasting: A Case Report. Clin Pract Cases Emerg Med. 2020;4(3):389-392.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7434240/"
+  },
+  "patient": { "age": 39, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "Three days of substernal chest pain",
+    "hpi": "Three days of constant substernal chest pain that is worse on inspiration and when leaning forward, with palpitations; the pain does not radiate. For the past 10 days he has kept a strict daytime fast for Ramadan. No infectious or neurological symptoms, shortness of breath, abdominal pain or dysuria.",
+    "pmh": ["Type 2 diabetes mellitus, not on insulin", "Hyperlipidemia", "No connective tissue disorder; no recent surgery"],
+    "meds": ["Metformin", "Empagliflozin"],
+    "allergies": ["No known drug allergies"],
+    "social": "Denies alcohol, tobacco and illicit drug use. Only recent travel was a four-hour flight two weeks ago.",
+    "family": "Father with type 2 diabetes, chronic kidney disease and early coronary artery disease."
+  },
+  "vitals": { "hr": 116, "sbp": 148, "dbp": 96, "rr": 15, "spo2": 100, "tempC": 36.6, "gcs": 15 },
+  "exam": [
+    "Tachycardic; normal first and second heart sounds without murmurs, rubs or gallops",
+    "Normal capillary refill; no peripheral edema",
+    "Remainder of the examination unremarkable",
+    "Receiving 2 L/min oxygen by nasal cannula at the time of the first vital signs (SpO2 100%)"
+  ],
+  "investigations": [
+    { "name": "White cell count", "value": "13.1", "unit": "x10⁹/L", "flag": "H" },
+    { "name": "Troponin", "value": "Negative" },
+    { "name": "C-reactive protein", "value": "30.43", "unit": "mg/dL", "flag": "H" },
+    { "name": "Erythrocyte sedimentation rate", "value": "75", "unit": "mm/h", "flag": "H" },
+    { "name": "Sodium", "value": "136", "unit": "mmol/L", "augmented": true },
+    { "name": "Potassium", "value": "4.5", "unit": "mmol/L", "augmented": true },
+    { "name": "Chloride", "value": "102", "unit": "mmol/L", "augmented": true },
+    { "name": "Bicarbonate (serum)", "value": "12", "unit": "mmol/L", "flag": "L" },
+    { "name": "Anion gap", "value": "22", "unit": "mEq/L", "flag": "H" },
+    { "name": "Glucose", "value": "158", "unit": "mg/dL", "flag": "H" },
+    { "name": "Creatinine", "value": "0.9", "unit": "mg/dL", "augmented": true },
+    { "name": "pH (arterial)", "value": "7.22", "flag": "L" },
+    { "name": "PaCO2", "value": "20.5", "unit": "mm Hg", "flag": "L" },
+    { "name": "PaO2 (on 2 L/min oxygen)", "value": "115.3", "unit": "mm Hg", "flag": "H" },
+    { "name": "Bicarbonate (arterial blood gas)", "value": "8.3", "unit": "mmol/L", "flag": "critical" },
+    { "name": "Lactate", "value": "1.3", "unit": "mmol/L" },
+    { "name": "Beta-hydroxybutyrate", "value": "116.1", "unit": "mg/dL", "flag": "H" }
+  ],
+  "imaging": [
+    {
+      "modality": "CT angiography of the chest",
+      "finding": "Tiny pericardial effusion with inflammatory changes suspicious for pericarditis; no pulmonary embolism"
+    }
+  ],
+  "ecg": "Sinus tachycardia; marked ST elevation in the precordial leads, minimal ST elevation in the limb leads, ST depression in aVR and widespread PR-segment depression; no ectopy, axis and intervals otherwise normal",
+  "diagnosis": {
+    "primary": "Euglycemic diabetic ketoacidosis due to empagliflozin (SGLT2 inhibitor), precipitated by daytime fasting and acute coxsackievirus pericarditis",
+    "icd10": "E11.10 / T38.3X5A / B33.23",
+    "differentials": [
+      "Metformin-associated lactic acidosis",
+      "Starvation (fasting) ketosis",
+      "Alcoholic ketoacidosis",
+      "Toxic alcohol or salicylate poisoning",
+      "ST-elevation myocardial infarction"
+    ]
+  },
+  "management": [
+    "IV ketorolac (Toradol) for the pericarditic pain, with relief",
+    "Serum beta-hydroxybutyrate sent because of the SGLT2 inhibitor; empagliflozin stopped immediately",
+    "ICU admission on an IV insulin infusion with dextrose-containing maintenance fluid",
+    "Oral colchicine for the pericarditis",
+    "Later in the admission: large pericardial effusion drained by emergency pericardiocentesis with a pigtail catheter"
+  ],
+  "outcome": "Acidosis improved and the anion gap closed over two days; serum PCR was positive for coxsackievirus A and B. Discharged home on hospital day 5, with empagliflozin replaced by glipizide alongside metformin.",
+  "teachingPoints": [
+    "SGLT2 inhibitors can cause diabetic ketoacidosis with a normal or only mildly raised glucose; check the anion gap and blood ketones in any unwell patient taking one.",
+    "Typical precipitants are reduced intake (fasting, ketogenic diets), acute illness, surgery, insulin dose reduction and alcohol; several often combine.",
+    "Measure blood beta-hydroxybutyrate: the urine nitroprusside dipstick detects acetoacetate only and can underestimate ketosis.",
+    "Treat as DKA (fluids, insulin infusion, potassium) but give dextrose with the insulin from the start; stop the SGLT2 inhibitor.",
+    "Do not anchor on an obvious diagnosis: an unexplained high anion gap acidosis needs its own explanation."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely cause of his metabolic acidosis?",
+      "extra": "ECG: diffuse ST elevation with PR depression. Serum HCO3⁻ 12 mmol/L, anion gap 22, glucose 158 mg/dL, lactate 1.3 mmol/L. ABG: pH 7.22, PaCO2 20.5 mm Hg.",
+      "options": [
+        "Metformin-associated lactic acidosis",
+        "Euglycemic ketoacidosis from empagliflozin",
+        "Starvation ketosis from the daytime fast",
+        "Lactic acidosis from low cardiac output"
+      ],
+      "answer": 1,
+      "explanation": "A normal lactate rules out lactic acidosis, whether from metformin or poor perfusion, and fasting alone causes only mild ketosis (bicarbonate rarely below 18 mmol/L). An SGLT2 inhibitor plus reduced intake plus an acute illness is the classic setting for euglycemic DKA; the 2024 ADA/EASD/JBDS/AACE/DTS consensus report on hyperglycemic crises accepts known diabetes in place of hyperglycemia for the diagnosis."
+    },
+    {
+      "kind": "next-step",
+      "q": "Which test best confirms the suspected diagnosis?",
+      "options": ["Urine dipstick for ketones", "Serum osmolal gap", "Serum beta-hydroxybutyrate", "Serum salicylate and ethanol levels"],
+      "answer": 2,
+      "explanation": "Beta-hydroxybutyrate is the dominant ketone in DKA; the nitroprusside dipstick detects acetoacetate and acetone only, so it can underestimate ketosis. The 2024 consensus report prefers blood beta-hydroxybutyrate (3.0 mmol/L or more supports DKA); here it was 116 mg/dL, about 11 mmol/L."
+    },
+    {
+      "kind": "management",
+      "q": "Which treatment plan is most appropriate?",
+      "extra": "Serum beta-hydroxybutyrate 116.1 mg/dL (reference 0.21–2.8 mg/dL); glucose 158 mg/dL.",
+      "options": [
+        "IV fluids only; start insulin once glucose exceeds 250 mg/dL",
+        "IV sodium bicarbonate to raise the pH above 7.30 first",
+        "Subcutaneous basal insulin and encourage oral intake",
+        "Stop empagliflozin; IV fluids with insulin and dextrose infusions"
+      ],
+      "answer": 3,
+      "explanation": "Ketoacidosis resolves only with insulin; because glucose is already near normal, dextrose must run with the insulin infusion from the start, and the SGLT2 inhibitor is stopped (2024 consensus report; JBDS DKA guidance). Bicarbonate is not recommended at pH 7.22, and waiting for hyperglycemia leaves ketogenesis untreated."
+    },
+    {
+      "kind": "interpretation",
+      "q": "How should his blood gas be interpreted?",
+      "extra": "ABG: pH 7.22, PaCO2 20.5 mm Hg, HCO3⁻ 8.3 mmol/L.",
+      "options": [
+        "Metabolic acidosis with appropriate respiratory compensation",
+        "Metabolic acidosis with a concurrent respiratory acidosis",
+        "Metabolic acidosis with a concurrent respiratory alkalosis",
+        "Primary respiratory alkalosis with metabolic compensation"
+      ],
+      "answer": 0,
+      "explanation": "Winter's formula predicts PaCO2 = 1.5 × HCO3⁻ + 8 ± 2 = 18.5–22.5 mm Hg; the measured 20.5 mm Hg fits, so there is no second respiratory disorder. The acidemic pH excludes a primary respiratory alkalosis."
+    }
+  ],
+  "evidence": [
+    { "field": "patient, presentation.chiefComplaint", "quote": "A 39-year-old male … presented to our ED complaining of three days of substernal chest pain" },
+    {
+      "field": "presentation.pmh[0], presentation.pmh[1], presentation.meds[0], presentation.meds[1]",
+      "quote": "a history of hyperlipidemia and non-insulin-dependent type 2 diabetes mellitus managed with metformin and empagliflozin"
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "He reported that the pain was constant, worsening on inspiration and while leaning forward, and associated with palpitations."
+    },
+    { "field": "presentation.hpi", "quote": "for the preceding 10 days he had been maintaining a strict daytime fast for the religious holiday of Ramadan" },
+    {
+      "field": "presentation.hpi",
+      "quote": "He denied radiation of his pain, infectious symptoms, neurological symptoms, shortness of breath, abdominal pain, or dysuria."
+    },
+    { "field": "presentation.pmh[2]", "quote": "He also denied any history of connective tissue disorder. He had no recent surgical history." },
+    {
+      "field": "presentation.family",
+      "quote": "His family history was significant for a father with type 2 diabetes, chronic kidney disease, and early coronary artery disease."
+    },
+    {
+      "field": "presentation.social",
+      "quote": "The patient denied use of alcohol, tobacco, or illicit drugs of any kind. His only recent travel was a four-hour flight two weeks prior."
+    },
+    {
+      "field": "vitals.tempC, vitals.hr, vitals.sbp, vitals.dbp",
+      "quote": "afebrile, tachycardic, and hypertensive (97.8^o Fahrenheit, 116 beats per minute, 148/96 millimeters of mercury"
+    },
+    { "field": "vitals.rr, vitals.spo2, exam[3]", "quote": "15 breaths per minute, oxygen saturation of 100% on 2 liters nasal cannula" },
+    { "field": "exam[0]", "quote": "His cardiac examination revealed tachycardia with normal first and second heart sounds, no murmurs, rubs, or gallops." },
+    { "field": "exam[1]", "quote": "He had normal capillary refill in his extremities and no peripheral edema." },
+    { "field": "exam[2]", "quote": "The rest of his physical examination was otherwise benign." },
+    {
+      "field": "ecg",
+      "quote": "Initial electrocardiogram revealed sinus tachycardia, significant ST-segment elevation in the precordial leads, minimal ST-segment elevation in the limb leads, ST depression in aVR, and widespread PR-segment depression."
+    },
+    { "field": "ecg", "quote": "There was no evidence of ectopy, and the axis and intervals were otherwise normal." },
+    {
+      "field": "investigations[White cell count], investigations[Troponin]",
+      "quote": "leukocytosis of 13.1 × 10⁹ per liter (/L) (5.0–10.0 × 10⁹/L), negative troponin"
+    },
+    {
+      "field": "investigations[C-reactive protein], investigations[Erythrocyte sedimentation rate]",
+      "quote": "C-reactive protein of 30.43 milligrams per deciliter (mg/dL) (0–0.74 mg/dL) and erythrocyte sedimentation rate of 75 millimeters per hour (mm/h)"
+    },
+    {
+      "field": "imaging[0]",
+      "quote": "CTA of the chest revealed tiny pericardial effusion with some inflammatory changes suspicious for pericarditis and no evidence of pulmonary emboli."
+    },
+    { "field": "management[0]", "quote": "he was given a dose of intravenous toradol with subsequent improvement in his chest pain" },
+    {
+      "field": "investigations[Bicarbonate (serum)], investigations[Anion gap]",
+      "quote": "Critically, he also had a high anion-gap acidosis with bicarbonate of 12 millimoles per liter (mmol/L) (22–32 mmol/L), anion gap of 22"
+    },
+    {
+      "field": "investigations[Glucose], investigations[pH (arterial)], investigations[PaCO2]",
+      "quote": "serum glucose of 158 mg/dL (74–118 mg/dL) and an arterial blood gas showing a pH of 7.22 (7.35–7.45), partial pressure of carbon dioxide 20.5 mmHg"
+    },
+    {
+      "field": "investigations[PaO2 (on 2 L/min oxygen)], investigations[Bicarbonate (arterial blood gas)], investigations[Lactate]",
+      "quote": "partial pressure of oxygen 115.3 mmHg (75–100 mmHg), and bicarbonate of 8.3 mmol/L (22–27 mmol/L). His lactate was normal at 1.3 mmol/L"
+    },
+    {
+      "field": "management[1]",
+      "quote": "Cognizant of recent reports of eDKA associated with SGLT-2 inhibitors such as empagliflozin, we sent a serum beta-hydroxybutyrate level"
+    },
+    {
+      "field": "investigations[Beta-hydroxybutyrate], diagnosis.primary",
+      "quote": "which returned at 116.1 mg/dl (0.21–2.8 mg/dL), confirming our suspicion for eDKA"
+    },
+    {
+      "field": "management[1], management[2]",
+      "quote": "His empagliflozin was stopped immediately, and he was admitted to the intensive care unit on intravenous (IV) drips of insulin and dextrose-containing maintenance fluid."
+    },
+    {
+      "field": "diagnosis.primary",
+      "quote": "This patient presented with eDKA in the setting of SGLT-2 inhibitor use, daytime fasting, and acute pericarditis."
+    },
+    { "field": "management[3]", "quote": "While being treated for eDKA, the patient's pericarditis was treated with oral colchicine." },
+    { "field": "outcome", "quote": "Over the next two days, his acidosis improved and his anion gap closed." },
+    {
+      "field": "management[4]",
+      "quote": "he developed a large pericardial effusion, which required emergency pericardiocentesis with placement of a pigtail pericardial drain"
+    },
+    { "field": "outcome, diagnosis.primary", "quote": "Serum polymerase chain reaction was positive for multiple strains of coxsackievirus A and B." },
+    { "field": "outcome", "quote": "The patient was discharged home on hospital day five with his medication changed to metformin and glipizide." }
+  ],
+  "augmented": [
+    "presentation.allergies: not reported",
+    "vitals.gcs: not reported; no neurological symptoms and an otherwise benign examination",
+    "investigations[Chloride]: Na, K, Cl and creatinine not reported; Na and Cl chosen so that Na − (Cl + HCO3⁻) equals the reported anion gap of 22"
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "pmc-PMC5965436-severe-hypothermia-bypass-rewarming",
+  "title": "Found in the woods after a week missing in late winter",
+  "category": "environmental",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC5965436",
+    "pmid": "29849406",
+    "doi": "10.5811/cpcem.2016.11.32919",
+    "citation": "Hatam EM, Cameron A, Petsikas D, Messenger D, Ball IM. A Case of Severe Accidental Hypothermia Successfully Treated with Cardiopulmonary Bypass. Clin Pract Cases Emerg Med. 2017;1(1):33-36.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5965436/"
+  },
+  "patient": { "age": 34, "sex": "F", "arrival": "ems" },
+  "presentation": {
+    "chiefComplaint": "Found unresponsive outdoors after 7 days missing",
+    "hpi": "Reported missing by her family in late winter and found by police 7 days later, outdoors in a remote wooded area; outdoor temperatures that week ranged from −10.4 to +1.2 °C. Paramedics found her unresponsive (GCS 4) with fixed 7-mm pupils, a rectal temperature of about 23 °C, HR 30/min, RR 6/min, unmeasurable BP and SpO2, and no palpable peripheral pulses. Her limbs were cyanotic with delayed capillary refill and her legs swollen and blistered; mouth opening was 1 cm and she bit down on attempts to insert an oral airway. They applied warm packs to the axillae and groin, started IV saline and flew her to the trauma center.",
+    "pmh": ["Intravenous drug use", "Recent suicidal ideation"],
+    "meds": ["Unknown"],
+    "allergies": ["Unknown"]
+  },
+  "vitals": { "hr": 40, "sbp": 52, "dbp": 30, "rr": 8, "spo2": 80, "tempC": 19.8, "gcs": 3 },
+  "exam": [
+    "Unresponsive, GCS 3",
+    "Rectal temperature 19.8 °C",
+    "Blood pressure and pulse oximetry unmeasurable",
+    "Both legs swollen and blistered (severe stocking-like erythema noted in the operating room)"
+  ],
+  "investigations": [
+    { "name": "pH (38 min after arrival)", "value": "7.08", "flag": "critical" },
+    { "name": "Bicarbonate (38 min after arrival)", "value": "17", "unit": "mmol/L", "flag": "L" },
+    { "name": "Potassium (38 min after arrival)", "value": "4.0", "unit": "mmol/L" },
+    { "name": "Sodium (38 min after arrival)", "value": "140", "unit": "mmol/L" },
+    { "name": "Glucose (38 min after arrival)", "value": "7.5", "unit": "mmol/L" },
+    { "name": "Potassium (70 min after arrival)", "value": "3.0", "unit": "mmol/L", "flag": "L" }
+  ],
+  "ecg": "Sinus bradycardia 40/min on the monitor, with no dysrhythmia during the ED stay; junctional escape rhythm 50/min in the operating room",
+  "diagnosis": {
+    "primary": "Severe accidental hypothermia (rectal temperature 19.8 °C) after prolonged outdoor cold exposure, with cold injury of both legs",
+    "icd10": "T68.XXXA / X31.XXXA",
+    "differentials": ["Opioid or other drug overdose", "Hypoglycemia", "Myxedema coma", "Sepsis", "Traumatic brain injury"]
+  },
+  "management": [
+    "Prehospital: warm packs to axillae and groin, IV access and normal saline",
+    "Rapid sequence intubation with midazolam 2 mg and rocuronium 30 mg",
+    "Femoral central venous catheter, 2 L of lactated Ringer's warmed to 41 °C, and forced-air rewarming",
+    "With the cardiac surgeon, decision to go directly to the operating room for rewarming on cardiopulmonary bypass instead of invasive rewarming in the ED; transferred 40 minutes after arrival at a rectal temperature of 20.2 °C",
+    "Median sternotomy (dilated heart), central cannulation and heparin; rewarmed at 12 °C per hour with 66 minutes on bypass, reaching 36.9 °C",
+    "Post-bypass coagulopathy from hypothermia and hemodilution treated with protamine, fresh frozen plasma, platelets and recombinant factor VIIa",
+    "ICU: Klebsiella oxytoca and Enterococcus faecalis bacteremia with sepsis from leg soft-tissue infection on day 5, treated with piperacillin–tazobactam and debridement; reintubated on day 7, extubated on day 13"
+  ],
+  "outcome": "Complete neurological recovery. The leg wounds progressed to necrosis and dry gangrene (she initially declined IV antibiotics and amputation, and hyperbaric oxygen at another center failed), ending in bilateral below-knee amputations 84 days after presentation.",
+  "teachingPoints": [
+    "Stage hypothermia clinically: unconscious with vital signs present is Swiss stage III whatever the thermometer reads, and the risk of cardiac arrest rises steeply below 28 °C.",
+    "Use a low-reading core thermometer (esophageal once intubated); ordinary thermometers do not read this low.",
+    "Hypothermic patients with a core temperature below 30 °C, ventricular arrhythmia or SBP below 90 mm Hg should go straight to a centre with extracorporeal life support (ERC 2021); forced air and warmed fluids are a bridge.",
+    "Bradycardia is physiological in severe hypothermia; don't give atropine or pace, check for signs of life for up to a minute before starting CPR, and handle the patient gently.",
+    "Interpret blood gases uncorrected at 37 °C (alpha-stat); acidosis and potassium shifts settle with rewarming and perfusion.",
+    "Survivors can recover fully neurologically, but cold injury, infection and tissue loss drive later morbidity."
+  ],
+  "questions": [
+    {
+      "kind": "interpretation",
+      "q": "Which stage of the Swiss hypothermia staging system applies on arrival?",
+      "options": [
+        "HT I: conscious and shivering",
+        "HT II: impaired consciousness, not shivering",
+        "HT III: unconscious, vital signs present",
+        "HT IV: no vital signs (apparent death)"
+      ],
+      "answer": 2,
+      "explanation": "Swiss staging is based on clinical signs: she is unconscious but has a perfusing rhythm and is breathing, which is stage III even though 19.8 °C falls in the temperature range traditionally linked with stage IV. Stage III carries a high risk of cardiac arrest and calls for ECLS-capable care."
+    },
+    {
+      "kind": "management",
+      "q": "Which rewarming strategy is most appropriate?",
+      "extra": "After intubation: rectal temperature 20.2 °C, sinus bradycardia 40/min, blood pressure still unmeasurable despite 2 L of warmed fluid and forced-air warming.",
+      "options": [
+        "Forced-air blankets and warmed IV fluids alone in the ED",
+        "Extracorporeal rewarming (VA-ECMO or cardiopulmonary bypass)",
+        "Warm-water immersion of the trunk and limbs at 40 °C",
+        "Passive rewarming with blankets to limit core after-drop"
+      ],
+      "answer": 1,
+      "explanation": "With a core temperature far below 28 °C and no measurable blood pressure she is at high risk of cardiac arrest; ERC 2021 advises direct transfer to an extracorporeal life support centre when core temperature is below 30 °C, there is ventricular arrhythmia or SBP is below 90 mm Hg. An extracorporeal circuit rewarms fastest and can take over the circulation if she arrests; external measures are only a bridge."
+    },
+    {
+      "kind": "interpretation",
+      "q": "How should her blood gas be interpreted?",
+      "extra": "Blood gas 38 min after arrival (core 20.2 °C), analyzed at 37 °C: pH 7.08, HCO3⁻ 17 mmol/L, K⁺ 4.0 mmol/L.",
+      "options": [
+        "Temperature-correct the values (pH-stat) and target a normal corrected pH",
+        "Give sodium bicarbonate to normalize the pH before rewarming",
+        "Disregard it, because blood gases are meaningless below 30 °C",
+        "Use the values measured at 37 °C without temperature correction"
+      ],
+      "answer": 3,
+      "explanation": "Analyzers warm the sample to 37 °C, and in accidental hypothermia the uncorrected values are interpreted as usual (the alpha-stat approach used in hypothermia reviews). The acidosis reflects poor perfusion and resolves with rewarming and circulatory support rather than bicarbonate; potassium also shifts during rewarming (3.0 mmol/L about 30 minutes later) and needs serial checks."
+    },
+    {
+      "kind": "risk",
+      "q": "Which statement about her heart rate of 40/min is correct?",
+      "options": [
+        "It is expected at this temperature and needs no atropine or pacing",
+        "It needs transcutaneous pacing until the rate exceeds 60/min",
+        "It should be treated with atropine 1 mg IV every 3–5 minutes",
+        "It means arrest is imminent, so chest compressions should start now"
+      ],
+      "answer": 0,
+      "explanation": "Sinus bradycardia is a physiological response to severe cold and usually resolves with rewarming; atropine is ineffective and pacing is not indicated unless bradycardia with compromise persists after rewarming. With a perfusing rhythm, CPR is not started; in hypothermia, check for signs of life for up to 1 minute before concluding there are none (ERC 2021)."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.pmh[0], presentation.pmh[1], presentation.hpi",
+      "quote": "A 34-year-old female with a history of intravenous drug use and recent suicidal ideation was reported missing by her family in late winter."
+    },
+    { "field": "presentation.chiefComplaint, presentation.hpi", "quote": "She was missing for a total of seven days before she was located by the police." },
+    { "field": "presentation.hpi", "quote": "During this time the outdoor temperature ranged from −10.4 to +1.2°C." },
+    {
+      "field": "presentation.hpi, patient.arrival",
+      "quote": "She was found outdoors in a remote, wooded area and was transported by air to a tertiary care center."
+    },
+    {
+      "field": "presentation.chiefComplaint, presentation.hpi",
+      "quote": "Upon the paramedics arrival to the scene the patient was unresponsive with a Glasgow Coma Scale (GCS) of 4. Her pupils were 7 mm and non-responsive."
+    },
+    {
+      "field": "presentation.hpi",
+      "quote": "a rectal temperature of approximately 23°C. She had a heart rate of 30 beats per minute, respiratory rate of 6 breaths per minute"
+    },
+    { "field": "presentation.hpi", "quote": "an unmeasurable blood pressure and pulse oxygen saturation. Peripheral pulses were not palpable in her limbs." },
+    {
+      "field": "presentation.hpi, exam[3]",
+      "quote": "Her extremities were diffusely cyanotic and had delayed capillary refill. Her legs were edematous and blistered bilaterally."
+    },
+    { "field": "presentation.hpi", "quote": "Her mouth opening was 1 cm, and she bit down at any attempts to introduce an oral airway." },
+    {
+      "field": "presentation.hpi, management[0]",
+      "quote": "Paramedics applied warming packs to her axillae and groin, obtained intravenous (IV) access and initiated fluid resuscitation with 1000 mL normal saline"
+    },
+    {
+      "field": "vitals.gcs, vitals.hr, vitals.rr, exam[0]",
+      "quote": "she was identified to have a GCS of 3, with a heart rate of 40 beats per minute, respiratory rate of 8 breaths per minute"
+    },
+    {
+      "field": "vitals.tempC, exam[1], exam[2]",
+      "quote": "respiratory rate of 8 breaths per minute, an unmeasurable blood pressure and pulse oxygen saturation, and a rectal temperature of 19.8 °C"
+    },
+    { "field": "exam[3]", "quote": "Because of severe stocking-like erythema and edema in her lower extremities" },
+    { "field": "ecg", "quote": "Her cardiac rhythm showed sinus bradycardia." },
+    { "field": "ecg", "quote": "The patient was not observed to have any episodes of cardiac dysrhythmia during her time in the ED." },
+    { "field": "ecg", "quote": "In the OR, the patient had a junctional escape rhythm of 50 beats per minute." },
+    {
+      "field": "investigations[0], investigations[1], investigations[2], investigations[3], investigations[4], investigations[5]",
+      "quote": "Lab Parameter | 38min 20.2°C | 70min 21.0°C"
+    },
+    { "field": "investigations[0]", "quote": "pH | 7.08 | 7.16" },
+    { "field": "investigations[1]", "quote": "HCO3 (mmol/L) | 17 | 12" },
+    { "field": "investigations[2], investigations[5]", "quote": "K⁺ (mmol/L) | 4.0 | 3.0" },
+    { "field": "investigations[3]", "quote": "Na⁺(mmol/L) | 140 | 141" },
+    { "field": "investigations[4]", "quote": "Glucose (mmol/L) | 7.5 | 6.2" },
+    { "field": "management[1]", "quote": "The patient’s airway was secured by rapid sequence intubation with 2 mg midazolam, and 30 mg rocuronium." },
+    {
+      "field": "management[2]",
+      "quote": "A femoral central venous catheter was inserted, and she continued to receive IV fluids in the form of two liters of Lactated Ringer’s warmed to 41 °C"
+    },
+    { "field": "management[2]", "quote": "A forced air rewarming unit was also applied." },
+    {
+      "field": "management[3]",
+      "quote": "Rather than initiating invasive rewarming in the ED, in consultation with the cardiac surgeon a decision was made to transfer the patient directly to the operating room (OR)"
+    },
+    {
+      "field": "management[3]",
+      "quote": "The patient was transferred to the OR 40 minutes after presenting to the ED. At the time of transfer, the patient’s rectal temperature was 20.2 °C."
+    },
+    { "field": "management[4]", "quote": "She underwent a median sternotomy, revealing a dilated heart with a soft ascending aorta." },
+    {
+      "field": "management[4]",
+      "quote": "infused with heparin, and rewarmed at a rate of 12°C per hour. The total OR time was 3 hours and 45 minutes, with 66 minutes spent on CPB."
+    },
+    { "field": "management[4]", "quote": "Upon transfer from the OR the patient had been rewarmed to a temperature of 36.9 °C" },
+    {
+      "field": "management[5]",
+      "quote": "The patient was noted to be coagulopathic secondary to hypothermia and hemodilution, and therefore was administered protamine, fresh frozen plasma, platelets, and recombinant factor VIIa"
+    },
+    {
+      "field": "management[6]",
+      "quote": "On post-operative day 5 she developed Klebsiella oxytoca and Enterococcus fecalis bacteremia and sepsis, attributed to severe skin and soft tissue infection of her bilateral lower extremities."
+    },
+    { "field": "management[6]", "quote": "This was initially treated with Piperacillin and Tazobactam." },
+    { "field": "management[6]", "quote": "Her blisters and necrotic tissue were debrided" },
+    { "field": "management[6]", "quote": "re-intubated on post-operative day 7 because of increased oxygen requirements" },
+    { "field": "management[6]", "quote": "The patient was successfully extubated on post-operative day 13." },
+    { "field": "outcome", "quote": "the patient was non-compliant with IV antibiotics and did not consent to surgery" },
+    { "field": "outcome", "quote": "she eventually developed frank necrosis and dry gangrene" },
+    {
+      "field": "outcome",
+      "quote": "conservative measures and hyperbaric treatment were unsuccessful and she ultimately consented to bilateral below-knee amputations, which took place 84 days after her initial presentation"
+    },
+    { "field": "outcome", "quote": "the treatments outlined above allowed the patient to make a complete neurologic recovery" },
+    {
+      "field": "diagnosis.primary",
+      "quote": "The patient in this case presented with a rectal temperature of 19.8 °C, meeting criteria for severe hypothermia."
+    }
+  ],
+  "augmented": [
+    "vitals.sbp: unmeasurable on arrival; value chosen for playability",
+    "vitals.dbp: unmeasurable on arrival; value chosen for playability",
+    "vitals.spo2: unmeasurable on arrival; value chosen for playability",
+    "presentation.meds: not reported",
+    "presentation.allergies: not reported"
+  ]
+}

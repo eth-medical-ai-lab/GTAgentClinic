@@ -1,0 +1,170 @@
+{
+  "id": "pmc-PMC12906715-epiglottitis-vaccinated-child",
+  "title": "Chest pain, drooling and high fever in a fully vaccinated 10-year-old",
+  "category": "pediatrics",
+  "acuity": 1,
+  "source": {
+    "pmcid": "PMC12906715",
+    "pmid": "41700268",
+    "doi": "10.7759/cureus.101680",
+    "citation": "Ferreira M, Condessa L, Roquette M, Antão R, Cardoso C, Chaves M. Haemophilus influenzae Epiglottitis: A Rare Disease Not to Be Forgotten. Cureus. 2026;18(1):e101680.",
+    "license": "CC BY 4.0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12906715/"
+  },
+  "patient": { "age": 10, "sex": "M" },
+  "presentation": {
+    "chiefComplaint": "High fever, painful swallowing, chest pain and shortness of breath",
+    "hpi": "A previously healthy boy with an abrupt illness: high fever, pain on swallowing, chest pain and difficulty breathing. His vaccinations are complete, including four doses of Hib vaccine, and there is no known sick contact or other exposure.",
+    "pmh": ["Previously healthy", "Complete vaccination schedule, including four doses of Hib conjugate vaccine"],
+    "meds": ["No regular medications"],
+    "allergies": ["No known drug allergies"]
+  },
+  "vitals": { "hr": 130, "sbp": 112, "dbp": 68, "rr": 32, "spo2": 97, "tempC": 39.5 },
+  "exam": [
+    "Toxic-appearing and febrile, in respiratory distress",
+    "Avoids lying supine; sits with his tongue protruding and drooling",
+    "Tripod positioning",
+    "No muffled voice and no stridor",
+    "Lungs clear to auscultation bilaterally",
+    "Capillary refill time 3 s",
+    "Red, enlarged tonsils"
+  ],
+  "investigations": [
+    { "name": "Hemoglobin", "value": "13.6", "unit": "g/dL" },
+    { "name": "White cell count", "value": "21,200", "unit": "/µL", "flag": "H" },
+    { "name": "Neutrophils", "value": "18,630", "unit": "/µL", "flag": "H" },
+    { "name": "Platelets", "value": "305,000", "unit": "/µL" },
+    { "name": "C-reactive protein", "value": "32.76", "unit": "mg/dL", "flag": "H" },
+    { "name": "Procalcitonin", "value": "0.76", "unit": "ng/mL", "flag": "H" },
+    { "name": "Blood culture", "value": "Non-typable Haemophilus influenzae, susceptible to ampicillin and cefotaxime" }
+  ],
+  "imaging": [
+    { "modality": "Chest radiograph", "finding": "Unremarkable" },
+    { "modality": "Lateral neck radiograph", "finding": "Enlarged epiglottis with the classic thumbprint sign" },
+    { "modality": "Indirect laryngoscopy (ENT, after stabilization)", "finding": "Inflamed, edematous supraglottic structures without glottic obstruction" }
+  ],
+  "diagnosis": {
+    "primary": "Acute epiglottitis due to non-typable Haemophilus influenzae with bacteremia in a fully Hib-vaccinated child",
+    "icd10": "J05.10 / B96.3",
+    "differentials": ["Bacterial tracheitis", "Retropharyngeal abscess", "Peritonsillar abscess", "Severe viral croup", "Foreign body aspiration"]
+  },
+  "management": [
+    "Volume resuscitation for tachycardia and a capillary refill time of 3 s",
+    "High-flow oxygen, nebulized adrenaline and IV ceftriaxone in the ED",
+    "Continuous monitoring with an experienced airway team on standby; the airway stayed stable and intubation was not needed",
+    "Intermediate care unit with continuous cardiorespiratory monitoring: IV ceftriaxone plus clindamycin, prednisolone and nebulized adrenaline"
+  ],
+  "outcome": "Progressive clinical and laboratory improvement; discharged after 7 days to complete 3 more days of oral amoxicillin-clavulanate, with a good response.",
+  "teachingPoints": [
+    "Epiglottitis still occurs after Hib vaccination, caused by non-type b and non-typable H. influenzae, streptococci or S. aureus, and increasingly affects older children and adults.",
+    "The presentation can be atypical (chest pain and dyspnea without stridor or a muffled voice); toxicity, drooling, refusal to lie supine and a tripod posture are the clues.",
+    "Keep the child upright and calm with a caregiver, avoid tongue depressors, cannulation struggles and the supine position, and bring the most experienced airway team to secure the airway in a controlled setting if needed.",
+    "A lateral neck film (thumb sign) is supportive only and must not delay airway management.",
+    "Empirical therapy: a third-generation cephalosporin plus an anti-staphylococcal agent with MRSA activity (e.g., ceftriaxone plus clindamycin or vancomycin)."
+  ],
+  "questions": [
+    {
+      "kind": "diagnosis",
+      "q": "What is the most likely diagnosis?",
+      "options": ["Acute epiglottitis", "Bacterial tracheitis", "Severe viral croup", "Retropharyngeal abscess"],
+      "answer": 0,
+      "explanation": "Toxic appearance, high fever, odynophagia, drooling, refusal to lie down and a tripod posture indicate supraglottic obstruction; epiglottitis still occurs in Hib-vaccinated children, and stridor or a muffled voice may be absent. Tracheitis and croup present with stridor and a barking cough, and retropharyngeal abscess typically affects younger children with neck stiffness or torticollis."
+    },
+    {
+      "kind": "next-step",
+      "q": "What is the most appropriate immediate approach in the resuscitation bay?",
+      "options": [
+        "Lay him supine and examine the pharynx with a tongue depressor",
+        "Send him to radiology for a contrast-enhanced CT of the neck",
+        "Keep him upright and calm, give oxygen and call senior anesthesia and ENT",
+        "Insert a supraglottic airway now to protect against obstruction"
+      ],
+      "answer": 2,
+      "explanation": "With suspected epiglottitis, agitation, the supine position and pharyngeal instrumentation can precipitate complete obstruction: give oxygen in the position of comfort and have the most experienced airway operators ready, with a surgical airway as backup (APLS approach to upper-airway obstruction). Supraglottic devices are avoided, and imaging must not delay airway control."
+    },
+    {
+      "kind": "management",
+      "q": "Which empirical antibiotic regimen is most appropriate?",
+      "extra": "Lateral neck radiograph: thumbprint sign. Indirect laryngoscopy: supraglottic edema without glottic obstruction. Blood cultures pending.",
+      "options": ["Oral amoxicillin-clavulanate", "IV ceftriaxone plus clindamycin", "IV ampicillin alone", "IV azithromycin plus gentamicin"],
+      "answer": 1,
+      "explanation": "Empirical cover must include H. influenzae (including beta-lactamase producers), S. pneumoniae, S. pyogenes and S. aureus: a third-generation cephalosporin plus an anti-staphylococcal agent with MRSA activity (clindamycin or vancomycin, per local resistance). Ampicillin alone misses beta-lactamase-producing H. influenzae and S. aureus; oral therapy is inappropriate for a threatened airway."
+    },
+    {
+      "kind": "risk",
+      "q": "Why did four doses of Hib vaccine not prevent this infection?",
+      "extra": "Blood culture: non-typable Haemophilus influenzae.",
+      "options": [
+        "Hib protection wanes completely by school age",
+        "Hib vaccine prevents carriage but not invasive disease",
+        "A booster dose is required at 10 years of age",
+        "The conjugate vaccine targets only the type b capsule"
+      ],
+      "answer": 3,
+      "explanation": "Hib conjugate vaccines are directed against the type b capsular polysaccharide, so non-typable (unencapsulated) strains and other serotypes are not covered; they now cause a growing share of invasive H. influenzae disease, including epiglottitis in vaccinated children. Hib vaccine protects against invasive disease and reduces carriage, and no booster at 10 years is recommended."
+    }
+  ],
+  "evidence": [
+    {
+      "field": "patient, presentation.chiefComplaint, presentation.hpi, presentation.pmh[0]",
+      "quote": "A previously healthy 10-year-old boy presented to the emergency department with an acute onset of high fever, odynophagia, chest pain, and dyspnea."
+    },
+    {
+      "field": "presentation.hpi, presentation.pmh[1]",
+      "quote": "His clinical history revealed a complete vaccination schedule, including four doses of the Hib vaccine, and no known epidemiological context."
+    },
+    { "field": "exam[0]", "quote": "This patient was in respiratory distress, febrile, and had a toxic appearance." },
+    { "field": "exam[1]", "quote": "He would avoid the supine position while sticking his tongue out and drooling" },
+    { "field": "exam[4]", "quote": "although oxygen saturation was >96% and lung sounds were clear to auscultation bilaterally" },
+    {
+      "field": "vitals.hr, exam[5], management[0]",
+      "quote": "Given a heart rate of 130 bpm and a capillary refill time of three seconds, volume resuscitation was initiated"
+    },
+    { "field": "management[1]", "quote": "volume resuscitation was initiated, together with high-flow oxygen therapy, nebulized adrenaline, and ceftriaxone" },
+    { "field": "exam[6]", "quote": "Physical examination also revealed red and enlarged tonsils." },
+    {
+      "field": "exam[3]",
+      "quote": "the patient's main complaints upon admission were acute chest pain and shortness of breath. He did not exhibit a muffled voice or stridor."
+    },
+    {
+      "field": "exam[2]",
+      "quote": "suspicion of epiglottitis arose due to the combination of high fever, septic appearance, respiratory distress, sore throat, and tripod positioning"
+    },
+    {
+      "field": "investigations[1], investigations[2], investigations[4], investigations[5]",
+      "quote": "leukocytosis (21,200/μL), neutrophilia (18,630/μL), elevated C-reactive protein (32.76 mg/dL), and procalcitonin (0.76 ng/mL)"
+    },
+    { "field": "investigations[0]", "quote": "Haemoglobin (g/dL) | 13.6 | 11.5-15.5" },
+    { "field": "investigations[3]", "quote": "Platelets (/μL) | 305,000 | 180,000-400,000" },
+    {
+      "field": "imaging[0], imaging[1]",
+      "quote": "The chest radiograph was unremarkable; however, the lateral neck radiograph showed an enlarged epiglottis, creating the classic 'thumbprint' sign"
+    },
+    {
+      "field": "imaging[2]",
+      "quote": "the otorhinolaryngologist was able to perform indirect laryngoscopy, revealing inflammation and edema of supraglottic structures without glottic obstruction"
+    },
+    { "field": "investigations[6], diagnosis.primary", "quote": "Isolation of non-typable H. influenzae in blood culture confirmed the diagnosis." },
+    { "field": "investigations[6]", "quote": "H. infuenzae: Sensitivity to ampicillin and cefotaxime" },
+    { "field": "diagnosis.primary", "quote": "this case of non-typable H. influenzae epiglottitis in a fully vaccinated 10-year-old boy" },
+    { "field": "management[2]", "quote": "because the airway remained stable with no signs of deterioration, emergent intubation was not required" },
+    { "field": "management[2]", "quote": "Continuous monitoring was ensured, and an experienced airway management team was placed on standby." },
+    {
+      "field": "management[3]",
+      "quote": "admitted into an intermediate care unit under continuous cardiorespiratory monitoring, the patient received IV ceftriaxone, clindamycin, prednisolone, and nebulized adrenaline"
+    },
+    {
+      "field": "outcome",
+      "quote": "Following progressive clinical and laboratory improvement, the patient was discharged after seven days and completed three additional days of oral amoxicillin-clavulanate with a good response to treatment."
+    }
+  ],
+  "augmented": [
+    "vitals.spo2: report says >96% on arrival",
+    "vitals.tempC: report says high fever, febrile",
+    "vitals.rr: report says respiratory distress; age-appropriate tachypnea chosen",
+    "vitals.sbp: not reported",
+    "vitals.dbp: not reported",
+    "presentation.meds: none reported; previously healthy",
+    "presentation.allergies: not reported"
+  ]
+}

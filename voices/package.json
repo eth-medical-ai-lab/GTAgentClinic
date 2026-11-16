@@ -1,0 +1,16 @@
+{
+  "name": "gtagentclinic-voices",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional neural NPC voices for GTAgentClinic: Kokoro-82M through kokoro-js and transformers.js (about 440 MB). Install with `npm run voices:install` in the game folder; see docs/SETUP.md#7-voices.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "engine.mjs",
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "kokoro-js": "^1.2.1"
+  },
+  "overrides": {
+    "sharp": "^0.35.5"
+  }
+}
